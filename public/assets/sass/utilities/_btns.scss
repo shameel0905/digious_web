@@ -68,7 +68,7 @@
 
     &.style3 {
         background: $theme-color2;
-        color: $title-color;
+        color: $white-color;
         &:after,
         &:before {
             border-radius: 0;
@@ -161,7 +161,7 @@
         &:active,
         &:focus,
         &:hover {
-            color: $title-color;
+            color: $white-color;
         }
     }
     &.style-border4 {

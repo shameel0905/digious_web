@@ -13,8 +13,8 @@ const HeroFive = () => {
                         <div className="col-lg-10">
                             <div className="hero-style5 text-center">
                                 <h1 className="hero-title text-white">
-                                    Revolutionizing the Unique
-                                    <span className="text-theme2">Business</span> Landscape
+                                    Revolutionizing the Unique 
+                                    <span className="text-theme2"> Business</span> Landscape
                                 </h1>
                                 <p className="hero-text text-white">
                                     A business consultant is a professional who provides expert advice
@@ -35,22 +35,4 @@ const HeroFive = () => {
     )
 }
 
-export default HeroFive
-
-
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
-asdfasdfsdf
+export default HeroFive;

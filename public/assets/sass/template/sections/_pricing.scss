@@ -185,7 +185,7 @@
         }
         &:hover {
             border-color: $theme-color2;
-            color: $title-color;
+            color: $white-color;
             &:after,
             &:before {
                 background: $theme-color2;
@@ -200,7 +200,7 @@
         padding: 50px 40px;
         .global-btn {
             border-color: $theme-color2;
-            color: $title-color;
+            color: $white-color;
             background: $theme-color2;
             &:after,
             &:before {

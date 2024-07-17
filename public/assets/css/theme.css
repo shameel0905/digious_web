@@ -1089,7 +1089,7 @@ textarea.is-invalid {
 }
 
 /* Hight Resoulation devices */
-@media (min-width: 1922px;) {
+@media (min-width: 1922px) {
   .slick-arrow {
     --pos-x: 362px;
   }
@@ -8106,7 +8106,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /* Hight Resoulation devices */
-@media (min-width: 1922px;) {
+@media (min-width: 1922px) {
   .team-slider-2 {
     max-width: 1980px;
   }
@@ -8700,7 +8700,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /* Hight Resoulation devices */
-@media (min-width: 1922px;) {
+@media (min-width: 1922px) {
   .counter-sec-shape-bottom,
   .counter-sec-shape-top {
     width: 100%;
@@ -10129,7 +10129,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /* Hight Resoulation devices */
-@media (min-width: 1922px;) {
+@media (min-width: 1922px) {
   .sec-shape-bottom,
   .sec-shape-top {
     transform: translateY(-1px);
@@ -10316,7 +10316,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /* Hight Resoulation devices */
-@media (min-width: 1922px;) {
+@media (min-width: 1922px) {
   .sec-shape2-bottom {
     margin-bottom: -154px;
     transform: translate(0px, 1px);
