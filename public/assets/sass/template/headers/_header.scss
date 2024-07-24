@@ -191,8 +191,8 @@
         font-weight: 400;
         font-family: $title-font;
         font-size: 16px;
-        color: $title-color;
-
+        // color: $title-color;
+        color: #121212;
         &:hover {
             color: $theme-color;
         }
@@ -348,10 +348,11 @@
                     font-weight: 700;
                     opacity: 0;
                     transition: 0.4s;
+                    display: none;
                 }
 
                 &:hover {
-                    padding-left: 15px;
+                    padding-left: 5px;
 
                     &:before {
                         opacity: 1;
@@ -974,6 +975,7 @@
     top: 0;
     left: 0;
     right: 0;
+    padding: 20px 0px;
     .header-top {
         background: #51A6DC;
         padding: 22px 20px;
@@ -1004,6 +1006,8 @@
         gap: 20px 48px;
     }
     .sticky-wrapper.sticky {
-        background: $title-color;
+        // background: $title-color;
+        background: #12121200;
+        backdrop-filter: blur(40px);
     }
 }

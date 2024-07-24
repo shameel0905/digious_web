@@ -15,12 +15,12 @@
 
   // Mobile Menu Logo
   .mobile-logo {
-    padding: 0 0 0 30px;
+    padding: 0 0 0 15px;
     display: flex;
     gap: 30px;
     justify-content: space-between;
     align-items: center;
-    background-color: $smoke-color2;
+    // background-color: $smoke-color2;
     border-bottom: 1px solid $theme-color;
 
     svg {

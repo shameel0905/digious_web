@@ -6,7 +6,7 @@ const HeroFive = () => {
             <div
                 className="hero-wrapper hero-5"
                 id="hero"
-                style={{ backgroundImage: "url(assets/img/hero/hero_bg_5_1.png)" }}
+                style={{ backgroundImage: "url(assets/img/hero/hero_bg_5_1.jpg)" }}
             >
                 <div className="container">
                     <div className="row justify-content-center">

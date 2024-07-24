@@ -8,7 +8,7 @@ const ServiceFive = () => {
                 <div className="shadow-shape-right" />
                 <div className="container">
                     <div className="row justify-content-center">
-                        <div className="col-xl-7">
+                        <div className="col-xl-8">
                             <div className="title-area text-center">
                                 <span className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />

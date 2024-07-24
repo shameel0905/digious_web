@@ -141,7 +141,7 @@ const HeaderFive = () => {
         <button className="searchClose" onClick={() => searchControl(false)}>
           <i className="fas fa-times" />
         </button>
-        <form >
+        <form>
           <input type="text" placeholder="What are you looking for?" />
           <button type="submit">
             <i className="fas fa-search" />
@@ -164,8 +164,8 @@ const HeaderFive = () => {
           <div className="mobile-menu">
             <ul id="offcanvas-navigation">
               <li className="menu-item-has-children submenu-item-has-children">
-                <Link to="#">Home</Link>
-                <ul className="sub-menu submenu-class">
+                <Link to="/">Home</Link>
+                {/* <ul className="sub-menu submenu-class">
                   <li>
                     <Link to="/">Home 01</Link>
                   </li>
@@ -181,13 +181,13 @@ const HeaderFive = () => {
                   <li>
                     <Link to="/home-5">Home 05</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
 
               <li>
                 <Link to="/about">About</Link>
               </li>
-              <li className="menu-item-has-children">
+              {/* <li className="menu-item-has-children">
                 <Link to="#">Pages</Link>
                 <ul className="sub-menu">
                   <li>
@@ -200,15 +200,27 @@ const HeaderFive = () => {
                     <Link to="/team-details">Team Details</Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="menu-item-has-children">
-                <Link to="#">Project</Link>
+                <Link to="#">Portfolio</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="/project">Projects</Link>
+                    <Link to="#">Graphic Design</Link>
                   </li>
                   <li>
-                    <Link to="/project-details">Project Details</Link>
+                    <Link to="#">Website Design</Link>
+                  </li>
+                  <li>
+                    <Link to="#">Branding</Link>
+                  </li>
+                  <li>
+                    <Link to="#">UI/UX Designs</Link>
+                  </li>
+                  <li>
+                    <Link to="#">Animation</Link>
+                  </li>
+                  <li>
+                    <Link to="#">NFT</Link>
                   </li>
                 </ul>
               </li>
@@ -216,23 +228,47 @@ const HeaderFive = () => {
                 <Link to="#">Service</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="/service">Service</Link>
+                    <Link to="/">Graphic Design</Link>
                   </li>
                   <li>
-                    <Link to="/service-details">Service Details</Link>
+                    <Link to="/">Website Development</Link>
+                  </li>
+                  <li>
+                    <Link to="/">E-Commerce Solution</Link>
+                  </li>
+                  <li>
+                    <Link to="/">Game Development</Link>
+                  </li>
+                  <li>
+                    <Link to="/">Mobile App Development</Link>
+                  </li>
+                  <li>
+                    <Link to="/">Software Development</Link>
+                  </li>
+                  <li>
+                    <Link to="/">ERP Solutions</Link>
+                  </li>
+                  <li>
+                    <Link to="/">Digital Marketing</Link>
+                  </li>
+                  <li>
+                    <Link to="/">Non Fungible Tokens (NFTs)</Link>
+                  </li>
+                  <li>
+                    <Link to="/">Software Quality Assurance</Link>
                   </li>
                 </ul>
               </li>
               <li className="menu-item-has-children">
                 <Link to="#">Blog</Link>
-                <ul className="sub-menu">
+                {/* <ul className="sub-menu">
                   <li>
                     <Link to="/blog">Blog</Link>
                   </li>
                   <li>
                     <Link to="/blog-details">Blog Details</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
                 <Link to="/contact">Contact</Link>
@@ -245,7 +281,7 @@ const HeaderFive = () => {
       {/* Header Area */}
 
       <header className="nav-header header-layout5">
-        <div className="container">
+        {/* <div className="container">
           <div className="header-top d-none d-lg-block">
             <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
               <div className="col-auto">
@@ -275,7 +311,7 @@ const HeaderFive = () => {
             </div>
           </div>
           <div className="header-top-bg-shape"></div>
-        </div>
+        </div> */}
         <div className={`sticky-wrapper ${scroll && "sticky"}`}>
           {/* Main Menu Area */}
           <div className="container">
@@ -290,9 +326,9 @@ const HeaderFive = () => {
               <div className="col-auto">
                 <nav className="main-menu d-none d-lg-inline-block">
                   <ul>
-                    <li className="menu-item-has-children">
+                    <li className="menu-item-has-childrren">
                       <Link to="#">Home</Link>
-                      <ul className="sub-menu">
+                      {/* <ul className="sub-menu">
                         <li>
                           <Link to="/">Home 01</Link>
                         </li>
@@ -308,46 +344,82 @@ const HeaderFive = () => {
                         <li>
                           <Link to="/home-5">Home 05</Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
 
                     <li>
                       <Link to="/about">About Us</Link>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="#">Services</Link>
+                      <Link to="/service">Services</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link to="/service">Service</Link>
+                          <Link to="/">Graphic Design</Link>
                         </li>
                         <li>
-                          <Link to="/service-details">Service Details</Link>
+                          <Link to="/">Website Development</Link>
+                        </li>
+                        <li>
+                          <Link to="/">E-Commerce Solution</Link>
+                        </li>
+                        <li>
+                          <Link to="/">Game Development</Link>
+                        </li>
+                        <li>
+                          <Link to="/">Mobile App Development</Link>
+                        </li>
+                        <li>
+                          <Link to="/">Software Development</Link>
+                        </li>
+                        <li>
+                          <Link to="/">ERP Solutions</Link>
+                        </li>
+                        <li>
+                          <Link to="/">Digital Marketing</Link>
+                        </li>
+                        <li>
+                          <Link to="/">Non Fungible Tokens (NFTs)</Link>
+                        </li>
+                        <li>
+                          <Link to="/">Software Quality Assurance</Link>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="#">Projects</Link>
+                      <Link to="#">Portfolio</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link to="/project">Projects</Link>
+                          <Link to="#">Graphic Design</Link>
                         </li>
                         <li>
-                          <Link to="/project-details">Projects Details</Link>
+                          <Link to="#">Website Design</Link>
+                        </li>
+                        <li>
+                          <Link to="#">Branding</Link>
+                        </li>
+                        <li>
+                          <Link to="#">UI/UX Designs</Link>
+                        </li>
+                        <li>
+                          <Link to="#">Animation</Link>
+                        </li>
+                        <li>
+                          <Link to="#">NFT</Link>
                         </li>
                       </ul>
                     </li>
-                    <li className="menu-item-has-children">
+                    <li className="menu-item-has-childrren">
                       <Link to="#">Blog</Link>
-                      <ul className="sub-menu">
+                      {/* <ul className="sub-menu">
                         <li>
                           <Link to="/blog">Blog</Link>
                         </li>
                         <li>
                           <Link to="/blog-details">Blog Details</Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
-                    <li className="menu-item-has-children">
+                    {/* <li className="menu-item-has-children">
                       <Link to="#">Pages</Link>
                       <ul className="sub-menu">
                         <li>
@@ -363,14 +435,18 @@ const HeaderFive = () => {
                           <Link to="/contact">Contact Page</Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     <li>
                       <Link to="/contact">Contact</Link>
                     </li>
                   </ul>
                 </nav>
                 <div className="navbar-right d-inline-flex d-lg-none">
-                  <button type="button" className="menu-toggle icon-btn" onClick={mobileMenu}>
+                  <button
+                    type="button"
+                    className="menu-toggle icon-btn"
+                    onClick={mobileMenu}
+                  >
                     <i className="fas fa-bars" />
                   </button>
                 </div>
@@ -378,7 +454,11 @@ const HeaderFive = () => {
               <div className="col-auto ms-xxl-4 d-xl-block d-none">
                 <div className="header-wrapper">
                   <div className="header-button">
-                    <button type="button" className="simple-icon searchBoxToggler" onClick={() => searchControl(true)}>
+                    <button
+                      type="button"
+                      className="simple-icon searchBoxToggler"
+                      onClick={() => searchControl(true)}
+                    >
                       <i className="fas fa-search" />
                     </button>
                     <Link to="/about" className="global-btn style-border3">
@@ -391,8 +471,6 @@ const HeaderFive = () => {
           </div>
         </div>
       </header>
-
-
     </>
   );
 };
