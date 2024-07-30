@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const AboutOne = () => {
   return (
-    <div className="about-area-1 position-relative space-top">
+    <div className="about-area-1 position-relative space-top bg-dark2">
       <div className="about1-shape-img1">
         <img
           className="about1-shape-img-1"
@@ -19,7 +19,7 @@ const AboutOne = () => {
         />
       </div>
       <div className="container">
-        <div className="row gx-60 align-items-center">
+        <div className="row gx-60 align-items-center ">
           <div className="col-xl-6">
             <div className="about-content-wrap">
               <div className="title-area me-xl-5 mb-20">
@@ -27,7 +27,7 @@ const AboutOne = () => {
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
                   About Us
                 </span>
-                <h2 className="sec-title">Achieve Your a of Business </h2>
+                <h2 className="sec-title text-white">Achieve Your a of Business </h2>
                 <p className="sec-text mb-35">
                   Use receiving aco growin number of currencies and get paid
                   like design receiving aco grow

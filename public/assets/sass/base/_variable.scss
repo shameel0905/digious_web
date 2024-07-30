@@ -1,9 +1,9 @@
 :root {
   --theme-color         : #2976C0;  
   --theme-color2        : #349dff;  
-  --title-color         : #2976C0; 
+  --title-color         : #000000; 
   --body-color          : #7A7A7A;
-  --smoke-color         : #eaf5ff; 
+  --smoke-color         : #202022; 
   --smoke-color2        : #eaf5ff;
   --smoke-color3        : #F5F5F6;
   --smoke-color4        : #F4F4F4;
@@ -45,6 +45,7 @@ $yellow-color         : var(--yellow-color);
 $success-color        : var(--success-color);
 $error-color          : var(--error-color);
 $border-color         : var(--border-color);
+
 
 // Font Variation
 $icon-font   : var(--icon-font);

@@ -327,7 +327,7 @@ const HeaderFive = () => {
                 <nav className="main-menu d-none d-lg-inline-block">
                   <ul>
                     <li className="menu-item-has-childrren">
-                      <Link to="#">Home</Link>
+                      <Link to="/">Home</Link>
                       {/* <ul className="sub-menu">
                         <li>
                           <Link to="/">Home 01</Link>

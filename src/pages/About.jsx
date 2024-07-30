@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Preloader from "../elements/Preloader";
 import HelmetReact from "../elements/HelmetReact";
-import HeaderOne from "../components/HeaderOne";
+import HeaderFive from "../components/HeaderFive";
 import Breadcrumb from "../components/Breadcrumb";
 import GoalArea from "../components/GoalArea";
 import AboutOne from "../components/AboutOne";
@@ -28,7 +28,7 @@ const About = () => {
       <HelmetReact title={"About"} />
 
       {/* HeaderFive */}
-      <HeaderOne />
+      <HeaderFive />
 
       {/* Breadcrumb */}
       <Breadcrumb title="About Us" />
@@ -60,14 +60,6 @@ const About = () => {
 
       {/* FooterOne */}
       <FooterOne />
-
-
-
-
-
-
-
-
 
     </>
   );

@@ -2,7 +2,7 @@ import React from 'react'
 
 const GoalArea = () => {
     return (
-        <div className="goal-area space">
+        <div className="bg-dark2 goal-area space">
             <div className="container">
                 <div className="row align-items-end">
                     <div className="col-lg-6">
@@ -11,12 +11,12 @@ const GoalArea = () => {
                                 <img src="assets/img/icon/title_left.svg" alt="shape" />
                                 Our Goal
                             </span>
-                            <h2 className="sec-title style2">Partnering Business for Success</h2>
+                            <h2 className="sec-title style2 text-white">Partnering Business for Success</h2>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="goal-title-area">
-                            <p className="">
+                            <p className="text-white">
                                 There are many variati of passages of engineer's available. have
                                 suffered alteration in engineer's available
                             </p>

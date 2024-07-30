@@ -49,10 +49,10 @@
 }
 
 .breadcumb-title {
-    color: $title-color;
+    color: $smoke-color5;    
     margin: -0.15em 0 -0.2em 0;
     line-height: 1.1;
-    font-size: 50px;
+    font-size: 50px !important;
     font-weight: 700;
     font-family: $title-font;
     text-transform: capitalize; 
@@ -60,13 +60,16 @@
     position: relative;
 }
 .breadcumb-content {
-    padding: 170px 0;
+    padding: 220px 0px 170px 0px; 
 }
 .breadcumb-wrapper {
     background: $smoke-color;
     overflow: hidden;
     position: relative;
     z-index: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     .breadcumb-thumb {
        text-align: right; 

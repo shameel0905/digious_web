@@ -33,7 +33,7 @@ const App = () => {
           <Route exact path="/home-3" element={<HomeThree />} />
           <Route exact path="/home-4" element={<HomeFour />} />
           <Route exact path="/home-1" element={<HomeOne />} />
-          <Route exact path="/" element={<About />} />
+          <Route exact path="/about" element={<About />} />
           <Route exact path="/service" element={<Service />} />
           <Route exact path="/service-details" element={<ServiceDetails />} />
           <Route exact path="/project" element={<Project />} />
@@ -43,7 +43,7 @@ const App = () => {
           <Route exact path="/pricing" element={<Pricing />} />
           <Route exact path="/team" element={<Team />} />
           <Route exact path="/team-details" element={<TeamDetails />} />
-          <Route exact path="/" element={<Contact />} />
+          <Route exact path="/contact" element={<Contact />} />
           <Route exact path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
