@@ -5,8 +5,8 @@ const ProcessThree = () => {
     return (
 
         <section
-            className="process-area-1 bg-smoke space-bottom"
-            style={{ backgroundImage: "url(assets/img/bg/shape_1.png)" }}
+            className="process-area-1 bg-smoke space-bottom img_bg_cover"
+            style={{ backgroundImage: "url(assets/img/bg/aboutprocessimg.jpg)" }}
         >
 
             {/* Client Area   */}

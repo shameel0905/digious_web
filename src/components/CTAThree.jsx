@@ -4,7 +4,7 @@ const CTAThree = () => {
     return (
         <section className='bg-dark2 pt-1'>
             <div className="container">
-                <div className="cta-area-3 bg-title">
+                <div className="cta-area-3 bg-theme_for">
                     <div className="row justify-content-md-between align-items-center">
                         <div className="col-lg-5">
                             <div className="title-area mb-lg-0 text-lg-start text-center">

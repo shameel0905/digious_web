@@ -130,10 +130,10 @@
 }
 
 .wcu-card {
-    background-color: $white-color;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     padding: 0 30px 30px 30px;
+    border: 1px solid var(--theme-color);
+    box-shadow: 0 0px 22px #2976C0;
 
     @media(max-width: 1399px) {
         padding: 0 20px 20px 20px;
@@ -166,7 +166,7 @@
             content: '';
             position: absolute;
             inset: 0;
-            background: $theme-color;
+            background: $white-color;
             opacity: 0.1;
             border-radius: 0 0 10px 10px;
         }
@@ -181,6 +181,7 @@
         font-weight: 700;
         margin-bottom: 20px;
         margin-top: -0.2em;
+        color: #EFEFEF;
 
         @media(max-width: 1399px) {
             font-size: 20px;

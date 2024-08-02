@@ -1,12 +1,16 @@
 /* Process Area 1 ---------------------------------- */
 .process-card {
-  background-color: $white-color;
+  // background-color: $white-color;
+  background: transparent;
   padding: 50px 40px 44px;
   border-radius: 20px;
+  box-shadow: 0 0px 22px #2976C0;
+  backdrop-filter: blur(4.8px);
+  border: 1px solid $theme-color;
   &_wrapp {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 35px;
   }
   &-icon {
@@ -15,7 +19,7 @@
     font-weight: 700;
     font-size: 60.75px;
     line-height: 60.75px;
-    color: rgba(25, 53, 45, 0.05);
+    color: rgb(255 255 255 / 21%);
     margin-bottom: 0;
   }
 
@@ -24,6 +28,7 @@
     font-weight: 700;
     margin-top: 12px;
     margin-bottom: -0.4rem;
+    color: white;
   }
 
   .process-card-text {
@@ -124,4 +129,28 @@
     margin-bottom: 10px;
     display: block;
   }
+}
+
+.img_bg_cover{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative; /* Ensure the overlay is positioned relative to this element */
+}
+
+.img_bg_cover::before {
+  content: ""; /* Required to display the pseudo-element */
+  position: absolute; /* Position it absolutely within the .img_bg_cover */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust the color and opacity here */
+  z-index: 1; /* Make sure the overlay is on top of the background image */
+}
+
+/* Ensure content within the .img_bg_cover is visible above the overlay */
+.img_bg_cover > * {
+  position: relative;
+  z-index: 2;
 }

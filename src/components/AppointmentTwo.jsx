@@ -23,7 +23,7 @@ const AppointmentTwo = () => {
                                 className="appointment-form ajax-contact"
                             >
                                 <div className="row">
-                                    <div className=" col-12">
+                                    <div className="col-12">
                                         <div className="form-group">
                                             <input
                                                 type="text"
