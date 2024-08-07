@@ -22,7 +22,7 @@ const ServiceFive = () => {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row gx-30 gy-30 justify-content-center">
+                    <div className="row gx-30 gy-30 justify-content-center upper_class">
                         <div className="col-xl-4 col-md-6">
                             <div className="service-card-4">
                                 <div className="service-card-thumb">

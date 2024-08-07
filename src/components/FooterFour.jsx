@@ -15,11 +15,13 @@ const FooterFour = () => {
                                 <div className="widget footer-widget widget-about">
                                     <div className="about-logo">
                                         <Link to="/">
-                                            <img src="assets/img/logo-white.svg" alt="Bizmaster" />
+                                            <img src="assets/img/logo-white.svg" alt="digious" />
                                         </Link>
                                     </div>
                                     <p className="footer-text mb-30 mt-30">
-                                        It is a long established fact that a reader will be distracted
+                                        At Digious Solutions, we drive your success through
+                                        innovative solutions. Contact us today to elevate your
+                                        business to the next level.
                                     </p>
                                     <div className="social-btn">
                                         <Link to="#" tabIndex={-1}>
@@ -39,41 +41,23 @@ const FooterFour = () => {
                             </div>
                             <div className="col-md-6 col-xl-auto">
                                 <div className="widget widget_nav_menu footer-widget">
-                                    <h3 className="widget_title">About Company</h3>
-                                    <div className="menu-all-pages-container">
-                                        <ul className="menu">
-                                            <li>
-                                                <Link to="/service">Service</Link>
-                                            </li>
-                                            <li>
-                                                <Link to="/contact">Contact</Link>
-                                            </li>
-                                            <li>
-                                                <Link to="/service">Service</Link>
-                                            </li>
-                                            <li>
-                                                <Link to="/about">About Us</Link>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6 col-xl-auto">
-                                <div className="widget widget_nav_menu footer-widget">
                                     <h3 className="widget_title">Services</h3>
                                     <div className="menu-all-pages-container">
                                         <ul className="menu">
                                             <li>
-                                                <Link to="/service">Reliable Rentals</Link>
+                                                <Link to="/">E-Commerce Solution</Link>
                                             </li>
                                             <li>
-                                                <Link to="/service">Golden Key Properties</Link>
+                                                <Link to="/">Mobile App Development</Link>
                                             </li>
                                             <li>
-                                                <Link to="/service">Swift Home Sales</Link>
+                                                <Link to="/">Website Development</Link>
                                             </li>
                                             <li>
-                                                <Link to="/service">Elite Realty Services</Link>
+                                                <Link to="/">Non Fungible Tokens (NFTs)</Link>
+                                            </li>
+                                            <li>
+                                                <Link to="/">Wordpress Development</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -87,8 +71,17 @@ const FooterFour = () => {
                                             <i className="fas fa-phone-alt text-white" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    <Link to="#">+880 123 45 67 89</Link>
-                                                    <p />
+                                                    <Link to="#">(913)374-5577</Link>
+                                                    <p/>
+                                                </h6>
+                                            </div>
+                                        </div>
+                                        <div className="widget-contact-grid">
+                                            <i className="fas fa-phone-alt text-white" />
+                                            <div className="contact-grid-details">
+                                                <h6>
+                                                    <Link to="#">(614)310-66995</Link>
+                                                    <p/>
                                                 </h6>
                                             </div>
                                         </div>
@@ -96,7 +89,7 @@ const FooterFour = () => {
                                             <i className="fas fa-envelope text-white" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    <Link to="#">yourmail@gmail.com</Link>
+                                                    <Link to="#">info@digiuossolutions.com</Link>
                                                     <p />
                                                 </h6>
                                             </div>
@@ -105,8 +98,8 @@ const FooterFour = () => {
                                             <i className="fas fa-map-marker-alt text-white" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    1212, Lav Vegas, The Veg <br /> Street, USA
-                                                    <p />
+                                                    19 Kimian Avenue West Waratah, New South Wales
+                                                    Australia
                                                 </h6>
                                             </div>
                                         </div>
@@ -121,14 +114,14 @@ const FooterFour = () => {
                         <div className="row gy-3 justify-content-lg-between justify-content-center">
                             <div className="col-auto align-self-center">
                                 <p className="copyright-text text-center">
-                                    © <Link to="#">Bizmaster </Link> 2024 | All Rights Reserved
+                                    © <Link to="#">Digious Solutions </Link> 2024 | All Rights Reserved
                                 </p>
                             </div>
                             <div className="col-auto">
                                 <div className="footer-links">
-                                    <Link to="/contact">Trams &amp; Condition</Link>
-                                    <Link to="/contact">Privacy Policy</Link>
-                                    <Link to="/contact">Contact Us</Link>
+                                    <Link to="/">Terms &amp; Condition</Link>
+                                    <Link to="/">Privacy Policy</Link>
+                                    <Link to="/">Contact Us</Link>
                                 </div>
                             </div>
                         </div>

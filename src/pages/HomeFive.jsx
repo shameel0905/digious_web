@@ -14,7 +14,7 @@ import TeamFour from "../components/TeamFour";
 import FaqThree from "../components/FaqThree";
 import BlogFive from "../components/BlogFive";
 import MarqueeFour from "../components/MarqueeFour";
-import FooterFive from "../components/FooterFive";
+import FooterFour from "../components/FooterFour";
 
 
 
@@ -72,8 +72,8 @@ const HomeFive = () => {
       {/* MarqueeFour */}
       <MarqueeFour />
 
-      {/* FooterFive */}
-      <FooterFive />
+      {/* FooterFour */}
+      <FooterFour />
 
     </>
   );

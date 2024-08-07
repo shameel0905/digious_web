@@ -2,7 +2,7 @@ import React from 'react'
 
 const AppointmentTwo = () => {
     return (
-        <div className="appointment-area-2 space-bottom overflow-hidden">
+        <div className="appointment-area-2 space-top space-bottom overflow-hidden">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6">

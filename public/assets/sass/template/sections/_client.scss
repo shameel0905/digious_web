@@ -30,18 +30,24 @@
     text-align: center;
   }
 }
+
+.row.gx-30.gy-30.justify-content-center.upper_class {
+  position: relative;
+  z-index: 99999;
+}
+
 /* Client 4 ---------------------------------- */
 .client-area-4 {
   position: relative;
   .shadow-shape-right {
-    right: 40%;
+    right: 75%;
     top: 50%;
     transform: translate(0, -50%);
     width: 1041px;
     &:after {
       width: 311px;
       height: 311px;
-      background: #196164;
+      background: #349dff;
       filter: blur(200px);
       right: 50%;
     }

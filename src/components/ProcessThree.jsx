@@ -8,7 +8,6 @@ const ProcessThree = () => {
             className="process-area-1 bg-smoke space-bottom img_bg_cover"
             style={{ backgroundImage: "url(assets/img/bg/aboutprocessimg.jpg)" }}
         >
-
             {/* Client Area   */}
 
             <div className="client-bg-area-2 space-bottom">

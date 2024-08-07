@@ -5,8 +5,8 @@ import HeaderFive from "../components/HeaderFive";
 import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
-import ServiceView from "../components/ServiceView";
 import AppointmentTwo from "../components/AppointmentTwo";
+import ServiceFour from "../components/ServiceFour";
 
 
 const Service = () => {
@@ -30,11 +30,11 @@ const Service = () => {
       {/* Breadcrumb */}
       <Breadcrumb title="Service" />
 
-      {/* ServiceOne */}
-      <ServiceView />
+      {/* ServiceFive */}
+      <ServiceFour />
 
-      {/* AppointmentTwo */}
-      <AppointmentTwo />
+      {/* AppointmentTwo
+      <AppointmentTwo /> */}
 
       {/* Newsletter */}
       <Newsletter />

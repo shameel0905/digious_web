@@ -5,7 +5,7 @@ const FooterOne = () => {
   return (
     <footer
       className="footer-wrapper footer-layout1"
-      style={{ backgroundImage: "url(assets/img/bg/footer-bg1-1.png)" }}
+      style={{ backgroundImage: "url(assets/img/bg/footer-bg4-1.png)" }}
     >
       <div className="container">
         <div className="widget-area">
@@ -18,8 +18,7 @@ const FooterOne = () => {
                   </Link>
                 </div>
                 <p className="footer-text mb-30">
-                  Many desktop ublishing packages web page editors no Lorem
-                  Ipsum a default model text, and a search for
+                  Many desktop publishing packages web page editors no Lorem Ipsum a default model text, and a search for
                 </p>
                 <div className="social-btn style3">
                   <Link to="#" tabIndex={-1}>
@@ -101,15 +100,15 @@ const FooterOne = () => {
           <div className="row gy-3 justify-content-lg-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Bizmaster </Link> 2024 | All Rights Reserved
+                © <Link to="#">Digious Solutions </Link> 2024 | All Rights Reserved
               </p>
             </div>
             <div className="col-auto">
               <div className="footer-links">
-                <Link to="/contact">Privacy</Link>
-                <Link to="/contact">Terms</Link>
-                <Link to="/contact">Sitemap</Link>
-                <Link to="/contact">Help</Link>
+                <Link to="/">Privacy</Link>
+                <Link to="/">Terms</Link>
+                <Link to="/">Sitemap</Link>
+                <Link to="/">Help</Link>
               </div>
             </div>
           </div>

@@ -51,7 +51,7 @@ const ServiceThree = () => {
               <p className="">
                 Use receiving aco growin number of currencies and get Use
                 receiving aco growin number of currencies and get paid like
-                designpaid
+                design paid
               </p>
             </div>
           </div>

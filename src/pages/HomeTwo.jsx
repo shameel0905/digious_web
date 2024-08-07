@@ -50,7 +50,6 @@ const HomeTwo = () => {
         <WhyChoose />
       </div>
 
-
       {/* PortfolioTwo */}
       <PortfolioTwo />
 

@@ -4,9 +4,9 @@
   background: transparent;
   padding: 50px 40px 44px;
   border-radius: 20px;
-  box-shadow: 0 0px 22px #2976C0;
   backdrop-filter: blur(4.8px);
   border: 1px solid $theme-color;
+  transition: box-shadow 0.2s ease-in-out;
   &_wrapp {
     display: flex;
     justify-content: space-between;
@@ -39,6 +39,8 @@
   }
 
   &:hover {
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: 0 0px 22px #2976C0;
   }
 }
 
