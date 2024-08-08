@@ -11,7 +11,7 @@ const FooterFour = () => {
                 <div className="container">
                     <div className="widget-area">
                         <div className="row justify-content-between">
-                            <div className="col-md-6 col-xl-3">
+                            <div className="col-md-6 col-xl-5">
                                 <div className="widget footer-widget widget-about">
                                     <div className="about-logo">
                                         <Link to="/">

@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Breadcrumb = ({ title }) => {
+const BreadcrumbInner = ({ title }) => {
     return (
         <div 
             className="breadcumb-wrapper"
-            style={{ backgroundImage: "url(assets/img/bg/bg654.png)" }}
+            style={{ backgroundImage: "url(assets/img/bg/graphic-design.jpg)" }}
         >
             {/* bg animated image/ */}
             <div className="container">
@@ -24,8 +24,7 @@ const Breadcrumb = ({ title }) => {
                 </div>
             </div>
         </div>
-
     )
 }
 
-export default Breadcrumb;
+export default BreadcrumbInner;

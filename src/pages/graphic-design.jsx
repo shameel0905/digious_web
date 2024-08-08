@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Preloader from "../elements/Preloader";
 import HelmetReact from "../elements/HelmetReact";
-import HeaderOne from "../components/HeaderOne";
-import Breadcrumb from "../components/Breadcrumb";
+import HeaderFive from "../components/HeaderFive";
+// import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import ServiceInnerDetails from "../components/ServiceInnerDetails";
+import BreadcrumbInner from "../components/BreadcrumbInner";
 
 
 
-const ServiceDetails = () => {
+const GraphicService = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
     setTimeout(function () {
@@ -22,17 +23,16 @@ const ServiceDetails = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Service Details"} />
+      <HelmetReact title={"Graphic Design"} />
 
       {/* HeaderFive */}
-      <HeaderOne />
+      <HeaderFive />
 
       {/* Breadcrumb */}
-      <Breadcrumb title="Service Details" />
+      <BreadcrumbInner title="Graphic Design" />
 
       {/* ServiceDetails */}
       <ServiceInnerDetails />
-
 
       {/* Newsletter */}
       <Newsletter />
@@ -44,4 +44,4 @@ const ServiceDetails = () => {
   );
 };
 
-export default ServiceDetails;
+export default GraphicService;
