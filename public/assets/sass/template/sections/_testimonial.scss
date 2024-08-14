@@ -208,7 +208,7 @@
 }
 
 .testi-box {
-  background-color: $white-color;
+  background-color: $theme-color;
   padding: 60px 60px 0 60px;
   position: relative;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
@@ -242,7 +242,7 @@
       top: 50%;
       width: 63px;
       height: 1px;
-      background-color: rgba(25, 53, 45, 0.2);
+      background-color: rgb(255, 255, 255);
     }
 
     &:after {
@@ -261,6 +261,7 @@
     line-height: 34px;
     text-align: center;
     margin-bottom: 30px;
+    color: white;
 
     @include xs {
       font-size: 18px;
@@ -275,7 +276,7 @@
       font-size: 22px;
       line-height: 29px;
       text-align: center;
-      color: #243f37;
+      color: $white-color;
       margin-bottom: 20px;
     }
 

@@ -7,7 +7,8 @@ import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import ServiceInnerDetails from "../components/ServiceInnerDetails";
 import BreadcrumbInner from "../components/BreadcrumbInner";
-
+import TestimonialOne from "../components/TestimonialOne";
+import TestimonialTwo from "../components/TestimonialTwo";
 
 
 const GraphicService = () => {
@@ -16,6 +17,7 @@ const GraphicService = () => {
     setTimeout(function () {
       setActive(false);
     }, 500);
+
   }, []);
   return (
     <>
@@ -33,6 +35,9 @@ const GraphicService = () => {
 
       {/* ServiceDetails */}
       <ServiceInnerDetails />
+
+      {/* TestimonialOne */}
+      <TestimonialTwo/>
 
       {/* Newsletter */}
       <Newsletter />

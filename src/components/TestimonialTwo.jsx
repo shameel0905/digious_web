@@ -62,7 +62,7 @@ const TestimonialTwo = () => {
     ],
   };
   return (
-    <div className="testimonial-area-2 space-bottom">
+    <div className="testimonial-area-2 space-bottom space-top">
       <div className="container">
         <div className="row">
           <div className="col-lg-5">
@@ -117,7 +117,7 @@ const TestimonialTwo = () => {
                           </div>
                           <div className="testi-profile_thumb">
                             <img
-                              src="assets/img/testimonial/testimonial-2-1.png"
+                              src="assets/img/testimonial/testimonial-5-1.png"
                               alt="img"
                             />
                           </div>

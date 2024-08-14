@@ -16368,3 +16368,25 @@ li.trackback {
 [dir=rtl] .product-intro-card .intro-card-details {
   text-align: end;
 }
+
+
+@keyframes scrollAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.path1 {
+  opacity: 0; /* Start with invisible */
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.visible {
+  animation: scrollAnimation 1s forwards;
+}

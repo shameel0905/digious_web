@@ -32,16 +32,21 @@
   }
 
   .process-card-text {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     font-family: $title-font;
     margin-bottom: 0px;
+    color: white;
   }
 
   &:hover {
     transition: box-shadow 0.2s ease-in-out;
     box-shadow: 0 0px 22px #2976C0;
   }
+}
+
+.process-card.aos-init.aos-animate {
+  transition: box-shadow 0.4s;
 }
 
 /* Process Area 2 ---------------------------------- */

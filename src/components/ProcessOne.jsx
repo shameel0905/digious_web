@@ -1,17 +1,22 @@
-import React from "react";
 import Marquee from "react-fast-marquee";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ProcessOne = () => {
+  useEffect(() => {
+    Aos.init();
+  });
+
   return (
     <>
       <section
-        className="process-area-1 bg-smoke space-bottom"
-        style={{ backgroundImage: "url(assets/img/bg/shape_1.png)" }}
+        className="process-area-1 space-bottom space-top"
+        style={{ backgroundImage: "url(assets/img/bg/shape_1.png)", background: "#0a0a0a" }}
       >
-
         {/* Client Area   */}
 
-        <div className="client-bg-area-2 space-bottom">
+        {/* <div className="client-bg-area-2 space-bottom">
           <div className="client-area-2">
             <div className=" global-carousel">
               <Marquee speed={30}>
@@ -74,7 +79,7 @@ const ProcessOne = () => {
               </Marquee>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">
@@ -90,7 +95,12 @@ const ProcessOne = () => {
             </div>
           </div>
           <div className="row gy-30">
-            <div className="col-lg-6 col-xl-3 process-card-wrap">
+            <div
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="500"
+              className="col-lg-6 col-xl-3 process-card-wrap"
+            >
               <div className="process-card">
                 <div className="process-card_wrapp">
                   <div className="process-card-icon">
@@ -104,7 +114,12 @@ const ProcessOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-xl-3 process-card-wrap">
+            <div
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-delay="600"
+              className="col-lg-6 col-xl-3 process-card-wrap"
+            >
               <div className="process-card">
                 <div className="process-card_wrapp">
                   <div className="process-card-icon">
@@ -118,7 +133,12 @@ const ProcessOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-xl-3 process-card-wrap">
+            <div
+              data-aos="fade-up"
+              data-aos-offset="400"
+              data-aos-delay="700"
+              className="col-lg-6 col-xl-3 process-card-wrap"
+            >
               <div className="process-card">
                 <div className="process-card_wrapp">
                   <div className="process-card-icon">
@@ -132,7 +152,12 @@ const ProcessOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-xl-3 process-card-wrap">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="500"
+              data-aos-delay="800"
+              className="col-lg-6 col-xl-3 process-card-wrap"
+            >
               <div className="process-card">
                 <div className="process-card_wrapp">
                   <div className="process-card-icon">
@@ -146,10 +171,86 @@ const ProcessOne = () => {
                 </div>
               </div>
             </div>
+            <div
+              data-aos="fade-right"
+              data-aos-offset="500"
+              data-aos-delay="800"
+              className="col-lg-6 col-xl-3 process-card-wrap"
+            >
+              <div className="process-card">
+                <div className="process-card_wrapp">
+                  <div className="process-card-icon">
+                    <img src="assets/img/icon/process-icon-1-4.svg" alt="img" />
+                  </div>
+                  <h3 className="process-card_number">05</h3>
+                </div>
+                <div className="process-card_content">
+                  <span className="process-card-text">Technical Operation</span>
+                  <h4 className="process-card-title"> Growth Acceler</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-offset="500"
+              data-aos-delay="800"
+              className="col-lg-6 col-xl-3 process-card-wrap"
+            >
+              <div className="process-card">
+                <div className="process-card_wrapp">
+                  <div className="process-card-icon">
+                    <img src="assets/img/icon/process-icon-1-4.svg" alt="img" />
+                  </div>
+                  <h3 className="process-card_number">06</h3>
+                </div>
+                <div className="process-card_content">
+                  <span className="process-card-text">Technical Operation</span>
+                  <h4 className="process-card-title"> Growth Acceler</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-offset="500"
+              data-aos-delay="800"
+              className="col-lg-6 col-xl-3 process-card-wrap"
+            >
+              <div className="process-card">
+                <div className="process-card_wrapp">
+                  <div className="process-card-icon">
+                    <img src="assets/img/icon/process-icon-1-4.svg" alt="img" />
+                  </div>
+                  <h3 className="process-card_number">07</h3>
+                </div>
+                <div className="process-card_content">
+                  <span className="process-card-text">Technical Operation</span>
+                  <h4 className="process-card-title"> Growth Acceler</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-offset="500"
+              data-aos-delay="800"
+              className="col-lg-6 col-xl-3 process-card-wrap"
+            >
+              <div className="process-card">
+                <div className="process-card_wrapp">
+                  <div className="process-card-icon">
+                    <img src="assets/img/icon/process-icon-1-4.svg" alt="img" />
+                  </div>
+                  <h3 className="process-card_number">08</h3>
+                </div>
+                <div className="process-card_content">
+                  <span className="process-card-text">Technical Operation</span>
+                  <h4 className="process-card-title"> Growth Acceler</h4>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <div className="goal-area space-top">
+      {/* <div className="goal-area space-top">
         <div className="container">
           <div className="row align-items-end">
             <div className="col-lg-6">
@@ -569,7 +670,7 @@ const ProcessOne = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
