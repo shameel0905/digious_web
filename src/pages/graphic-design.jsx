@@ -44,9 +44,9 @@ const GraphicService = () => {
 
       {/* FooterOne */}
       <FooterOne />
-
     </>
   );
 };
 
 export default GraphicService;
+
