@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 const AboutFive = () => {
+
+  useEffect(() => { Aos.init() });
+
   return (
     <section className="bg-dark2">
       <div className="about-area-5 space-bottom">
@@ -10,9 +15,11 @@ const AboutFive = () => {
         <div className="container">
           <div className="row gy-40 gx-60 align-items-center justify-content-between">
             <div className="col-xl-5">
-              <div className="about-thumb5">
+              <div data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="500" className="about-thumb5">
                 <div className="img1">
-                  <img src="assets/img/normal/about_5-1.png" alt="img" />
+                  <img  src="assets/img/normal/about_5-1.png" alt="img" />
                 </div>
                 <div className="about-counter-wrap jump-reverse">
                   <h3 className="about-counter">
@@ -31,7 +38,9 @@ const AboutFive = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-7">
+            <div data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="500" className="col-xl-7">
               <div className="title-area mb-40">
                 <span className="sub-title style2">
                   <img src="assets/img/icon/title_left2.svg" alt="shape" />

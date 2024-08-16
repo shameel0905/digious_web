@@ -4,9 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 const ProcessOne = () => {
-  useEffect(() => {
-    Aos.init();
-  });
+  useEffect(() => { Aos.init()});
 
   return (
     <>

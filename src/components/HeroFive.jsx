@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const HeroFive = () => {
+    useEffect(() => { Aos.init({
+        once:true
+    })});
+
     return (
         <section className='bg-dark2'>
             <div
@@ -12,11 +18,11 @@ const HeroFive = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-10">
                             <div className="hero-style5 text-center">
-                                <h1 className="hero-title text-white">
+                                <h1 data-aos="fade-up" data-aos-delay="600" data className="hero-title text-white">
                                     Revolutionizing the Unique 
                                     <span className="text-theme2"> Business</span> Landscape
                                 </h1>
-                                <p className="hero-text text-white">
+                                <p data-aos="fade-up" data-aos-delay="700"  className="hero-text text-white">
                                     A business consultant is a professional who provides expert advice
                                     and guidance to businesses on various aspects such
                                 </p>
@@ -24,14 +30,13 @@ const HeroFive = () => {
                         </div>
                         <div className="col-lg-12">
                             <div className="hero-thumb5-1">
-                                <img src="assets/img/hero/hero_thumb_5_1.png" alt="img" />
+                                <img data-aos="zoom-out-up" data-aos-offset="400" data-aos-duration="400" src="assets/img/hero/hero_thumb_5_1.png" alt="img" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
     )
 }
 
