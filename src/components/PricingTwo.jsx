@@ -15,19 +15,19 @@ const PricingTwo = () => {
                     <div className="row align-items-center justify-content-center">
                         <div className="col-lg-6">
                             <div className="title-area text-center">
-                                <span className="sub-title style2">
+                                <span data-aos="fade-up" data-aos-delay="500" className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />
                                     Our Pricing
                                 </span>
-                                <h2 className="sec-title style2 text-white">
-                                    Achieve Your Goal of Business{" "}
+                                <h2 data-aos="fade-up" data-aos-delay="600" className="sec-title style2 text-white">
+                                    Achieve Your Goal of Business
                                 </h2>
                             </div>
                         </div>
                     </div>
                     <div className="row gy-4 justify-content-center align-items-center">
-                        <div className="col-xl-4 col-md-6">
-                            <div className="pricing-card style2">
+                        <div  className="col-xl-4 col-md-6">
+                            <div data-aos="fade-left" data-aos-delay="700" className="pricing-card style2">
                                 <h4 className="pricing-card_title">Consult</h4>
                                 <div className="pricing-card-price-wrap">
                                     <h3 className="pricing-card_price">
@@ -63,7 +63,7 @@ const PricingTwo = () => {
                             </div>
                         </div>
                         <div className="col-xl-4 col-md-6">
-                            <div className="pricing-card style2 active">
+                            <div data-aos="fade-up" data-aos-delay="800" className="pricing-card style2 active">
                                 <h4 className="pricing-card_title">Basic</h4>
                                 <div className="pricing-card-price-wrap">
                                     <h3 className="pricing-card_price">
@@ -99,7 +99,7 @@ const PricingTwo = () => {
                             </div>
                         </div>
                         <div className="col-xl-4 col-md-6">
-                            <div className="pricing-card style2">
+                            <div data-aos="fade-right" data-aos-delay="900" className="pricing-card style2">
                                 <h4 className="pricing-card_title">Pro</h4>
                                 <div className="pricing-card-price-wrap">
                                     <h3 className="pricing-card_price">

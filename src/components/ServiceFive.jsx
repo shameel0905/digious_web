@@ -4,9 +4,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
     
 const ServiceFive = () => {
-    useEffect(() => { Aos.init({
-        once:true
-    })});
+    useEffect(() => { Aos.init()});
     return (
         <section className='bg-dark2'>
             <div className="service-area-4 space-top position-relative">

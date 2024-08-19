@@ -384,15 +384,17 @@
   }
 }
 .testi-card.style3 {
-  border: 1px solid #243f37;
+  border: 1px solid #349DFF;
   background: transparent;
   padding: 60px 123px 60px 60px;
+  filter: drop-shadow(40px 23px 60px #349DFF);
+
   .quote-icon {
     position: initial;
     margin-bottom: 30px;
   }
   .testi-card_text {
-    font-size: 30px;
+    font-size: 20px;
     color: $white-color;
     line-height: 1.666;
     margin-bottom: 60px;

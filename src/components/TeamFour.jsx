@@ -9,18 +9,18 @@ const TeamFour = () => {
                     <div className="row justify-content-center">
                         <div className="col-xl-7">
                             <div className="title-area text-center">
-                                <span className="sub-title style2">
+                                <span data-aos="fade-up" data-aos-delay="500" className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />
                                     Our Team Member
                                 </span>
-                                <h2 className="sec-title style2 text-white">
-                                    Strategic Solutions for Business Growth{" "}
+                                <h2 data-aos="fade-up" data-aos-delay="600" className="sec-title style2 text-white">
+                                    Strategic Solutions for Business Growth
                                 </h2>
                             </div>
                         </div>
                     </div>
                     <div className="row gx-30 gy-30 justify-content-center">
-                        <div className="col-lg-4 col-md-6">
+                        <div data-aos="fade-up" data-aos-delay="700" className="col-lg-4 col-md-6">
                             <div className="team-card style4">
                                 <div className="team-card_img">
                                     <img src="assets/img/team/team-1-1.png" alt="img" />
@@ -49,7 +49,7 @@ const TeamFour = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        <div data-aos="fade-up" data-aos-delay="800" className="col-lg-4 col-md-6">
                             <div className="team-card style4">
                                 <div className="team-card_img">
                                     <img src="assets/img/team/team-1-2.png" alt="img" />
@@ -78,7 +78,7 @@ const TeamFour = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        <div data-aos="fade-up" data-aos-delay="900" className="col-lg-4 col-md-6">
                             <div className="team-card style4">
                                 <div className="team-card_img">
                                     <img src="assets/img/team/team-1-3.png" alt="img" />

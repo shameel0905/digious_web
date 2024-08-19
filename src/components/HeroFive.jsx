@@ -3,9 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 const HeroFive = () => {
-    useEffect(() => { Aos.init({
-        once:true
-    })});
+    useEffect(() => { Aos.init()});
 
     return (
         <section className='bg-dark2'>
@@ -18,7 +16,7 @@ const HeroFive = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-10">
                             <div className="hero-style5 text-center">
-                                <h1 data-aos="fade-up" data-aos-delay="600" data className="hero-title text-white">
+                                <h1 data-aos="fade-up" data-aos-delay="600" className="hero-title text-white">
                                     Revolutionizing the Unique 
                                     <span className="text-theme2"> Business</span> Landscape
                                 </h1>

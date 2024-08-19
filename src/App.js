@@ -52,6 +52,3 @@ const App = () => {
 };
 
 export default App;
-
-
-// kjadfb dafkj

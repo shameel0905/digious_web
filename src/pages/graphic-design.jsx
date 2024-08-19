@@ -7,7 +7,7 @@ import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import ServiceInnerDetails from "../components/ServiceInnerDetails";
 import BreadcrumbInner from "../components/BreadcrumbInner";
-import TestimonialOne from "../components/TestimonialOne";
+// import TestimonialOne from "../components/TestimonialOne";
 import TestimonialTwo from "../components/TestimonialTwo";
 
 

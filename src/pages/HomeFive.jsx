@@ -15,7 +15,8 @@ import FaqThree from "../components/FaqThree";
 import BlogFive from "../components/BlogFive";
 import MarqueeFour from "../components/MarqueeFour";
 import FooterFour from "../components/FooterFour";
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 
 const HomeFive = () => {
@@ -24,6 +25,8 @@ const HomeFive = () => {
     setTimeout(function () {
       setActive(false);
     }, 500);
+    
+    Aos.init()
   }, []);
   return (
     <>
