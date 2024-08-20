@@ -1,11 +1,17 @@
-import React from 'react'
+import React, {useEffect, useRef    } from 'react'
 import { Link } from 'react-router-dom'
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const FooterFour = () => {
+
+  useEffect(() => {
+    // Initialize AOS
+    Aos.init();
+  }, []);
+
     return (
         <section className='bg-dark'>
-            <footer
-                className="footer-wrapper footer-layout4 footer_resp"
+            <footer className="footer-wrapper footer-layout4 footer_resp"
                 style={{ backgroundImage: "url(assets/img/bg/footer-bg4-1.png)",position:"fixed", width:"100%", bottom:"0", left:"0",height:"auto", zIndex: "-1" }}
             >
                 <div className="container">

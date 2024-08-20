@@ -9,15 +9,15 @@ const FaqThree = () => {
                     <div className="row gy-40 justify-content-center">
                         <div className="col-xxl-6 text-xxl-start text-center">
                             <div className="title-area mb-60">
-                                <span className="sub-title style2">
+                                <span data-aos="fade-up" data-aos-delay="600" className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />
                                     Ask Question
                                 </span>
-                                <h2 className="sec-title style2 text-white">
+                                <h2 data-aos="fade-up" data-aos-delay="700" className="sec-title style2 text-white">
                                     Transforming Vision into Reality Together
                                 </h2>
                             </div>
-                            <div className="faq-thumb5">
+                            <div data-aos="fade-up" data-aos-delay="700" className="faq-thumb5">
                                 <img src="assets/img/normal/faq-thumb-5-1.png" alt="img" />
                                 <div className="about-counter-wrap jump-reverse">
                                     <h3 className="about-counter">
@@ -30,7 +30,6 @@ const FaqThree = () => {
                                                 )
                                             }
                                         </TrackVisibility>
-
                                     </h3>
                                     <p className="sec-desc">Client Review</p>
                                 </div>

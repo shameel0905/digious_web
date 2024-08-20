@@ -47,7 +47,6 @@ const ClientThree = () => {
                 <div className="container">
                     <div
                         className="row gx-90 d-flex justify-content-between global-carousel"
-
                     >
                         <Slider {...settings}>
                             <div className="px-3">

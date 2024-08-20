@@ -42,22 +42,21 @@ const BlogFive = () => {
                     <div className="row justify-content-center">
                         <div className="col-xl-7">
                             <div className="title-area text-center">
-                                <span className="sub-title style2">
+                                <span data-aos="fade-up" data-aos-delay="600" className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />
                                     Latest Blog
                                 </span>
-                                <h2 className="sec-title style2 text-white">
-                                    Strategic Solutions for Business Growth{" "}
+                                <h2 data-aos="fade-up" data-aos-delay="700" className="sec-title style2 text-white">
+                                    Strategic Solutions for Business Growth
                                 </h2>
                             </div>
                         </div>
                     </div>
                     <div
                         className="row global-carousel blog-slider5 slider-shadow"
-
                     >
                         <Slider {...settings}>
-                            <div className="px-2">
+                            <div data-aos="fade-up" data-aos-delay="800" className="px-2">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
                                         <img src="assets/img/blog/blog_s5_1.png" alt="Bizmaster" />
@@ -88,7 +87,7 @@ const BlogFive = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="px-2">
+                            <div data-aos="fade-up" data-aos-delay="900" className="px-2">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
                                         <img src="assets/img/blog/blog_s5_2.png" alt="Bizmaster" />
@@ -119,7 +118,7 @@ const BlogFive = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="px-2">
+                            <div data-aos="fade-up" data-aos-delay="1000" className="px-2">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
                                         <img src="assets/img/blog/blog_s5_3.png" alt="Bizmaster" />
@@ -150,7 +149,7 @@ const BlogFive = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="px-2">
+                            <div data-aos="fade-up" data-aos-delay="1100" className="px-2">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
                                         <img src="assets/img/blog/blog_s5_2.png" alt="Bizmaster" />
