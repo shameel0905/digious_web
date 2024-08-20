@@ -16,11 +16,11 @@ const HeroFive = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-10">
                             <div className="hero-style5 text-center">
-                                <h1 data-aos="fade-up" data-aos-delay="600" className="hero-title text-white">
+                                <h1 data-aos="fade-up" data-aos-delay="700" className="hero-title text-white">
                                     Revolutionizing the Unique 
                                     <span className="text-theme2"> Business</span> Landscape
                                 </h1>
-                                <p data-aos="fade-up" data-aos-delay="700"  className="hero-text text-white">
+                                <p data-aos="fade-up" data-aos-delay="800"  className="hero-text text-white">
                                     A business consultant is a professional who provides expert advice
                                     and guidance to businesses on various aspects such
                                 </p>
