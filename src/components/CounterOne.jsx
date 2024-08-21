@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 const CounterOne = () => {
   return (
     <div className="container">
-      <div className="counter-area-2 bg-smoke">
+      <div data-aos="fade-up" data-aos-delay="500" className="counter-area-2">
         <div className="row gy-40 justify-content-between">
           <div className="col-sm-6 col-lg-auto">
             <div className="counter-card style2">

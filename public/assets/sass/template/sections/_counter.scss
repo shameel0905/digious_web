@@ -118,7 +118,7 @@
         font-weight: 400;
         font-size: 18px;
         font-family: $title-font;
-        color: $title-color;
+        color: $white-color !important;
         margin-bottom: -0.4em;
     }
 
@@ -218,6 +218,8 @@
     position: relative;
     z-index: 1;
     margin: 60px;
+    border: 1px solid $theme-color;
+    filter: drop-shadow(2px 8px 6px $theme-color);
 }
 
 .counter-card.style2 {

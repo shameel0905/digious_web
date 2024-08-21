@@ -6,7 +6,7 @@ const WhyChoose = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
-            <div className="title-area text-center me-xl-4 ms-xl-4">
+            <div data-aos="fade-up" data-aos-delay="500" className="title-area text-center me-xl-4 ms-xl-4">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
                 Career Opportunities
@@ -35,7 +35,7 @@ const WhyChoose = () => {
           </div>
           <div className="col-xl-6">
             <div className="wcu-card-wrap">
-              <div className="wcu-card">
+              <div data-aos="fade-up" data-aos-delay="500" className="wcu-card">
                 <div className="icon">
                   <img src="assets/img/icon/wcu-icon_2-1.svg" alt="img" />
                 </div>
@@ -48,7 +48,7 @@ const WhyChoose = () => {
                   </p>
                 </div>
               </div>
-              <div className="wcu-card">
+              <div data-aos="fade-up" data-aos-delay="600" className="wcu-card">
                 <div className="icon">
                   <img src="assets/img/icon/wcu-icon_2-2.svg" alt="img" />
                 </div>
@@ -61,7 +61,7 @@ const WhyChoose = () => {
                   </p>
                 </div>
               </div>
-              <div className="wcu-card">
+              <div data-aos="fade-up" data-aos-delay="700" className="wcu-card">
                 <div className="icon">
                   <img src="assets/img/icon/wcu-icon_2-3.svg" alt="img" />
                 </div>
@@ -74,7 +74,7 @@ const WhyChoose = () => {
                   </p>
                 </div>
               </div>
-              <div className="wcu-card">
+              <div data-aos="fade-up" data-aos-delay="800" className="wcu-card">
                 <div className="icon">
                   <img src="assets/img/icon/wcu-icon_2-4.svg" alt="img" />
                 </div>

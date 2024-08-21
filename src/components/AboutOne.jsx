@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const AboutOne = () => {
   return (
     <div className="about-area-1 position-relative space-top bg-dark2">
-      <div className="about1-shape-img1">
+      <div data-aos="fade-up" data-aos-delay="500" data-aos-offset="500" className="about1-shape-img1">
         <img
           className="about1-shape-img-1"
           src="assets/img/normal/about_shape1-1.jpg"

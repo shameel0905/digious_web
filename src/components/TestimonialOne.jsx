@@ -65,7 +65,7 @@ const TestimonialOne = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <div className="title-area">
+            <div data-aos="fade-up" data-aos-delay="500" className="title-area">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
                 Clients Testimoniall
@@ -74,12 +74,12 @@ const TestimonialOne = () => {
                 Your Business Goals a Confidence
               </h2>
             </div>
-            <div className="testimonial-thumb1">
+            <div data-aos="fade-right" data-aos-delay="500" className="testimonial-thumb1">
               <img src="assets/img/testimonial/testimonial-1-1.png" alt="img" />
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="title-area">
+            <div data-aos="fade-up" data-aos-delay="500" className="title-area">
               <p className="testi-desc">
                 Dictum ultrices porttitor amet nec sollicitudin mi molestie
                 adipiscing netus. Lorem at ac ut morbi ullamcorper molestie

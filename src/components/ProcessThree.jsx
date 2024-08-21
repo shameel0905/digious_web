@@ -76,7 +76,7 @@ const ProcessThree = () => {
             </div>
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-lg-6">
+                    <div data-aos="fade-up" data-aos-delay="500" className="col-lg-6">
                         <div className="title-area text-center">
                             <span className="sub-title">
                                 <img src="assets/img/icon/title_left.svg" alt="shape" />
@@ -89,7 +89,7 @@ const ProcessThree = () => {
                     </div>
                 </div>
                 <div className="row gy-30">
-                    <div className="col-lg-6 col-xl-3 process-card-wrap">
+                    <div data-aos="fade-up" data-aos-delay="500" className="col-lg-6 col-xl-3 process-card-wrap">
                         <div className="process-card">
                             <div className="process-card_wrapp">
                                 <div className="process-card-icon">
@@ -103,7 +103,7 @@ const ProcessThree = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-xl-3 process-card-wrap">
+                    <div data-aos="fade-up" data-aos-delay="700" className="col-lg-6 col-xl-3 process-card-wrap">
                         <div className="process-card">
                             <div className="process-card_wrapp">
                                 <div className="process-card-icon">
@@ -117,7 +117,7 @@ const ProcessThree = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-xl-3 process-card-wrap">
+                    <div data-aos="fade-up" data-aos-delay="700" className="col-lg-6 col-xl-3 process-card-wrap">
                         <div className="process-card">
                             <div className="process-card_wrapp">
                                 <div className="process-card-icon">
@@ -131,8 +131,8 @@ const ProcessThree = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-xl-3 process-card-wrap">
-                        <div className="process-card">
+                    <div data-aos="fade-up" data-aos-delay="800" className="col-lg-6 col-xl-3 process-card-wrap">
+                        <div  className="process-card">
                             <div className="process-card_wrapp">
                                 <div className="process-card-icon">
                                     <img src="assets/img/icon/process-icon-1-4.svg" alt="img" />

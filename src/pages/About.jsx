@@ -11,6 +11,9 @@ import CounterOne from "../components/CounterOne";
 import WhyChoose from "../components/WhyChoose";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 const About = () => {
   let [active, setActive] = useState(true);
@@ -18,6 +21,8 @@ const About = () => {
     setTimeout(function () {
       setActive(false);
     }, 500);
+
+    Aos.init()
   }, []);
   return (
     <>

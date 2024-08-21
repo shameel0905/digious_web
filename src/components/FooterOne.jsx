@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const FooterOne = () => {
   return (
     <footer
-      className="footer-wrapper footer-layout1"
+      className="footer-wrapper footer-layout1 footer_resp"
       style={{ backgroundImage: "url(assets/img/bg/footer-bg4-1.png)" }}
     >
       <div className="container">

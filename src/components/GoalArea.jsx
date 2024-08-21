@@ -7,15 +7,15 @@ const GoalArea = () => {
                 <div className="row align-items-end">
                     <div className="col-lg-6">
                         <div className="title-area">
-                            <span className="sub-title">
+                            <span data-aos="fade-up" data-aos-delay="500" className="sub-title">
                                 <img src="assets/img/icon/title_left.svg" alt="shape" />
                                 Our Goal
                             </span>
-                            <h2 className="sec-title style2 text-white">Partnering Business for Success</h2>
+                            <h2 data-aos="fade-up" data-aos-delay="600" className="sec-title style2 text-white">Partnering Business for Success</h2>
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="goal-title-area">
+                        <div data-aos="fade-up" data-aos-delay="500" className="goal-title-area">
                             <p className="text-white">
                                 There are many variati of passages of engineer's available. have
                                 suffered alteration in engineer's available
@@ -29,9 +29,10 @@ const GoalArea = () => {
                             className="nav nav-tabs goal-tabs-tabs"
                             id="nav-tab"
                             role="tablist"
+                            data-aos="fade-up" data-aos-delay="600"
                         >
                             <button
-                                className="nav-link"
+                                className="nav-link active"
                                 id="nav-step1-tab"
                                 data-bs-toggle="tab"
                                 data-bs-target="#nav-step1"
@@ -49,7 +50,7 @@ const GoalArea = () => {
                                 Education
                             </button>
                             <button
-                                className="nav-link active"
+                                className="nav-link"
                                 id="nav-step3-tab"
                                 data-bs-toggle="tab"
                                 data-bs-target="#nav-step3"
@@ -68,9 +69,9 @@ const GoalArea = () => {
                             </button>
                         </div>
                         <div className="tab-content" id="nav-tabContent">
-                            <div className="tab-pane fade" id="nav-step1" role="tabpanel">
+                            <div className="tab-pane fade active show" id="nav-step1" role="tabpanel">
                                 <div className="goal-list_wrapper">
-                                    <div className="goal-content_wrapp">
+                                    <div data-aos="fade-up" data-aos-delay="500" className="goal-content_wrapp">
                                         <img src="assets/img/icon/angles-left.svg" alt="Bizmaster" />
                                         <div className="goal-content">
                                             <h4 className="box-title">
@@ -91,7 +92,7 @@ const GoalArea = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="goal-content_wrapp">
+                                    <div data-aos="fade-up" data-aos-delay="600" className="goal-content_wrapp">
                                         <img src="assets/img/icon/angles-left.svg" alt="Bizmaster" />
                                         <div className="goal-content">
                                             <h4 className="box-title">Management Mastery Consultan</h4>
@@ -110,7 +111,7 @@ const GoalArea = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="goal-content_wrapp">
+                                    <div data-aos="fade-up" data-aos-delay="700" className="goal-content_wrapp">
                                         <img src="assets/img/icon/angles-left.svg" alt="Bizmaster" />
                                         <div className="goal-content">
                                             <h4 className="box-title">
@@ -131,7 +132,7 @@ const GoalArea = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="goal-content_wrapp">
+                                    <div data-aos="fade-up" data-aos-delay="800" className="goal-content_wrapp">
                                         <img src="assets/img/icon/angles-left.svg" alt="Bizmaster" />
                                         <div className="goal-content">
                                             <h4 className="box-title">Transformational Strategy</h4>
@@ -236,11 +237,7 @@ const GoalArea = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div
-                                className="tab-pane fade active show"
-                                id="nav-step3"
-                                role="tabpanel"
-                            >
+                            <div className="tab-pane fade" id="nav-step3" role="tabpanel">
                                 <div className="goal-list_wrapper">
                                     <div className="goal-content_wrapp">
                                         <img src="assets/img/icon/angles-left.svg" alt="Bizmaster" />
