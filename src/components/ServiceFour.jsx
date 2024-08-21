@@ -29,12 +29,12 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Graphic Design</Link>
+                                        <Link to="/graphic-designing">Graphic Design</Link>
                                     </h4>
                                     <p className="service-card_text">
                                         Digious Solutions is a leading graphic agency that offers the highest high-quality graphic design services. Our talented graphic designers can create
                                     </p>
-                                    <Link to="/service-details" className="link-btn">
+                                    <Link to="/graphic-designing" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>

@@ -145,7 +145,7 @@ const TestimonialTwo = () => {
                           </div>
                           <div className="testi-profile_thumb">
                             <img
-                              src="assets/img/testimonial/testimonial-2-1.png"
+                              src="assets/img/testimonial/testimonial-5-1.png"
                               alt="img"
                             />
                           </div>

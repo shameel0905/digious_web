@@ -205,7 +205,7 @@ const HeaderFive = () => {
                 <Link to="#">Portfolio</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="#">Graphic Design</Link>
+                    <Link to="/graphic-designing">Graphic Design</Link>
                   </li>
                   <li>
                     <Link to="#">Website Design</Link>
@@ -228,7 +228,7 @@ const HeaderFive = () => {
                 <Link to="#">Service</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="/">Graphic Design</Link>
+                    <Link to="/graphic-designing">Graphic Design</Link>
                   </li>
                   <li>
                     <Link to="/">Website Development</Link>
@@ -354,7 +354,7 @@ const HeaderFive = () => {
                       <Link to="/service">Services</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link to="/">Graphic Design</Link>
+                          <Link to="/graphic-designing">Graphic Design</Link>
                         </li>
                         <li>
                           <Link to="/">Website Development</Link>
@@ -389,7 +389,7 @@ const HeaderFive = () => {
                       <Link to="#">Portfolio</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link to="#">Graphic Design</Link>
+                          <Link to="/graphic-designing">Graphic Design</Link>
                         </li>
                         <li>
                           <Link to="#">Website Design</Link>

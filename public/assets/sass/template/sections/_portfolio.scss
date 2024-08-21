@@ -259,7 +259,7 @@
     }
     .portfolio-card-details {
         position: absolute;
-        background: $white-color;
+        background: $smoke-color;
         border-radius: 20px;
         padding: 30px;
         bottom: 0px;
@@ -284,7 +284,7 @@
         line-height: 1.2em;
         margin-bottom: 20px;
         a {
-            color: $title-color;
+            color: $white-color;
             &:hover {
                 color: $theme-color;
             }

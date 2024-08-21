@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 // import ProcessTwo from './ProcessTwo'
-import ProcessOne from "./ProcessOne";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -72,7 +72,7 @@ const ServiceInnerDetails = () => {
                     data-aos-duration="500"
                     className="page-thumb style2"
                   >
-                    <img src="assets/img/service/Katana.jpeg" alt="img" />
+                    <img src="assets/img/service/graphic-3.jpg" alt="img" />
                   </div>
                 </div>
                 <div className="col-lg-6">
@@ -82,7 +82,7 @@ const ServiceInnerDetails = () => {
                     data-aos-duration="500"
                     className="page-thumb style2"
                   >
-                    <img src="assets/img/service/RONIN.jpeg" alt="img" />
+                    <img src="assets/img/service/graphic-4.jpg" alt="img" />
                   </div>
                 </div>
               </div>
@@ -126,7 +126,70 @@ const ServiceInnerDetails = () => {
           </div>
         </div>
       </section>
-      <ProcessOne />
+
+      {/* Section of portfolio starts from here */}
+
+      <div className="portfolio-area-3 space">
+        <div className="container">
+          <div className="row justify-content-center align-items-end">
+            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" className="col-xl-6">
+              <div className="title-area text-center">
+                <span className="sub-title">
+                  <img src="assets/img/icon/title_left.svg" alt="shape" />
+                  Latest Projects of Graphic Design
+                </span>
+                <h2 className="sec-title style2">
+                  Guiding Businesses Toward Success
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div className="row gx-30 gy-30">
+            <div data-aos="fade-up" data-aos-delay="600" className="col-lg-6">
+              <div className="portfolio-card-3">
+                <div className="portfolio-card-thumb">
+                  <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                </div>
+                <div className="portfolio-card-details">
+                  <span className="portfolio-card-details_subtitle">
+                    Experience
+                  </span>
+                  <h4 className="portfolio-card-details_title">
+                    <Link to="/">
+                      Your Business Goals with the Confidence
+                    </Link>
+                  </h4>
+                  <p className="portfolio-card-details_text">
+                    We have been operating for over a decade, providing
+                    top-notch services to our clients and building
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div data-aos="fade-up" data-aos-delay="700" className="portfolio-card-3">
+                <div className="portfolio-card-thumb">
+                  <img src="assets/img/service/katana.jpeg" alt="img" />
+                </div>
+                <div className="portfolio-card-details">
+                  <span className="portfolio-card-details_subtitle">
+                    Experience
+                  </span>
+                  <h4 className="portfolio-card-details_title">
+                    <Link to="/">
+                      Your Business Goals with the Confidence
+                    </Link>
+                  </h4>
+                  <p className="portfolio-card-details_text">
+                    We have been operating for over a decade, providing
+                    top-notch services to our clients and building
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

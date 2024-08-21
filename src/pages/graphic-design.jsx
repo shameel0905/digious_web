@@ -9,7 +9,8 @@ import ServiceInnerDetails from "../components/ServiceInnerDetails";
 import BreadcrumbInner from "../components/BreadcrumbInner";
 // import TestimonialOne from "../components/TestimonialOne";
 import TestimonialTwo from "../components/TestimonialTwo";
-
+import ProcessOne from "../components/ProcessOne";
+import PortfolioThree from "../components/PortfolioThree";
 
 const GraphicService = () => {
   let [active, setActive] = useState(true);
@@ -17,7 +18,6 @@ const GraphicService = () => {
     setTimeout(function () {
       setActive(false);
     }, 500);
-
   }, []);
   return (
     <>
@@ -36,17 +36,20 @@ const GraphicService = () => {
       {/* ServiceDetails */}
       <ServiceInnerDetails />
 
+      {/* ProcessOne */}
+      <ProcessOne />
+
       {/* TestimonialOne */}
-      <TestimonialTwo/>
+      <TestimonialTwo />
 
       {/* Newsletter */}
       <Newsletter />
 
       {/* FooterOne */}
       <FooterOne />
+
     </>
   );
 };
 
 export default GraphicService;
-

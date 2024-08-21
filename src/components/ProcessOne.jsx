@@ -95,7 +95,6 @@ const ProcessOne = () => {
           <div className="row gy-30">
             <div
               data-aos="fade-up"
-              data-aos-offset="200"
               data-aos-delay="500"
               className="col-lg-6 col-xl-3 process-card-wrap"
             >
@@ -114,7 +113,6 @@ const ProcessOne = () => {
             </div>
             <div
               data-aos="fade-left"
-              data-aos-offset="300"
               data-aos-delay="600"
               className="col-lg-6 col-xl-3 process-card-wrap"
             >
@@ -133,7 +131,6 @@ const ProcessOne = () => {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-offset="400"
               data-aos-delay="700"
               className="col-lg-6 col-xl-3 process-card-wrap"
             >
@@ -152,7 +149,6 @@ const ProcessOne = () => {
             </div>
             <div
               data-aos="fade-right"
-              data-aos-offset="500"
               data-aos-delay="800"
               className="col-lg-6 col-xl-3 process-card-wrap"
             >
@@ -170,8 +166,7 @@ const ProcessOne = () => {
               </div>
             </div>
             <div
-              data-aos="fade-right"
-              data-aos-offset="500"
+              data-aos="fade-up"
               data-aos-delay="800"
               className="col-lg-6 col-xl-3 process-card-wrap"
             >
@@ -189,8 +184,7 @@ const ProcessOne = () => {
               </div>
             </div>
             <div
-              data-aos="fade-right"
-              data-aos-offset="500"
+              data-aos="fade-left"
               data-aos-delay="800"
               className="col-lg-6 col-xl-3 process-card-wrap"
             >
@@ -208,8 +202,7 @@ const ProcessOne = () => {
               </div>
             </div>
             <div
-              data-aos="fade-right"
-              data-aos-offset="500"
+              data-aos="fade-up"
               data-aos-delay="800"
               className="col-lg-6 col-xl-3 process-card-wrap"
             >
@@ -228,7 +221,6 @@ const ProcessOne = () => {
             </div>
             <div
               data-aos="fade-right"
-              data-aos-offset="500"
               data-aos-delay="800"
               className="col-lg-6 col-xl-3 process-card-wrap"
             >
