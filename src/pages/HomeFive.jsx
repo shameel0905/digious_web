@@ -48,8 +48,10 @@ const HomeFive = () => {
       {/* ClientThree */}
       <ClientThree />
 
-      {/* AboutFive */}
-      <AboutFive />
+      <div className="bg-dark2 space">
+        {/* AboutOne */}
+        <AboutFive />
+      </div>
 
       {/* ProcessTwo */}
       <ProcessTwo />
@@ -63,8 +65,10 @@ const HomeFive = () => {
       {/* CTA_Three */}
       <CTAThree />
 
-      {/* TeamFour */}
-      <TeamFour />
+      {/* TeamFour
+      <TeamFour /> */}
+
+      {/* porfolio willbe here */}
 
       {/* FaqThree */}
       <FaqThree />

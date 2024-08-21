@@ -9,7 +9,7 @@ const AboutFive = () => {
   useEffect(() => { Aos.init() });
 
   return (
-    <section className="bg-dark2 space-bottom">
+    <section className="">
       <div className="about-area-5">
         <div className="shadow-shape-left" />
         <div className="container">

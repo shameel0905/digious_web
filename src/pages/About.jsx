@@ -38,7 +38,7 @@ const About = () => {
       {/* Breadcrumb */}
       <Breadcrumb title="About Us" />
 
-      <div className="space-top">
+      <div className="bg-dark2 space">
         {/* AboutOne */}
         <AboutFive />
       </div>
@@ -60,12 +60,12 @@ const About = () => {
         {/* CounterOne */}
         <CounterOne />
       </div>
-      
+
       {/* GoalArea */}
       <GoalArea />
 
-      {/* TeamFour */}
-      <TeamFour />
+      {/* TeamFour
+      <TeamFour /> */}
 
       {/* Newsletter */}
       <Newsletter />
