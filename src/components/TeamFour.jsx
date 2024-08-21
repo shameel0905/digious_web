@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const TeamFour = () => {
     return (
-        <section className='bg-dark2'>
-            <div className="team-area-1 space-top">
+        <section className=''>
+            <div className="team-area-1 space">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-7">
