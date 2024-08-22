@@ -20,6 +20,15 @@ import TeamDetails from "./pages/TeamDetails";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import GraphicService from "./pages/graphic-design";
+import BlockChainService from "./pages/Block-Chain-dev";
+import DigitalMarketingService from "./pages/Digital-Marketing";
+import ECommerceSolutionService from "./pages/E-Commerce-Solution";
+import Erpsolutions from "./pages/ERP-Solutions";
+import GameDevelopmentService from "./pages/Game-Development";
+import MobileAppService from "./pages/Mobile-App-Development";
+import SoftwareDevService from "./pages/Software-Development";
+import SqaService from "./pages/Software-Quality-Assurance";
+import WebdevServices from "./pages/website-development";
 
 const App = () => {
   return (
@@ -36,6 +45,15 @@ const App = () => {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/service" element={<Service />} />
           <Route exact path="/graphic-designing" element={<GraphicService />} />
+          <Route exact path="/block-chain-development" element={<BlockChainService />} />
+          <Route exact path="/digital-marketing" element={<DigitalMarketingService />} />
+          <Route exact path="/ecommerce-solutions" element={<ECommerceSolutionService />} />
+          <Route exact path="/erp-solutions" element={<Erpsolutions />} />
+          <Route exact path="/game-development" element={<GameDevelopmentService />} />
+          <Route exact path="/mobile-app-development" element={<MobileAppService />} />
+          <Route exact path="/software-development" element={<SoftwareDevService />} />
+          <Route exact path="/software-quality-assurance" element={<SqaService />} />
+          <Route exact path="/website-development" element={<WebdevServices />} />
           <Route exact path="/project" element={<Project />} />
           <Route exact path="/project-details" element={<ProjectDetails />} />
           <Route exact path="/blog" element={<Blog />} />

@@ -61,8 +61,10 @@ const About = () => {
         <CounterOne />
       </div>
 
-      {/* GoalArea */}
-      <GoalArea />
+      <div className="space-bottom">
+        {/* GoalArea */}
+        <GoalArea />
+      </div>
 
       {/* TeamFour
       <TeamFour /> */}

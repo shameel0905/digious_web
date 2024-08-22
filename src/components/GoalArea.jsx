@@ -2,7 +2,7 @@ import React from 'react'
 
 const GoalArea = () => {
     return (
-        <div className="bg-dark2 goal-area space">
+        <div className="goal-area">
             <div className="container">
                 <div className="row align-items-end">
                     <div className="col-lg-6">

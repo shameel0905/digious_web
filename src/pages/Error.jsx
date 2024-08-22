@@ -20,14 +20,14 @@ const Error = () => {
       {/* Helmet */}
       <HelmetReact title={"Team"} />
 
-      {/* header five */}
-      <HeaderTwo />
+      {/* header five
+      <HeaderTwo /> */}
 
       {/* ErrorInner */}
       <ErrorInner />
 
-      {/* FooterFive */}
-      <FooterFive />
+      {/* FooterFive
+      <FooterFive /> */}
     </div>
   );
 };

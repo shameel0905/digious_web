@@ -12,7 +12,7 @@ import TestimonialTwo from "../components/TestimonialTwo";
 import ProcessOne from "../components/ProcessOne";
 import PortfolioThree from "../components/PortfolioThree";
 
-const GraphicService = () => {
+const BlockChainService = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
     setTimeout(function () {
@@ -52,4 +52,4 @@ const GraphicService = () => {
   );
 };
 
-export default GraphicService;
+export default BlockChainService;

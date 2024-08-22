@@ -169,7 +169,7 @@ const ServiceInnerDetails = () => {
             <div className="col-lg-6">
               <div data-aos="fade-up" data-aos-delay="700" className="portfolio-card-3">
                 <div className="portfolio-card-thumb">
-                  <img src="assets/img/service/katana.jpeg" alt="img" />
+                  <img src="assets/img/service/graphic-4.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
                   <span className="portfolio-card-details_subtitle">
