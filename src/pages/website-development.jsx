@@ -25,13 +25,13 @@ const WebdevServices = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Graphic Design"} />
+      <HelmetReact title={"Website Development"} />
 
       {/* HeaderFive */}
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Graphic Design" />
+      <BreadcrumbInner title="Website Development" />
 
       {/* ServiceDetails */}
       <ServiceInnerDetails />
