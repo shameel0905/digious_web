@@ -18,6 +18,11 @@ import FooterFour from "../components/FooterFour";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
+ /*
+Theme Name: Digious
+Author: Digious Solutions
+Author URI: https://github.com/digious-solutions 
+*/
 
 const HomeFive = () => {
   let [active, setActive] = useState(true);
