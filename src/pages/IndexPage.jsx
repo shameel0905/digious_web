@@ -12,12 +12,9 @@ const IndexPage = () => {
   const cssCode = `
   
   /*
-Theme Name: Bizmaster
-Theme URI: https://wowtheme7.com/bizmaster
-Author: wowtheme7
-Author URI: https://wowtheme7.com 
-Description: Bizmaster - Business Consulting React Js Template
-Version: 2.0.1
+Theme Name: Digious
+Author: Digious Solutions
+Author URI: https://github.com/digious-solutions 
 */
 
 :root {
