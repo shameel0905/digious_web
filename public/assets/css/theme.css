@@ -4432,7 +4432,7 @@ a.text-theme:hover,
   }
   .breadcumb-menu {
     text-align: center;
-    margin: 22px; 0 -0.45em 0;
+    margin: 22px 0 -0.45em 0;
   }
   .breadcumb-menu li, .breadcumb-menu a, .breadcumb-menu span {
     font-size: 14px;
@@ -5629,7 +5629,7 @@ ul.comment-list .comment-item:first-child:not(.children .comment-item) > .post-c
   margin-bottom: 10px;
 }
 .appointment-form .btn {
-  padding: 24px 34px 22px; !important;
+  padding: 24px 34px 22px !important;
 }
 
 /* Medium Large devices */
@@ -13214,3 +13214,4 @@ span.select2-selection.select2-selection--single:focus {
     padding-top: 65px;
   }
 }
+
