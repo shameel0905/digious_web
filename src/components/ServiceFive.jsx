@@ -18,7 +18,7 @@ const ServiceFive = () => {
                                     Our Services
                                 </span>
                                 <h2 data-aos="fade-up" data-aos-offset="400" data-aos-delay="500" className="sec-title style2 text-white">
-                                    Your Business Goals with the Confidence
+                                Accomplishing Your Tech Goals with Absolute Assurance
                                 </h2>
                             </div>
                         </div>
@@ -29,14 +29,14 @@ const ServiceFive = () => {
                         <div data-aos="fade-up" data-aos-offset="400" data-aos-delay="400" className="col-xl-4 col-md-6">
                             <div className="service-card-4">
                                 <div className="service-card-thumb">
-                                    <img src="assets/img/service/service-5-1.jpg" alt="img" />
+                                    <img src="assets/img/service/web-development.jpg" alt="img" />
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Business Growth Catalyst</Link>
+                                        <Link to="/service-details">Web Development</Link>
                                     </h4>
                                     <p className="service-card_text">
-                                        Use receiving acco growin number of currencies and get paid lik
+                                    Providing cutting-edge web development solutions to elevate your business's online presence.
                                     </p>
                                 </div>
                             </div>
@@ -44,14 +44,14 @@ const ServiceFive = () => {
                         <div data-aos="fade-up" data-aos-offset="400" data-aos-delay="600" className="col-xl-4 col-md-6">
                             <div className="service-card-4">
                                 <div className="service-card-thumb">
-                                    <img src="assets/img/service/service-5-2.jpg" alt="img" />
+                                    <img src="assets/img/service/graphic-design.jpg" alt="img" />
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Profitability Maximizers</Link>
+                                        <Link to="/service-details">Graphic Designing</Link>
                                     </h4>
                                     <p className="service-card_text">
-                                        Use receiving acco growin number of currencies and get paid lik
+                                    Delivering exceptional graphic design services to enhance your brand's visual identity.
                                     </p>
                                 </div>
                             </div>
@@ -59,14 +59,14 @@ const ServiceFive = () => {
                         <div data-aos="fade-up" data-aos-offset="400" data-aos-delay="800" className="col-xl-4 col-md-6">
                             <div className="service-card-4">
                                 <div className="service-card-thumb">
-                                    <img src="assets/img/service/service-5-3.jpg" alt="img" />
+                                    <img src="assets/img/service/digital-marketing.jpg" alt="img" />
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Efficiency Experts</Link>
+                                        <Link to="/service-details">Digital Marketing</Link>
                                     </h4>
                                     <p className="service-card_text">
-                                        Use receiving acco growin number of currencies and get paid lik
+                                    Offering strategic digital marketing services to boost your brand's online visibility.
                                     </p>
                                 </div>
                             </div>

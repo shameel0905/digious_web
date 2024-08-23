@@ -21,8 +21,7 @@ const HeroFive = () => {
                                     <span className="text-theme2"> Business </span> Sphere
                                 </h1>
                                 <p data-aos="fade-up" data-aos-delay="800"  className="hero-text text-white">
-                                    A business consultant is a professional who provides expert advice
-                                    and guidance to businesses on various aspects such
+                                As a service provider, we deliver specialist advice and strategic guidance on various unique aspects within the IT realm.
                                 </p>
                             </div>
                         </div>
