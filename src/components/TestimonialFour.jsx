@@ -62,7 +62,7 @@ const TestimonialFour = () => {
                                                 </div>
                                                 <div className="testi-card_content">
                                                     <p className="testi-card_text">
-                                                    I had a great experience working with Digious! Right from the start, they're super flexible, even when I asked for things that weren't really in the original plan. They always found a way to make it work, which I really appreciated. They kept me in the loop the whole time, letting me know how things were going and giving me heads up if there were any issues. This made the whole process smooth and stress-free. The website turned out awesome—better than I expected! It's stylish, easy to use, and I've gotten a lot of positive feedback about it. Overall, if you need a reliable and creative web developer, I totally recommend Digious. Thanks for making the shop so amazing
+                                                    Working with Digious was fantastic! They were flexible, inclusive and reliable. Despite my changing demands, they delivered a stylish, user-friendly, exceptional website. Great service that I highly recommend. Thank you Digious!
                                                     </p>
                                                     <div className="testi-card-profile">
                                                         <div className="testi-profile_thumb">
@@ -88,10 +88,7 @@ const TestimonialFour = () => {
                                                 </div>
                                                 <div className="testi-card_content">
                                                     <p className="testi-card_text">
-                                                        Roofing is the proces of installin repai and amaintaining
-                                                        roofs on buildings. It involves a to various materials such
-                                                        shil tiles met and membranes. Roofing services may include
-                                                        is inspect
+                                                    My Digious experience was terrific! Proving flexibility and always keeping me informed, they created a fantastic, intuitive website that received positive feedback, regardless of last-minute changes. Strongly endorse their creative web development expertise. Amazing job, Digious!
                                                     </p>
                                                     <div className="testi-card-profile">
                                                         <div className="testi-profile_thumb">
@@ -101,9 +98,9 @@ const TestimonialFour = () => {
                                                             />
                                                         </div>
                                                         <div className="testi-card-profile-details">
-                                                            <h4 className="testi-profile-title">Starli shaine</h4>
+                                                            <h4 className="testi-profile-title">Serena Jones</h4>
                                                             <span className="testi-profile-desig">
-                                                                Marketing Manager
+                                                                Customer
                                                             </span>
                                                         </div>
                                                     </div>

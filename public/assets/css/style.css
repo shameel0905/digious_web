@@ -11013,6 +11013,14 @@ li.trackback {
 
 /*------------------- 4.00. Faq -------------------*/
 /* Faq 1 ---------------------------------- */
+
+/* added by devolution */
+
+button.accordion-button.collapsed {
+  line-height: 1.8em;
+  font-size: 18px !important;
+}
+
 .faq-area-1 {
   margin-top: -400px;
   padding-top: 400px !important;

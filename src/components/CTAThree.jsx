@@ -10,7 +10,7 @@ const CTAThree = () => {
                             <div className="title-area mb-lg-0 text-lg-start text-center">
                                 <h2 className="sec-title text-white">Subscribe To Our Newsletter</h2>
                                 <p className="sec-text text-white">
-                                    Lorem Ipsum is simply dummy text of the printing
+                                Regular updates on latest news and events.
                                 </p>
                             </div>
                         </div>

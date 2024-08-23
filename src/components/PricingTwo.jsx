@@ -36,7 +36,7 @@ const PricingTwo = () => {
                   data-aos-delay="600"
                   className="sec-title style2 text-white"
                 >
-                  Achieve Your Goal of Business
+                  Cost-Effective Plans for Our Services
                 </h2>
               </div>
             </div>
@@ -48,11 +48,11 @@ const PricingTwo = () => {
                 data-aos-delay="700"
                 className="pricing-card style2"
               >
-                <h4 className="pricing-card_title">Consult</h4>
+                <h4 className="pricing-card_title">Web Development</h4>
                 <div className="pricing-card-price-wrap">
                   <h3 className="pricing-card_price">
-                    <span className="currency">$</span>32
-                    <span className="duration">/month</span>
+                    <span className="currency">$</span>199
+                    {/* <span className="duration">/month</span> */}
                   </h3>
                 </div>
                 <div className="pricing-card-details">
@@ -60,24 +60,24 @@ const PricingTwo = () => {
                     <ul>
                       <li>
                         <i className="fas fa-check" />
-                        Mistakes To Avoid
+                        Responsive Design
                       </li>
                       <li>
                         <i className="fas fa-check" />
-                        Your Startup
+                        User-Friendly Interface
                       </li>
                       <li>
                         <i className="fas fa-check" />
-                        Knew About Fonts
+                        SEO Optimized
                       </li>
                       <li>
                         <i className="fas fa-check" />
-                        Winning Metric for Your Startup
+                        Customized CMS
                       </li>
                     </ul>
                   </div>
                     <Link onClick={openPopup} className="global-btn">
-                      Get Now{" "}
+                      Get Quote Now{" "}
                       <img src="assets/img/icon/right-icon2.svg" alt="arrow" />
                     </Link>
                 </div>
@@ -89,11 +89,11 @@ const PricingTwo = () => {
                 data-aos-delay="800"
                 className="pricing-card style2 active"
               >
-                <h4 className="pricing-card_title">Basic</h4>
+                <h4 className="pricing-card_title">Graphic Designing</h4>
                 <div className="pricing-card-price-wrap">
                   <h3 className="pricing-card_price">
-                    <span className="currency">$</span>25
-                    <span className="duration">/month</span>
+                    <span className="currency">$</span>99
+                    {/* <span className="duration">/month</span> */}
                   </h3>
                 </div>
                 <div className="pricing-card-details">
@@ -101,24 +101,24 @@ const PricingTwo = () => {
                     <ul>
                       <li>
                         <i className="fas fa-check" />
-                        Mistakes To Avoid
+                        Brand Consistency
                       </li>
                       <li>
                         <i className="fas fa-check" />
-                        Your Startup
+                        Innovative Concepts
                       </li>
                       <li>
                         <i className="fas fa-check" />
-                        Knew About Fonts
+                        Versatile Designs
                       </li>
                       <li>
                         <i className="fas fa-check" />
-                        Winning Metric for Your Startup
+                        Attention to Detail
                       </li>
                     </ul>
                   </div>
                   <Link className="global-btn" to="/contact">
-                    Get Now{" "}
+                    Get Quote Now{" "}
                     <img
                       src="assets/img/icon/right-icon2.svg"
                       alt="Bizmaster"
@@ -133,11 +133,11 @@ const PricingTwo = () => {
                 data-aos-delay="900"
                 className="pricing-card style2"
               >
-                <h4 className="pricing-card_title">Pro</h4>
+                <h4 className="pricing-card_title">Digital Marketing</h4>
                 <div className="pricing-card-price-wrap">
                   <h3 className="pricing-card_price">
-                    <span className="currency">$</span>36
-                    <span className="duration">/month</span>
+                    <span className="currency">$</span>299
+                    {/* <span className="duration">/month</span> */}
                   </h3>
                 </div>
                 <div className="pricing-card-details">
@@ -145,24 +145,24 @@ const PricingTwo = () => {
                     <ul>
                       <li>
                         <i className="fas fa-check" />
-                        Mistakes To Avoid
+                        Target Audience Research
                       </li>
                       <li>
                         <i className="fas fa-check" />
-                        Your Startup
+                        SEO Implementation
                       </li>
                       <li>
                         <i className="fas fa-check" />
-                        Knew About Fonts
+                        Content Marketing
                       </li>
                       <li>
                         <i className="fas fa-check" />
-                        Winning Metric for Your Startup
+                        Data Analysis
                       </li>
                     </ul>
                   </div>
                   <Link className="global-btn" to="/contact">
-                    Get Now{" "}
+                    Get Quote Now{" "}
                     <img
                       src="assets/img/icon/right-icon2.svg"
                       alt="Bizmaster"
