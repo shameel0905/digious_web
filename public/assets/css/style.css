@@ -11016,10 +11016,6 @@ li.trackback {
 
 /* added by devolution */
 
-button.accordion-button.collapsed {
-  line-height: 1.8em;
-  font-size: 18px !important;
-}
 
 .faq-area-1 {
   margin-top: -400px;
@@ -11049,6 +11045,7 @@ button.accordion-button.collapsed {
   position: relative;
   box-shadow: none;
   border-bottom: 1px solid rgba(36, 63, 55, 0.2);
+  
 }
 .accordion-card .accordion-button:after {
   content: "\f067";
