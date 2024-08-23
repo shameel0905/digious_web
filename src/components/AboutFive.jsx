@@ -19,7 +19,7 @@ const AboutFive = () => {
               data-aos-offset="200"
               data-aos-delay="500" className="about-thumb5">
                 <div className="img1">
-                  <img  src="assets/img/normal/about_5-1.png" alt="img" />
+                  <img  src="assets/img/normal/about-us.jpg" alt="img" />
                 </div>
                 <div className="about-counter-wrap jump-reverse">
                   <h3 className="about-counter">

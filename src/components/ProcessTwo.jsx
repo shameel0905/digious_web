@@ -16,14 +16,14 @@ const ProcessTwo = () => {
                                     Work Process
                                 </span>
                                 <h2 data-aos="fade-up" data-aos-delay="700" className="sec-title style2 text-white">
-                                    Unleash Business's Hid Potential
+                                Our Efficient Working Process
                                 </h2>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <p data-aos="fade-up" data-aos-delay="600" className="mb-60 sec-text text-white mt-0">
-                                Lorem Ipsum is simply dummy a of the printing and type setting
-                                industry Loreaim Ipsum has been the industry's standard dummy.
+                            Our working process is designed for efficiency. We strategize, design, develop and test, ensuring top-tier results tailored to your needs.
+
                             </p>
                         </div>
                     </div>
@@ -32,8 +32,8 @@ const ProcessTwo = () => {
                             <div className="process-card style2">
                                 <h3 className="process-card_number">01</h3>
                                 <div className="process-card_content">
-                                    <span className="process-card-text">Technical Operation</span>
-                                    <h4 className="process-card-title"> Growth Acceler</h4>
+                                    <span className="process-card-text">Strategic Planning</span>
+                                    <h4 className="process-card-title"> Blueprint Creation</h4>
                                 </div>
                             </div>
                         </div>
@@ -41,8 +41,8 @@ const ProcessTwo = () => {
                             <div className="process-card style2">
                                 <h3 className="process-card_number">02</h3>
                                 <div className="process-card_content">
-                                    <span className="process-card-text">Technical Operation</span>
-                                    <h4 className="process-card-title"> Growth Acceler</h4>
+                                    <span className="process-card-text">Creative Designing</span>
+                                    <h4 className="process-card-title"> Visual Innovation</h4>
                                 </div>
                             </div>
                         </div>
@@ -50,8 +50,8 @@ const ProcessTwo = () => {
                             <div className="process-card style2">
                                 <h3 className="process-card_number">03</h3>
                                 <div className="process-card_content">
-                                    <span className="process-card-text">Technical Operation</span>
-                                    <h4 className="process-card-title"> Growth Acceler</h4>
+                                    <span className="process-card-text">Skilled Development</span>
+                                    <h4 className="process-card-title"> Technical Precision</h4>
                                 </div>
                             </div>
                         </div>
@@ -59,8 +59,8 @@ const ProcessTwo = () => {
                             <div className="process-card style2">
                                 <h3 className="process-card_number">04</h3>
                                 <div className="process-card_content">
-                                    <span className="process-card-text">Technical Operation</span>
-                                    <h4 className="process-card-title"> Growth Acceler</h4>
+                                    <span className="process-card-text">Comprehensive Testing</span>
+                                    <h4 className="process-card-title"> Quality Assurance</h4>
                                 </div>
                             </div>
                         </div>
