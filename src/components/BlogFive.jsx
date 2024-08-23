@@ -47,7 +47,7 @@ const BlogFive = () => {
                                     Latest Blog
                                 </span>
                                 <h2 data-aos="fade-up" data-aos-delay="700" className="sec-title style2 text-white">
-                                    Strategic Solutions for Business Growth
+                                Informative Insights from Our Experts
                                 </h2>
                             </div>
                         </div>

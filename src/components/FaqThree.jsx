@@ -11,10 +11,10 @@ const FaqThree = () => {
                             <div className="title-area mb-60">
                                 <span data-aos="fade-up" data-aos-delay="600" className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />
-                                    Ask Question
+                                    FAQs
                                 </span>
                                 <h2 data-aos="fade-up" data-aos-delay="700" className="sec-title style2 text-white">
-                                    Transforming Vision into Reality Together
+                                Solutions to Your Frequent Queries
                                 </h2>
                             </div>
                             <div data-aos="fade-up" data-aos-delay="700" className="faq-thumb5">
@@ -47,7 +47,7 @@ const FaqThree = () => {
                                             aria-expanded="true"
                                             aria-controls="collapse-1"
                                         >
-                                            What services do you offer?
+                                            What types of services do you offer?
                                         </button>
                                     </div>
                                     <div
@@ -58,9 +58,7 @@ const FaqThree = () => {
                                     >
                                         <div className="accordion-body">
                                             <p className="faq-text">
-                                                At the heart of our consulting approach lies a dedication to
-                                                understanding your unique needs, fostering collaboration At
-                                                the heart of our consulting approach lies a dedication{" "}
+                                            We offer a range of IT services including web development, graphic design, digital marketing, and much more.{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -75,7 +73,7 @@ const FaqThree = () => {
                                             aria-expanded="false"
                                             aria-controls="collapse-2"
                                         >
-                                            How long does complete a project?
+                                            How long does it usually take for a project completion?
                                         </button>
                                     </div>
                                     <div
@@ -86,9 +84,7 @@ const FaqThree = () => {
                                     >
                                         <div className="accordion-body">
                                             <p className="faq-text">
-                                                At the heart of our consulting approach lies a dedication to
-                                                understanding your unique needs, fostering collaboration At
-                                                the heart of our consulting approach lies a dedication{" "}
+                                            The duration of the project varies depending on the complexity and the requirements. Once we understand your needs, we can provide a more accurate timeline.{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -103,7 +99,7 @@ const FaqThree = () => {
                                             aria-expanded="false"
                                             aria-controls="collapse-3"
                                         >
-                                            How much does with your agency?
+                                            What if I'm not satisfied with the provided service?
                                         </button>
                                     </div>
                                     <div
@@ -114,9 +110,7 @@ const FaqThree = () => {
                                     >
                                         <div className="accordion-body">
                                             <p className="faq-text">
-                                                At the heart of our consulting approach lies a dedication to
-                                                understanding your unique needs, fostering collaboration At
-                                                the heart of our consulting approach lies a dedication{" "}
+                                            Customer satisfaction is our top priority. We will work closely with you to make any necessary revisions until you are fully satisfied.{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -131,7 +125,7 @@ const FaqThree = () => {
                                             aria-expanded="false"
                                             aria-controls="collapse-4"
                                         >
-                                            Where a Branding Consultants?
+                                            Do you provide ongoing support post-completion of the project?
                                         </button>
                                     </div>
                                     <div
@@ -142,9 +136,7 @@ const FaqThree = () => {
                                     >
                                         <div className="accordion-body">
                                             <p className="faq-text">
-                                                At the heart of our consulting approach lies a dedication to
-                                                understanding your unique needs, fostering collaboration At
-                                                the heart of our consulting approach lies a dedication{" "}
+                                            Yes, we offer post-completion support to ensure everything runs smoothly. The specifics will be discussed prior to project commencement.{" "}
                                             </p>
                                         </div>
                                     </div>

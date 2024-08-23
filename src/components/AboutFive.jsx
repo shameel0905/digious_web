@@ -64,7 +64,7 @@ const AboutFive = () => {
               </div>
               <div className="btn-wrap">
                 <Link to="/about" className="global-btn style3">
-                  Get Started <i className="fas fa-arrow-right ms-2" />
+                  Learn More <i className="fas fa-arrow-right ms-2" />
                 </Link>
               </div>
             </div>
