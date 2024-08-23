@@ -117,13 +117,10 @@ const PricingTwo = () => {
                       </li>
                     </ul>
                   </div>
-                  <Link className="global-btn" to="/contact">
-                    Get Quote Now{" "}
-                    <img
-                      src="assets/img/icon/right-icon2.svg"
-                      alt="Bizmaster"
-                    />
-                  </Link>
+                  <Link onClick={openPopup} className="global-btn">
+                      Get Quote Now{" "}
+                      <img src="assets/img/icon/right-icon2.svg" alt="arrow" />
+                    </Link>
                 </div>
               </div>
             </div>
@@ -161,13 +158,10 @@ const PricingTwo = () => {
                       </li>
                     </ul>
                   </div>
-                  <Link className="global-btn" to="/contact">
-                    Get Quote Now{" "}
-                    <img
-                      src="assets/img/icon/right-icon2.svg"
-                      alt="Bizmaster"
-                    />
-                  </Link>
+                  <Link onClick={openPopup} className="global-btn">
+                      Get Quote Now{" "}
+                      <img src="assets/img/icon/right-icon2.svg" alt="arrow" />
+                    </Link>
                 </div>
               </div>
             </div>
