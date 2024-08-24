@@ -4,7 +4,7 @@ import HelmetReact from "../elements/HelmetReact";
 import HeaderFive from "../components/HeaderFive";
 import Breadcrumb from "../components/Breadcrumb";
 import GoalArea from "../components/GoalArea";
-import AboutFive from "../components/AboutFive";
+import AboutSix from "../components/AboutSix";
 import ProcessThree from "../components/ProcessThree";
 import TestimonialOne from "../components/TestimonialOne";
 import CounterOne from "../components/CounterOne";
@@ -40,9 +40,10 @@ const About = () => {
 
       <div className="bg-dark2 space">
         {/* AboutOne */}
-        <AboutFive />
+        <AboutSix />
       </div>
 
+     
       {/* WhyChoose */}
       <div className="space">
         <WhyChoose />
@@ -61,10 +62,10 @@ const About = () => {
         <CounterOne />
       </div>
 
-      <div className="space-bottom">
+      
         {/* GoalArea */}
-        <GoalArea />
-      </div>
+        {/* <GoalArea /> */}
+      
 
       {/* TeamFour
       <TeamFour /> */}

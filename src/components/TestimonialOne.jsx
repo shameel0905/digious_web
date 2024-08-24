@@ -68,10 +68,10 @@ const TestimonialOne = () => {
             <div data-aos="fade-up" data-aos-delay="500" className="title-area">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Clients Testimoniall
+                Clients Testimonial
               </span>
               <h2 className="sec-title style2">
-                Your Business Goals a Confidence
+              Valuable Feedback from Our Clients
               </h2>
             </div>
             <div data-aos="fade-right" data-aos-delay="500" className="testimonial-thumb1">
@@ -81,9 +81,7 @@ const TestimonialOne = () => {
           <div className="col-lg-6">
             <div data-aos="fade-up" data-aos-delay="500" className="title-area">
               <p className="testi-desc">
-                Dictum ultrices porttitor amet nec sollicitudin mi molestie
-                adipiscing netus. Lorem at ac ut morbi ullamcorper molestie
-                lacus loren ipsum dummy text provide happy
+              Read our valued clients' experiences with Digious Solutions. See how our dedicated team helped them achieve their business goals with tailored IT solutions.
               </p>
             </div>
             <div className="testi-area-slider">
@@ -100,26 +98,21 @@ const TestimonialOne = () => {
                           <i className="fas fa-star" />
                         </div>
                         <p className="testi-card_text">
-                          Roofing is the process of installin repai, and
-                          maintaining roofs on buildings. It involves various
-                          materials such shil tiles,metal, and membranes.
-                          Roofing services may include inspections repairs,
-                          waterproofing, and installation of new roofs. Proper
-                          roofing is crucial for protecting
+                        Working with Digious was fantastic! They were flexible, inclusive and reliable. Despite my changing demands, they delivered a stylish, user-friendly, exceptional website. Great service that I highly recommend. Thank you Digious!
                         </p>
                         <div className="testi-card-profile">
                           <div className="testi-profile_thumb">
                             <img
-                              src="assets/img/testimonial/testi-thumb_1.png"
+                              src="assets/img/testimonial/testi-thumb_3.png"
                               alt="img"
                             />
                           </div>
                           <div className="testi-card-profile-details">
                             <h4 className="testi-profile-title">
-                              Michael Ramirez
+                              Muhammad
                             </h4>
                             <span className="testi-profile-desig">
-                              Marketing Manager
+                              Upwork Inc.
                             </span>
                           </div>
                         </div>
@@ -141,12 +134,7 @@ const TestimonialOne = () => {
                           <i className="fas fa-star" />
                         </div>
                         <p className="testi-card_text">
-                          Roofing is the process of installin repai, and
-                          maintaining roofs on buildings. It involves various
-                          materials such shil tiles,metal, and membranes.
-                          Roofing services may include inspections repairs,
-                          waterproofing, and installation of new roofs. Proper
-                          roofing is crucial for protecting
+                        My Digious experience was terrific! Proving flexibility and always keeping me informed, they created a fantastic, intuitive website that received positive feedback, regardless of last-minute changes. Strongly endorse their creative web development expertise. Amazing job, Digious!
                         </p>
                         <div className="testi-card-profile">
                           <div className="testi-profile_thumb">
@@ -157,10 +145,10 @@ const TestimonialOne = () => {
                           </div>
                           <div className="testi-card-profile-details">
                             <h4 className="testi-profile-title">
-                              Starli shaine
+                              Serena Jones
                             </h4>
                             <span className="testi-profile-desig">
-                              Marketing Manager
+                              Upwork Inc.
                             </span>
                           </div>
                         </div>
@@ -171,46 +159,7 @@ const TestimonialOne = () => {
                     </div>
                   </div>
 
-                  <div className="p-2">
-                    <div className="testi-card">
-                      <div className="testi-card_content">
-                        <div className="rating">
-                          <i className="fas fa-star" />
-                          <i className="fas fa-star" />
-                          <i className="fas fa-star" />
-                          <i className="fas fa-star" />
-                          <i className="fas fa-star" />
-                        </div>
-                        <p className="testi-card_text">
-                          Roofing is the process of installin repai, and
-                          maintaining roofs on buildings. It involves various
-                          materials such shil tiles,metal, and membranes.
-                          Roofing services may include inspections repairs,
-                          waterproofing, and installation of new roofs. Proper
-                          roofing is crucial for protecting
-                        </p>
-                        <div className="testi-card-profile">
-                          <div className="testi-profile_thumb">
-                            <img
-                              src="assets/img/testimonial/testi-thumb_1.png"
-                              alt="img"
-                            />
-                          </div>
-                          <div className="testi-card-profile-details">
-                            <h4 className="testi-profile-title">
-                              Michael Ramirez
-                            </h4>
-                            <span className="testi-profile-desig">
-                              Marketing Manager
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="quote-icon">
-                        <img src="assets/img/icon/quote1-1.svg" alt="img" />
-                      </div>
-                    </div>
-                  </div>
+                 
                 </Slider>
               </div>
             </div>
