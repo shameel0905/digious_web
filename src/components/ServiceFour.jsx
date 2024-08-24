@@ -155,7 +155,7 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Non Fungible Tokens (NFTs) </Link>
+                                        <Link to="/service-details">Blockchain Development </Link>
                                     </h4>
                                     <p className="service-card_text">
                                         Step into the future of digital ownership with Digious Solutions, your gateway to the Non-Fungible Token (NFT) revolution. Immerse yourself in a world where art meets.
