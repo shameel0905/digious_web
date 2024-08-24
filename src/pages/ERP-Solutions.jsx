@@ -11,6 +11,9 @@ import BreadcrumbInner from "../components/BreadcrumbInner";
 import TestimonialTwo from "../components/TestimonialTwo";
 import ProcessOne from "../components/ProcessOne";
 import PortfolioThree from "../components/PortfolioThree";
+import ERPSolInnerDetails from "../components/ERPSolInnerDetails";
+import TestimonialOne from "../components/TestimonialOne";
+import ProcessOneERP from "../components/ProcessOneERP";
 
 const Erpsolutions = () => {
   let [active, setActive] = useState(true);
@@ -31,16 +34,18 @@ const Erpsolutions = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Graphic Design" />
+      <BreadcrumbInner title="ERP Solutions" />
 
       {/* ServiceDetails */}
-      <ServiceInnerDetails />
+      <ERPSolInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOne />
+      <ProcessOneERP />
 
       {/* TestimonialOne */}
-      <TestimonialTwo />
+      <div className="space">
+        <TestimonialOne />
+      </div>
 
       {/* Newsletter */}
       <Newsletter />

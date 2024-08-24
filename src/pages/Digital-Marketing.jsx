@@ -11,6 +11,9 @@ import BreadcrumbInner from "../components/BreadcrumbInner";
 import TestimonialTwo from "../components/TestimonialTwo";
 import ProcessOne from "../components/ProcessOne";
 import PortfolioThree from "../components/PortfolioThree";
+import DigitalMarkInnerDetails from "../components/DigitalMarkInnerDetails";
+import TestimonialOne from "../components/TestimonialOne";
+import ProcessOneDigitalMarket from "../components/ProcessOneDigitalMarket";
 
 const DigitalMarketingService = () => {
   let [active, setActive] = useState(true);
@@ -31,16 +34,18 @@ const DigitalMarketingService = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Graphic Design" />
+      <BreadcrumbInner title="Digital Marketing" />
 
       {/* ServiceDetails */}
-      <ServiceInnerDetails />
+      <DigitalMarkInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOne />
+      <ProcessOneDigitalMarket />
 
       {/* TestimonialOne */}
-      <TestimonialTwo />
+      <div className="space">
+        <TestimonialOne />
+      </div>
 
       {/* Newsletter */}
       <Newsletter />

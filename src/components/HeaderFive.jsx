@@ -231,31 +231,31 @@ const HeaderFive = () => {
                     <Link to="/graphic-designing">Graphic Design</Link>
                   </li>
                   <li>
-                    <Link to="/">Website Development</Link>
+                    <Link to="/website-development">Website Development</Link>
                   </li>
                   <li>
-                    <Link to="/">E-Commerce Solution</Link>
+                    <Link to="/ecommerce-solutions">E-Commerce Solution</Link>
                   </li>
                   <li>
-                    <Link to="/">Game Development</Link>
+                    <Link to="/game-development">Game Development</Link>
                   </li>
                   <li>
-                    <Link to="/">Mobile App Development</Link>
+                    <Link to="/mobile-app-development">Mobile App Development</Link>
                   </li>
                   <li>
-                    <Link to="/">Software Development</Link>
+                    <Link to="/software-development">Software Development</Link>
                   </li>
                   <li>
-                    <Link to="/">ERP Solutions</Link>
+                    <Link to="/erp-solutions">ERP Solutions</Link>
                   </li>
                   <li>
-                    <Link to="/">Digital Marketing</Link>
+                    <Link to="/digital-marketing">Digital Marketing</Link>
                   </li>
                   <li>
-                    <Link to="/">Non Fungible Tokens (NFTs)</Link>
+                    <Link to="/block-chain-development">Block Chain Develpment</Link>
                   </li>
                   <li>
-                    <Link to="/">Software Quality Assurance</Link>
+                    <Link to="/software-quality-assurance">Software Quality Assurance</Link>
                   </li>
                 </ul>
               </li>
@@ -357,31 +357,31 @@ const HeaderFive = () => {
                           <Link to="/graphic-designing">Graphic Design</Link>
                         </li>
                         <li>
-                          <Link to="/">Website Development</Link>
+                          <Link to="/website-development">Website Development</Link>
                         </li>
                         <li>
-                          <Link to="/">E-Commerce Solution</Link>
+                          <Link to="/ecommerce-solutions">E-Commerce Solution</Link>
                         </li>
                         <li>
-                          <Link to="/">Game Development</Link>
+                          <Link to="/game-development">Game Development</Link>
                         </li>
                         <li>
-                          <Link to="/">Mobile App Development</Link>
+                          <Link to="/mobile-app-development">Mobile App Development</Link>
                         </li>
                         <li>
-                          <Link to="/">Software Development</Link>
+                          <Link to="/software-development">Software Development</Link>
                         </li>
                         <li>
-                          <Link to="/">ERP Solutions</Link>
+                          <Link to="/erp-solutions">ERP Solutions</Link>
                         </li>
                         <li>
-                          <Link to="/">Digital Marketing</Link>
+                          <Link to="/digital-marketing">Digital Marketing</Link>
                         </li>
                         <li>
-                          <Link to="/">Non Fungible Tokens (NFTs)</Link>
+                          <Link to="/block-chain-development">Block Chain Develpment</Link>
                         </li>
                         <li>
-                          <Link to="/">Software Quality Assurance</Link>
+                          <Link to="/software-quality-assurance">Software Quality Assurance</Link>
                         </li>
                       </ul>
                     </li>

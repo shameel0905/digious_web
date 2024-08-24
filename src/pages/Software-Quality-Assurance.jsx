@@ -5,12 +5,15 @@ import HeaderFive from "../components/HeaderFive";
 // import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
-import ServiceInnerDetails from "../components/GraphicInnerDetails";
+// import ServiceInnerDetails from "../components/GraphicInnerDetails";  
 import BreadcrumbInner from "../components/BreadcrumbInner";
 // import TestimonialOne from "../components/TestimonialOne";
 import TestimonialTwo from "../components/TestimonialTwo";
 import ProcessOne from "../components/ProcessOne";
-import PortfolioThree from "../components/PortfolioThree";
+// import PortfolioThree from "../components/PortfolioThree";
+import SQAInnerDetails from "../components/SQAInnerDetails";
+import TestimonialOne from "../components/TestimonialOne";
+import ProcessOneSQA from "../components/ProcessOneSQA";
 
 const SqaService = () => {
   let [active, setActive] = useState(true);
@@ -31,16 +34,18 @@ const SqaService = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Graphic Design" />
+      <BreadcrumbInner title="Software Quality Assurance" />
 
       {/* ServiceDetails */}
-      <ServiceInnerDetails />
+      <SQAInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOne />
+      <ProcessOneSQA />
 
       {/* TestimonialOne */}
-      <TestimonialTwo />
+      <div className="space">
+        <TestimonialOne />
+      </div>
 
       {/* Newsletter */}
       <Newsletter />

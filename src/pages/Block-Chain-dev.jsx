@@ -11,6 +11,9 @@ import BreadcrumbInner from "../components/BreadcrumbInner";
 import TestimonialTwo from "../components/TestimonialTwo";
 import ProcessOne from "../components/ProcessOne";
 import PortfolioThree from "../components/PortfolioThree";
+import BlockChainInnerDetails from "../components/BlockChainInnerDetails";
+import TestimonialOne from "../components/TestimonialOne";
+import ProcessOneBlockChain from "../components/ProcessOneBlockChain";
 
 const BlockChainService = () => {
   let [active, setActive] = useState(true);
@@ -31,23 +34,24 @@ const BlockChainService = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Graphic Design" />
+      <BreadcrumbInner title="Block Chain Development" />
 
       {/* ServiceDetails */}
-      <ServiceInnerDetails />
+      <BlockChainInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOne />
+      <ProcessOneBlockChain />
 
       {/* TestimonialOne */}
-      <TestimonialTwo />
+      <div className="space">
+        <TestimonialOne />
+      </div>
 
       {/* Newsletter */}
       <Newsletter />
 
       {/* FooterOne */}
       <FooterOne />
-
     </>
   );
 };

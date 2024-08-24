@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const ServiceInnerDetails = () => {
+const ERPSolInnerDetails = () => {
   useEffect(() => {
     Aos.init();
   });
@@ -17,6 +17,7 @@ const ServiceInnerDetails = () => {
             <div className="col-xxl-12 col-lg-12">
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
+                  ERP Solution
                   Digious Solutions is a leading graphic agency that offers the
                   highest high-quality graphic design services.
                 </h3>
@@ -194,4 +195,4 @@ const ServiceInnerDetails = () => {
   );
 };
 
-export default ServiceInnerDetails;
+export default ERPSolInnerDetails;

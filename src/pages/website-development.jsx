@@ -5,12 +5,15 @@ import HeaderFive from "../components/HeaderFive";
 // import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
-import ServiceInnerDetails from "../components/GraphicInnerDetails";
+import WebsiteInnerDetails from "../components/WebsiteInnerDetails";
 import BreadcrumbInner from "../components/BreadcrumbInner";
 // import TestimonialOne from "../components/TestimonialOne";
 import TestimonialTwo from "../components/TestimonialTwo";
 import ProcessOne from "../components/ProcessOne";
 import PortfolioThree from "../components/PortfolioThree";
+import TestimonialOne from "../components/TestimonialOne";
+import ProcessOneWebsite from "../components/ProcessOneWebsite";
+
 
 const WebdevServices = () => {
   let [active, setActive] = useState(true);
@@ -35,13 +38,15 @@ const WebdevServices = () => {
       <BreadcrumbInner title="Website Development" />
 
       {/* ServiceDetails */}
-      <ServiceInnerDetails />
+      <WebsiteInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOne />
+      <ProcessOneWebsite />
 
       {/* TestimonialOne */}
-      <TestimonialTwo />
+      <div className="space">
+        <TestimonialOne />
+      </div>
 
       {/* Newsletter */}
       <Newsletter />

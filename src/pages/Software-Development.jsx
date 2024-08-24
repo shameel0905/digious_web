@@ -5,12 +5,15 @@ import HeaderFive from "../components/HeaderFive";
 // import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
-import ServiceInnerDetails from "../components/GraphicInnerDetails";
+// import ServiceInnerDetails from "../components/GraphicInnerDetails";
 import BreadcrumbInner from "../components/BreadcrumbInner";
 // import TestimonialOne from "../components/TestimonialOne";
 import TestimonialTwo from "../components/TestimonialTwo";
 import ProcessOne from "../components/ProcessOne";
 import PortfolioThree from "../components/PortfolioThree";
+import SoftwareDevInnerDetails from "../components/SoftwareDevInnerDetails";
+import TestimonialOne from "../components/TestimonialOne";
+import ProcessOneSoftwareDev from "../components/ProcessOneSoftwareDev";
 
 const SoftwareDevService = () => {
   let [active, setActive] = useState(true);
@@ -31,16 +34,18 @@ const SoftwareDevService = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Graphic Design" />
+      <BreadcrumbInner title="Software Development" />
 
       {/* ServiceDetails */}
-      <ServiceInnerDetails />
+      <SoftwareDevInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOne />
+      <ProcessOneSoftwareDev />
 
       {/* TestimonialOne */}
-      <TestimonialTwo />
+      <div className="space">
+        <TestimonialOne />
+      </div>
 
       {/* Newsletter */}
       <Newsletter />

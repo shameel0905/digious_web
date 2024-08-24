@@ -11,6 +11,9 @@ import BreadcrumbInner from "../components/BreadcrumbInner";
 import TestimonialTwo from "../components/TestimonialTwo";
 import ProcessOne from "../components/ProcessOne";
 import PortfolioThree from "../components/PortfolioThree";
+import MobielAppInnerDetails from "../components/MobileAppInnerDetails";
+import TestimonialOne from "../components/TestimonialOne";
+import ProcessOneMobileApp from "../components/ProcessOneMobileApp";
 
 const MobileAppService = () => {
   let [active, setActive] = useState(true);
@@ -31,16 +34,18 @@ const MobileAppService = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Graphic Design" />
+      <BreadcrumbInner title="Mobile App Development" />
 
       {/* ServiceDetails */}
-      <ServiceInnerDetails />
+      <MobielAppInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOne />
+      <ProcessOneMobileApp />
 
       {/* TestimonialOne */}
-      <TestimonialTwo />
+      <div className="space">
+        <TestimonialOne />
+      </div>
 
       {/* Newsletter */}
       <Newsletter />
