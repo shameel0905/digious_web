@@ -74,7 +74,7 @@ const TestimonialFour = () => {
                                                         <div className="testi-card-profile-details">
                                                             <h4 className="testi-profile-title">Muhammad</h4>
                                                             <span className="testi-profile-desig">
-                                                                Customer
+                                                                Upwork Inc.
                                                             </span>
                                                         </div>
                                                     </div>
@@ -100,7 +100,7 @@ const TestimonialFour = () => {
                                                         <div className="testi-card-profile-details">
                                                             <h4 className="testi-profile-title">Serena Jones</h4>
                                                             <span className="testi-profile-desig">
-                                                                Customer
+                                                                Upwork Inc.
                                                             </span>
                                                         </div>
                                                     </div>

@@ -11,10 +11,10 @@ const ServiceFour = () => {
                             <div className="title-area text-center">
                                 <span className="sub-title text-white">
                                     <img src="assets/img/icon/title_left.svg" alt="shape" />
-                                    Latest Service
+                                    Our Services
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Maximizing Through the Strategic{" "}
+                                Driving Success from Technology{" "}
                                 </h2>
                             </div>
                         </div>

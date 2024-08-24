@@ -14,8 +14,8 @@ const CounterOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className="counter-number">
-                          <CountUp delay={0} start={0} end={200} />
-                          k+
+                          <CountUp delay={0} start={0} end={50} />
+                          +
                         </span>
                       )
                     }
@@ -34,7 +34,7 @@ const CounterOne = () => {
                       isVisible && (
                         <span className="counter-number">
                           <CountUp delay={0} start={0} end={20} />
-                          k+
+                          +
                         </span>
                       )
                     }
@@ -52,14 +52,14 @@ const CounterOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className="counter-number">
-                          <CountUp delay={0} start={0} end={10} />
+                          <CountUp delay={0} start={0} end={5} />
                           k+
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <p className="counter-card_text">Complete project</p>
+                <p className="counter-card_text">Completed projects</p>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ const CounterOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className="counter-number">
-                          <CountUp delay={0} start={0} end={900} />
+                          <CountUp delay={0} start={0} end={10} />
                           +
                         </span>
                       )
