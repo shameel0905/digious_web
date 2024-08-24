@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 const ConsultPopup = ({ onClose }) => {
   const [step, setStep] = useState(1);
@@ -13,6 +14,50 @@ const ConsultPopup = ({ onClose }) => {
 
   const progressPercentage = (step / 2) * 100;
 
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [industry, setIndustry] = useState("");
+  const [budget, setBudget] = useState("");
+  const [description, setDescription] = useState("");
+  const [status, setStatus] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const templateParams = {
+      full_name: fullName,
+      email: email,
+      phone_number: phone,
+      industry: industry,
+      budget: budget,
+      project_description: description,
+    };
+
+    emailjs
+      .send(
+        "service_i3wnffw",
+        "template_mxzh1eg",
+        templateParams,
+        "fDcemrov779Sryl9x"
+      )
+      .then(
+        (response) => {
+          setStatus("Thanks !");
+          // Reset form fields
+          setFullName("");
+          setEmail("");
+          setPhone("");
+          setIndustry("");
+          setBudget("");
+          setDescription("");
+        },
+        (error) => {
+          setStatus("Failed to send email.");
+        }
+      );
+  };
+
   return (
     <div className="popup-container">
       <div className="popup-content">
@@ -22,7 +67,7 @@ const ConsultPopup = ({ onClose }) => {
           </div>
           <div className="col-lg-8">
             <div className="form-section">
-              <div style={{textAlign: "end"}}>
+              <div style={{ textAlign: "end" }}>
                 <button className="close-button" onClick={onClose}>
                   ×
                 </button>
@@ -34,14 +79,14 @@ const ConsultPopup = ({ onClose }) => {
                   style={{ width: `${progressPercentage}%` }}
                 />
               </div>
-              {step === 1 ? (
-                <div>
-                  <h2 className="text-center pop_font_head">
-                    Get a FREE Proposal 👋
-                  </h2>
-                  <p className="pop_sub_head">Fill this form below</p>
+              <form onSubmit={handleSubmit}>
+                {step === 1 ? (
+                  <div>
+                    <h2 className="text-center pop_font_head">
+                      Get a FREE Proposal 👋
+                    </h2>
+                    <p className="pop_sub_head">Fill this form below</p>
 
-                  <form>
                     <div style={{ marginBottom: "0px" }} className="form-group">
                       <label className="label_pop" htmlFor="fName">
                         Enter Your Full Name
@@ -52,6 +97,8 @@ const ConsultPopup = ({ onClose }) => {
                         type="text"
                         placeholder="Full Name"
                         required
+                        value={fullName}
+                        onChange={(e) => setFullName(e.target.value)}
                       />
                     </div>
                     <div style={{ marginBottom: "0px" }} className="form-group">
@@ -64,6 +111,8 @@ const ConsultPopup = ({ onClose }) => {
                         type="email"
                         placeholder="Email"
                         required
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                       />
                     </div>
                     <div style={{ marginBottom: "0px" }} className="form-group">
@@ -76,6 +125,8 @@ const ConsultPopup = ({ onClose }) => {
                         type="text"
                         placeholder="Phone Number"
                         required
+                        value={phone}
+                        onChange={(e) => setPhone(e.target.value)}
                       />
                     </div>
 
@@ -86,11 +137,9 @@ const ConsultPopup = ({ onClose }) => {
                     >
                       Next
                     </button>
-                  </form>
-                </div>
-              ) : (
-                <div>
-                  <form>
+                  </div>
+                ) : (
+                  <div>
                     <div style={{ marginBottom: "0px" }} className="form-group">
                       <label className="label_pop" htmlFor="businessIndustry">
                         Your Business Industry:
@@ -99,15 +148,26 @@ const ConsultPopup = ({ onClose }) => {
                         id="businessIndustry"
                         className="form-control form-field"
                         required
+                        onChange={(e) => setIndustry(e.target.value)}
                       >
                         <option value="" disabled selected>
                           Select your business industry
                         </option>
-                        <option>Brand new website for my business</option>
-                        <option>Revamp my website</option>
-                        <option>Customized plugin for my website</option>
-                        <option>Customized theme for my website</option>
-                        <option>Maintenance service for my website</option>
+                        <option value="Brand new website for my business">
+                          Brand new website for my business
+                        </option>
+                        <option value="Revamp my website">
+                          Revamp my website
+                        </option>
+                        <option value="Customized plugin for my website">
+                          Customized plugin for my website
+                        </option>
+                        <option value="Customized theme for my website">
+                          Customized theme for my website
+                        </option>
+                        <option value="Maintenance service for my website">
+                          Maintenance service for my website
+                        </option>
                       </select>
                     </div>
                     <div style={{ marginBottom: "0px" }} className="form-group">
@@ -120,6 +180,8 @@ const ConsultPopup = ({ onClose }) => {
                         className="form-control form-field"
                         placeholder="Enter your budget"
                         required
+                        value={budget}
+                        onChange={(e) => setBudget(e.target.value)}
                       />
                     </div>
                     <div style={{ marginBottom: "0px" }} className="form-group">
@@ -131,6 +193,8 @@ const ConsultPopup = ({ onClose }) => {
                         className="form-field"
                         rows="3"
                         placeholder="Describe your project"
+                        value={description}
+                        onChange={(e) => setDescription(e.target.value)}
                         required
                       ></textarea>
                     </div>
@@ -154,9 +218,10 @@ const ConsultPopup = ({ onClose }) => {
                         Submit
                       </button>
                     </div>
-                  </form>
-                </div>
-              )}
+                    {status && <p style={{ paddingTop: "10px" }}>{status}</p>}
+                  </div>
+                )}
+              </form>
             </div>
           </div>
         </div>

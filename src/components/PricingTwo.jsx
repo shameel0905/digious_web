@@ -3,15 +3,17 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ConsultPopup from "../components/price_first";
 
+
 const PricingTwo = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   const openPopup = () => setIsPopupOpen(true);
   const closePopup = () => setIsPopupOpen(false);
 
+
   return (
     <section className="bg-dark2">
-        {isPopupOpen && <ConsultPopup onClose={closePopup} />}
+      {isPopupOpen && <ConsultPopup onClose={closePopup} />}
       <div
         className="pricing-area-3 space-top"
         style={{
@@ -76,10 +78,10 @@ const PricingTwo = () => {
                       </li>
                     </ul>
                   </div>
-                    <Link onClick={openPopup} className="global-btn">
-                      Get Quote Now{" "}
-                      <img src="assets/img/icon/right-icon2.svg" alt="arrow" />
-                    </Link>
+                  <Link onClick={openPopup} className="global-btn">
+                    Get Quote Now{" "}
+                    <img src="assets/img/icon/right-icon2.svg" alt="arrow" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -117,7 +119,7 @@ const PricingTwo = () => {
                       </li>
                     </ul>
                   </div>
-                  <Link className="global-btn" to="/contact">
+                  <Link className="global-btn" to="/">
                     Get Quote Now{" "}
                     <img
                       src="assets/img/icon/right-icon2.svg"
@@ -161,7 +163,7 @@ const PricingTwo = () => {
                       </li>
                     </ul>
                   </div>
-                  <Link className="global-btn" to="/contact">
+                  <Link className="global-btn" to="/">
                     Get Quote Now{" "}
                     <img
                       src="assets/img/icon/right-icon2.svg"
