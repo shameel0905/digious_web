@@ -71,13 +71,13 @@ const FooterFour = () => {
                             </div>
                             <div className="col-md-6 col-xl-3">
                                 <div className="widget footer-widget">
-                                    <h3 className="widget_title">Our Office</h3>
+                                    <h3 className="widget_title">Contact</h3>
                                     <div className="widget-contact2">
                                         <div className="widget-contact-grid">
                                             <i className="fas fa-phone-alt text-white" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    <Link to="#">(913)374-5577</Link>
+                                                    <Link to="tel:+19133745577">(913)374-5577</Link>
                                                     <p/>
                                                 </h6>
                                             </div>
@@ -86,7 +86,7 @@ const FooterFour = () => {
                                             <i className="fas fa-phone-alt text-white" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    <Link to="#">(614)310-66995</Link>
+                                                    <Link to="https://api.whatsapp.com/send?phone=61431066995">(614)310-66995</Link>
                                                     <p/>
                                                 </h6>
                                             </div>
