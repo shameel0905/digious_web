@@ -34,7 +34,7 @@ const AboutSix = () => {
                       }
                     </TrackVisibility>
                   </h3>
-                  <p className="sec-desc">Client Review</p>
+                  <p className="sec-desc">Client Reviews</p>
                 </div>
               </div>
             </div>
