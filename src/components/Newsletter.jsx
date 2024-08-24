@@ -7,7 +7,7 @@ const Newsletter = () => {
                 <div className="footer-top-content">
                     <h3 className="footer-top-title text-white">Newsletter</h3>
                     <p className="footer-top-text">
-                        Lorem Ipsum is simply dummy text of the printing
+                    Regular updates on latest news and events.
                     </p>
                 </div>
                 <form className="newsletter-form">

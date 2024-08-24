@@ -4,14 +4,7 @@ import { Link } from 'react-router-dom'
 const ContactInner = () => {
     return (
         <>
-            <div className="map-sec">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2s!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd"
-                    allowFullScreen=""
-                    loading="lazy"
-                    title='Bizmaster'
-                />
-            </div>
+            
             <div className="contact-area space">
                 <div className="container">
                     <div className="contact-page-wrap bg-theme">
@@ -24,12 +17,13 @@ const ContactInner = () => {
                                     <div className="contact-info_details">
                                         <h6 className="contact-info_title">Phone</h6>
                                         <p className="contact-info_text">
-                                            <span >(629) 555-0129</span> <br />
-                                            <span >01254693326</span>
+                                            <span ><a href="tel:+19133745577">US: (913)374-5577</a></span> <br />
+                                            <span ><a href="https://api.whatsapp.com/send?phone=61431066995">Whatsapp: (614)310-66995</a></span>
                                         </p>
                                     </div>
                                 </div>
                             </div>
+                            
                             <div className="col-lg-4 col-md-6">
                                 <div className="contact-info">
                                     <div className="contact-info_icon">
@@ -38,7 +32,7 @@ const ContactInner = () => {
                                     <div className="contact-info_details">
                                         <h6 className="contact-info_title">Location</h6>
                                         <p className="contact-info_text">
-                                            4517 Washington Av Kentucky <br /> 39495
+                                        19 Kimian Avenue West Waratah, <br /> New South Wales Australia
                                         </p>
                                     </div>
                                 </div>
@@ -51,8 +45,7 @@ const ContactInner = () => {
                                     <div className="contact-info_details">
                                         <h6 className="contact-info_title">Email</h6>
                                         <p className="contact-info_text">
-                                            <span>demo@gmail.com</span> <br />
-                                            <span>admin@yahoo.com</span>
+                                            <span>info@digiuossolutions.com</span> 
                                         </p>
                                     </div>
                                 </div>
@@ -72,21 +65,23 @@ const ContactInner = () => {
                                 </span>
                                 <h2 className="sec-title style2">Get In Touch</h2>
                                 <p className="mb-40">
-                                    Design is this a broad category encompasses various technological
-                                    solutions{" "}
+                                Got questions? Let's connect. Explore how our expertise can benefit you.{" "}
                                 </p>
                                 <div className="social-btn style4">
-                                    <Link to="#" tabIndex={-1}>
+                                    <Link to="https://www.facebook.com/Digious" tabIndex={-1}>
                                         <i className="fab fa-facebook-f" />
                                     </Link>
-                                    <Link to="#" tabIndex={-1}>
+                                    <Link to="https://www.linkedin.com/company/digious-solutions/" tabIndex={-1}>
                                         <i className="fab fa-linkedin-in" />
                                     </Link>
-                                    <Link to="#" tabIndex={-1}>
+                                    <Link to="https://twitter.com/digioustweets" tabIndex={-1}>
                                         <i className="fab fa-twitter" />
                                     </Link>
-                                    <Link to="#" tabIndex={-1}>
+                                    <Link to="https://www.instagram.com/digiousposts/" tabIndex={-1}>
                                         <i className="fab fa-instagram" />
+                                    </Link>
+                                    <Link to="https://github.com/digious-solutions" tabIndex={-1}>
+                                        <i className="fab fa-github" />
                                     </Link>
                                 </div>
                             </div>
@@ -149,6 +144,17 @@ const ContactInner = () => {
                     </div>
                 </div>
             </div>
+            <div className="space-bottom">
+            <div className="map-sec">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.0247201482193!2d151.70807087643044!3d-32.89751466941009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b73159894baef7f%3A0xb2f8bbdfb0c28878!2sDigious%20Solutions!5e0!3m2!1sen!2s!4v1724537314156!5m2!1sen!2s%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade"
+                    allowFullScreen=""
+                    loading="lazy"
+                    title='Digious Solutions'
+                />
+            </div>
+            </div>
+
         </>
 
     )
