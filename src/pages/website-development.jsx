@@ -13,6 +13,7 @@ import ProcessOne from "../components/ProcessOne";
 import PortfolioThree from "../components/PortfolioThree";
 import TestimonialOne from "../components/TestimonialOne";
 import ProcessOneWebsite from "../components/ProcessOneWebsite";
+import BreadcrumbInnerWebsiteDev from "../components/BreadcrumbInnerWebsiteDev";
 
 
 const WebdevServices = () => {
@@ -35,7 +36,7 @@ const WebdevServices = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Website Development" />
+      <BreadcrumbInnerWebsiteDev title="Website Development" />
 
       {/* ServiceDetails */}
       <WebsiteInnerDetails />

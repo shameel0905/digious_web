@@ -25,7 +25,7 @@ const ServiceFive = () => {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row gx-30 gy-30 justify-content-center upper_class">
+                    <div className="row gx-30 gy-30 justify-content-center">
                         <div data-aos="fade-up" data-aos-offset="400" data-aos-delay="400" className="col-xl-4 col-md-6">
                             <div className="service-card-4">
                                 <div className="service-card-thumb">

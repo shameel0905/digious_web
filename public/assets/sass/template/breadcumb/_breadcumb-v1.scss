@@ -52,7 +52,7 @@
     color: $smoke-color5;    
     margin: -0.15em 0 -0.2em 0;
     line-height: 1.1;
-    font-size: 50px !important;
+    font-size: 50px;
     font-weight: 700;
     font-family: $title-font;
     text-transform: capitalize; 
@@ -78,7 +78,7 @@
 
 @include lg {
     .breadcumb-content {
-        padding: 140px 0;
+        padding: 200px 0px 100px 0px;
     }
 }
 
@@ -87,7 +87,7 @@
         text-align: center;
     }
     .breadcumb-content {
-        padding: 120px 0;
+        padding: 200px 0px 100px 0px;
     }
 }
 
@@ -96,7 +96,7 @@
         font-size: 40px;
     }
     .breadcumb-content {
-        padding: 90px 0;
+        padding: 200px 0px 100px 0px;
     }
 
     .breadcumb-menu {

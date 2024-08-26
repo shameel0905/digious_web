@@ -14,6 +14,7 @@ import PortfolioThree from "../components/PortfolioThree";
 import ECommerWebInnerDetails from "../components/ECommerceWebsiteInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import ProcessOneEcommerce from "../components/ProcessOneEcommerce";
+import BreadcrumbInnerEcommerce from "../components/BreadcrumbInnerEcommerce";
 
 const ECommerceSolutionService = () => {
   let [active, setActive] = useState(true);
@@ -34,7 +35,7 @@ const ECommerceSolutionService = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Ecommerce Solutions" />
+      <BreadcrumbInnerEcommerce title="Ecommerce Solutions" />
 
       {/* ServiceDetails */}
       <ECommerWebInnerDetails />

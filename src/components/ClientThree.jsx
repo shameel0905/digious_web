@@ -43,7 +43,7 @@ const ClientThree = () => {
     return (
         <section className='bg-dark2'>
             <div className="client-area-4 space">
-                <div className="shadow-shape-right" />
+                {/* <div className="shadow-shape-right" /> */}
                 <div className="container">
                     <div
                         className="row gx-90 d-flex justify-content-between global-carousel"

@@ -14,6 +14,7 @@ import PortfolioThree from "../components/PortfolioThree";
 import BlockChainInnerDetails from "../components/BlockChainInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import ProcessOneBlockChain from "../components/ProcessOneBlockChain";
+import BreadcrumbInnerBlockChain from "../components/BreadcrumbInnerBlockChain";
 
 const BlockChainService = () => {
   let [active, setActive] = useState(true);
@@ -34,7 +35,7 @@ const BlockChainService = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Block Chain Development" />
+      <BreadcrumbInnerBlockChain title="Block Chain Development" />
 
       {/* ServiceDetails */}
       <BlockChainInnerDetails />

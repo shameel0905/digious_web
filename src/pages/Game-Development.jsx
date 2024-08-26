@@ -14,6 +14,7 @@ import PortfolioThree from "../components/PortfolioThree";
 import GameDevInnerDetails from "../components/GameDevInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import ProcessOneGameDev from "../components/ProcessOneGameDev";
+import BreadcrumbInnerGameDev from "../components/BreadcrumbInnerGameDev";
 
 const GameDevelopmentService = () => {
   let [active, setActive] = useState(true);
@@ -34,7 +35,7 @@ const GameDevelopmentService = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Game Development" />
+      <BreadcrumbInnerGameDev title="Game Development" />
 
       {/* ServiceDetails */}
       <GameDevInnerDetails />

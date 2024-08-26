@@ -14,6 +14,7 @@ import ProcessOne from "../components/ProcessOne";
 import SQAInnerDetails from "../components/SQAInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import ProcessOneSQA from "../components/ProcessOneSQA";
+import BreadcrumbInnerSQA from "../components/BreadcrumbInnerSQA";
 
 const SqaService = () => {
   let [active, setActive] = useState(true);
@@ -34,7 +35,7 @@ const SqaService = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Software Quality Assurance" />
+      <BreadcrumbInnerSQA title="Software Quality Assurance" />
 
       {/* ServiceDetails */}
       <SQAInnerDetails />

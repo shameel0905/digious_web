@@ -404,7 +404,7 @@
 
 /* Service Card 4---------------------------------- */
 .service-card-4 {
-  border: 1px solid $theme-color;
+  border: 1px solid #11365a;;
   padding: 30px;
   border-radius: 20px;
   transition: 0.4s;
@@ -437,7 +437,7 @@
     }
   }
   &:hover {
-    border-color: $theme-color2;
+    border-color: #349dff;
     transform: translate(0, -20px);
     .service-card-thumb {
       img {
@@ -463,5 +463,13 @@
     &:hover {
       transform: none;
     }
+  }
+}
+
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  [data-aos="fade-right"], [data-aos="fade-left"] {
+    transform: translateX(0) !important; /* Remove horizontal translation to prevent overflow */
   }
 }

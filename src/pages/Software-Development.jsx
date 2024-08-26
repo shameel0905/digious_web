@@ -14,6 +14,7 @@ import PortfolioThree from "../components/PortfolioThree";
 import SoftwareDevInnerDetails from "../components/SoftwareDevInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import ProcessOneSoftwareDev from "../components/ProcessOneSoftwareDev";
+import BreadcrumbInnerSoftwareDev from "../components/BreadcrumbInnerSoftwareDev";
 
 const SoftwareDevService = () => {
   let [active, setActive] = useState(true);
@@ -34,7 +35,7 @@ const SoftwareDevService = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Software Development" />
+      <BreadcrumbInnerSoftwareDev title="Software Development" />
 
       {/* ServiceDetails */}
       <SoftwareDevInnerDetails />
