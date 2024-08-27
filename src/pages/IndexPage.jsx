@@ -15,6 +15,7 @@ const IndexPage = () => {
 Theme Name: Digious
 Author: Digious Solutions
 Author URI: https://github.com/digious-solutions 
+URL: https://digioussolutions.com
 */
 
 :root {
