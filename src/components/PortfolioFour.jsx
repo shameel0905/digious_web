@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const PortfolioFour = () => {
     return (
         <section className='bg-dark'>
-            <div className="portfolio-area-3 space-bottom">
+            <div className="portfolio-area-3 space-top space-bottom">
                 <div className="container">
                     <div className="row justify-content-between align-items-end">
                         <div className="col-lg-6">
