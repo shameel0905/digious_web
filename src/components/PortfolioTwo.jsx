@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 const PortfolioTwo = () => {
   return (
-    <div className="portfolio-area-1 space-bottom">
+    <div className="portfolio-area-1 space-top space-bottom">
+      <div className="shadow-shape-right" />
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
@@ -34,7 +35,10 @@ const PortfolioTwo = () => {
                   </h4>
                 </div>
                 <Link to="/project-details" className="icon-btn">
-                  <img src="assets/img/icon/arrow-up-right.svg" alt="Bizmaster" />
+                  <img
+                    src="assets/img/icon/arrow-up-right.svg"
+                    alt="Bizmaster"
+                  />
                 </Link>
               </div>
             </div>
@@ -54,7 +58,10 @@ const PortfolioTwo = () => {
                   </h4>
                 </div>
                 <Link to="/project-details" className="icon-btn">
-                  <img src="assets/img/icon/arrow-up-right.svg" alt="Bizmaster" />
+                  <img
+                    src="assets/img/icon/arrow-up-right.svg"
+                    alt="Bizmaster"
+                  />
                 </Link>
               </div>
             </div>
@@ -74,7 +81,10 @@ const PortfolioTwo = () => {
                   </h4>
                 </div>
                 <Link to="/project-details" className="icon-btn">
-                  <img src="assets/img/icon/arrow-up-right.svg" alt="Bizmaster" />
+                  <img
+                    src="assets/img/icon/arrow-up-right.svg"
+                    alt="Bizmaster"
+                  />
                 </Link>
               </div>
             </div>
@@ -94,7 +104,10 @@ const PortfolioTwo = () => {
                   </h4>
                 </div>
                 <Link to="/project-details" className="icon-btn">
-                  <img src="assets/img/icon/arrow-up-right.svg" alt="Bizmaster" />
+                  <img
+                    src="assets/img/icon/arrow-up-right.svg"
+                    alt="Bizmaster"
+                  />
                 </Link>
               </div>
             </div>
@@ -114,7 +127,10 @@ const PortfolioTwo = () => {
                   </h4>
                 </div>
                 <Link to="/project-details" className="icon-btn">
-                  <img src="assets/img/icon/arrow-up-right.svg" alt="Bizmaster" />
+                  <img
+                    src="assets/img/icon/arrow-up-right.svg"
+                    alt="Bizmaster"
+                  />
                 </Link>
               </div>
             </div>

@@ -205,22 +205,22 @@ const HeaderFive = () => {
                 <Link to="#">Portfolio</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="/graphic-designing">Graphic Design</Link>
+                    <Link to="/graphic-portfolio">Graphic Design</Link>
                   </li>
                   <li>
-                    <Link to="#">Website Design</Link>
+                    <Link to="/website-design-portfolio">Website Design</Link>
                   </li>
                   <li>
-                    <Link to="#">Branding</Link>
+                    <Link to="/branding-portfolio">Branding</Link>
                   </li>
                   <li>
-                    <Link to="#">UI/UX Designs</Link>
+                    <Link to="/ui-ux-portfolio">UI/UX Designs</Link>
                   </li>
                   <li>
-                    <Link to="#">Animation</Link>
+                    <Link to="/animation-portfolio">Animation</Link>
                   </li>
                   <li>
-                    <Link to="#">NFT</Link>
+                    <Link to="/block-chain-portfolio">NFT</Link>
                   </li>
                 </ul>
               </li>
@@ -389,22 +389,22 @@ const HeaderFive = () => {
                       <Link to="#">Portfolio</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link to="/graphic-designing">Graphic Design</Link>
+                          <Link to="/graphic-portfolio">Graphic Design</Link>
                         </li>
                         <li>
-                          <Link to="#">Website Design</Link>
+                          <Link to="/website-design-portfolio">Website Design</Link>
                         </li>
                         <li>
-                          <Link to="#">Branding</Link>
+                          <Link to="/branding-portfolio">Branding</Link>
                         </li>
                         <li>
-                          <Link to="#">UI/UX Designs</Link>
+                          <Link to="/ui-ux-portfolio">UI/UX Designs</Link>
                         </li>
                         <li>
-                          <Link to="#">Animation</Link>
+                          <Link to="/animation-portfolio">Animation</Link>
                         </li>
                         <li>
-                          <Link to="#">NFT</Link>
+                          <Link to="/block-chain-portfolio">NFT</Link>
                         </li>
                       </ul>
                     </li>

@@ -15,6 +15,11 @@ import SoftwareDevInnerDetails from "../components/SoftwareDevInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import ProcessOneSoftwareDev from "../components/ProcessOneSoftwareDev";
 import BreadcrumbInnerSoftwareDev from "../components/BreadcrumbInnerSoftwareDev";
+import PortfolioAll from "../components/PortfolioAll";
+import PortfolioDetailsArea from "../components/PortfolioDetailsArea";
+import PortfolioOne from "../components/PortfolioOne";
+import PortfolioTwo from "../components/PortfolioTwo";
+import PortfolioFour from "../components/PortfolioFour";
 
 const SoftwareDevService = () => {
   let [active, setActive] = useState(true);
@@ -53,7 +58,6 @@ const SoftwareDevService = () => {
 
       {/* FooterOne */}
       <FooterOne />
-
     </>
   );
 };

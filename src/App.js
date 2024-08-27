@@ -29,6 +29,12 @@ import MobileAppService from "./pages/Mobile-App-Development";
 import SoftwareDevService from "./pages/Software-Development";
 import SqaService from "./pages/Software-Quality-Assurance";
 import WebdevServices from "./pages/website-development";
+import ProjectDetailsGraphic from "./pages/ProjectDetailsGraphic";
+import ProjectDetailsAnimation from "./pages/ProjectDetailsAnimation";
+import ProjectDetailsUIUX from "./pages/ProjectDetailsUIUX";
+import ProjectDetailsBranding from "./pages/ProjectDetailsBranding";
+import ProjectDetailsBlockChain from "./pages/ProjectDetailsBlockChain";
+import ProjectDetailsWebsiteDesign from "./pages/ProjectDetailsWebsiteDesign";
 
 const App = () => {
   return (
@@ -56,6 +62,12 @@ const App = () => {
           <Route exact path="/website-development" element={<WebdevServices />} />
           <Route exact path="/project" element={<Project />} />
           <Route exact path="/project-details" element={<ProjectDetails />} />
+          <Route exact path="/graphic-portfolio" element={<ProjectDetailsGraphic />} />
+          <Route exact path="/animation-portfolio" element={<ProjectDetailsAnimation />} />
+          <Route exact path="/ui-ux-portfolio" element={<ProjectDetailsUIUX />} />
+          <Route exact path="/block-chain-portfolio" element={<ProjectDetailsBlockChain />} />
+          <Route exact path="/branding-portfolio" element={<ProjectDetailsBranding />} />
+          <Route exact path="/website-design-portfolio" element={<ProjectDetailsWebsiteDesign />} />
           <Route exact path="/blog" element={<Blog />} />
           <Route exact path="/" element={<BlogDetails />} />
           <Route exact path="/pricing" element={<Pricing />} />
