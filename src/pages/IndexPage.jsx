@@ -13,7 +13,7 @@ const IndexPage = () => {
   
   /*
 Theme Name: Digious
-Author: Digious Solutions
+Author: Digious Solutions, Devolution, Devscribe
 Author URI: https://github.com/digious-solutions 
 URL: https://digioussolutions.com
 */
