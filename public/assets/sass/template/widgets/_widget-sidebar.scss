@@ -18,6 +18,7 @@
     line-height: 1em;
     padding-bottom: 17px;
     margin: -0.12em 0 30px 0;
+    color: #e0e0e0;
 
     &:after,
     &:before {
@@ -42,7 +43,7 @@
         display: flex;
 
         input {
-            background: $white-color;
+            background: #1a1a1a;
             border: 0;
             flex: 1;
             color: $body-color;
@@ -65,7 +66,7 @@
             border: none;
             font-size: 18px;
             background-color: transparent;
-            color: $title-color;
+            color: $white-color !important;
         }
     }
 }

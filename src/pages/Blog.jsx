@@ -6,7 +6,8 @@ import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import BlogAreaAll from "../components/BlogAreaAll";
-
+import HeaderFive from "../components/HeaderFive";
+import FooterFour from "../components/FooterFour";
 
 
 const Blog = () => {
@@ -25,7 +26,7 @@ const Blog = () => {
       <HelmetReact title={"Blog"} />
 
       {/* HeaderFive */}
-      <HeaderOne />
+      <HeaderFive />
 
       {/* Breadcrumb */}
       <Breadcrumb title="Blog" />

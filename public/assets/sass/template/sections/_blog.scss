@@ -248,7 +248,8 @@ blockquote,
 
 .blog-title {
     a {
-        color: inherit;
+        color: white;
+        line-height: normal;
 
         &:hover {
             color: $theme-color;
@@ -795,5 +796,25 @@ blockquote,
     .blog-details-single-card {
         padding: 40px;
         border-radius: 5px;
+    }
+}
+
+.sidebar-area {
+    top: 122px;
+    position: static; /* Default to static position */
+}
+
+/* Media query for larger screens */
+@media (min-width: 769px) {
+    .sidebar-area {
+        position: sticky;
+        top: 122px; /* Adjust based on your design */
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .sidebar-area {
+        position: static; /* Ensure it's not sticky on mobile */
     }
 }

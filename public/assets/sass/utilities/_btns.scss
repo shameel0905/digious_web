@@ -130,9 +130,9 @@
     }
 
     &.style-border2 {
-        color: $title-color;
+        color: $white-color;
         border: 1px solid $title-color;
-        background: transparent;
+        background: $theme-color;
         padding: 21px 30px;
 
         &:before,
