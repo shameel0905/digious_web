@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
 import ScrollToTop from "react-scroll-to-top";
 import IndexPage from "./pages/IndexPage";
@@ -13,7 +13,7 @@ import Service from "./pages/Service";
 import Project from "./pages/Project";
 import ProjectDetails from "./pages/ProjectDetails";
 import Blog from "./pages/Blog";
-import BlogDetails from "./pages/BlogDetails";
+import BlogDetails from "./pages/BlogAppleId";
 import Pricing from "./pages/Pricing";
 import Team from "./pages/Team";
 import TeamDetails from "./pages/TeamDetails";
@@ -35,6 +35,9 @@ import ProjectDetailsUIUX from "./pages/ProjectDetailsUIUX";
 import ProjectDetailsBranding from "./pages/ProjectDetailsBranding";
 import ProjectDetailsBlockChain from "./pages/ProjectDetailsBlockChain";
 import ProjectDetailsWebsiteDesign from "./pages/ProjectDetailsWebsiteDesign";
+import BlogAppleId from "./pages/BlogAppleId";
+import BlogSEO from "./pages/BlogSEO";
+import BlogNFT from "./pages/BlogNFT";
 
 const App = () => {
   return (
@@ -69,11 +72,15 @@ const App = () => {
           <Route exact path="/branding-portfolio" element={<ProjectDetailsBranding />} />
           <Route exact path="/website-design-portfolio" element={<ProjectDetailsWebsiteDesign />} />
           <Route exact path="/blog" element={<Blog />} />
-          <Route exact path="/" element={<BlogDetails />} />
+          <Route exact path="/if-you-have-forgotten-your-apple-id-password" element={<BlogAppleId />} />
+          <Route exact path="/how-to-be-a-success-with-search-engine-optimization" element={<BlogSEO />} />
+          <Route exact path="/what-is-nft" element={<BlogNFT />} />
           <Route exact path="/pricing" element={<Pricing />} />
           <Route exact path="/team" element={<Team />} />
           <Route exact path="/team-details" element={<TeamDetails />} />
           <Route exact path="/contact" element={<Contact />} />
+          {/* Redirect trailing slashes to non-trailing slashes */}
+          <Route path="/*" element={<Navigate to={window.location.pathname.replace(/\/$/, '')} replace />} />
           <Route exact path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>

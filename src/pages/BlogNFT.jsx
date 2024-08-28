@@ -6,10 +6,18 @@ import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import BlogDetailsInner from "../components/BlogDetailsInner";
+import HeaderFour from "../components/HeaderFour";
+import HeaderFive from "../components/HeaderFive";
+import BlogDetailsInnerAppleId from "../components/BlogDetailsInnerAppleId";
+// import BreadcrumbInnerBlogAppleId from "../components/BreadcrumbInnerBlogAppleId";
+import BreadcrumbInnerBlogSEO from "../components/BreadcrumbInnerBlogSEO";
+import BlogDetailsInnerSEO from "../components/BlogDetailsInnerSEO";
+import BreadcrumbInnerBlogNFT from "../components/BreadcrumbInnerBlogNFT";
+import BlogDetailsInnerNFT from "../components/BlogDetailsInnerNFT";
 
 
 
-const BlogDetails = () => {
+const BlogNFT = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
     setTimeout(function () {
@@ -25,13 +33,13 @@ const BlogDetails = () => {
       <HelmetReact title={"Blog Details"} />
 
       {/* HeaderFive */}
-      <HeaderOne />
+      <HeaderFive />
 
       {/* Breadcrumb */}
-      <Breadcrumb title="Blog Details" />
+      <BreadcrumbInnerBlogNFT title="Blog NFT" />
 
       {/* BlogDetailsInner */}
-      <BlogDetailsInner />
+      <BlogDetailsInnerNFT />
 
       {/* Newsletter */}
       <Newsletter />
@@ -43,4 +51,4 @@ const BlogDetails = () => {
   );
 };
 
-export default BlogDetails;
+export default BlogNFT;
