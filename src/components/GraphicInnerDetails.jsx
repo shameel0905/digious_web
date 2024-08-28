@@ -33,21 +33,20 @@ const ServiceInnerDetails = () => {
                 <ul>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Navigate the Path to Success Achieve Your Business Goals
-                    with Confident
-                  </li>
-                  <li>
-                    <i className="fas fa-check-circle" />A business consultant
-                    is a professional who provides expert
+                    Custom designs that perfectly match your brand.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Guidance to businesses on various aspects such as management
+                    Expertise in web, print, and social media visuals.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Quick turnaround with high-quality results.
                   </li>
                 </ul>
               </div>
               <h3 className="text-white page-title mb-20">
-                Navigate the Path to Success
+              Enhance Your Brand with Cutting-Edge Graphic Design Solutions
               </h3>
               <p className="mb-30">
                 Whatever business you are in, if the design and graphics aren’t
@@ -72,7 +71,16 @@ const ServiceInnerDetails = () => {
                     data-aos-duration="500"
                     className="page-thumb style2"
                   >
-                    <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                    <video   
+                       src="assets/videos/services/graphics/showcase1.mp4"   
+                       autoPlay   
+                       loop   
+                       muted   
+                       playsInline  
+                       style={{ width: '100%', height: 'auto' }}  
+                       alt="E-Commerce Solutions"  
+                       > Your browser does not support the video tag.
+                      </video> 
                   </div>
                 </div>
                 <div className="col-lg-6">
@@ -82,16 +90,21 @@ const ServiceInnerDetails = () => {
                     data-aos-duration="500"
                     className="page-thumb style2"
                   >
-                    <img src="assets/img/service/graphic-4.jpg" alt="img" />
+                    <video   
+                       src="assets/videos/services/graphics/showcase2.mp4"   
+                       autoPlay   
+                       loop   
+                       muted   
+                       playsInline  
+                       style={{ width: '100%', height: 'auto' }}  
+                       alt="E-Commerce Solutions"  
+                       > Your browser does not support the video tag.
+                      </video> 
                   </div>
                 </div>
               </div>
               <p className="mt-30 mb-n1">
-                Web designing in a powerful way of just not an only professions,
-                however, in a passion Company. have a to a tendency to believe
-                the idea that smart looking of an is the impression on
-                visitors.Web designing in a powerful way only professions Web
-                designing in a powerful way
+              We provide professional graphic design services for brands and businesses on the marketplace. We listen to all your dreams and determine what is feasible, cost-effective and also fits into your budget. We also can assist you in the event that you are starting your own business and are looking to establish your new brand. We want to help you be noticed in the crowded marketplace. We utilize the most current standards Photoshop, Adobe software, including Illustrator and In-Design. We are able to create creative direction for your marketing initiatives. We offer a variety of graphic design services to meet your marketing and promotional requirements. There’s no limit on what our graphic design company could make for you.
               </p>
             </div>
             {/* <div className="col-xxl-4 col-lg-5">
@@ -136,10 +149,10 @@ const ServiceInnerDetails = () => {
               <div className="title-area text-center">
                 <span className="sub-title">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
-                  Latest Projects of Graphic Design
+                  Our Portfolio
                 </span>
                 <h2 className="sec-title style2">
-                  Guiding Businesses Toward Success
+                Latest Projects of Graphic Design
                 </h2>
               </div>
             </div>

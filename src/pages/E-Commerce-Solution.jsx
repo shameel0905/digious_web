@@ -29,7 +29,7 @@ const ECommerceSolutionService = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Graphic Design"} />
+      <HelmetReact title={"Ecommerce Solutions"} />
 
       {/* HeaderFive */}
       <HeaderFive />
@@ -41,7 +41,7 @@ const ECommerceSolutionService = () => {
       <ECommerWebInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOneEcommerce />
+      {/* <ProcessOneEcommerce /> */}
 
       {/* TestimonialOne */}
       <div className="space">

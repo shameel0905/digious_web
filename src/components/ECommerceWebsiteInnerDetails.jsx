@@ -17,54 +17,50 @@ const ECommerWebInnerDetails = () => {
             <div className="col-xxl-12 col-lg-12">
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
-                  Ecommerce website
-                  Digious Solutions is a leading graphic agency that offers the
-                  highest high-quality graphic design services.
+                Want to build up an eCommerce business? 
                 </h3>
               </div>
               <p>
-                Being the most effective graphic design firm, we provide
-                top-quality graphic design services. Our talented graphic
-                designers can create professional branding and graphic design
-                for you. If you’re looking for graphic design or graphic
-                products, then you should consider us. We are the most reputable
-                graphic design company.
+              Digious Solution allows you to run your e-commerce business online. We are here for acknowledging you with the benefits of e-commerce business and to offer you quality solutions for developing and upgrading your e-commerce website sales so that you can go online and broaden your audience.
+
+We can convert your ideas to life by delivering our digital experiences. With us, build and grow your e-commerce online business effectively and meet all your e-commerce marketing needs.
               </p>
               <div className="checklist style6 mt-40 mb-60">
                 <ul>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Navigate the Path to Success Achieve Your Business Goals
-                    with Confident
+                    Connect with ERP, CRM, and third-party APIs for enhanced data synchronization and efficiency.
                   </li>
                   <li>
-                    <i className="fas fa-check-circle" />A business consultant
-                    is a professional who provides expert
+                    <i className="fas fa-check-circle" />Modify and expand your online store to meet evolving business and customer needs.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Guidance to businesses on various aspects such as management
+                    Secure transactions and protect customer data with strong encryption and compliance measures.
                   </li>
                 </ul>
               </div>
               <h3 className="text-white page-title mb-20">
-                Navigate the Path to Success
+              Our Experts
               </h3>
               <p className="mb-30">
-                Whatever business you are in, if the design and graphics aren’t
-                appealing enough to draw their attention customers Then you have
-                to take action to change it. Our skilled graphic designers
-                remain up to date with the most recent trends in Graphic
-                Designing around the world and we are fully aware of the
-                necessity of it and the worth we can bring to these
-                developments. Digious Solutions offers the best solutions for
-                graphic design and multimedia in accordance with your
-                requirements and needs. Our graphic design services that we
-                offer are distinctive and we take great satisfaction in the work
-                we’ve accomplished. If you are looking to improve the existing
-                design or to design something completely fresh, we’re waiting to
-                help!
+              Our experts fully support and guide you to decide what you wish to sell. Digious Solution offers you to discover all the services and explore ways to elevate your online e-commerce business. We make every effort for providing you the best e-commerce website, including quick and convenient ways of selling and upgrading your commodities online at any time. If you assess launching an E-Commerce store, we are here to help you by offering affordable features as per your preferences and limits. Let our chiefs help you in designing and developing e-commerce websites & stores as per your business needs.
               </p>
+
+              <h3 className="text-white page-title mb-20">
+              Our Major Goal
+              </h3>
+              <p className="mb-30">
+              Our major goal is to deliver a great experience to our customers. Digious Solution creates and customizes your e-business and provides you best experiences. Our determined team works in guiding and providing you the best and top e-commerce companies. We develop, design, and offer you extraordinary e-commerce websites for your e-commerce online transactions. We help you promote your online business.
+              </p>
+
+              <h3 className="text-white page-title mb-20">
+              Our Experienced & Efficient Team
+              </h3>
+              <p className="mb-30">
+              Our experienced and efficient team facilitates you to develop and successfully run your best e-commerce website as per your e-business requirements. We provide complete e-business solutions to companies. Also we facilitate our clients by providing their services, for instance, buying and selling of commodities as well as services, google shopping ads, mobile ads, transferring funds and data, and more. Digious Solutions helps e-businesses achieve their goal by providing e-commerce marketing services. Our mission is to work with you as a partner and help you maintaining and running your e-commerce site successfully.
+              </p>
+
               <div className="row gy-4">
                 <div className="col-lg-6">
                   <div
@@ -73,7 +69,17 @@ const ECommerWebInnerDetails = () => {
                     data-aos-duration="500"
                     className="page-thumb style2"
                   >
-                    <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                      <video   
+                       src="assets/videos/services/ecommerce/showcase1.mp4"   
+                       autoPlay   
+                       loop   
+                       muted   
+                       playsInline  
+                       style={{ width: '100%', height: 'auto' }}  
+                       alt="E-Commerce Solutions"  
+                       > Your browser does not support the video tag.
+                      </video> 
+
                   </div>
                 </div>
                 <div className="col-lg-6">
@@ -83,16 +89,22 @@ const ECommerWebInnerDetails = () => {
                     data-aos-duration="500"
                     className="page-thumb style2"
                   >
-                    <img src="assets/img/service/graphic-4.jpg" alt="img" />
+                    <video   
+                      src="assets/videos/services/ecommerce/showcase2.mp4"   
+                      autoPlay   
+                      loop   
+                      muted   
+                      playsInline  
+                      style={{ width: '100%', height: 'auto' }}  
+                      alt="E-Commerce Solutions"  
+                    > Your browser does not support the video tag.  
+                    </video>
+
                   </div>
                 </div>
               </div>
               <p className="mt-30 mb-n1">
-                Web designing in a powerful way of just not an only professions,
-                however, in a passion Company. have a to a tendency to believe
-                the idea that smart looking of an is the impression on
-                visitors.Web designing in a powerful way only professions Web
-                designing in a powerful way
+              We provide everything you need to succeed. Ensure the highest security with our robust data protection and compliance standards. Let us help you enhance operational efficiency and drive sales in today's competitive market.
               </p>
             </div>
             {/* <div className="col-xxl-4 col-lg-5">
@@ -137,10 +149,10 @@ const ECommerWebInnerDetails = () => {
               <div className="title-area text-center">
                 <span className="sub-title">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
-                  Latest Projects of Graphic Design
+                  Our Portfolio
                 </span>
                 <h2 className="sec-title style2">
-                  Guiding Businesses Toward Success
+                  Latest Projects of ECommerce
                 </h2>
               </div>
             </div>
