@@ -29,7 +29,7 @@ const Blog = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <Breadcrumb title="Blog" />
+      <Breadcrumb title="Blogs" />
 
       {/* BlogAreaAll */}
       <BlogAreaAll />
