@@ -34,7 +34,7 @@ const BlogSEO = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInnerBlogSEO title="Blog Seo" />
+      <BreadcrumbInnerBlogSEO title="Seo detail Page" />
 
       {/* BlogDetailsInner */}
       <BlogDetailsInnerSEO />
