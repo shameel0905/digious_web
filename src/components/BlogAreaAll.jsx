@@ -35,7 +35,7 @@ const BlogAreaAll = () => {
                   </Link>
                 </div>
                 <h3 className="blog-title">
-                  <Link to="/blog-details">
+                  <Link to="/if-you-have-forgotten-your-apple-id-password">
                     If you have forgotten your Apple ID password
                   </Link>
                 </h3>
@@ -45,7 +45,7 @@ const BlogAreaAll = () => {
                   blank mind regarding the password that unlocks the digital
                   paradise.
                 </p>
-                <Link to="/blog-details" className="global-btn style-border2">
+                <Link to="/if-you-have-forgotten-your-apple-id-password" className="global-btn style-border2">
                   {" "}
                   Read More{" "}
                   <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
@@ -77,7 +77,7 @@ const BlogAreaAll = () => {
                   </Link>
                 </div>
                 <h3 className="blog-title">
-                  <Link to="/blog-details">
+                  <Link to="/how-to-be-a-success-with-search-engine-optimization">
                     How To Be A Success With Search Engine Optimization?
                   </Link>
                 </h3>
@@ -86,7 +86,7 @@ const BlogAreaAll = () => {
                   Search engine optimization (SEO) can feel like a mythical
                   beast – powerful, ever-changing, and mysterious.
                 </p>
-                <Link to="/blog-details" className="global-btn style-border2">
+                <Link to="/how-to-be-a-success-with-search-engine-optimization" className="global-btn style-border2">
                   {" "}
                   Read More{" "}
                   <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
@@ -118,14 +118,14 @@ const BlogAreaAll = () => {
                   </Link>
                 </div>
                 <h3 className="blog-title">
-                  <Link to="/blog-details">What is NFT Art?</Link>
+                  <Link to="/what-is-nft-art">What is NFT Art?</Link>
                 </h3>
                 <p className="blog-text">
                   Exploring the World of NFT Art: Beyond Digital Ownership NFT
                   Art is digital artwork bought and sold using a special digital
                   token called an NFT, which stands for “Non-Fungible Token.
                 </p>
-                <Link to="/blog-details" className="global-btn style-border2">
+                <Link to="/what-is-nft-art" className="global-btn style-border2">
                   {" "}
                   Read More{" "}
                   <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />

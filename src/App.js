@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
 import ScrollToTop from "react-scroll-to-top";
 import IndexPage from "./pages/IndexPage";
@@ -74,13 +74,11 @@ const App = () => {
           <Route exact path="/blog" element={<Blog />} />
           <Route exact path="/if-you-have-forgotten-your-apple-id-password" element={<BlogAppleId />} />
           <Route exact path="/how-to-be-a-success-with-search-engine-optimization" element={<BlogSEO />} />
-          <Route exact path="/what-is-nft" element={<BlogNFT />} />
+          <Route exact path="/what-is-nft-art" element={<BlogNFT />} />
           <Route exact path="/pricing" element={<Pricing />} />
           <Route exact path="/team" element={<Team />} />
           <Route exact path="/team-details" element={<TeamDetails />} />
           <Route exact path="/contact" element={<Contact />} />
-          {/* Redirect trailing slashes to non-trailing slashes */}
-          <Route path="/*" element={<Navigate to={window.location.pathname.replace(/\/$/, '')} replace />} />
           <Route exact path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
