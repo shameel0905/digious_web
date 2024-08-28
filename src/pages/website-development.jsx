@@ -42,7 +42,7 @@ const WebdevServices = () => {
       <WebsiteInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOneWebsite />
+      {/* <ProcessOneWebsite /> */}
 
       {/* TestimonialOne */}
       <div className="space">

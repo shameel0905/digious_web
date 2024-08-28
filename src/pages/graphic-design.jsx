@@ -38,7 +38,7 @@ const GraphicService = () => {
       <ServiceInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOne />
+      {/* <ProcessOne /> */}
 
       {/* TestimonialOne */}
       <div className="space">
