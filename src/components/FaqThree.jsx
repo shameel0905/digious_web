@@ -10,7 +10,7 @@ const FaqThree = () => {
                         <div className="col-xxl-6 text-xxl-start text-center">
                             <div className="title-area mb-60">
                                 <span data-aos="fade-up" data-aos-delay="600" className="sub-title style2">
-                                    <img src="assets/img/icon/title_left2.svg" alt="shape" />
+                                    <img src="/assets/img/icon/title_left2.svg" alt="shape" />
                                     FAQs
                                 </span>
                                 <h2 data-aos="fade-up" data-aos-delay="700" className="sec-title style2 text-white">
@@ -18,7 +18,7 @@ const FaqThree = () => {
                                 </h2>
                             </div>
                             <div data-aos="fade-up" data-aos-delay="700" className="faq-thumb5">
-                                <img src="assets/img/normal/faq-thumb-5-1.png" alt="img" />
+                                <img src="/assets/img/normal/faq-thumb-5-1.png" alt="img" />
                                 <div className="about-counter-wrap jump-reverse">
                                     <h3 className="about-counter">
                                         <TrackVisibility once>

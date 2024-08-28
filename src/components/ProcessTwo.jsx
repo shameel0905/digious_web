@@ -12,7 +12,7 @@ const ProcessTwo = () => {
                         <div className="col-lg-6">
                             <div className="title-area">
                                 <span data-aos="fade-up" data-aos-delay="600" className="sub-title style2">
-                                    <img src="assets/img/icon/title_left2.svg" alt="shape" />
+                                    <img src="/assets/img/icon/title_left2.svg" alt="shape" />
                                     Work Process
                                 </span>
                                 <h2 data-aos="fade-up" data-aos-delay="700" className="sec-title style2 text-white">

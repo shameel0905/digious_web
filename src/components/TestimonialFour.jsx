@@ -58,7 +58,7 @@ const TestimonialFour = () => {
                                         <div className="px-3">
                                             <div className="testi-card style3">
                                                 <div className="quote-icon">
-                                                    <img src="assets/img/icon/quote3-1.svg" alt="img" />
+                                                    <img src="/assets/img/icon/quote3-1.svg" alt="img" />
                                                 </div>
                                                 <div className="testi-card_content">
                                                     <p className="testi-card_text">
