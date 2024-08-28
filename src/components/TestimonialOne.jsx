@@ -67,7 +67,7 @@ const TestimonialOne = () => {
           <div className="col-lg-6">
             <div data-aos="fade-up" data-aos-delay="500" className="title-area">
               <span className="sub-title">
-                <img src="assets/img/icon/title_left.svg" alt="shape" />
+                <img src="/assets/img/icon/title_left.svg" alt="shape" />
                 Clients Testimonial
               </span>
               <h2 className="sec-title style2">
@@ -75,7 +75,7 @@ const TestimonialOne = () => {
               </h2>
             </div>
             <div data-aos="fade-right" data-aos-delay="500" className="testimonial-thumb1">
-              <img src="assets/img/testimonial/testimonial-1-1.png" alt="img" />
+              <img src="/assets/img/testimonial/testimonial-1-1.png" alt="img" />
             </div>
           </div>
           <div className="col-lg-6">
@@ -103,7 +103,7 @@ const TestimonialOne = () => {
                         <div className="testi-card-profile">
                           <div className="testi-profile_thumb">
                             <img
-                              src="assets/img/testimonial/testi-thumb_3.png"
+                              src="/assets/img/testimonial/testi-thumb_3.png"
                               alt="img"
                             />
                           </div>
@@ -118,7 +118,7 @@ const TestimonialOne = () => {
                         </div>
                       </div>
                       <div className="quote-icon">
-                        <img src="assets/img/icon/quote1-1.svg" alt="img" />
+                        <img src="/assets/img/icon/quote1-1.svg" alt="img" />
                       </div>
                     </div>
                   </div>
@@ -139,7 +139,7 @@ const TestimonialOne = () => {
                         <div className="testi-card-profile">
                           <div className="testi-profile_thumb">
                             <img
-                              src="assets/img/testimonial/testi-thumb_2.png"
+                              src="/assets/img/testimonial/testi-thumb_2.png"
                               alt="img"
                             />
                           </div>
@@ -154,7 +154,7 @@ const TestimonialOne = () => {
                         </div>
                       </div>
                       <div className="quote-icon">
-                        <img src="assets/img/icon/quote1-1.svg" alt="img" />
+                        <img src="/assets/img/icon/quote1-1.svg" alt="img" />
                       </div>
                     </div>
                   </div>

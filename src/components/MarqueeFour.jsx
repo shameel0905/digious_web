@@ -10,25 +10,25 @@ const MarqueeFour = () => {
                             <Marquee speed={100}>
                                 <div className="item">
 
-                                    <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
+                                    <img src="/assets/img/icon/marquee-icon-1-2.svg" alt="img" />
                                     <span className="text-stroke">Vision</span>
 
                                 </div>
                                 <div className="item">
 
-                                    <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
+                                    <img src="/assets/img/icon/marquee-icon-1-1.svg" alt="img" />
                                     <span>Passion</span>
 
                                 </div>
                                 <div className="item">
 
-                                    <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
+                                    <img src="/assets/img/icon/marquee-icon-1-2.svg" alt="img" />
                                     <span className="text-stroke">Trust</span>
 
                                 </div>
                                 <div className="item">
 
-                                    <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
+                                    <img src="/assets/img/icon/marquee-icon-1-1.svg" alt="img" />
                                     <span>#WeAreDigious </span>
 
                                 </div>

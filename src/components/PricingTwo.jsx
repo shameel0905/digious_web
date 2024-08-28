@@ -17,7 +17,7 @@ const PricingTwo = () => {
       <div
         className="pricing-area-3 space-top"
         style={{
-          backgroundImage: "url(assets/img/bg/pricing-bg2-1.png)",
+          backgroundImage: "url(/assets/img/bg/pricing-bg2-1.png)",
           backgroundSize: "cover",
         }}
       >
@@ -30,7 +30,7 @@ const PricingTwo = () => {
                   data-aos-delay="500"
                   className="sub-title style2"
                 >
-                  <img src="assets/img/icon/title_left2.svg" alt="shape" />
+                  <img src="/assets/img/icon/title_left2.svg" alt="shape" />
                   Our Pricing
                 </span>
                 <h2
@@ -80,7 +80,7 @@ const PricingTwo = () => {
                   </div>
                   <Link onClick={openPopup} className="global-btn">
                     Get Quote Now{" "}
-                    <img src="assets/img/icon/right-icon2.svg" alt="arrow" />
+                    <img src="/assets/img/icon/right-icon2.svg" alt="arrow" />
                   </Link>
                 </div>
               </div>
@@ -121,7 +121,7 @@ const PricingTwo = () => {
                   </div>
                   <Link onClick={openPopup} className="global-btn">
                       Get Quote Now{" "}
-                      <img src="assets/img/icon/right-icon2.svg" alt="arrow" />
+                      <img src="/assets/img/icon/right-icon2.svg" alt="arrow" />
                     </Link>
                 </div>
               </div>
@@ -162,7 +162,7 @@ const PricingTwo = () => {
                   </div>
                   <Link onClick={openPopup} className="global-btn">
                       Get Quote Now{" "}
-                      <img src="assets/img/icon/right-icon2.svg" alt="arrow" />
+                      <img src="/assets/img/icon/right-icon2.svg" alt="arrow" />
                     </Link>
                 </div>
               </div>
