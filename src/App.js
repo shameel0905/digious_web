@@ -63,8 +63,8 @@ const App = () => {
           <Route exact path="/software-development" element={<SoftwareDevService />} />
           <Route exact path="/software-quality-assurance" element={<SqaService />} />
           <Route exact path="/website-development" element={<WebdevServices />} />
-          <Route exact path="/project" element={<Project />} />
-          <Route exact path="/project-details" element={<ProjectDetails />} />
+          <Route exact path="/" element={<Project />} />
+          <Route exact path="/" element={<ProjectDetails />} />
           <Route exact path="/graphic-portfolio" element={<ProjectDetailsGraphic />} />
           <Route exact path="/animation-portfolio" element={<ProjectDetailsAnimation />} />
           <Route exact path="/ui-ux-portfolio" element={<ProjectDetailsUIUX />} />

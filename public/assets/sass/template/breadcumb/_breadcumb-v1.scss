@@ -1,116 +1,118 @@
 .breadcumb-menu {
-    max-width: 100%;
-    padding: 0;
-    list-style-type: none;
+  max-width: 100%;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+  margin: 37px 0 -0.4em;
+
+  li {
+    display: inline-block;
+    padding-right: 11px;
+    list-style: none;
     position: relative;
-    margin: 37px 0 -0.4em;
 
-    li {
-        display: inline-block;
-        padding-right: 11px;
-        list-style: none;
-        position: relative;
-
-        &:after {
-            content: "\f105";
-            position: relative;
-            margin-left: 16px;
-            font-size: 14px;
-            font-weight: 700;
-            font-family: $icon-font;
-            color: white;
-        }
-
-        &:last-child {
-            padding-right: 0;
-            margin-right: 0;
-
-            &:after {
-                display: none;
-            }
-        }
+    &:after {
+      content: "\f105";
+      position: relative;
+      margin-left: 16px;
+      font-size: 14px;
+      font-weight: 700;
+      font-family: $icon-font;
+      color: white;
     }
 
-    li,
-    a,
-    span {
-        white-space: normal;
-        color: inherit;
-        word-break: break-word;
-        font-weight: 500;
-        font-size: 22px;
-        font-family: $title-font;
-        color: white;
-    }
+    &:last-child {
+      padding-right: 0;
+      margin-right: 0;
 
-    a:hover {
-        color: $theme-color;
+      &:after {
+        display: none;
+      }
     }
+  }
+
+  li,
+  a,
+  span {
+    white-space: normal;
+    color: inherit;
+    word-break: break-word;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: $title-font;
+    color: white;
+  }
+
+  a:hover {
+    color: $theme-color;
+  }
 }
 
 .breadcumb-title {
-    color: $smoke-color5;    
-    margin: -0.15em 0 -0.2em 0;
-    line-height: 1.1;
-    font-size: 50px;
-    font-weight: 700;
-    font-family: $title-font;
-    text-transform: capitalize; 
-    z-index: 1;
-    position: relative;
+  color: $smoke-color5;
+  margin: -0.15em 0 -0.2em 0;
+  line-height: 1.1;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: $title-font;
+  text-transform: capitalize;
+  z-index: 1;
+  position: relative;
 }
 .breadcumb-content {
-    padding: 220px 0px 170px 0px; 
+  padding: 220px 0px 170px 0px;
+  position: relative;
+  z-index: 2;
 }
 .breadcumb-wrapper {
-    background: $smoke-color;
-    overflow: hidden;
-    position: relative;
-    z-index: auto;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: $smoke-color;
+  overflow: hidden;
+  position: relative;
+  z-index: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
-    .breadcumb-thumb {
-       text-align: right; 
-    }
+  .breadcumb-thumb {
+    text-align: right;
+  }
 }
 
 @include lg {
-    .breadcumb-content {
-        padding: 200px 0px 100px 0px;
-    }
+  .breadcumb-content {
+    padding: 200px 0px 100px 0px;
+  }
 }
 
 @include md {
-    .breadcumb-wrapper {
-        text-align: center;
-    }
-    .breadcumb-content {
-        padding: 200px 0px 100px 0px;
-    }
+  .breadcumb-wrapper {
+    text-align: center;
+  }
+  .breadcumb-content {
+    padding: 200px 0px 100px 0px;
+  }
 }
 
 @include xs {
-    .breadcumb-title {
-        font-size: 40px;
-    }
-    .breadcumb-content {
-        padding: 200px 0px 100px 0px;
-    }
+  .breadcumb-title {
+    font-size: 40px;
+  }
+  .breadcumb-content {
+    padding: 200px 0px 100px 0px;
+  }
 
-    .breadcumb-menu {
-        text-align: center;
-        margin: 22px 0 -0.45em 0;
-    }
+  .breadcumb-menu {
+    text-align: center;
+    margin: 22px 0 -0.45em 0;
+  }
 
-    .breadcumb-menu li,
-    .breadcumb-menu a,
-    .breadcumb-menu span {
-        font-size: 14px;
-    }
+  .breadcumb-menu li,
+  .breadcumb-menu a,
+  .breadcumb-menu span {
+    font-size: 14px;
+  }
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }

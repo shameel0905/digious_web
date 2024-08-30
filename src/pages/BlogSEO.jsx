@@ -34,7 +34,7 @@ const BlogSEO = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInnerBlogSEO title="Seo Main detail Page" />
+      <BreadcrumbInnerBlogSEO title="How To Be A Success With Search Engine Optimization" />
 
       {/* BlogDetailsInner */}
       <BlogDetailsInnerSEO />

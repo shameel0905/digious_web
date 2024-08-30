@@ -32,7 +32,7 @@ const BlogAppleId = () => {
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInnerBlogAppleId title="Apple Id" />
+      <BreadcrumbInnerBlogAppleId title="If You Have Forgotten Your Apple Id Password" />
 
       {/* BlogDetailsInner */}
       <BlogDetailsInnerAppleId />

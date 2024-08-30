@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import 'lightbox2/dist/css/lightbox.min.css';
+import 'lightbox2/dist/js/lightbox.min.js';
 import "./index.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
