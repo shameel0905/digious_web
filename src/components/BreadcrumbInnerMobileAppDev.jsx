@@ -5,8 +5,9 @@ const BreadcrumbInnerMobileAppDev = ({ title }) => {
     return (
         <div 
             className="breadcumb-wrapper"
-            style={{ backgroundImage: "url(assets/img/bg/graphic-design.jpg)" }}
+            style={{ backgroundImage: "url(/assets/img/bg/web-devs.jpg)" }}
         >
+             <div class="overlay"></div> 
             {/* bg animated image/ */}
             <div className="container">
                 <div className="row align-items-center">

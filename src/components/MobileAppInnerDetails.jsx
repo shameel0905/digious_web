@@ -17,54 +17,28 @@ const MobielAppInnerDetails = () => {
             <div className="col-xxl-12 col-lg-12">
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
-                  Mobile App Development
-                  Digious Solutions is a leading graphic agency that offers the
-                  highest high-quality graphic design services.
+                Want to build and go on a successful and competitive mobile app?
                 </h3>
               </div>
               <p>
-                Being the most effective graphic design firm, we provide
-                top-quality graphic design services. Our talented graphic
-                designers can create professional branding and graphic design
-                for you. If you’re looking for graphic design or graphic
-                products, then you should consider us. We are the most reputable
-                graphic design company.
+              Find the right mobile app developers and experts. Digious Solution provides you with a group of experienced, determined, and skilled designers who are here to support you and guide you throughout your journey. Functioning to export our quality services and satisfy our customers. If you are speculating about getting mobile application development services, Digious Solution is the right and most convenient platform that bestows you your best mobile app developers. Our unique approach is to identify our customer’s needs and offer them time management and price flexibility. Our mobile application developers provide their top mobile application development services that fulfill all your specific business requirements. 
               </p>
               <div className="checklist style6 mt-40 mb-60">
                 <ul>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Navigate the Path to Success Achieve Your Business Goals
-                    with Confident
+                    Cross-Platform Reach: Develop games for both iOS and Android to maximize audience reach.
                   </li>
                   <li>
-                    <i className="fas fa-check-circle" />A business consultant
-                    is a professional who provides expert
+                    <i className="fas fa-check-circle" />Idea Realization: Transform your game concepts into engaging applications with our expert developers.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Guidance to businesses on various aspects such as management
+                    Advanced Technology: Employ the latest technologies to create cutting-edge and market-relevant games.
                   </li>
                 </ul>
               </div>
-              <h3 className="text-white page-title mb-20">
-                Navigate the Path to Success
-              </h3>
-              <p className="mb-30">
-                Whatever business you are in, if the design and graphics aren’t
-                appealing enough to draw their attention customers Then you have
-                to take action to change it. Our skilled graphic designers
-                remain up to date with the most recent trends in Graphic
-                Designing around the world and we are fully aware of the
-                necessity of it and the worth we can bring to these
-                developments. Digious Solutions offers the best solutions for
-                graphic design and multimedia in accordance with your
-                requirements and needs. Our graphic design services that we
-                offer are distinctive and we take great satisfaction in the work
-                we’ve accomplished. If you are looking to improve the existing
-                design or to design something completely fresh, we’re waiting to
-                help!
-              </p>
+              
               <div className="row gy-4">
                 <div className="col-lg-6">
                   <div
@@ -73,7 +47,16 @@ const MobielAppInnerDetails = () => {
                     data-aos-duration="500"
                     className="page-thumb style2"
                   >
-                    <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                     <video   
+                       src="/assets/videos/services/mobile/showcase1.mp4"   
+                       autoPlay   
+                       loop   
+                       muted   
+                       playsInline  
+                       style={{ width: '100%', height: 'auto' }}  
+                       alt="Mobile App Development"  
+                       > Your browser does not support the video tag.
+                      </video> 
                   </div>
                 </div>
                 <div className="col-lg-6">
@@ -83,16 +66,21 @@ const MobielAppInnerDetails = () => {
                     data-aos-duration="500"
                     className="page-thumb style2"
                   >
-                    <img src="assets/img/service/graphic-4.jpg" alt="img" />
+                     <video   
+                       src="/assets/videos/services/mobile/showcase2.m4v"   
+                       autoPlay   
+                       loop   
+                       muted   
+                       playsInline  
+                       style={{ width: '100%', height: 'auto' }}  
+                       alt="Mobile App Development"  
+                       > Your browser does not support the video tag.
+                      </video> 
                   </div>
                 </div>
               </div>
               <p className="mt-30 mb-n1">
-                Web designing in a powerful way of just not an only professions,
-                however, in a passion Company. have a to a tendency to believe
-                the idea that smart looking of an is the impression on
-                visitors.Web designing in a powerful way only professions Web
-                designing in a powerful way
+              Elect Digious Solution and get assembled with our passionate mobile app developers. Digious is a trusted firm that assures you to provide top-level mobile application development services with a phase of our professionals. Digious Solution is a software development company that aims to serve its prevailing mobile application development services and submits customer-centric solutions to its concerned members. Hire Digious Solution as your mobile application development company and partner for the actual purpose of fulfilling and transforming your requirements and conditions. Our acquaintance, flexibility, and comfort help us stand out broader among other top app development companies. Digious is here to serve as your top mobile app development company along with its determined app developers that transform your native application development ideas and practices to manage their obedience.
               </p>
             </div>
             {/* <div className="col-xxl-4 col-lg-5">
@@ -137,10 +125,10 @@ const MobielAppInnerDetails = () => {
               <div className="title-area text-center">
                 <span className="sub-title">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
-                  Latest Projects of Graphic Design
+                  Our Portfolio
                 </span>
                 <h2 className="sec-title style2">
-                  Guiding Businesses Toward Success
+                Latest Projects of Mobile App Development
                 </h2>
               </div>
             </div>
@@ -149,7 +137,7 @@ const MobielAppInnerDetails = () => {
             <div data-aos="fade-up" data-aos-delay="600" className="col-lg-6">
               <div className="portfolio-card-3">
                 <div className="portfolio-card-thumb">
-                  <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                  <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
                   <span className="portfolio-card-details_subtitle">
@@ -170,7 +158,7 @@ const MobielAppInnerDetails = () => {
             <div className="col-lg-6">
               <div data-aos="fade-up" data-aos-delay="700" className="portfolio-card-3">
                 <div className="portfolio-card-thumb">
-                  <img src="assets/img/service/graphic-4.jpg" alt="img" />
+                  <img src="/assets/img/service/graphic-4.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
                   <span className="portfolio-card-details_subtitle">

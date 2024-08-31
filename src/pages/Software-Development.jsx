@@ -34,7 +34,7 @@ const SoftwareDevService = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Graphic Design"} />
+      <HelmetReact title={"Software Development"} />
 
       {/* HeaderFive */}
       <HeaderFive />
@@ -46,7 +46,7 @@ const SoftwareDevService = () => {
       <SoftwareDevInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOneSoftwareDev />
+      {/* <ProcessOneSoftwareDev /> */}
 
       {/* TestimonialOne */}
       <div className="space">
