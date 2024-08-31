@@ -11,10 +11,10 @@ const PortfolioBlockChainInner = () => {
             <div className="title-area text-center">
               <span className="sub-title">
                 <img src="/assets/img/icon/title_left.svg" alt="shape" />
-                Latest Portfolio
+                Our Portfolio
               </span>
               <h2 className="sec-title style2">
-                Transform Your Business with Professional{" "}
+              Latest Projects of NFT{" "}
               </h2>
             </div>
           </div>
