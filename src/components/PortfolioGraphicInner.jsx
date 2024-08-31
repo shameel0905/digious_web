@@ -10,11 +10,11 @@ const PortfolioGraphicInner = () => {
           <div className="col-lg-8">
             <div className="title-area text-center">
               <span className="sub-title">
-                <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Latest Portfolio
+                <img src="/assets/img/icon/title_left.svg" alt="shape" />
+                Our  Portfolio
               </span>
               <h2 className="sec-title style2">
-                Transform Your Business with Professional{" "}
+                Latest Projects of Graphic Design{" "}
               </h2>
             </div>
           </div>
@@ -42,7 +42,7 @@ const PortfolioGraphicInner = () => {
               data-bs-target="#nav-step2"
               type="button"
             >
-              3D Logo
+              Infographics
             </button>
             <button
               className="nav-link"
@@ -53,7 +53,7 @@ const PortfolioGraphicInner = () => {
             >
               Illustration
             </button>
-            <button
+            {/* <button
               className="nav-link"
               id="nav-step4-tab"
               data-bs-toggle="tab"
@@ -61,7 +61,7 @@ const PortfolioGraphicInner = () => {
               type="button"
             >
               Merchandise
-            </button>
+            </button> */}
             <button
               className="nav-link"
               id="nav-step5-tab"
@@ -71,7 +71,7 @@ const PortfolioGraphicInner = () => {
             >
               Stationery
             </button>
-            <button
+            {/* <button
               className="nav-link"
               id="nav-step6-tab"
               data-bs-toggle="tab"
@@ -79,7 +79,7 @@ const PortfolioGraphicInner = () => {
               type="button"
             >
               Advertisement
-            </button>
+            </button> */}
             <button
               className="nav-link"
               id="nav-step7-tab"
@@ -98,7 +98,7 @@ const PortfolioGraphicInner = () => {
             >
               Music Arts
             </button>
-            <button
+            {/* <button
               className="nav-link"
               id="nav-step9-tab"
               data-bs-toggle="tab"
@@ -106,7 +106,7 @@ const PortfolioGraphicInner = () => {
               type="button"
             >
               Gaming Designs
-            </button>
+            </button> */}
           </div>
           <div className="tab-content" id="nav-tabContent">
             <div className="tab-pane fade active show" id="nav-step1" role="tabpanel" >
@@ -115,11 +115,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/portfolio/logofolio/logofolio (1).jpg"
                         data-lightbox="portfolio"
-                        data-title="Bank Management"
+                        data-title="Logofolio"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/portfolio/logofolio/logofolio (1).jpg" alt="Logofolio" />
                       </a>
                     </div>
                   </div>
@@ -128,11 +128,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/portfolio/logofolio/logofolio (2).jpg"
                         data-lightbox="portfolio"
-                        data-title="Bank Management"
+                        data-title="Logofolio"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/portfolio/logofolio/logofolio (2).jpg" alt="Logofolio" />
                       </a>
                     </div>
                   </div>
@@ -141,11 +141,63 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/portfolio/logofolio/logofolio (3).jpg"
                         data-lightbox="portfolio"
-                        data-title="Bank Management"
+                        data-title="Logofolio"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/portfolio/logofolio/logofolio (3).jpg" alt="Logofolio" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                    <div className="portfolio-box-thumb">
+                      <a
+                        href="/assets/img/portfolio/logofolio/logofolio (4).jpg"
+                        data-lightbox="portfolio"
+                        data-title="Logofolio"
+                      >
+                        <img src="/assets/img/portfolio/logofolio/logofolio (4).jpg" alt="Logofolio" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                    <div className="portfolio-box-thumb">
+                      <a
+                        href="/assets/img/portfolio/logofolio/logofolio (5).jpg"
+                        data-lightbox="portfolio"
+                        data-title="Logofolio"
+                      >
+                        <img src="/assets/img/portfolio/logofolio/logofolio (5).jpg" alt="Logofolio" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                    <div className="portfolio-box-thumb">
+                      <a
+                        href="/assets/img/portfolio/logofolio/logofolio (6).jpg"
+                        data-lightbox="portfolio"
+                        data-title="Logofolio"
+                      >
+                        <img src="/assets/img/portfolio/logofolio/logofolio (6).jpg" alt="Logofolio" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                    <div className="portfolio-box-thumb">
+                      <a
+                        href="/assets/img/portfolio/logofolio/logofolio (7).jpg"
+                        data-lightbox="portfolio"
+                        data-title="Logofolio"
+                      >
+                        <img src="/assets/img/portfolio/logofolio/logofolio (7).jpg" alt="Logofolio" />
                       </a>
                     </div>
                   </div>
@@ -156,13 +208,22 @@ const PortfolioGraphicInner = () => {
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      className="portfolio-box-thumb screen"
+                      style={{
+                        backgroundImage: "url(/assets/img/portfolio/infographics/infographics (1).jpg)"
+                      }}
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/portfolio/infographics/infographics (1).jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="/assets/img/portfolio/infographics/infographics (1).jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -171,11 +232,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -184,28 +245,28 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="tab-pane fade" id="nav-step3" role="tabpanel">
+            {/* <div className="tab-pane fade" id="nav-step3" role="tabpanel">
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -214,11 +275,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -227,28 +288,28 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="tab-pane fade" id="nav-step4" role="tabpanel">
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -257,11 +318,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -270,11 +331,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -287,11 +348,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -300,11 +361,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -313,28 +374,28 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="tab-pane fade" id="nav-step6" role="tabpanel">
+            {/* <div className="tab-pane fade" id="nav-step6" role="tabpanel">
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -343,11 +404,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -356,28 +417,28 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="tab-pane fade" id="nav-step7" role="tabpanel">
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -386,11 +447,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -399,11 +460,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -416,11 +477,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -429,11 +490,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -442,11 +503,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -459,11 +520,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -472,11 +533,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -485,11 +546,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>

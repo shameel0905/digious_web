@@ -14,7 +14,7 @@ const FooterThree = () => {
                             <div className="widget footer-widget widget-about">
                                 <div className="about-logo">
                                     <Link to="/">
-                                        <img src="assets/img/logo-white.svg" alt="Bizmaster" />
+                                        <img src="assets/img/logo-white.svg" alt="Digious Solutions" />
                                     </Link>
                                 </div>
                                 <p className="footer-text mb-30 mt-30">
@@ -113,7 +113,7 @@ const FooterThree = () => {
                     <div className="row gy-3 justify-content-lg-between justify-content-center">
                         <div className="col-auto align-self-center">
                             <p className="copyright-text text-center">
-                                © <Link to="#">Bizmaster </Link> 2024 | All Rights Reserved
+                                © <Link to="#">Digious Solutions </Link> 2024 | All Rights Reserved
                             </p>
                         </div>
                         <div className="col-auto">

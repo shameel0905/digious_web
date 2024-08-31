@@ -53,7 +53,7 @@ const WebsiteInnerDetails = () => {
                     className="page-thumb style2"
                   >
                     <video   
-                       src="assets/videos/services/website/showcase1.mp4"   
+                       src="/assets/videos/services/website/showcase1.mp4"   
                        autoPlay   
                        loop   
                        muted   
@@ -72,7 +72,7 @@ const WebsiteInnerDetails = () => {
                     className="page-thumb style2"
                   >
                     <video   
-                       src="assets/videos/services/website/showcase2.mp4"   
+                       src="/assets/videos/services/website/showcase2.mp4"   
                        autoPlay   
                        loop   
                        muted   
@@ -129,7 +129,7 @@ const WebsiteInnerDetails = () => {
             <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" className="col-xl-6">
               <div className="title-area text-center">
                 <span className="sub-title">
-                  <img src="assets/img/icon/title_left.svg" alt="shape" />
+                  <img src="/assets/img/icon/title_left.svg" alt="shape" />
                   Our Portfolio
                 </span>
                 <h2 className="sec-title style2">
@@ -142,7 +142,7 @@ const WebsiteInnerDetails = () => {
             <div data-aos="fade-up" data-aos-delay="600" className="col-lg-6">
               <div className="portfolio-card-3">
                 <div className="portfolio-card-thumb">
-                  <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                  <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
                   <span className="portfolio-card-details_subtitle">
@@ -163,7 +163,7 @@ const WebsiteInnerDetails = () => {
             <div className="col-lg-6">
               <div data-aos="fade-up" data-aos-delay="700" className="portfolio-card-3">
                 <div className="portfolio-card-thumb">
-                  <img src="assets/img/service/graphic-4.jpg" alt="img" />
+                  <img src="/assets/img/service/graphic-4.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
                   <span className="portfolio-card-details_subtitle">

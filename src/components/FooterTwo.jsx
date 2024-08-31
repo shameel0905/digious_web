@@ -14,7 +14,7 @@ const FooterTwo = () => {
               <div className="widget footer-widget widget-about">
                 <div className="about-logo">
                   <Link to="/">
-                    <img src="assets/img/logo.svg" alt="Bizmaster" />
+                    <img src="assets/img/logo.svg" alt="Digious Solutions" />
                   </Link>
                 </div>
                 <p className="footer-text mb-30">
@@ -104,22 +104,22 @@ const FooterTwo = () => {
                 <ul className="side-instagram list-wrap">
                   <li>
                     <Link to="#">
-                      <img src="assets/img/gallery/1.jpg" alt="Bizmaster" />
+                      <img src="assets/img/gallery/1.jpg" alt="Digious Solutions" />
                     </Link>
                   </li>
                   <li>
                     <Link to="#">
-                      <img src="assets/img/gallery/2.jpg" alt="Bizmaster" />
+                      <img src="assets/img/gallery/2.jpg" alt="Digious Solutions" />
                     </Link>
                   </li>
                   <li>
                     <Link to="#">
-                      <img src="assets/img/gallery/3.jpg" alt="Bizmaster" />
+                      <img src="assets/img/gallery/3.jpg" alt="Digious Solutions" />
                     </Link>
                   </li>
                   <li>
                     <Link to="#">
-                      <img src="assets/img/gallery/4.jpg" alt="Bizmaster" />
+                      <img src="assets/img/gallery/4.jpg" alt="Digious Solutions" />
                     </Link>
                   </li>
                 </ul>
@@ -133,7 +133,7 @@ const FooterTwo = () => {
           <div className="row gy-3 justify-content-lg-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Bizmaster</Link> 2024 | All Rights Reserved
+                © <Link to="#">Digious Solutions</Link> 2024 | All Rights Reserved
               </p>
             </div>
             <div className="col-auto">

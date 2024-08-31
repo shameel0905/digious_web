@@ -10,8 +10,8 @@ const BlogAreaAll = () => {
             <div className="blog-single-card">
               <div className="blog-thumb">
                 <img
-                  src="assets/img/blog/stranger-apple-id-featured.jpg"
-                  alt="Bizmaster"
+                  src="/assets/img/blog/stranger-apple-id-featured.jpg"
+                  alt="Digious Solutions"
                 />
                 <div className="blog-date">
                   <Link to="/blog">
@@ -48,13 +48,13 @@ const BlogAreaAll = () => {
                 <Link to="/if-you-have-forgotten-your-apple-id-password" className="global-btn style-border2">
                   {" "}
                   Read More{" "}
-                  <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
+                  <img src="/assets/img/icon/right-icon2.svg" alt="Digious Solutions" />
                 </Link>
               </div>
             </div>
             <div className="blog-single-card">
               <div className="blog-thumb">
-                <img src="assets/img/blog/seo-ai-main.jpg" alt="Bizmaster" />
+                <img src="/assets/img/blog/seo-ai-main.jpg" alt="Digious Solutions" />
                 <div className="blog-date">
                   <Link to="/blog">
                     <span>31</span>May
@@ -89,13 +89,13 @@ const BlogAreaAll = () => {
                 <Link to="/how-to-be-a-success-with-search-engine-optimization" className="global-btn style-border2">
                   {" "}
                   Read More{" "}
-                  <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
+                  <img src="/assets/img/icon/right-icon2.svg" alt="Digious Solutions" />
                 </Link>
               </div>
             </div>
             <div className="blog-single-card">
               <div className="blog-thumb">
-                <img src="assets/img/blog/NFT_01-ai-01.jpg" alt="Bizmaster" />
+                <img src="/assets/img/blog/NFT_01-ai-01.jpg" alt="Digious Solutions" />
                 <div className="blog-date">
                   <Link to="/blog">
                     <span>31</span>May
@@ -128,7 +128,7 @@ const BlogAreaAll = () => {
                 <Link to="/what-is-nft-art" className="global-btn style-border2">
                   {" "}
                   Read More{" "}
-                  <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
+                  <img src="/assets/img/icon/right-icon2.svg" alt="Digious Solutions" />
                 </Link>
               </div>
             </div>
@@ -166,25 +166,25 @@ const BlogAreaAll = () => {
                                     <li>
                                         <Link to="/blog">
                                             Business Growth Catalyst{" "}
-                                            <img src="assets/img/icon/category-1.svg" alt="Bizmaster" />
+                                            <img src="/assets/img/icon/category-1.svg" alt="Digious Solutions" />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/blog">
                                             Digital Transformation
-                                            <img src="assets/img/icon/category-2.svg" alt="Bizmaster" />
+                                            <img src="/assets/img/icon/category-2.svg" alt="Digious Solutions" />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/blog">
                                             Advisors Growth Catalyst
-                                            <img src="assets/img/icon/category-3.svg" alt="Bizmaster" />
+                                            <img src="/assets/img/icon/category-3.svg" alt="Digious Solutions" />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/blog">
                                             Financial Advisory Partners
-                                            <img src="assets/img/icon/category-4.svg" alt="Bizmaster" />
+                                            <img src="/assets/img/icon/category-4.svg" alt="Digious Solutions" />
                                         </Link>
                                     </li>
                                 </ul>
@@ -196,8 +196,8 @@ const BlogAreaAll = () => {
                     <div className="recent-post-meta">
                       <Link to="/blog">
                         <img
-                          src="assets/img/icon/calender.svg"
-                          alt="Bizmaster"
+                          src="/assets/img/icon/calender.svg"
+                          alt="Digious Solutions"
                         />
                         Jan 10, 2024
                       </Link>
@@ -214,8 +214,8 @@ const BlogAreaAll = () => {
                     <div className="recent-post-meta">
                       <Link to="/blog">
                         <img
-                          src="assets/img/icon/calender.svg"
-                          alt="Bizmaster"
+                          src="/assets/img/icon/calender.svg"
+                          alt="Digious Solutions"
                         />
                         Jan 10, 2024
                       </Link>
@@ -232,8 +232,8 @@ const BlogAreaAll = () => {
                     <div className="recent-post-meta">
                       <Link to="/blog">
                         <img
-                          src="assets/img/icon/calender.svg"
-                          alt="Bizmaster"
+                          src="/assets/img/icon/calender.svg"
+                          alt="Digious Solutions"
                         />
                         Jan 10, 2024
                       </Link>

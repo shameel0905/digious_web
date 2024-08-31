@@ -10,7 +10,7 @@ const ServiceFour = () => {
                         <div className="col-xl-6">
                             <div className="title-area text-center">
                                 <span className="sub-title text-white">
-                                    <img src="assets/img/icon/title_left.svg" alt="shape" />
+                                    <img src="/assets/img/icon/title_left.svg" alt="shape" />
                                     Our Services
                                 </span>
                                 <h2 className="sec-title style2 text-white">
@@ -25,7 +25,7 @@ const ServiceFour = () => {
                         <div className="col-xl-4 col-md-6">
                             <div className="service-card-3">
                                 <div className="service-card-icon">
-                                    <img src="assets/img/icon/gd.png" alt="img" />
+                                    <img src="/assets/img/icon/gd.png" alt="img" />
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
@@ -43,16 +43,16 @@ const ServiceFour = () => {
                         <div className="col-xl-4 col-md-6">
                             <div className="service-card-3">
                                 <div className="service-card-icon">
-                                    <img src="assets/img/icon/dev_icon.png" alt="img" />
+                                    <img src="/assets/img/icon/dev_icon.png" alt="img" />
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Website Development</Link>
+                                        <Link to="/website-development">Website Development</Link>
                                     </h4>
                                     <p className="service-card_text">
                                         Digious Solutions serves as a Website Development Agency believing in the vision of creativity. It fills as your premier Web Developer and Web Designer. 
                                     </p>
-                                    <Link to="/service-details" className="link-btn">
+                                    <Link to="/website-development" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -61,16 +61,16 @@ const ServiceFour = () => {
                         <div className="col-xl-4 col-md-6">
                             <div className="service-card-3">
                                 <div className="service-card-icon">
-                                    <img src="assets/img/icon/ecom_icon.png" alt="img" />
+                                    <img src="/assets/img/icon/ecom_icon.png" alt="img" />
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">E-Commerce Solution</Link>
+                                        <Link to="/ecommerce-solutions">E-Commerce Solution</Link>
                                     </h4>
                                     <p className="service-card_text">
                                         We can convert your ideas to life by delivering our digital experiences. With us, build and grow your e-commerce online business effectively
                                     </p>
-                                    <Link to="/service-details" className="link-btn">
+                                    <Link to="/ecommerce-solutions" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -79,16 +79,16 @@ const ServiceFour = () => {
                         <div className="col-xl-4 col-md-6">
                             <div className="service-card-3">
                                 <div className="service-card-icon">
-                                    <img src="assets/img/icon/game_icon.png" alt="img" />
+                                    <img src="/assets/img/icon/game_icon.png" alt="img" />
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Game Development</Link>
+                                        <Link to="/game-development">Game Development</Link>
                                     </h4>
                                     <p className="service-card_text">
                                     Digious Solution is a competent mobile app development firm that provides you a wide-ranging store for fulfilling all of your android
                                     </p>
-                                    <Link to="/service-details" className="link-btn">
+                                    <Link to="/game-development" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -97,16 +97,16 @@ const ServiceFour = () => {
                         <div className="col-xl-4 col-md-6">
                             <div className="service-card-3">
                                 <div className="service-card-icon">
-                                    <img src="assets/img/icon/eng_icon.png" alt="img" />
+                                    <img src="/assets/img/icon/eng_icon.png" alt="img" />
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Mobile App Development </Link>
+                                        <Link to="/mobile-app-development">Mobile App Development </Link>
                                     </h4>
                                     <p className="service-card_text">
                                         Digious Solution is the right and most convenient platform that bestows you your best mobile app developers.
                                     </p>
-                                    <Link to="/service-details" className="link-btn">
+                                    <Link to="/mobile-app-development" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -115,16 +115,16 @@ const ServiceFour = () => {
                         <div className="col-xl-4 col-md-6">
                             <div className="service-card-3">
                                 <div className="service-card-icon">
-                                    <img src="assets/img/icon/database.png" alt="img" />
+                                    <img src="/assets/img/icon/database.png" alt="img" />
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Software Development </Link>
+                                        <Link to="/software-development">Software Development </Link>
                                     </h4>
                                     <p className="service-card_text">
                                         We understand that every business has specific requirements. Our team of skilled software developers works closely with you to conceptualize,
                                     </p>
-                                    <Link to="/service-details" className="link-btn">
+                                    <Link to="/software-development" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -133,25 +133,25 @@ const ServiceFour = () => {
                         <div className="col-xl-4 col-md-6">
                             <div className="service-card-3">
                                 <div className="service-card-icon">
-                                    <img src="assets/img/icon/megaphone.png" alt="img" />
+                                    <img src="/assets/img/icon/megaphone.png" alt="img" />
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Digital Marketing </Link>
+                                        <Link to="/digital-marketing">Digital Marketing </Link>
                                     </h4>
                                     <p className="service-card_text">
                                         We set out years ago to create a contemporary shop for new-age businesses seeking to pitch their products in the competitive digital world.
                                     </p>
-                                    <Link to="/service-details" className="link-btn">
+                                    <Link to="/digital-marketing" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-md-6">
+                        {/* <div className="col-xl-4 col-md-6">
                             <div className="service-card-3">
                                 <div className="service-card-icon">
-                                    <img src="assets/img/icon/token.png" alt="img" />
+                                    <img src="/assets/img/icon/token.png" alt="img" />
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
@@ -169,7 +169,7 @@ const ServiceFour = () => {
                         <div className="col-xl-4 col-md-6">
                             <div className="service-card-3">
                                 <div className="service-card-icon">
-                                    <img src="assets/img/icon/sqa.png" alt="img" />
+                                    <img src="/assets/img/icon/sqa.png" alt="img" />
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
@@ -183,7 +183,7 @@ const ServiceFour = () => {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
