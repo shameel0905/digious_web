@@ -29,7 +29,7 @@ const DigitalMarketingService = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Graphic Design"} />
+      <HelmetReact title={"Digital Marketing"} />
 
       {/* HeaderFive */}
       <HeaderFive />

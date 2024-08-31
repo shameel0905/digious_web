@@ -29,7 +29,7 @@ const GameDevelopmentService = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Graphic Design"} />
+      <HelmetReact title={"Game Development"} />
 
       {/* HeaderFive */}
       <HeaderFive />
@@ -41,7 +41,7 @@ const GameDevelopmentService = () => {
       <GameDevInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOneGameDev />
+      {/* <ProcessOneGameDev /> */}
 
       {/* TestimonialOne */}
       <div className="space">

@@ -202,6 +202,39 @@ const HeaderFive = () => {
                 </ul>
               </li> */}
               <li className="menu-item-has-children">
+                <Link to="#">Service</Link>
+                <ul className="sub-menu">
+                  <li>
+                    <Link to="/graphic-designing">Graphic Design</Link>
+                  </li>
+                  <li>
+                    <Link to="/website-development">Website Development</Link>
+                  </li>
+                  <li>
+                    <Link to="/ecommerce-solutions">E-Commerce Solution</Link>
+                  </li>
+                  <li>
+                    <Link to="/game-development">Game Development</Link>
+                  </li>
+                  <li>
+                    <Link to="/mobile-app-development">Mobile App Development</Link>
+                  </li>
+                  <li>
+                    <Link to="/software-development">Software Development</Link>
+                  </li>
+                  <li>
+                    <Link to="/digital-marketing">Digital Marketing</Link>
+                  </li>
+                  <li>
+                    <Link to="/block-chain-development">Block Chain Develpment</Link>
+                  </li>
+                  <li>
+                    <Link to="/software-quality-assurance">Software Quality Assurance</Link>
+                  </li>
+                </ul>
+              </li>
+              
+              <li className="menu-item-has-children">
                 <Link to="#">Portfolio</Link>
                 <ul className="sub-menu">
                   <li>
@@ -224,41 +257,7 @@ const HeaderFive = () => {
                   </li>
                 </ul>
               </li>
-              <li className="menu-item-has-children">
-                <Link to="#">Service</Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link to="/graphic-designing">Graphic Design</Link>
-                  </li>
-                  <li>
-                    <Link to="/website-development">Website Development</Link>
-                  </li>
-                  <li>
-                    <Link to="/ecommerce-solutions">E-Commerce Solution</Link>
-                  </li>
-                  <li>
-                    <Link to="/game-development">Game Development</Link>
-                  </li>
-                  <li>
-                    <Link to="/mobile-app-development">Mobile App Development</Link>
-                  </li>
-                  <li>
-                    <Link to="/software-development">Software Development</Link>
-                  </li>
-                  <li>
-                    <Link to="/erp-solutions">ERP Solutions</Link>
-                  </li>
-                  <li>
-                    <Link to="/digital-marketing">Digital Marketing</Link>
-                  </li>
-                  <li>
-                    <Link to="/block-chain-development">Block Chain Develpment</Link>
-                  </li>
-                  <li>
-                    <Link to="/software-quality-assurance">Software Quality Assurance</Link>
-                  </li>
-                </ul>
-              </li>
+              
               <li className="menu-item-has-children">
                 <Link to="/blog">Blog</Link>
                 {/* <ul className="sub-menu">
@@ -370,9 +369,6 @@ const HeaderFive = () => {
                         </li>
                         <li>
                           <Link to="/software-development">Software Development</Link>
-                        </li>
-                        <li>
-                          <Link to="/erp-solutions">ERP Solutions</Link>
                         </li>
                         <li>
                           <Link to="/digital-marketing">Digital Marketing</Link>

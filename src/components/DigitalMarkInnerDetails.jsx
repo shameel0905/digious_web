@@ -17,53 +17,56 @@ const DigitalMarkInnerDetails = () => {
             <div className="col-xxl-12 col-lg-12">
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
-                  Digital Marketing
-                  Digious Solutions is a leading graphic agency that offers the
-                  highest high-quality graphic design services.
+                Revolutionizing E-Commerce: Digious Solutions' Rise to Industry Leadership
                 </h3>
               </div>
               <p>
-                Being the most effective graphic design firm, we provide
-                top-quality graphic design services. Our talented graphic
-                designers can create professional branding and graphic design
-                for you. If you’re looking for graphic design or graphic
-                products, then you should consider us. We are the most reputable
-                graphic design company.
+              We set out years ago to create a contemporary shop for new-age businesses seeking to pitch their products in the competitive digital world. With our best digital solutions to businesses at a lower level, we managed to rise through the ranks, ultimately becoming a household name in the e-commerce ecosystem. Today, Digious Solutions has decorated dozens of businesses with trailblazing designs, ideas, and layouts.
+              </p><br></br>
+              <p>
+              Whether you’re a seed-stage venture or a blooming decacorn, our digital services for businesses are warranted to attract customers’ eyes. Our best web digital solutions for businesses include 
               </p>
               <div className="checklist style6 mt-40 mb-60">
                 <ul>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Navigate the Path to Success Achieve Your Business Goals
-                    with Confident
+                    Graphics Design
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />A business consultant
-                    is a professional who provides expert
+                    Website Development
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Guidance to businesses on various aspects such as management
+                    E-Commerce Solution
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Game Development
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Mobile App Development
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Software Development
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Digital Marketing
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Software Quality Assurance
                   </li>
                 </ul>
               </div>
               <h3 className="text-white page-title mb-20">
-                Navigate the Path to Success
+              Our digital marketing services for businesses are mould-breaking
               </h3>
               <p className="mb-30">
-                Whatever business you are in, if the design and graphics aren’t
-                appealing enough to draw their attention customers Then you have
-                to take action to change it. Our skilled graphic designers
-                remain up to date with the most recent trends in Graphic
-                Designing around the world and we are fully aware of the
-                necessity of it and the worth we can bring to these
-                developments. Digious Solutions offers the best solutions for
-                graphic design and multimedia in accordance with your
-                requirements and needs. Our graphic design services that we
-                offer are distinctive and we take great satisfaction in the work
-                we’ve accomplished. If you are looking to improve the existing
-                design or to design something completely fresh, we’re waiting to
-                help!
+              We, at Digious Solution, are driven by new-fashioned marketing. Our resourceful team cherry-picks ideas to boost your small businesses in the online digital market. Our plans for start-ups and established companies are trailblazing and unique. Digious Solutions doesn’t believe in a cookie-cutter approach. Our team has a thirst for innovation, and each day we set out to decorate a new brand in the digital marketing world. 
               </p>
               <div className="row gy-4">
                 <div className="col-lg-6">

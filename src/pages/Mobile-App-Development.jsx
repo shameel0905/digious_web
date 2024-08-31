@@ -29,7 +29,7 @@ const MobileAppService = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Graphic Design"} />
+      <HelmetReact title={"Mobile App Development"} />
 
       {/* HeaderFive */}
       <HeaderFive />
@@ -41,7 +41,7 @@ const MobileAppService = () => {
       <MobielAppInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOneMobileApp />
+      {/* <ProcessOneMobileApp /> */}
 
       {/* TestimonialOne */}
       <div className="space">

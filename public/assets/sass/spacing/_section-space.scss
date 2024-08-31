@@ -1,12 +1,14 @@
 .space,
 .space-top {
-  padding-top: $space;
+  // padding-top: $space;
+  padding-top: 80px;
   // background: rgb(15, 15, 15);
 }
 
 .space,
 .space-bottom {
-  padding-bottom: $space;
+  // padding-bottom: $space;
+  padding-bottom: 80px;
 }
 
 .space-extra,
@@ -33,12 +35,14 @@
 @include md {
   .space,
   .space-top {
-    padding-top: $space-mobile;
+    // padding-top: $space-mobile;
+    padding-top: 40px;
   }
 
   .space,
   .space-bottom {
-    padding-bottom: $space-mobile;
+    // padding-bottom: $space-mobile;
+    padding-bottom: 40px;
   }
 
   .space-extra,
