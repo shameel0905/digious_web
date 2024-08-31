@@ -5,7 +5,7 @@ const BreadcrumbInnerDigitalMarket = ({ title }) => {
     return (
         <div 
             className="breadcumb-wrapper"
-            style={{ backgroundImage: "url(assets/img/bg/digimarkbg.jpg)" }}
+            style={{ backgroundImage: "url(/assets/img/bg/digimarkbg.jpg)" }}
         >
             <div class="overlay"></div> 
             {/* bg animated image/ */}

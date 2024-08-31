@@ -225,13 +225,7 @@ const HeaderFive = () => {
                   <li>
                     <Link to="/digital-marketing">Digital Marketing</Link>
                   </li>
-                  <li>
-                    <Link to="/block-chain-development">Block Chain Develpment</Link>
-                  </li>
-                  <li>
-                    <Link to="/software-quality-assurance">Software Quality Assurance</Link>
-                  </li>
-                </ul>
+                  </ul>
               </li>
               
               <li className="menu-item-has-children">
@@ -373,13 +367,7 @@ const HeaderFive = () => {
                         <li>
                           <Link to="/digital-marketing">Digital Marketing</Link>
                         </li>
-                        <li>
-                          <Link to="/block-chain-development">Block Chain Develpment</Link>
-                        </li>
-                        <li>
-                          <Link to="/software-quality-assurance">Software Quality Assurance</Link>
-                        </li>
-                      </ul>
+                       </ul>
                     </li>
                     <li className="menu-item-has-children">
                       <Link to="#">Portfolio</Link>

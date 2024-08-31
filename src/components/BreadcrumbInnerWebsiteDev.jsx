@@ -5,7 +5,7 @@ const BreadcrumbInnerWebsiteDev = ({ title }) => {
     return (
         <div 
             className="breadcumb-wrapper"
-            style={{ backgroundImage: "url(assets/img/bg/web-devs.jpg)" }}
+            style={{ backgroundImage: "url(/assets/img/bg/web-devs.jpg)" }}
         >
              <div class="overlay"></div> 
             {/* bg animated image/ */}

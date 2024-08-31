@@ -15,7 +15,7 @@ const ErrorInner = () => {
                                 <img
                                     className="img-fluid"
                                     src="/assets/img/error.png"
-                                    alt="Bizmaster"
+                                    alt="Digious Solutions"
                                 />
                             </div>
                             <div className="text-file">

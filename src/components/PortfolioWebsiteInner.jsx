@@ -10,7 +10,7 @@ const PortfolioWebsiteInner = () => {
           <div className="col-lg-8">
             <div className="title-area text-center">
               <span className="sub-title">
-                <img src="assets/img/icon/title_left.svg" alt="shape" />
+                <img src="/assets/img/icon/title_left.svg" alt="shape" />
                 Latest Portfolio
               </span>
               <h2 className="sec-title style2">
@@ -121,13 +121,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -144,13 +144,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -167,13 +167,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -194,13 +194,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -217,13 +217,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -240,13 +240,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -267,13 +267,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -290,13 +290,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -313,13 +313,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -340,13 +340,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -363,13 +363,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -386,13 +386,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -413,13 +413,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -436,13 +436,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -459,13 +459,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -486,13 +486,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -509,13 +509,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -532,13 +532,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -559,13 +559,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -582,13 +582,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -605,13 +605,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -632,13 +632,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -655,13 +655,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -678,13 +678,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -705,13 +705,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -728,13 +728,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                           alt="img"
                         />
                       </a>
@@ -751,13 +751,13 @@ const PortfolioWebsiteInner = () => {
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                           alt="img"
                         />
                       </a>

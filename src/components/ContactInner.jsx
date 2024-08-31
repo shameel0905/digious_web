@@ -188,7 +188,7 @@ const ContactInner = () => {
                         Send Now
                         <img
                           src="assets/img/icon/right-icon.svg"
-                          alt="Bizmaster"
+                          alt="Digious Solutions"
                         />
                       </button>
                       {status && <p className="text-center text-white" style={{ paddingTop: "10px" }}>{status}</p>}

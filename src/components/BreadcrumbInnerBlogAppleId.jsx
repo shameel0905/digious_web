@@ -5,7 +5,7 @@ const BreadcrumbInner = ({ title }) => {
     return (
         <div 
             className="breadcumb-wrapper"
-            style={{ backgroundImage: "url(assets/img/blog/applleidforgetten.png)" }}
+            style={{ backgroundImage: "url(/assets/img/blog/applleidforgetten.png)" }}
         >
             <div class="overlay"></div> 
             {/* bg animated image/ */}

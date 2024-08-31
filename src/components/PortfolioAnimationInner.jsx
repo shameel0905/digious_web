@@ -10,7 +10,7 @@ const PortfolioAnimationInner = () => {
           <div className="col-lg-8">
             <div className="title-area text-center">
               <span className="sub-title">
-                <img src="assets/img/icon/title_left.svg" alt="shape" />
+                <img src="/assets/img/icon/title_left.svg" alt="shape" />
                 Latest Portfolio
               </span>
               <h2 className="sec-title style2">
@@ -119,11 +119,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -132,11 +132,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -145,11 +145,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -162,11 +162,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -175,11 +175,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -188,11 +188,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -205,11 +205,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -218,11 +218,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -231,11 +231,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -248,11 +248,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -261,11 +261,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -274,11 +274,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -291,11 +291,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -304,11 +304,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -317,11 +317,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -334,11 +334,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -347,11 +347,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -360,11 +360,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -377,11 +377,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -390,11 +390,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -403,11 +403,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -420,11 +420,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -433,11 +433,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -446,11 +446,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -463,11 +463,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -476,11 +476,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -489,11 +489,11 @@ const PortfolioAnimationInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="/assets/img/service/graphic-3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>

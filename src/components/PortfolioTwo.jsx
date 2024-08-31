@@ -37,7 +37,7 @@ const PortfolioTwo = () => {
                 <Link to="/project-details" className="icon-btn">
                   <img
                     src="assets/img/icon/arrow-up-right.svg"
-                    alt="Bizmaster"
+                    alt="Digious Solutions"
                   />
                 </Link>
               </div>
@@ -60,7 +60,7 @@ const PortfolioTwo = () => {
                 <Link to="/project-details" className="icon-btn">
                   <img
                     src="assets/img/icon/arrow-up-right.svg"
-                    alt="Bizmaster"
+                    alt="Digious Solutions"
                   />
                 </Link>
               </div>
@@ -83,7 +83,7 @@ const PortfolioTwo = () => {
                 <Link to="/project-details" className="icon-btn">
                   <img
                     src="assets/img/icon/arrow-up-right.svg"
-                    alt="Bizmaster"
+                    alt="Digious Solutions"
                   />
                 </Link>
               </div>
@@ -106,7 +106,7 @@ const PortfolioTwo = () => {
                 <Link to="/project-details" className="icon-btn">
                   <img
                     src="assets/img/icon/arrow-up-right.svg"
-                    alt="Bizmaster"
+                    alt="Digious Solutions"
                   />
                 </Link>
               </div>
@@ -129,7 +129,7 @@ const PortfolioTwo = () => {
                 <Link to="/project-details" className="icon-btn">
                   <img
                     src="assets/img/icon/arrow-up-right.svg"
-                    alt="Bizmaster"
+                    alt="Digious Solutions"
                   />
                 </Link>
               </div>

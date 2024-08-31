@@ -24,7 +24,7 @@ const BlogDetailsInnerNFT = () => {
               </div>
               <h2 className="blog-title">What is NFT Art?</h2>
               {/* <div className="blog-thumb">
-                                <img src="assets/img/blog/stranger-apple-id-featured.jpg" alt="Bizmaster" />
+                                <img src="/assets/img/blog/stranger-apple-id-featured.jpg" alt="Digious Solutions" />
                             </div> */}
               <div className="blog-content">
                 <h3 className="blog-inner-title">
@@ -111,8 +111,8 @@ const BlogDetailsInnerNFT = () => {
                     <div className="recent-post-meta">
                       <Link to="/blog">
                         <img
-                          src="assets/img/icon/calender.svg"
-                          alt="Bizmaster"
+                          src="/assets/img/icon/calender.svg"
+                          alt="Digious Solutions"
                         />
                         Jan 10, 2024
                       </Link>
@@ -129,8 +129,8 @@ const BlogDetailsInnerNFT = () => {
                     <div className="recent-post-meta">
                       <Link to="/blog">
                         <img
-                          src="assets/img/icon/calender.svg"
-                          alt="Bizmaster"
+                          src="/assets/img/icon/calender.svg"
+                          alt="Digious Solutions"
                         />
                         Jan 10, 2024
                       </Link>
@@ -147,8 +147,8 @@ const BlogDetailsInnerNFT = () => {
                     <div className="recent-post-meta">
                       <Link to="/blog">
                         <img
-                          src="assets/img/icon/calender.svg"
-                          alt="Bizmaster"
+                          src="/assets/img/icon/calender.svg"
+                          alt="Digious Solutions"
                         />
                         Jan 10, 2024
                       </Link>

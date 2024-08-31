@@ -152,7 +152,7 @@ const BlogFive = () => {
                             <div data-aos="fade-up" data-aos-delay="1100" className="px-2">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
-                                        <img src="/assets/img/blog/seo-ai-main.jpg" alt="Bizmaster" />
+                                        <img src="/assets/img/blog/seo-ai-main.jpg" alt="Digious Solutions" />
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">

@@ -76,7 +76,16 @@ const DigitalMarkInnerDetails = () => {
                     data-aos-duration="500"
                     className="page-thumb style2"
                   >
-                    <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                    <video   
+                       src="/assets/videos/services/marketing/showcase1.mp4"   
+                       autoPlay   
+                       loop   
+                       muted   
+                       playsInline  
+                       style={{ width: '100%', height: 'auto' }}  
+                       alt="Mobile App Development"  
+                       > Your browser does not support the video tag.
+                      </video> 
                   </div>
                 </div>
                 <div className="col-lg-6">
@@ -86,7 +95,16 @@ const DigitalMarkInnerDetails = () => {
                     data-aos-duration="500"
                     className="page-thumb style2"
                   >
-                    <img src="assets/img/service/graphic-4.jpg" alt="img" />
+                    <video   
+                       src="/assets/videos/services/marketing/showcase2.mp4"   
+                       autoPlay   
+                       loop   
+                       muted   
+                       playsInline  
+                       style={{ width: '100%', height: 'auto' }}  
+                       alt="Mobile App Development"  
+                       > Your browser does not support the video tag.
+                      </video> 
                   </div>
                 </div>
               </div>
@@ -139,11 +157,11 @@ const DigitalMarkInnerDetails = () => {
             <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" className="col-xl-6">
               <div className="title-area text-center">
                 <span className="sub-title">
-                  <img src="assets/img/icon/title_left.svg" alt="shape" />
-                  Latest Projects of Graphic Design
+                  <img src="/assets/img/icon/title_left.svg" alt="shape" />
+                  Our Portfolio
                 </span>
                 <h2 className="sec-title style2">
-                  Guiding Businesses Toward Success
+                Latest Projects of Digital Marketing
                 </h2>
               </div>
             </div>
@@ -152,7 +170,7 @@ const DigitalMarkInnerDetails = () => {
             <div data-aos="fade-up" data-aos-delay="600" className="col-lg-6">
               <div className="portfolio-card-3">
                 <div className="portfolio-card-thumb">
-                  <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                  <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
                   <span className="portfolio-card-details_subtitle">
@@ -173,7 +191,7 @@ const DigitalMarkInnerDetails = () => {
             <div className="col-lg-6">
               <div data-aos="fade-up" data-aos-delay="700" className="portfolio-card-3">
                 <div className="portfolio-card-thumb">
-                  <img src="assets/img/service/graphic-4.jpg" alt="img" />
+                  <img src="/assets/img/service/graphic-4.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
                   <span className="portfolio-card-details_subtitle">

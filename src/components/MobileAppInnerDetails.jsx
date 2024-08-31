@@ -124,7 +124,7 @@ const MobielAppInnerDetails = () => {
             <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" className="col-xl-6">
               <div className="title-area text-center">
                 <span className="sub-title">
-                  <img src="assets/img/icon/title_left.svg" alt="shape" />
+                  <img src="/assets/img/icon/title_left.svg" alt="shape" />
                   Our Portfolio
                 </span>
                 <h2 className="sec-title style2">

@@ -14,7 +14,7 @@ const FooterOne = () => {
               <div className="widget footer-widget widget-about">
                 <div className="about-logo">
                   <Link to="/">
-                    <img src="/assets/img/logo-white.svg" alt="Bizmaster" />
+                    <img src="/assets/img/logo-white.svg" alt="Digious Solutions" />
                   </Link>
                 </div>
                 <p className="footer-text mb-30">

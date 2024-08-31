@@ -19,7 +19,7 @@ const AboutSix = () => {
               data-aos-offset="200"
               data-aos-delay="500" className="about-thumb5">
                 <div className="img1">
-                  <img  src="assets/img/normal/about-us.jpg" alt="img" />
+                  <img  src="/assets/img/normal/about-us.jpg" alt="img" />
                 </div>
                 <div className="about-counter-wrap jump-reverse">
                   <h3 className="about-counter">
@@ -43,7 +43,7 @@ const AboutSix = () => {
               data-aos-delay="500" className="col-xl-7">
               <div className="title-area mb-40">
                 <span className="sub-title style2">
-                  <img src="assets/img/icon/title_left2.svg" alt="shape" />
+                  <img src="/assets/img/icon/title_left2.svg" alt="shape" />
                   About Us
                 </span>
                 <h2 className="sec-title style2 text-white">

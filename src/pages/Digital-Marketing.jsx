@@ -41,7 +41,7 @@ const DigitalMarketingService = () => {
       <DigitalMarkInnerDetails />
 
       {/* ProcessOne */}
-      <ProcessOneDigitalMarket />
+      {/* <ProcessOneDigitalMarket /> */}
 
       {/* TestimonialOne */}
       <div className="space">

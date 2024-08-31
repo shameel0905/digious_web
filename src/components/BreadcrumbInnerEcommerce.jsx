@@ -5,7 +5,7 @@ const BreadcrumbInnerEcommerce = ({ title }) => {
     return (
         <div 
             className="breadcumb-wrapper"
-            style={{ backgroundImage: "url(assets/img/bg/ecommercebg.jpg)" }}
+            style={{ backgroundImage: "url(/assets/img/bg/ecommercebg.jpg)" }}
         >
              <div class="overlay"></div> 
             {/* bg animated image/ */}

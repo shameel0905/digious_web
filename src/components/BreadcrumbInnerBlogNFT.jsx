@@ -5,7 +5,7 @@ const BreadcrumbInnerBlogNFT = ({ title }) => {
   return (
     <div
       className="breadcumb-wrapper"
-      style={{ backgroundImage: "url(assets/img/blog/nft_blog_main_banner.jpg)" }}
+      style={{ backgroundImage: "url(/assets/img/blog/nft_blog_main_banner.jpg)" }}
     >
       <div class="overlay"></div>
       {/* bg animated image/ */}

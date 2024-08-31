@@ -26,7 +26,7 @@ const BlogDetailsInner = () => {
                 If you have forgotten your Apple ID password
               </h2>
               {/* <div className="blog-thumb">
-                                <img src="assets/img/blog/stranger-apple-id-featured.jpg" alt="Bizmaster" />
+                                <img src="/assets/img/blog/stranger-apple-id-featured.jpg" alt="Digious Solutions" />
                             </div> */}
               <div className="blog-content">
                 <p className="mt-n2 mb-15">
@@ -286,7 +286,7 @@ const BlogDetailsInner = () => {
                   again with your new password. You also might need to update
                   your password in Settings on your devices.
                 </p>
-                <img src="/assets/img/blog/macos-mojave-safari-appleid-password-reset-email.jpg" alt="Bizmaster" />
+                <img src="/assets/img/blog/macos-mojave-safari-appleid-password-reset-email.jpg" alt="Digious Solutions" />
                 <hr className="its_divider"></hr>
                 <h5 className="text-white">
                   Accounts with two-step verification
@@ -320,7 +320,7 @@ const BlogDetailsInner = () => {
                     trusted device, you can’t change your password.
                   </li>
                 </ul>
-                <img src="/assets/img/blog/macos-mojave-safari-appleid-enter-recovery-key.jpg" alt="Bizmaster" />
+                <img src="/assets/img/blog/macos-mojave-safari-appleid-enter-recovery-key.jpg" alt="Digious Solutions" />
               </div>
             </div>
             {/* <div className="share-links clearfix ">
@@ -436,8 +436,8 @@ const BlogDetailsInner = () => {
                     <button className="global-btn">
                       Submit Now
                       <img
-                        src="assets/img/icon/right-icon.svg"
-                        alt="Bizmaster"
+                        src="/assets/img/icon/right-icon.svg"
+                        alt="Digious Solutions"
                       />
                     </button>
                   </div>
@@ -463,8 +463,8 @@ const BlogDetailsInner = () => {
                     <Link to="/blog">
                       Business Growth Catalyst{" "}
                       <img
-                        src="assets/img/icon/category-1.svg"
-                        alt="Bizmaster"
+                        src="/assets/img/icon/category-1.svg"
+                        alt="Digious Solutions"
                       />
                     </Link>
                   </li>
@@ -472,8 +472,8 @@ const BlogDetailsInner = () => {
                     <Link to="/blog">
                       Digital Transformation
                       <img
-                        src="assets/img/icon/category-2.svg"
-                        alt="Bizmaster"
+                        src="/assets/img/icon/category-2.svg"
+                        alt="Digious Solutions"
                       />
                     </Link>
                   </li>
@@ -481,8 +481,8 @@ const BlogDetailsInner = () => {
                     <Link to="/blog">
                       Advisors Growth Catalyst
                       <img
-                        src="assets/img/icon/category-3.svg"
-                        alt="Bizmaster"
+                        src="/assets/img/icon/category-3.svg"
+                        alt="Digious Solutions"
                       />
                     </Link>
                   </li>
@@ -490,8 +490,8 @@ const BlogDetailsInner = () => {
                     <Link to="/blog">
                       Financial Advisory Partners
                       <img
-                        src="assets/img/icon/category-4.svg"
-                        alt="Bizmaster"
+                        src="/assets/img/icon/category-4.svg"
+                        alt="Digious Solutions"
                       />
                     </Link>
                   </li>
@@ -504,8 +504,8 @@ const BlogDetailsInner = () => {
                     <div className="recent-post-meta">
                       <Link to="/blog">
                         <img
-                          src="assets/img/icon/calender.svg"
-                          alt="Bizmaster"
+                          src="/assets/img/icon/calender.svg"
+                          alt="Digious Solutions"
                         />
                         Jan 10, 2024
                       </Link>
@@ -522,8 +522,8 @@ const BlogDetailsInner = () => {
                     <div className="recent-post-meta">
                       <Link to="/blog">
                         <img
-                          src="assets/img/icon/calender.svg"
-                          alt="Bizmaster"
+                          src="/assets/img/icon/calender.svg"
+                          alt="Digious Solutions"
                         />
                         Jan 10, 2024
                       </Link>
@@ -540,8 +540,8 @@ const BlogDetailsInner = () => {
                     <div className="recent-post-meta">
                       <Link to="/blog">
                         <img
-                          src="assets/img/icon/calender.svg"
-                          alt="Bizmaster"
+                          src="/assets/img/icon/calender.svg"
+                          alt="Digious Solutions"
                         />
                         Jan 10, 2024
                       </Link>

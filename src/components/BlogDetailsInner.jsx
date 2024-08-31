@@ -24,7 +24,7 @@ const BlogDetailsInner = () => {
                             </div>
                             <h2 className="blog-title">Partnering for Business an the Success</h2>
                             <div className="blog-thumb">
-                                <img src="assets/img/blog/blog_s2_4.png" alt="Bizmaster" />
+                                <img src="/assets/img/blog/blog_s2_4.png" alt="Digious Solutions" />
                             </div>
                             <div className="blog-content">
                                 <p className="mt-n2 mb-15">
@@ -41,12 +41,12 @@ const BlogDetailsInner = () => {
                                 <div className="row gy-4">
                                     <div className="col-sm-6">
                                         <div className="blog-thumb style2 mb-sm-0 mb-30">
-                                            <img src="assets/img/blog/blog_details1_1.png" alt="img" />
+                                            <img src="/assets/img/blog/blog_details1_1.png" alt="img" />
                                         </div>
                                     </div>
                                     <div className="col-sm-6">
                                         <div className="blog-thumb style2 mb-sm-0 mb-30">
-                                            <img src="assets/img/blog/blog_details1_2.png" alt="img" />
+                                            <img src="/assets/img/blog/blog_details1_2.png" alt="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -187,7 +187,7 @@ const BlogDetailsInner = () => {
                                     <div className="col-12 form-group mb-0">
                                         <button className="global-btn">
                                             Submit Now
-                                            <img src="assets/img/icon/right-icon.svg" alt="Bizmaster" />
+                                            <img src="/assets/img/icon/right-icon.svg" alt="Digious Solutions" />
                                         </button>
                                     </div>
                                 </div>
@@ -212,25 +212,25 @@ const BlogDetailsInner = () => {
                                     <li>
                                         <Link to="/blog">
                                             Business Growth Catalyst{" "}
-                                            <img src="assets/img/icon/category-1.svg" alt="Bizmaster" />
+                                            <img src="/assets/img/icon/category-1.svg" alt="Digious Solutions" />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/blog">
                                             Digital Transformation
-                                            <img src="assets/img/icon/category-2.svg" alt="Bizmaster" />
+                                            <img src="/assets/img/icon/category-2.svg" alt="Digious Solutions" />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/blog">
                                             Advisors Growth Catalyst
-                                            <img src="assets/img/icon/category-3.svg" alt="Bizmaster" />
+                                            <img src="/assets/img/icon/category-3.svg" alt="Digious Solutions" />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/blog">
                                             Financial Advisory Partners
-                                            <img src="assets/img/icon/category-4.svg" alt="Bizmaster" />
+                                            <img src="/assets/img/icon/category-4.svg" alt="Digious Solutions" />
                                         </Link>
                                     </li>
                                 </ul>
@@ -241,7 +241,7 @@ const BlogDetailsInner = () => {
                                     <div className="recent-post">
                                         <div className="recent-post-meta">
                                             <Link to="/blog">
-                                                <img src="assets/img/icon/calender.svg" alt="Bizmaster" />
+                                                <img src="/assets/img/icon/calender.svg" alt="Digious Solutions" />
                                                 Jan 10, 2024
                                             </Link>
                                         </div>
@@ -256,7 +256,7 @@ const BlogDetailsInner = () => {
                                     <div className="recent-post">
                                         <div className="recent-post-meta">
                                             <Link to="/blog">
-                                                <img src="assets/img/icon/calender.svg" alt="Bizmaster" />
+                                                <img src="/assets/img/icon/calender.svg" alt="Digious Solutions" />
                                                 Jan 10, 2024
                                             </Link>
                                         </div>
@@ -271,7 +271,7 @@ const BlogDetailsInner = () => {
                                     <div className="recent-post">
                                         <div className="recent-post-meta">
                                             <Link to="/blog">
-                                                <img src="assets/img/icon/calender.svg" alt="Bizmaster" />
+                                                <img src="/assets/img/icon/calender.svg" alt="Digious Solutions" />
                                                 Jan 10, 2024
                                             </Link>
                                         </div>
