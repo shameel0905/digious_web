@@ -21,17 +21,18 @@
     justify-content: space-between;
     align-items: center;
     // background-color: $smoke-color2;
-    border-bottom: 1px solid $theme-color;
+    border-bottom: 1px solid #757575;
 
-    svg {
-      max-width: 185px;
+    img {
+      max-width: 187px;
+      width: 187px;
     }
   }
 
   // Menu Close Button
   .menu-toggle {
     border: 0;
-    border-left: 1px solid $theme-color;
+    border-left: 1px solid #757575;
     font-size: 22px;
     right: -16.5px;
     top: 25px;
@@ -40,7 +41,7 @@
     line-height: 36px;
     font-size: 18px;
     z-index: 1;
-    color: $theme-color;
+    color: $white-color;
     background-color: transparent;
     border-radius: 0;
 
@@ -53,7 +54,7 @@
   .mobile-menu-area {
     width: 100%;
     max-width: 310px;
-    background-color: #fff;
+    background-color: #212121;
     height: 100%;
     position: relative;
     left: -110%;
@@ -89,7 +90,7 @@
     padding: 0 0;
 
     li {
-      border-bottom: 1px solid #fdedf1;
+      border-bottom: 1px solid #757575;
       list-style-type: none;
 
       li:first-child {
@@ -103,7 +104,7 @@
         line-height: 1.4;
         font-size: 16px;
         text-transform: capitalize;
-        color: $title-color;
+        color: $white-color;
         padding-left: 0px;
       }
 

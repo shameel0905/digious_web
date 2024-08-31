@@ -11,7 +11,7 @@ const PortfolioGraphicInner = () => {
             <div className="title-area text-center">
               <span className="sub-title">
                 <img src="/assets/img/icon/title_left.svg" alt="shape" />
-                Our  Portfolio
+                Our Portfolio
               </span>
               <h2 className="sec-title style2">
                 Latest Projects of Graphic Design{" "}
@@ -109,7 +109,11 @@ const PortfolioGraphicInner = () => {
             </button> */}
           </div>
           <div className="tab-content" id="nav-tabContent">
-            <div className="tab-pane fade active show" id="nav-step1" role="tabpanel" >
+            <div
+              className="tab-pane fade active show"
+              id="nav-step1"
+              role="tabpanel"
+            >
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
@@ -119,7 +123,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Logofolio"
                       >
-                        <img src="/assets/img/portfolio/logofolio/logofolio (1).jpg" alt="Logofolio" />
+                        <img
+                          src="/assets/img/portfolio/logofolio/logofolio (1).jpg"
+                          alt="Logofolio"
+                        />
                       </a>
                     </div>
                   </div>
@@ -132,7 +139,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Logofolio"
                       >
-                        <img src="/assets/img/portfolio/logofolio/logofolio (2).jpg" alt="Logofolio" />
+                        <img
+                          src="/assets/img/portfolio/logofolio/logofolio (2).jpg"
+                          alt="Logofolio"
+                        />
                       </a>
                     </div>
                   </div>
@@ -145,7 +155,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Logofolio"
                       >
-                        <img src="/assets/img/portfolio/logofolio/logofolio (3).jpg" alt="Logofolio" />
+                        <img
+                          src="/assets/img/portfolio/logofolio/logofolio (3).jpg"
+                          alt="Logofolio"
+                        />
                       </a>
                     </div>
                   </div>
@@ -158,7 +171,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Logofolio"
                       >
-                        <img src="/assets/img/portfolio/logofolio/logofolio (4).jpg" alt="Logofolio" />
+                        <img
+                          src="/assets/img/portfolio/logofolio/logofolio (4).jpg"
+                          alt="Logofolio"
+                        />
                       </a>
                     </div>
                   </div>
@@ -171,7 +187,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Logofolio"
                       >
-                        <img src="/assets/img/portfolio/logofolio/logofolio (5).jpg" alt="Logofolio" />
+                        <img
+                          src="/assets/img/portfolio/logofolio/logofolio (5).jpg"
+                          alt="Logofolio"
+                        />
                       </a>
                     </div>
                   </div>
@@ -184,7 +203,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Logofolio"
                       >
-                        <img src="/assets/img/portfolio/logofolio/logofolio (6).jpg" alt="Logofolio" />
+                        <img
+                          src="/assets/img/portfolio/logofolio/logofolio (6).jpg"
+                          alt="Logofolio"
+                        />
                       </a>
                     </div>
                   </div>
@@ -197,7 +219,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Logofolio"
                       >
-                        <img src="/assets/img/portfolio/logofolio/logofolio (7).jpg" alt="Logofolio" />
+                        <img
+                          src="/assets/img/portfolio/logofolio/logofolio (7).jpg"
+                          alt="Logofolio"
+                        />
                       </a>
                     </div>
                   </div>
@@ -211,17 +236,18 @@ const PortfolioGraphicInner = () => {
                     <div
                       className="portfolio-box-thumb screen"
                       style={{
-                        backgroundImage: "url(/assets/img/portfolio/infographics/infographics (1).jpg)"
+                        backgroundImage:
+                          "url(/assets/img/portfolio/infographics/infographics_main.jpg",
                       }}
                     >
                       <a
-                        href="/assets/img/portfolio/infographics/infographics (1).jpg"
+                        href="/assets/img/portfolio/infographics/infographics_main.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
                         <img
                           className="invisible"
-                          src="/assets/img/portfolio/infographics/infographics (1).jpg"
+                          src="/assets/img/portfolio/infographics/infographics_main.jpg"
                           alt="img"
                         />
                       </a>
@@ -230,26 +256,115 @@ const PortfolioGraphicInner = () => {
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      className="portfolio-box-thumb screen"
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/infographics/infographics_main2.jpg",
+                      }}
+                    >
                       <a
-                        href="/assets/img/service/graphic-3.jpg"
+                        href="/assets/img/portfolio/infographics/infographics_main2.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="/assets/img/portfolio/infographics/infographics_main2.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      className="portfolio-box-thumb screen"
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/infographics/infographics_main3.jpg",
+                      }}
+                    >
                       <a
-                        href="/assets/img/service/graphic-3.jpg"
+                        href="/assets/img/portfolio/infographics/infographics_main3.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="/assets/img/portfolio/infographics/infographics_main3.jpg"
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                    <div
+                      className="portfolio-box-thumb screen"
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/infographics/infographics_main4.jpg",
+                      }}
+                    >
+                      <a
+                        href="/assets/img/portfolio/infographics/infographics_main4.jpg"
+                        data-lightbox="portfolio"
+                        data-title="Bank Management"
+                      >
+                        <img
+                          className="invisible"
+                          src="/assets/img/portfolio/infographics/infographics_main4.jpg"
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                    <div
+                      className="portfolio-box-thumb screen"
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/infographics/infographics_main5.jpg",
+                      }}
+                    >
+                      <a
+                        href="/assets/img/portfolio/infographics/infographics_main5.jpg"
+                        data-lightbox="portfolio"
+                        data-title="Bank Management"
+                      >
+                        <img
+                          className="invisible"
+                          src="/assets/img/portfolio/infographics/infographics_main5.jpg"
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                    <div
+                      className="portfolio-box-thumb screen"
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/infographics/infographics_main6.jpg",
+                      }}
+                    >
+                      <a
+                        href="/assets/img/portfolio/infographics/infographics_main6.jpg"
+                        data-lightbox="portfolio"
+                        data-title="Bank Management"
+                      >
+                        <img
+                          className="invisible"
+                          src="/assets/img/portfolio/infographics/infographics_main6.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -309,7 +424,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -322,7 +440,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -335,7 +456,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -352,7 +476,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -365,7 +492,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -378,7 +508,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -438,7 +571,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -451,7 +587,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -464,7 +603,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -481,7 +623,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -494,7 +639,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -507,7 +655,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -524,7 +675,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -537,7 +691,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -550,7 +707,10 @@ const PortfolioGraphicInner = () => {
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          src="/assets/img/service/graphic-3.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
