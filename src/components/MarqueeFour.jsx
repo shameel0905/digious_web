@@ -11,7 +11,7 @@ const MarqueeFour = () => {
                                 <div className="item">
 
                                     <img src="/assets/img/icon/marquee-icon-1-2.svg" alt="img" />
-                                    <span className="text-stroke">Vision</span>
+                                    <span>Vision</span>
 
                                 </div>
                                 <div className="item">
@@ -23,14 +23,16 @@ const MarqueeFour = () => {
                                 <div className="item">
 
                                     <img src="/assets/img/icon/marquee-icon-1-2.svg" alt="img" />
-                                    <span className="text-stroke">Trust</span>
+                                    <span>Trust</span>
 
                                 </div>
                                 <div className="item">
-
+                                    <img src="/assets/img/icon/marquee-icon-1-3.svg" alt="img" />
+                                    <span>Digitally Outstanding </span>
+                                </div>
+                                <div className="item">
                                     <img src="/assets/img/icon/marquee-icon-1-1.svg" alt="img" />
                                     <span>#WeAreDigious </span>
-
                                 </div>
                             </Marquee>
                         </div>

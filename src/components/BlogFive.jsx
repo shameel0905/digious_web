@@ -59,7 +59,100 @@ const BlogFive = () => {
                             <div data-aos="fade-up" data-aos-delay="800" className="px-2">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
-                                        <img src="/assets/img/blog/blog_s5_1.png" alt="Bizmaster" />
+                                        <img src="/assets/img/blog/stranger-apple-id-featured.jpg" alt="Digious" />
+                                    </div>
+                                    <div className="blog-content">
+                                        <div className="blog-meta">
+                                            <Link to="/blog">
+                                                <i className="fas fa-user" />
+                                                Admin
+                                            </Link>
+                                            <Link to="/blog">
+                                                <i className="fas fa-comments" />
+                                                Comment
+                                            </Link>
+                                            <Link to="/blog">
+                                                <i className="fas fa-calendar-alt" />
+                                                October 19, 2022
+                                            </Link>
+                                        </div>
+                                        <h3 className="blog-title">
+                                            <Link to="/if-you-have-forgotten-your-apple-id-password">
+                                                If you have forgotten your Apple ID password
+                                            </Link>
+                                        </h3>
+                                        <Link className="link-btn" to="/if-you-have-forgotten-your-apple-id-password">
+                                            Read More <i className="fas fa-arrow-right ms-2" />
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="900" className="px-2">
+                                <div className="blog-card style4">
+                                    <div className="blog-img">
+                                        <img src="/assets/img/blog/seo-ai-main.jpg" alt="Digious" />
+                                    </div>
+                                    <div className="blog-content">
+                                        <div className="blog-meta">
+                                            <Link to="/blog">
+                                                <i className="fas fa-user" />
+                                                Admin
+                                            </Link>
+                                            <Link to="/blog">
+                                                <i className="fas fa-comments" />
+                                                Comment
+                                            </Link>
+                                            <Link to="/blog">
+                                                <i className="fas fa-calendar-alt" />
+                                                October 19, 2022
+                                            </Link>
+                                        </div>
+                                        <h3 className="blog-title">
+                                            <Link to="/how-to-be-a-success-with-search-engine-optimization">
+                                                How To Be A Success With Search Engine Optimization?
+                                            </Link>
+                                        </h3>
+                                        <Link className="link-btn" to="/how-to-be-a-success-with-search-engine-optimization">
+                                            Read More <i className="fas fa-arrow-right ms-2" />
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="1000" className="px-2">
+                                <div className="blog-card style4">
+                                    <div className="blog-img">
+                                        <img src="/assets/img/blog/NFT_01-ai-01.jpg" alt="Digious" />
+                                    </div>
+                                    <div className="blog-content">
+                                        <div className="blog-meta">
+                                            <Link to="/blog">
+                                                <i className="fas fa-user" />
+                                                Admin
+                                            </Link>
+                                            <Link to="/blog">
+                                                <i className="fas fa-comments" />
+                                                Comment
+                                            </Link>
+                                            <Link to="/blog">
+                                                <i className="fas fa-calendar-alt" />
+                                                October 19, 2022
+                                            </Link>
+                                        </div>
+                                        <h3 className="blog-title">
+                                            <Link to="/what-is-nft-art">
+                                                What is NFT Art ?
+                                            </Link>
+                                        </h3>
+                                        <Link className="link-btn" to="/what-is-nft-art">
+                                            Read More <i className="fas fa-arrow-right ms-2" />
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="1100" className="px-2">
+                                <div className="blog-card style4">
+                                    <div className="blog-img">
+                                        <img src="/assets/img/blog/seo-ai-main.jpg" alt="Bizmaster" />
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
@@ -79,99 +172,6 @@ const BlogFive = () => {
                                         <h3 className="blog-title">
                                             <Link to="/blog-details">
                                                 Transformation Strategy Advisors Operat
-                                            </Link>
-                                        </h3>
-                                        <Link className="link-btn" to="/blog-details">
-                                            Read More <i className="fas fa-arrow-right ms-2" />
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div data-aos="fade-up" data-aos-delay="900" className="px-2">
-                                <div className="blog-card style4">
-                                    <div className="blog-img">
-                                        <img src="/assets/img/blog/blog_s5_2.png" alt="Digious" />
-                                    </div>
-                                    <div className="blog-content">
-                                        <div className="blog-meta">
-                                            <Link to="/blog">
-                                                <i className="fas fa-user" />
-                                                Admin
-                                            </Link>
-                                            <Link to="/blog">
-                                                <i className="fas fa-comments" />
-                                                Comment
-                                            </Link>
-                                            <Link to="/blog">
-                                                <i className="fas fa-calendar-alt" />
-                                                October 19, 2022
-                                            </Link>
-                                        </div>
-                                        <h3 className="blog-title">
-                                            <Link to="/blog-details">
-                                                Hard Work Always Brings You Success
-                                            </Link>
-                                        </h3>
-                                        <Link className="link-btn" to="/blog-details">
-                                            Read More <i className="fas fa-arrow-right ms-2" />
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div data-aos="fade-up" data-aos-delay="1000" className="px-2">
-                                <div className="blog-card style4">
-                                    <div className="blog-img">
-                                        <img src="/assets/img/blog/blog_s5_3.png" alt="Digious" />
-                                    </div>
-                                    <div className="blog-content">
-                                        <div className="blog-meta">
-                                            <Link to="/blog">
-                                                <i className="fas fa-user" />
-                                                Admin
-                                            </Link>
-                                            <Link to="/blog">
-                                                <i className="fas fa-comments" />
-                                                Comment
-                                            </Link>
-                                            <Link to="/blog">
-                                                <i className="fas fa-calendar-alt" />
-                                                October 19, 2022
-                                            </Link>
-                                        </div>
-                                        <h3 className="blog-title">
-                                            <Link to="/blog-details">
-                                                Growth and Innovation the Consultants
-                                            </Link>
-                                        </h3>
-                                        <Link className="link-btn" to="/blog-details">
-                                            Read More <i className="fas fa-arrow-right ms-2" />
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div data-aos="fade-up" data-aos-delay="1100" className="px-2">
-                                <div className="blog-card style4">
-                                    <div className="blog-img">
-                                        <img src="/assets/img/blog/blog_s5_2.png" alt="Digious" />
-                                    </div>
-                                    <div className="blog-content">
-                                        <div className="blog-meta">
-                                            <Link to="/blog">
-                                                <i className="fas fa-user" />
-                                                Admin
-                                            </Link>
-                                            <Link to="/blog">
-                                                <i className="fas fa-comments" />
-                                                Comment
-                                            </Link>
-                                            <Link to="/blog">
-                                                <i className="fas fa-calendar-alt" />
-                                                October 19, 2022
-                                            </Link>
-                                        </div>
-                                        <h3 className="blog-title">
-                                            <Link to="/blog-details">
-                                                Hard Work Always Brings You Success
                                             </Link>
                                         </h3>
                                         <Link className="link-btn" to="/blog-details">

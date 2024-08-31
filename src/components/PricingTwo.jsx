@@ -3,13 +3,11 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ConsultPopup from "../components/price_first";
 
-
 const PricingTwo = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   const openPopup = () => setIsPopupOpen(true);
   const closePopup = () => setIsPopupOpen(false);
-
 
   return (
     <section className="bg-dark2">
@@ -120,9 +118,9 @@ const PricingTwo = () => {
                     </ul>
                   </div>
                   <Link onClick={openPopup} className="global-btn">
-                      Get Quote Now{" "}
-                      <img src="/assets/img/icon/right-icon2.svg" alt="arrow" />
-                    </Link>
+                    Get Quote Now{" "}
+                    <img src="/assets/img/icon/right-icon2.svg" alt="arrow" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -161,9 +159,9 @@ const PricingTwo = () => {
                     </ul>
                   </div>
                   <Link onClick={openPopup} className="global-btn">
-                      Get Quote Now{" "}
-                      <img src="/assets/img/icon/right-icon2.svg" alt="arrow" />
-                    </Link>
+                    Get Quote Now{" "}
+                    <img src="/assets/img/icon/right-icon2.svg" alt="arrow" />
+                  </Link>
                 </div>
               </div>
             </div>

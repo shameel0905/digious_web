@@ -12,7 +12,7 @@ const FooterFour = () => {
     return (
         <section className='bg-dark'>
             <footer className="footer-wrapper footer-layout4 footer_resp"
-                style={{ backgroundImage: "url(/assets/img/bg/footer-bg4-1.png)",position:"fixed", width:"100%", bottom:"0", left:"0",height:"auto", zIndex: "-1" }}
+                style={{ backgroundImage: "url(/assets/img/bg/footer-bg4-1.png)" }}
             >
                 <div className="container">
                     <div className="widget-area">

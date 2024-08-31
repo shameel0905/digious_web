@@ -109,11 +109,7 @@ const PortfolioWebsiteInner = () => {
             </button>
           </div>
           <div className="tab-content" id="nav-tabContent">
-            <div
-              className="tab-pane fade active show"
-              id="nav-step1"
-              role="tabpanel"
-            >
+            <div className="tab-pane fade active show" id="nav-step1" role="tabpanel" >
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
@@ -190,39 +186,69 @@ const PortfolioWebsiteInner = () => {
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -233,39 +259,69 @@ const PortfolioWebsiteInner = () => {
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -276,39 +332,69 @@ const PortfolioWebsiteInner = () => {
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -319,39 +405,69 @@ const PortfolioWebsiteInner = () => {
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -362,39 +478,69 @@ const PortfolioWebsiteInner = () => {
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -405,39 +551,69 @@ const PortfolioWebsiteInner = () => {
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -448,39 +624,69 @@ const PortfolioWebsiteInner = () => {
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
@@ -491,39 +697,69 @@ const PortfolioWebsiteInner = () => {
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
                       <a
-                        href="assets/img/service/graphic-3.jpg"
+                        href="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
                         data-lightbox="portfolio"
                         data-title="Bank Management"
                       >
-                        <img src="assets/img/service/graphic-3.jpg" alt="img" />
+                        <img
+                          className="invisible"
+                          src="assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          alt="img"
+                        />
                       </a>
                     </div>
                   </div>
