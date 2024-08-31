@@ -19,8 +19,126 @@ const PortfolioBlockChainInner = () => {
             </div>
           </div>
         </div>
-
-        <div className="goal-tabs-wrapper mainTabs_div">
+        <div className="row gy-30 gx-30 masonary-active">
+          <div className="col-md-4 filter-item">
+            <div className="portfolio-box">
+              <div className="portfolio-box-thumb">
+                <a
+                  href="/assets/img/portfolio/nft/NFT_main.gif"
+                  data-lightbox="portfolio"
+                  data-title="Bank Management"
+                >
+                  <img src="/assets/img/portfolio/nft/NFT_main.gif" alt="img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 filter-item">
+            <div className="portfolio-box">
+              <div className="portfolio-box-thumb">
+                <a
+                  href="/assets/img/portfolio/nft/Hyena2.gif"
+                  data-lightbox="portfolio"
+                  data-title="Bank Management"
+                >
+                  <img src="/assets/img/portfolio/nft/Hyena2.gif" alt="img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 filter-item">
+            <div className="portfolio-box">
+              <div className="portfolio-box-thumb">
+                <a
+                  href="/assets/img/portfolio/nft/combine.gif"
+                  data-lightbox="portfolio"
+                  data-title="Bank Management"
+                >
+                  <img src="/assets/img/portfolio/nft/combine.gif" alt="img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 filter-item">
+            <div className="portfolio-box">
+              <div className="portfolio-box-thumb">
+                <a
+                  href="/assets/img/portfolio/nft/Hyena.gif"
+                  data-lightbox="portfolio"
+                  data-title="Bank Management"
+                >
+                  <img src="/assets/img/portfolio/nft/Hyena.gif" alt="img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 filter-item">
+            <div className="portfolio-box">
+              <div className="portfolio-box-thumb">
+                <a
+                  href="/assets/img/portfolio/nft/bee-animate.gif"
+                  data-lightbox="portfolio"
+                  data-title="Bank Management"
+                >
+                  <img src="/assets/img/portfolio/nft/bee-animate.gif" alt="img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 filter-item">
+            <div className="portfolio-box">
+              <div className="portfolio-box-thumb">
+                <a
+                  href="/assets/img/portfolio/nft/Mega-Promo.gif"
+                  data-lightbox="portfolio"
+                  data-title="Bank Management"
+                >
+                  <img src="/assets/img/portfolio/nft/Mega-Promo.gif" alt="img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 filter-item">
+            <div className="portfolio-box">
+              <div className="portfolio-box-thumb">
+                <a
+                  href="/assets/img/portfolio/nft/Dracula.gif"
+                  data-lightbox="portfolio"
+                  data-title="Bank Management"
+                >
+                  <img src="/assets/img/portfolio/nft/Dracula.gif" alt="img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 filter-item">
+            <div className="portfolio-box">
+              <div className="portfolio-box-thumb">
+                <a
+                  href="/assets/img/portfolio/nft/Combine_main2.gif"
+                  data-lightbox="portfolio"
+                  data-title="Bank Management"
+                >
+                  <img src="/assets/img/portfolio/nft/Combine_main2.gif" alt="img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 filter-item">
+            <div className="portfolio-box">
+              <div className="portfolio-box-thumb">
+                <a
+                  href="/assets/img/portfolio/nft/NFT_main2.gif"
+                  data-lightbox="portfolio"
+                  data-title="Bank Management"
+                >
+                  <img src="/assets/img/portfolio/nft/NFT_main2.gif" alt="img" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className="goal-tabs-wrapper mainTabs_div">
           <div
             className="nav nav-tabs goal-tabs-tabs port_tabs"
             id="nav-tab"
@@ -501,7 +619,7 @@ const PortfolioBlockChainInner = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
