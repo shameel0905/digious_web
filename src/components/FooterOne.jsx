@@ -14,25 +14,34 @@ const FooterOne = () => {
               <div className="widget footer-widget widget-about">
                 <div className="about-logo">
                   <Link to="/">
-                    <img src="/assets/img/logo-white.svg" alt="Digious Solutions" />
+                    <img
+                      src="/assets/img/logo-white.svg"
+                      alt="Digious Solutions"
+                    />
                   </Link>
                 </div>
                 <p className="footer-text mb-30">
-                    At Digious Solutions, we drive your success through
-                    innovative solutions. Contact us today to elevate your
-                    business to the next level.
+                  At Digious Solutions, we drive your success through innovative
+                  solutions. Contact us today to elevate your business to the
+                  next level.
                 </p>
                 <div className="social-btn style3">
-                  <Link to="#" tabIndex={-1}>
+                  <Link
+                    to="https://www.instagram.com/digiousposts/"
+                    tabIndex={-1}
+                  >
                     <i className="fab fa-instagram" />
                   </Link>
-                  <Link to="#" tabIndex={-1}>
+                  <Link
+                    to="https://www.linkedin.com/company/digious-solutions/"
+                    tabIndex={-1}
+                  >
                     <i className="fab fa-linkedin-in" />
                   </Link>
-                  <Link to="#" tabIndex={-1}>
+                  <Link to="https://twitter.com/digioustweets" tabIndex={-1}>
                     <i className="fab fa-twitter" />
                   </Link>
-                  <Link to="#" tabIndex={-1}>
+                  <Link to="https://www.facebook.com/Digious/" tabIndex={-1}>
                     <i className="fab fa-facebook-f" />
                   </Link>
                 </div>
@@ -44,19 +53,23 @@ const FooterOne = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <Link to="/service">E-Commerce Solution</Link>
+                      <Link to="/ecommerce-solutions">E-Commerce Solution</Link>
                     </li>
                     <li>
-                      <Link to="/service">Mobile App Development</Link>
+                      <Link to="/mobile-app-development">
+                        Mobile App Development
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/service">Website Development</Link>
+                      <Link to="/website-development">Website Development</Link>
                     </li>
                     <li>
-                      <Link to="/service">Non Fungible Tokens (NFTs)</Link>
+                      <Link to="/block-chain-portfolio">
+                        Non Fungible Tokens (NFTs)
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/service">Wordpress Development</Link>
+                      <Link to="/digital-marketing">Digital Marketing</Link>
                     </li>
                   </ul>
                 </div>
@@ -86,7 +99,9 @@ const FooterOne = () => {
                     <i className="fas fa-envelope" />
                     <div className="contact-grid-details">
                       <h6>
-                        <Link to="mailto:info@digiuossolutions.com">info@digiuossolutions.com</Link>
+                        <Link to="mailto:info@digiuossolutions.com">
+                          info@digiuossolutions.com
+                        </Link>
                         <p />
                       </h6>
                     </div>
@@ -117,10 +132,9 @@ const FooterOne = () => {
             </div>
             <div className="col-auto">
               <div className="footer-links">
-                <Link to="/">Privacy</Link>
-                <Link to="/">Terms</Link>
-                <Link to="/">Sitemap</Link>
-                <Link to="/">Help</Link>
+                <Link to="/">Terms &amp; Condition</Link>
+                <Link to="/">Privacy Policy</Link>
+                <Link to="/contact">Contact Us</Link>
               </div>
             </div>
           </div>

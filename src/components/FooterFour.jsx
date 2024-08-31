@@ -30,16 +30,16 @@ const FooterFour = () => {
                                         business to the next level.
                                     </p>
                                     <div className="social-btn">
-                                        <Link to="#" tabIndex={-1}>
+                                        <Link to="https://www.facebook.com/Digious/ " tabIndex={-1}>
                                             <i className="fab fa-facebook-f" />
                                         </Link>
-                                        <Link to="#" tabIndex={-1}>
+                                        <Link to="https://twitter.com/digioustweets" tabIndex={-1}>
                                             <i className="fab fa-twitter" />
                                         </Link>
-                                        <Link to="#" tabIndex={-1}>
+                                        <Link to="https://www.instagram.com/digiousposts/" tabIndex={-1}>
                                             <i className="fab fa-instagram" />
                                         </Link>
-                                        <Link to="#" tabIndex={-1}>
+                                        <Link to="https://www.linkedin.com/company/digious-solutions/" tabIndex={-1}>
                                             <i className="fab fa-linkedin-in" />
                                         </Link>
                                     </div>
@@ -51,19 +51,19 @@ const FooterFour = () => {
                                     <div className="menu-all-pages-container">
                                         <ul className="menu">
                                             <li>
-                                                <Link to="/">E-Commerce Solution</Link>
+                                                <Link to="/ecommerce-solutions">E-Commerce Solution</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Mobile App Development</Link>
+                                                <Link to="/mobile-app-development">Mobile App Development</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Website Development</Link>
+                                                <Link to="/website-development">Website Development</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Non Fungible Tokens (NFTs)</Link>
+                                                <Link to="/block-chain-portfolio">Non Fungible Tokens (NFTs)</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Wordpress Development</Link>
+                                                <Link to="/digital-marketing">Digital Marketing</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -95,7 +95,7 @@ const FooterFour = () => {
                                             <i className="fas fa-envelope text-white" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    <Link to="#">info@digiuossolutions.com</Link>
+                                                    <Link to="mailto:info@digiuossolutions.com">info@digiuossolutions.com</Link>
                                                     <p />
                                                 </h6>
                                             </div>
@@ -127,7 +127,7 @@ const FooterFour = () => {
                                 <div className="footer-links">
                                     <Link to="/">Terms &amp; Condition</Link>
                                     <Link to="/">Privacy Policy</Link>
-                                    <Link to="/">Contact Us</Link>
+                                    <Link to="/contact">Contact Us</Link>
                                 </div>
                             </div>
                         </div>
