@@ -38,6 +38,7 @@ import ProjectDetailsWebsiteDesign from "./pages/ProjectDetailsWebsiteDesign";
 import BlogAppleId from "./pages/BlogAppleId";
 import BlogSEO from "./pages/BlogSEO";
 import BlogNFT from "./pages/BlogNFT";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const App = () => {
   return (
@@ -82,7 +83,9 @@ const App = () => {
           <Route exact path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
+      <SpeedInsights />
     </>
+     
   );
 };
 
