@@ -60,5 +60,11 @@
   "devDependencies": {
     "sass": "^1.75.0",
     "webpack": "^5.90.3"
-  }
+  },
+  
+  "overrides": {  
+  "css-select": {  
+    "nth-check": "^2.0.1"  
+  }  
+}
 }
