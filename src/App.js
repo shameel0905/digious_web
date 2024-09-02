@@ -40,6 +40,7 @@ import BlogSEO from "./pages/BlogSEO";
 import BlogNFT from "./pages/BlogNFT";
 import { SpeedInsights } from '@vercel/speed-insights/react';
 
+
 const App = () => {
   return (
     <>
