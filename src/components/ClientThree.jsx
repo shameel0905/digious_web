@@ -52,70 +52,70 @@ const ClientThree = () => {
                             <div className="px-3">
                                 <div className="client-logo">
 
-                                    <img src="assets/img/client/4-1.png" alt="img" />
+                                    <img src="assets/img/client/agencyVista.png" alt="img" />
 
                                 </div>
                             </div>
                             <div className="px-3">
                                 <div className="client-logo">
 
-                                    <img src="assets/img/client/4-2.png" alt="img" />
+                                    <img src="assets/img/client/bark.png" alt="img" />
 
                                 </div>
                             </div>
                             <div className="px-3">
                                 <div className="client-logo">
 
-                                    <img src="assets/img/client/4-3.png" alt="img" />
+                                    <img src="assets/img/client/clutch.png" alt="img" />
 
                                 </div>
                             </div>
                             <div className="px-3">
                                 <div className="client-logo">
 
-                                    <img src="assets/img/client/4-4.png" alt="img" />
+                                    <img src="assets/img/client/trustpilot.png" alt="img" />
 
                                 </div>
                             </div>
                             <div className="px-3">
                                 <div className="client-logo">
 
-                                    <img src="assets/img/client/4-5.png" alt="img" />
+                                    <img src="assets/img/client/yelp.png" alt="img" />
 
                                 </div>
                             </div>
                             <div className="px-3">
                                 <div className="client-logo">
 
-                                    <img src="assets/img/client/4-1.png" alt="img" />
+                                    <img src="assets/img/client/agencyVista.png" alt="img" />
 
                                 </div>
                             </div>
                             <div className="px-3">
                                 <div className="client-logo">
 
-                                    <img src="assets/img/client/4-2.png" alt="img" />
+                                    <img src="assets/img/client/bark.png" alt="img" />
 
                                 </div>
                             </div>
                             <div className="px-3">
                                 <div className="client-logo">
 
-                                    <img src="assets/img/client/4-3.png" alt="img" />
+                                    <img src="assets/img/client/clutch.png" alt="img" />
 
                                 </div>
                             </div>
                             <div className="px-3">
                                 <div className="client-logo">
 
-                                    <img src="assets/img/client/4-4.png" alt="img" />
+                                    <img src="assets/img/client/trustpilot.png" alt="img" />
 
                                 </div>
                             </div>
                             <div className="px-3">
                                 <div className="client-logo">
 
-                                    <img src="assets/img/client/4-5.png" alt="img" />
+                                    <img src="assets/img/client/yelp.png" alt="img" />
 
                                 </div>
                             </div>

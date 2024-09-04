@@ -15,10 +15,10 @@ import FaqThree from "../components/FaqThree";
 import BlogFive from "../components/BlogFive";
 import MarqueeFour from "../components/MarqueeFour";
 import FooterFour from "../components/FooterFour";
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
- /*
+/*
 Theme Name: Digious
 Author: Digious Solutions
 Author URI: https://github.com/digious-solutions 
@@ -30,8 +30,8 @@ const HomeFive = () => {
     setTimeout(function () {
       setActive(false);
     }, 500);
-    
-    Aos.init()
+
+    Aos.init();
   }, []);
   return (
     <>
@@ -50,8 +50,10 @@ const HomeFive = () => {
       {/* ServiceFive */}
       <ServiceFive />
 
-      {/* ClientThree */}
-      <ClientThree />
+      <div className="bg-dark2 space-top">
+        {/* ClientThree */}
+        <ClientThree />
+      </div>
 
       <div className="bg-dark2 space">
         {/* AboutOne */}
@@ -86,7 +88,6 @@ const HomeFive = () => {
 
       {/* FooterFour */}
       <FooterFour />
-
     </>
   );
 };
