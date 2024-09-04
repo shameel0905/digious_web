@@ -34,23 +34,23 @@ Author URI: https://github.com/digious-solutions
 const HomeFive = () => {
   const [active, setActive] = useState(true);
 
-  // useEffect(() => {
-  //   // Remove the preloader after a short delay
-  //   setTimeout(() => {
-  //     setActive(false);
-  //   }, 500);
+  useEffect(() => {
+    // Remove the preloader after a short delay
+    setTimeout(() => {
+      setActive(false);
+    }, 500);
 
-  //   // Initialize AOS for animations
-  //   Aos.init();
+    // Initialize AOS for animations
+    Aos.init();
 
-  //   // Smooth scroll on clicking any link with a hash
-  //   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  //     anchor.addEventListener("click", function (e) {
-  //       e.preventDefault();
-  //       gsap.to(window, { duration: 1, scrollTo: this.getAttribute("href") });
-  //     });
-  //   });
-  // }, []);
+    // Smooth scroll on clicking any link with a hash
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        gsap.to(window, { duration: 1, scrollTo: this.getAttribute("href") });
+      });
+    });
+  }, []);
 
   return (
     <>
