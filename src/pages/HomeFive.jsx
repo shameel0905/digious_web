@@ -18,6 +18,13 @@ import FooterFour from "../components/FooterFour";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+// Import GSAP and ScrollToPlugin
+import { gsap } from "gsap";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+
+// Register the plugin
+gsap.registerPlugin(ScrollToPlugin);
+
 /*
 Theme Name: Digious
 Author: Digious Solutions
@@ -25,14 +32,26 @@ Author URI: https://github.com/digious-solutions
 */
 
 const HomeFive = () => {
-  let [active, setActive] = useState(true);
-  useEffect(() => {
-    setTimeout(function () {
-      setActive(false);
-    }, 500);
+  const [active, setActive] = useState(true);
 
-    Aos.init();
-  }, []);
+  // useEffect(() => {
+  //   // Remove the preloader after a short delay
+  //   setTimeout(() => {
+  //     setActive(false);
+  //   }, 500);
+
+  //   // Initialize AOS for animations
+  //   Aos.init();
+
+  //   // Smooth scroll on clicking any link with a hash
+  //   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  //     anchor.addEventListener("click", function (e) {
+  //       e.preventDefault();
+  //       gsap.to(window, { duration: 1, scrollTo: this.getAttribute("href") });
+  //     });
+  //   });
+  // }, []);
+
   return (
     <>
       {/* Preloader */}
@@ -72,10 +91,12 @@ const HomeFive = () => {
       {/* CTA_Three */}
       <CTAThree />
 
-      {/* TeamFour
-      <TeamFour /> */}
+      {/* TeamFour */}
+      {/* Uncomment if you need this component */}
+      {/* <TeamFour /> */}
 
-      {/* porfolio willbe here */}
+      {/* Portfolio Section */}
+      {/* Add Portfolio Component Here */}
 
       {/* FaqThree */}
       <FaqThree />
