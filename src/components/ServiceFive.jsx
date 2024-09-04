@@ -33,7 +33,7 @@ const ServiceFive = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Web Development</Link>
+                                        <Link to="/website-development">Web Development</Link>
                                     </h4>
                                     <p className="service-card_text">
                                     Providing cutting-edge web development solutions to elevate your business's online presence.
@@ -48,7 +48,7 @@ const ServiceFive = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Graphic Designing</Link>
+                                        <Link to="/graphic-designing">Graphic Designing</Link>
                                     </h4>
                                     <p className="service-card_text">
                                     Delivering exceptional graphic design services to enhance your brand's visual identity.
@@ -63,7 +63,7 @@ const ServiceFive = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Digital Marketing</Link>
+                                        <Link to="/digital-marketing">Digital Marketing</Link>
                                     </h4>
                                     <p className="service-card_text">
                                     Offering strategic digital marketing services to boost your brand's online visibility.
