@@ -49,10 +49,10 @@ const App = () => {
         <ScrollToTop smooth color="#196164" width="15" height="15" />
         <Routes>
           <Route exact path="/" element={<HomeFive/>} />
-          <Route exact path="/home-2" element={<HomeTwo />} />
+          {/* <Route exact path="/home-2" element={<HomeTwo />} />
           <Route exact path="/home-3" element={<HomeThree />} />
           <Route exact path="/home-4" element={<HomeFour />} />
-          <Route exact path="/home-1" element={<HomeOne />} />
+          <Route exact path="/home-1" element={<HomeOne />} /> */}
           <Route exact path="/about" element={<About />} />
           <Route exact path="/service" element={<Service />} />
           <Route exact path="/graphic-designing" element={<GraphicService />} />
