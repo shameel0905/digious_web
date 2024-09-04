@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/micromatch": "^4.0.9",
     "@vercel/speed-insights": "^1.0.12",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
@@ -18,6 +19,8 @@
     "emailjs-com": "^3.2.0",
     "gsap": "^3.12.5",
     "lightbox2": "^2.11.4",
+    "nth-check": "^2.1.1",
+    "postcss": "^8.4.44",
     "react": "^18.3.1",
     "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
@@ -60,6 +63,6 @@
   },
   "devDependencies": {
     "sass": "^1.75.0",
-    "webpack": "^5.90.3"
+    "webpack": "^5.94.0"
   }
 }
