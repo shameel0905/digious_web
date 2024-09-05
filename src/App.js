@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
-import CustomCursor from "./elements/DefaultCursor";
 import ScrollToTop from "react-scroll-to-top";
 import IndexPage from "./pages/IndexPage";
 import HomeOne from "./pages/HomeOne";
@@ -42,10 +41,10 @@ import BlogNFT from "./pages/BlogNFT";
 import { SpeedInsights } from '@vercel/speed-insights/react';
 
 
+
 const App = () => {
   return (
     <>
-      <CustomCursor />
       <BrowserRouter>
         <RouteScrollToTop />
         <ScrollToTop smooth color="#196164" width="15" height="15" />
