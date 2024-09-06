@@ -17,13 +17,7 @@ import MarqueeFour from "../components/MarqueeFour";
 import FooterFour from "../components/FooterFour";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
-// Import GSAP and ScrollToPlugin
-import { gsap } from "gsap";
-import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-
-// Register the plugin
-gsap.registerPlugin(ScrollToPlugin);
+import SmoothScroll from "../elements/smoothScroll";
 
 /*
 Theme Name: Digious
@@ -42,21 +36,13 @@ const HomeFive = () => {
 
     // Initialize AOS for animations
     Aos.init();
-
-    // Smooth scroll on clicking any link with a hash
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener("click", function (e) {
-        e.preventDefault();
-        gsap.to(window, { duration: 1, scrollTo: this.getAttribute("href") });
-      });
-    });
   }, []);
 
   return (
     <>
       {/* Preloader */}
       {active === true && <Preloader />}
-
+      
       {/* Helmet */}
       <HelmetReact title={"Home"} />
 

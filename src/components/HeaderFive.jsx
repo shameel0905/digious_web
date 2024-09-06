@@ -344,7 +344,7 @@ const HeaderFive = () => {
                       <Link to="/about">About Us</Link>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="/service">Services</Link>
+                      <Link to="/services">Services</Link>
                       <ul className="sub-menu">
                         <li>
                           <Link to="/graphic-designing">Graphic Design</Link>

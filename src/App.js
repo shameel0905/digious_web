@@ -38,45 +38,111 @@ import ProjectDetailsWebsiteDesign from "./pages/ProjectDetailsWebsiteDesign";
 import BlogAppleId from "./pages/BlogAppleId";
 import BlogSEO from "./pages/BlogSEO";
 import BlogNFT from "./pages/BlogNFT";
-import { SpeedInsights } from '@vercel/speed-insights/react';
-
-
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import CustomCursor from "./elements/CursrorCustom";
+// import Scroll from "./elements/smoothScroll";
 
 const App = () => {
   return (
     <>
+      {/* <Scroll /> */}
       <BrowserRouter>
+        <CustomCursor />
         <RouteScrollToTop />
         <ScrollToTop smooth color="#196164" width="15" height="15" />
         <Routes>
-          <Route exact path="/" element={<HomeFive/>} />
+          <Route exact path="/" element={<HomeFive />} />
           <Route exact path="/home-2" element={<HomeTwo />} />
           <Route exact path="/home-3" element={<HomeThree />} />
           <Route exact path="/home-4" element={<HomeFour />} />
           <Route exact path="/home-1" element={<HomeOne />} />
           <Route exact path="/about" element={<About />} />
-          <Route exact path="/service" element={<Service />} />
+          <Route exact path="/services" element={<Service />} />
           <Route exact path="/graphic-designing" element={<GraphicService />} />
-          <Route exact path="/block-chain-development" element={<BlockChainService />} />
-          <Route exact path="/digital-marketing" element={<DigitalMarketingService />} />
-          <Route exact path="/ecommerce-solutions" element={<ECommerceSolutionService />} />
+          <Route
+            exact
+            path="/block-chain-development"
+            element={<BlockChainService />}
+          />
+          <Route
+            exact
+            path="/digital-marketing"
+            element={<DigitalMarketingService />}
+          />
+          <Route
+            exact
+            path="/ecommerce-solutions"
+            element={<ECommerceSolutionService />}
+          />
           <Route exact path="/erp-solutions" element={<Erpsolutions />} />
-          <Route exact path="/game-development" element={<GameDevelopmentService />} />
-          <Route exact path="/mobile-app-development" element={<MobileAppService />} />
-          <Route exact path="/software-development" element={<SoftwareDevService />} />
-          <Route exact path="/software-quality-assurance" element={<SqaService />} />
-          <Route exact path="/website-development" element={<WebdevServices />} />
+          <Route
+            exact
+            path="/game-development"
+            element={<GameDevelopmentService />}
+          />
+          <Route
+            exact
+            path="/mobile-app-development"
+            element={<MobileAppService />}
+          />
+          <Route
+            exact
+            path="/software-development"
+            element={<SoftwareDevService />}
+          />
+          <Route
+            exact
+            path="/software-quality-assurance"
+            element={<SqaService />}
+          />
+          <Route
+            exact
+            path="/website-development"
+            element={<WebdevServices />}
+          />
           <Route exact path="/" element={<Project />} />
           <Route exact path="/" element={<ProjectDetails />} />
-          <Route exact path="/graphic-portfolio" element={<ProjectDetailsGraphic />} />
-          <Route exact path="/animation-portfolio" element={<ProjectDetailsAnimation />} />
-          <Route exact path="/ui-ux-portfolio" element={<ProjectDetailsUIUX />} />
-          <Route exact path="/block-chain-portfolio" element={<ProjectDetailsBlockChain />} />
-          <Route exact path="/branding-portfolio" element={<ProjectDetailsBranding />} />
-          <Route exact path="/website-design-portfolio" element={<ProjectDetailsWebsiteDesign />} />
+          <Route
+            exact
+            path="/graphic-portfolio"
+            element={<ProjectDetailsGraphic />}
+          />
+          <Route
+            exact
+            path="/animation-portfolio"
+            element={<ProjectDetailsAnimation />}
+          />
+          <Route
+            exact
+            path="/ui-ux-portfolio"
+            element={<ProjectDetailsUIUX />}
+          />
+          <Route
+            exact
+            path="/block-chain-portfolio"
+            element={<ProjectDetailsBlockChain />}
+          />
+          <Route
+            exact
+            path="/branding-portfolio"
+            element={<ProjectDetailsBranding />}
+          />
+          <Route
+            exact
+            path="/website-design-portfolio"
+            element={<ProjectDetailsWebsiteDesign />}
+          />
           <Route exact path="/blog" element={<Blog />} />
-          <Route exact path="/if-you-have-forgotten-your-apple-id-password" element={<BlogAppleId />} />
-          <Route exact path="/how-to-be-a-success-with-search-engine-optimization" element={<BlogSEO />} />
+          <Route
+            exact
+            path="/if-you-have-forgotten-your-apple-id-password"
+            element={<BlogAppleId />}
+          />
+          <Route
+            exact
+            path="/how-to-be-a-success-with-search-engine-optimization"
+            element={<BlogSEO />}
+          />
           <Route exact path="/what-is-nft-art" element={<BlogNFT />} />
           <Route exact path="/pricing" element={<Pricing />} />
           <Route exact path="/team" element={<Team />} />
@@ -87,7 +153,6 @@ const App = () => {
       </BrowserRouter>
       <SpeedInsights />
     </>
-     
   );
 };
 
