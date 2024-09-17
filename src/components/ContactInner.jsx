@@ -8,15 +8,22 @@ const ContactInner = () => {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState("");
+  const [recaptchaToken, setRecaptchaToken] = useState("");
+
+  const handleRecaptchaChange = (token) => {
+    setRecaptchaToken(token);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
 
     const templateParams = {
       full_name: fullName,
       email: email,
       phone_number: phone,
       message: message,
+      "g-recaptcha-response": recaptchaToken, // Add this line
     };
 
     emailjs
@@ -184,6 +191,11 @@ const ContactInner = () => {
                       />
                     </div>
                     <div className="col-12 form-group mb-0">
+                    <div
+                        className="g-recaptcha"
+                        data-sitekey="6Lc8QkcqAAAAABu_Lo0zjHmB637lCIWbBg-vQz19"
+                        onChange={handleRecaptchaChange}
+                      ></div>
                       <button type="submit" className="global-btn w-100">
                         Send Now
                         <img
