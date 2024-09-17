@@ -10,11 +10,7 @@ const ContactInner = () => {
   const [status, setStatus] = useState("");
   const [recaptchaToken, setRecaptchaToken] = useState("");
 
-  const handleRecaptchaChange = (token) => {
-    setRecaptchaToken(token);
-  };
-
-  const handleSubmit = (e) => {
+    const handleSubmit = (e) => {
     e.preventDefault();
 
 
@@ -194,7 +190,7 @@ const ContactInner = () => {
                     <div
                         className="g-recaptcha"
                         data-sitekey="6Lc8QkcqAAAAABu_Lo0zjHmB637lCIWbBg-vQz19"
-                        onChange={handleRecaptchaChange}
+                        onChange={(token) => setRecaptchaToken(token)}
                       ></div>
                       <button type="submit" className="global-btn w-100">
                         Send Now
