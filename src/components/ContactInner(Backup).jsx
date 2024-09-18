@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { Link } from "react-router-dom";
-import ReCAPTCHA from "react-google-recaptcha";
 
 const ContactInner = () => {
   const [fullName, setFullName] = useState("");
@@ -9,16 +8,9 @@ const ContactInner = () => {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState("");
-  const [recaptchaValue, setRecaptchaValue] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Check if reCAPTCHA is verified  
-    if (!recaptchaValue) {
-      setStatus("Please verify you are not a robot.");
-      return;
-    }
 
     const templateParams = {
       full_name: fullName,
@@ -37,21 +29,16 @@ const ContactInner = () => {
       .then(
         (response) => {
           setStatus("Email Sent Successfully!");
-          // Reset form fields and reCAPTCHA  
+          // Reset form fields
           setFullName("");
           setEmail("");
           setPhone("");
           setMessage("");
-          setRecaptchaValue(null);
         },
         (error) => {
           setStatus("Failed to send email.");
         }
       );
-  };
-
-  const handleRecaptchaChange = (value) => {
-    setRecaptchaValue(value);
   };
 
   return (
@@ -70,7 +57,8 @@ const ContactInner = () => {
                     <p className="contact-info_text">
                       <span>
                         <a href="tel:+19133745577">US: (913)374-5577</a>
-                      </span> <br />
+                      </span>{" "}
+                      <br />
                       <span>
                         <a href="https://api.whatsapp.com/send?phone=61431066995">
                           Whatsapp: (614)310-66995
@@ -89,7 +77,8 @@ const ContactInner = () => {
                   <div className="contact-info_details">
                     <h6 className="contact-info_title">Location</h6>
                     <p className="contact-info_text">
-                      19 Kimian Avenue West Waratah, <br /> New South Wales Australia
+                      19 Kimian Avenue West Waratah, <br /> New South Wales
+                      Australia
                     </p>
                   </div>
                 </div>
@@ -123,10 +112,30 @@ const ContactInner = () => {
                 <h2 className="sec-title style2">Get In Touch</h2>
                 <p className="mb-40">
                   Got questions? Let's connect. Explore how our expertise can
-                  benefit you.
+                  benefit you.{" "}
                 </p>
                 <div className="social-btn style4">
-                  {/* List of social links */}
+                  <Link to="https://www.facebook.com/Digious" tabIndex={-1}>
+                    <i className="fab fa-facebook-f" />
+                  </Link>
+                  <Link
+                    to="https://www.linkedin.com/company/digious-solutions/"
+                    tabIndex={-1}
+                  >
+                    <i className="fab fa-linkedin-in" />
+                  </Link>
+                  <Link to="https://twitter.com/digioustweets" tabIndex={-1}>
+                    <i className="fab fa-twitter" />
+                  </Link>
+                  <Link
+                    to="https://www.instagram.com/digiousposts/"
+                    tabIndex={-1}
+                  >
+                    <i className="fab fa-instagram" />
+                  </Link>
+                  <Link to="https://github.com/digious-solutions" tabIndex={-1}>
+                    <i className="fab fa-github" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -136,7 +145,7 @@ const ContactInner = () => {
                   <div className="row">
                     <div className="col-md-6 form-group">
                       <input
-                        style={{ color: "white" }}
+                        style={{color: "white"}}
                         type="text"
                         placeholder="Your Name"
                         className="form-control style-border"
@@ -146,7 +155,7 @@ const ContactInner = () => {
                     </div>
                     <div className="col-md-6 form-group">
                       <input
-                        style={{ color: "white" }}
+                        style={{color: "white"}}
                         type="text"
                         placeholder="Your Email"
                         className="form-control style-border"
@@ -157,7 +166,7 @@ const ContactInner = () => {
                     <div className="col-md-12 form-group">
                       <input
                         type="text"
-                        style={{ color: "white" }}
+                        style={{color: "white"}}
                         placeholder="Phone Number"
                         className="form-control style-border"
                         value={phone}
@@ -167,19 +176,14 @@ const ContactInner = () => {
                     <div className="col-12 form-group">
                       <textarea
                         placeholder="Message here.."
-                        style={{ color: "white" }}
+                        style={{color: "white"}}
                         className="form-control style-border"
+                        defaultValue={""}
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
                       />
                     </div>
                     <div className="col-12 form-group mb-0">
-                      
-                    <ReCAPTCHA
-                        sitekey="6Lc8QkcqAAAAABu_Lo0zjHmB637lCIWbBg-vQz19"
-                        onChange={handleRecaptchaChange}
-                      />
-                      
                       <button type="submit" className="global-btn w-100">
                         Send Now
                         <img
@@ -187,7 +191,6 @@ const ContactInner = () => {
                           alt="Digious Solutions"
                         />
                       </button>
-                      
                       {status && <p className="text-center text-white" style={{ paddingTop: "10px" }}>{status}</p>}
                     </div>
                   </div>
