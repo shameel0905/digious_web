@@ -6,6 +6,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 const ContactInner = () => {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState("");
@@ -23,6 +24,7 @@ const ContactInner = () => {
     const templateParams = {
       full_name: fullName,
       email: email,
+      subject: subject,
       phone_number: phone,
       message: message,
     };
@@ -40,6 +42,7 @@ const ContactInner = () => {
           // Reset form fields and reCAPTCHA  
           setFullName("");
           setEmail("");
+          setSubject("");
           setPhone("");
           setMessage("");
           setRecaptchaValue(null);
@@ -152,6 +155,16 @@ const ContactInner = () => {
                         className="form-control style-border"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
+                      />
+                    </div>
+                    <div className="col-md-12 form-group">
+                      <input
+                        style={{ color: "white" }}
+                        type="text"
+                        placeholder="Subject"
+                        className="form-control style-border"
+                        value={subject}
+                        onChange={(e) => setSubject(e.target.value)}
                       />
                     </div>
                     <div className="col-md-12 form-group">
