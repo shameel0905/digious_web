@@ -39,7 +39,7 @@ import BlogAppleId from "./pages/BlogAppleId";
 import BlogSEO from "./pages/BlogSEO";
 import BlogNFT from "./pages/BlogNFT";
 import { SpeedInsights } from "@vercel/speed-insights/react";
-import CustomCursor from "./elements/CursrorCustom";
+// import CustomCursor from "./elements/CursrorCustom";
 // import Scroll from "./elements/smoothScroll";
 
 const App = () => {
@@ -47,7 +47,7 @@ const App = () => {
     <>
       {/* <Scroll /> */}
       <BrowserRouter>
-        <CustomCursor />
+        {/* <CustomCursor /> */}
         <RouteScrollToTop />
         <ScrollToTop smooth color="#196164" width="15" height="15" />
         <Routes>
