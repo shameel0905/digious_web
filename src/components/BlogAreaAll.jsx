@@ -199,13 +199,13 @@ const BlogAreaAll = () => {
                           src="/assets/img/icon/calender.svg"
                           alt="Digious Solutions"
                         />
-                        Jan 10, 2024
+                        May 31, 2024
                       </Link>
                     </div>
                     <div className="media-body">
                       <h4 className="post-title">
-                        <Link className="text-white" to="/blog-details">
-                          Navigating Global Trade One Shipmen
+                        <Link className="text-white" to="/if-you-have-forgotten-your-apple-id-password">
+                        If you have forgotten your Apple ID password
                         </Link>
                       </h4>
                     </div>
@@ -217,13 +217,13 @@ const BlogAreaAll = () => {
                           src="/assets/img/icon/calender.svg"
                           alt="Digious Solutions"
                         />
-                        Jan 10, 2024
+                        May 31, 2024
                       </Link>
                     </div>
                     <div className="media-body">
                       <h4 className="post-title">
-                        <Link className="text-white" to="/blog-details">
-                          Strategic Solutions for the a Business Growth
+                        <Link className="text-white" to="/how-to-be-a-success-with-search-engine-optimization">
+                        How To Be A Success With Search Engine Optimization?
                         </Link>
                       </h4>
                     </div>
@@ -235,13 +235,13 @@ const BlogAreaAll = () => {
                           src="/assets/img/icon/calender.svg"
                           alt="Digious Solutions"
                         />
-                        Jan 10, 2024
+                        May 31, 2024
                       </Link>
                     </div>
                     <div className="media-body">
                       <h4 className="post-title">
-                        <Link className="text-white" to="/blog-details">
-                          Achieve Your Business Goals with Confidence
+                        <Link className="text-white" to="/what-is-nft-art">
+                        What is NFT Art?
                         </Link>
                       </h4>
                     </div>
