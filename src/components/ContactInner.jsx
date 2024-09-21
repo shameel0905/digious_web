@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import ReCAPTCHA from "react-google-recaptcha";
+import { Link } from "react-router-dom";
 
 const ContactInner = () => {
   const [fullName, setFullName] = useState("");
@@ -128,7 +129,27 @@ const ContactInner = () => {
                   benefit you.
                 </p>
                 <div className="social-btn style4">
-                  {/* List of social links */}
+                  <Link to="https://www.facebook.com/Digious" tabIndex={-1}>
+                    <i className="fab fa-facebook-f" />
+                  </Link>
+                  <Link
+                    to="https://www.linkedin.com/company/digious-solutions/"
+                    tabIndex={-1}
+                  >
+                    <i className="fab fa-linkedin-in" />
+                  </Link>
+                  <Link to="https://twitter.com/digioustweets" tabIndex={-1}>
+                    <i className="fab fa-twitter" />
+                  </Link>
+                  <Link
+                    to="https://www.instagram.com/digiousposts/"
+                    tabIndex={-1}
+                  >
+                    <i className="fab fa-instagram" />
+                  </Link>
+                  <Link to="https://github.com/digious-solutions" tabIndex={-1}>
+                    <i className="fab fa-github" />
+                  </Link>
                 </div>
               </div>
             </div>
