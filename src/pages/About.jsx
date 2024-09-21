@@ -3,15 +3,12 @@ import Preloader from "../elements/Preloader";
 import HelmetReact from "../elements/HelmetReact";
 import HeaderFive from "../components/HeaderFive";
 import Breadcrumb from "../components/Breadcrumb";
-import GoalArea from "../components/GoalArea";
 import AboutSix from "../components/AboutSix";
-import ProcessThree from "../components/ProcessThree";
 import TestimonialOne from "../components/TestimonialOne";
 import CounterOne from "../components/CounterOne";
 import WhyChoose from "../components/WhyChoose";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
-import TeamFour from "../components/TeamFour";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
