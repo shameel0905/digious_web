@@ -33,6 +33,7 @@ import BlogAppleId from "./pages/BlogAppleId";
 import BlogSEO from "./pages/BlogSEO";
 import BlogNFT from "./pages/BlogNFT";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import TermsAndConditions from "./pages/terms-and-conditions";
 // import CustomCursor from "./elements/CursrorCustom";
 // import Scroll from "./elements/smoothScroll";
 
@@ -139,6 +140,8 @@ const App = () => {
           <Route exact path="/team-details" element={<TeamDetails />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="*" element={<Error />} />
+          <Route exact  path="/terms-conditions" element={<TermsAndConditions />} />
+
         </Routes>
       </BrowserRouter>
       <SpeedInsights />
