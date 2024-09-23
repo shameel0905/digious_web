@@ -59,166 +59,149 @@ const TermsandConditions = () => {
                   <li>
                     Website refers to Digious Solutions, accessible from <a className="anchorlink" href="https://digioussolutions.com"> https://digioussolutions.com</a>
                   </li>
+                  <li>
+                    You means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+                  </li>
                 </ul>
               </div>
-              <h3 className="text-white page-title mb-20">
-                Enhance Your Brand with Cutting-Edge Graphic Design Solutions
+              <h3 className="text-white page-title mt-40 mb-20">
+                Acknowledgment
               </h3>
               <p className="mb-30">
-                Whatever business you are in, if the design and graphics aren’t
-                appealing enough to draw their attention customers Then you have
-                to take action to change it. Our skilled graphic designers
-                remain up to date with the most recent trends in Graphic
-                Designing around the world and we are fully aware of the
-                necessity of it and the worth we can bring to these
-                developments. Digious Solutions offers the best solutions for
-                graphic design and multimedia in accordance with your
-                requirements and needs. Our graphic design services that we
-                offer are distinctive and we take great satisfaction in the work
-                we’ve accomplished. If you are looking to improve the existing
-                design or to design something completely fresh, we’re waiting to
-                help!
+                These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.
               </p>
-              <div className="row gy-4">
-                <div className="col-lg-6">
-                  <div
-                    data-aos="fade-right"
-                    data-aos-offset="500"
-                    data-aos-duration="500"
-                    className="page-thumb style2"
-                  >
-                    <video
-                      src="/assets/videos/services/graphics/showcase1.mp4"
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      style={{ width: '100%', height: 'auto' }}
-                      alt="E-Commerce Solutions"
-                    > Your browser does not support the video tag.
-                    </video>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div
-                    data-aos="fade-left"
-                    data-aos-offset="500"
-                    data-aos-duration="500"
-                    className="page-thumb style2"
-                  >
-                    <video
-                      src="/assets/videos/services/graphics/showcase2.mp4"
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      style={{ width: '100%', height: 'auto' }}
-                      alt="E-Commerce Solutions"
-                    > Your browser does not support the video tag.
-                    </video>
-                  </div>
-                </div>
-              </div>
+              <p className="mb-30">
+                Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.
+              </p>
+              <p className="mb-30">
+                By accessing or using the Service You agree to be bound by these Terms and Conditions. If You disagree with any part of these Terms and Conditions then You may not access the Service.
+              </p>
+              <p className="mb-30">
+                You represent that you are over the age of 18. The Company does not permit those under 18 to use the Service.
+              </p>
+              <p className="mb-30">
+                Your access to and use of the Service is also conditioned on Your acceptance of and compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the Application or the Website and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our Service.
+              </p>
+              <h3 className="text-white page-title mt-40 mb-20">
+                Links to Other Websites
+              </h3>
               <p className="mt-30 mb-n1">
-                We provide professional graphic design services for brands and businesses on the marketplace. We listen to all your dreams and determine what is feasible, cost-effective and also fits into your budget. We also can assist you in the event that you are starting your own business and are looking to establish your new brand. We want to help you be noticed in the crowded marketplace. We utilize the most current standards Photoshop, Adobe software, including Illustrator and In-Design. We are able to create creative direction for your marketing initiatives. We offer a variety of graphic design services to meet your marketing and promotional requirements. There’s no limit on what our graphic design company could make for you.
+                Our Service may contain links to third-party web sites or services that are not owned or controlled by the Company.
+                The Company has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.
+                We strongly advise You to read the terms and conditions and privacy policies of any third-party web sites or services that You visit.
               </p>
+              <h3 className="text-white page-title mt-40 mb-20">
+                Termination
+              </h3>
+              <p className="mt-30 mb-n1">
+                We may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.
+                Upon termination, Your right to use the Service will cease immediately.
+              </p>
+              <h3 className="text-white page-title mt-40 mb-20">
+                Limitation of Liability
+              </h3>
+              <p className="mt-30 mb-n1">
+                Notwithstanding any damages that You might incur, the entire liability of the Company and any of its suppliers under any provision of this Terms and Your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by You through the Service or 100 USD if You haven’t purchased anything through the Service.
+              </p>
+              <p className="mt-30 mb-n1">
+                To the maximum extent permitted by applicable law, in no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data or other information, for business interruption, for personal injury, loss of privacy arising out of or in any way related to the use of or inability to use the Service, third-party software and/or third-party hardware used with the Service, or otherwise in connection with any provision of this Terms), even if the Company or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose.
+              </p>
+              <p className="mt-30 mb-n1">
+                Some states do not allow the exclusion of implied warranties or limitation of liability for incidental or consequential damages, which means that some of the above limitations may not apply. In these states, each party’s liability will be limited to the greatest extent permitted by law.
+              </p>
+              <h3 className="text-white page-title mt-40 mb-20">
+                Disclaimer
+              </h3>
+              <p className="mt-30 mb-n1">
+                The Service is provided to You “AS IS” and “AS AVAILABLE” and with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, the Company, on its own behalf and on behalf of its Affiliates and its and their respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the Service, including all implied warranties of merchantability, fitness for a particular purpose, title and non-infringement, and warranties that may arise out of course of dealing, course of performance, usage or trade practice. Without limitation to the foregoing, the Company provides no warranty or undertaking, and makes no representation of any kind that the Service will meet Your requirements, achieve any intended results, be compatible or work with any other software, applications, systems or services, operate without interruption, meet any performance or reliability standards or be error free or that any errors or defects can or will be corrected.
+              </p>
+              <p className="mt-30 mb-n1">
+                Without limiting the foregoing, neither the Company nor any of the company’s provider makes any representation or warranty of any kind, express or implied:
+                <br></br>(i) as to the operation or availability of the Service, or the information, content, and materials or products included thereon;
+                <br></br>(ii) that the Service will be uninterrupted or error-free;
+                <br></br>(iii) as to the accuracy, reliability, or currency of any information or content provided through the Service; or
+                <br></br>(iv) that the Service, its servers, the content, or e-mails sent from or on behalf of the Company are free of viruses, scripts, trojan horses, worms, malware, timebombs or other harmful components.
+              </p>
+              <p className="mt-30 mb-n1">
+                Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to You. But in such a case the exclusions and limitations set forth in this section shall be applied to the greatest extent enforceable under applicable law.
+              </p>
+              <h3 className="text-white page-title mt-40 mb-20">
+                Governing Law
+              </h3>
+              <p className="mt-30 mb-n1">
+                The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.
+              </p>
+              <h3 className="text-white page-title mt-40 mb-20">
+                Disputes Resolution
+              </h3>
+              <p className="mt-30 mb-n1">
+                If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting the Company.
+              </p>
+              <h3 className="text-white page-title mt-40 mb-20">
+                For European Union (EU) Users
+              </h3>
+              <p className="mt-30 mb-n1">
+                If You are a European Union consumer, you will benefit from any mandatory provisions of the law of the country in which you are resident in.
+              </p>
+              <h3 className="text-white page-title mt-40 mb-20">
+                United States Legal Compliance
+              </h3>
+              <p className="mt-30 mb-n1">
+                You represent and warrant that (i) You are not located in a country that is subject to the United States government embargo, or that has been designated by the United States government as a “terrorist supporting” country, and (ii) You are not listed on any United States government list of prohibited or restricted parties.
+              </p>
+              <h3 className="text-white page-title mt-40 mb-20">
+                Severability and Waiver
+              </h3>
+              <div >
+                <h4 className="text-white">Severability</h4>
+              </div>
+              <p>
+                If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.
+              </p>
+              <div >
+                <h4 className="text-white">Waiver</h4>
+              </div>
+              <p>
+                Except as provided herein, the failure to exercise a right or to require performance of an obligation under this Terms shall not effect a party’s ability to exercise such right or require such performance at any time thereafter nor shall be the waiver of a breach constitute a waiver of any subsequent breach.
+              </p>
+              <h3 className="text-white page-title mt-40 mb-20">
+                Translation Interpretation
+              </h3>
+              <p className="mt-30 mb-n1">
+                These Terms and Conditions may have been translated if We have made them available to You on our Service.
+                You agree that the original English text shall prevail in the case of a dispute.
+              </p>
+              <h3 className="text-white page-title mt-40 mb-20">
+                Changes to These Terms and Conditions
+              </h3>
+              <p className="mt-30 mb-n1">
+                We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is material We will make reasonable efforts to provide at least 30 days’ notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion.
+              </p>
+              <p className="mt-30 mb-n1">
+                By continuing to access or use Our Service after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.
+              </p>
+
             </div>
-            {/* <div className="col-xxl-4 col-lg-5">
-                        <aside className="sidebar-area">
-                            <div className="widget widget_categories widget_service-categories">
-                                <ul>
-                                    <li>
-                                        <Link to="/service">Personal service</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/service">Education service</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/service">Student service</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/service">Wedding service</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/service">Car service</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/service">Business service</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/service">Others service</Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </aside>
-                    </div> */}
+
+            <h3 className="text-white page-title mt-40 mb-20">
+                Contact Us
+              </h3>
+              <p>
+              If you have any questions about these Terms and Conditions, You can contact us:
+              </p>
+              <ul>
+                <li>By email: <a href="mailto:info@digioussolutions.com">info@digioussolutions.com</a></li>
+                <li>By visiting this page on our website: <a href="/contact">https://digioussolutions.com/contact/</a></li>
+                <li>By phone number: <a href="tel:+61431066995">+(614)310 66995</a></li>
+              </ul>
+
           </div>
         </div>
       </section>
 
       {/* Section of portfolio starts from here */}
 
-      <div className="portfolio-area-3 space">
-        <div className="container">
-          <div className="row justify-content-center align-items-end">
-            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" className="col-xl-6">
-              <div className="title-area text-center">
-                <span className="sub-title">
-                  <img src="/assets/img/icon/title_left.svg" alt="shape" />
-                  Our Portfolio
-                </span>
-                <h2 className="sec-title style2">
-                  Latest Projects of Graphic Design
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="row gx-30 gy-30">
-            <div data-aos="fade-up" data-aos-delay="600" className="col-lg-6">
-              <div className="portfolio-card-3">
-                <div className="portfolio-card-thumb">
-                  <img src="/assets/img/service/graphic-3.jpg" alt="img" />
-                </div>
-                <div className="portfolio-card-details">
-                  <span className="portfolio-card-details_subtitle">
-                    Experience
-                  </span>
-                  <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
-                    </Link>
-                  </h4>
-                  <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div data-aos="fade-up" data-aos-delay="700" className="portfolio-card-3">
-                <div className="portfolio-card-thumb">
-                  <img src="/assets/img/service/graphic-4.jpg" alt="img" />
-                </div>
-                <div className="portfolio-card-details">
-                  <span className="portfolio-card-details_subtitle">
-                    Experience
-                  </span>
-                  <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
-                    </Link>
-                  </h4>
-                  <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+     
     </>
   );
 };
