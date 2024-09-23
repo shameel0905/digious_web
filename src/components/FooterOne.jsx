@@ -132,7 +132,7 @@ const FooterOne = () => {
             </div>
             <div className="col-auto">
               <div className="footer-links">
-                <Link to="/">Terms &amp; Condition</Link>
+                <Link to="/terms-conditions">Terms &amp; Condition</Link>
                 <Link to="/">Privacy Policy</Link>
                 <Link to="/contact">Contact Us</Link>
               </div>
