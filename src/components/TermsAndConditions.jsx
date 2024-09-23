@@ -198,9 +198,6 @@ const TermsandConditions = () => {
           </div>
         </div>
       </section>
-
-      {/* Section of portfolio starts from here */}
-
      
     </>
   );
