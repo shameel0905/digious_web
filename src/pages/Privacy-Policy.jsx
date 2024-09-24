@@ -5,9 +5,9 @@ import HeaderFive from "../components/HeaderFive";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import BreadcrumbInner from "../components/BreadcrumbInner";
-import TermsandConditions from "../components/TermsAndConditions";
+import PrivacyPolicy from "../components/PrivacyPolicy";
 
-const TermsAndConditions = () => {
+const PrivacyandPolicy = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
     setTimeout(function () {
@@ -20,16 +20,16 @@ const TermsAndConditions = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Terms And Conditions"} />
+      <HelmetReact title={"Privacy policy"} />
 
       {/* HeaderFive */}
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInner title="Terms And Conditions" />
+      <BreadcrumbInner title="Privacy Policy" />
 
       {/* ServiceDetails */}
-      <TermsandConditions/>
+      <PrivacyPolicy/>
 
       {/* Newsletter */}
       <Newsletter />
@@ -41,4 +41,4 @@ const TermsAndConditions = () => {
   );
 };
 
-export default TermsAndConditions;
+export default PrivacyandPolicy;
