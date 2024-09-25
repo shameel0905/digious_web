@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import Preloader from "../elements/Preloader";
 import HelmetReact from "../elements/HelmetReact";
 import ErrorInner from "../components/ErrorInner";
-import HeaderTwo from "../components/HeaderTwo";
-import FooterFive from "../components/FooterFive";
+
 
 const Error = () => {
   let [active, setActive] = useState(true);

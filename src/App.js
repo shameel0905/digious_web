@@ -2,18 +2,12 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
 import ScrollToTop from "react-scroll-to-top";
-import IndexPage from "./pages/IndexPage";
-import HomeOne from "./pages/HomeOne";
-import HomeTwo from "./pages/HomeTwo";
-import HomeThree from "./pages/HomeThree";
-import HomeFour from "./pages/HomeFour";
 import HomeFive from "./pages/HomeFive";
 import About from "./pages/About";
 import Service from "./pages/Service";
 import Project from "./pages/Project";
 import ProjectDetails from "./pages/ProjectDetails";
 import Blog from "./pages/Blog";
-import BlogDetails from "./pages/BlogAppleId";
 import Pricing from "./pages/Pricing";
 import Team from "./pages/Team";
 import TeamDetails from "./pages/TeamDetails";
@@ -39,7 +33,10 @@ import BlogAppleId from "./pages/BlogAppleId";
 import BlogSEO from "./pages/BlogSEO";
 import BlogNFT from "./pages/BlogNFT";
 import { SpeedInsights } from "@vercel/speed-insights/react";
-import CustomCursor from "./elements/CursrorCustom";
+import TermsAndConditions from "./pages/terms-and-conditions";
+import PrivacyandPolicy from "./pages/Privacy-Policy";
+
+// import CustomCursor from "./elements/CursrorCustom";
 // import Scroll from "./elements/smoothScroll";
 
 const App = () => {
@@ -47,15 +44,11 @@ const App = () => {
     <>
       {/* <Scroll /> */}
       <BrowserRouter>
-        <CustomCursor />
+        {/* <CustomCursor /> */}
         <RouteScrollToTop />
         <ScrollToTop smooth color="#196164" width="15" height="15" />
         <Routes>
           <Route exact path="/" element={<HomeFive />} />
-          <Route exact path="/home-2" element={<HomeTwo />} />
-          <Route exact path="/home-3" element={<HomeThree />} />
-          <Route exact path="/home-4" element={<HomeFour />} />
-          <Route exact path="/home-1" element={<HomeOne />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/services" element={<Service />} />
           <Route exact path="/graphic-designing" element={<GraphicService />} />
@@ -149,6 +142,10 @@ const App = () => {
           <Route exact path="/team-details" element={<TeamDetails />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="*" element={<Error />} />
+          <Route exact  path="/terms-conditions" element={<TermsAndConditions />} />
+          <Route exact  path="/privacy-policy" element={<PrivacyandPolicy />} />
+          
+
         </Routes>
       </BrowserRouter>
       <SpeedInsights />

@@ -10,14 +10,12 @@ import ProcessTwo from "../components/ProcessTwo";
 import TestimonialFour from "../components/TestimonialFour";
 import PricingTwo from "../components/PricingTwo";
 import CTAThree from "../components/CTAThree";
-import TeamFour from "../components/TeamFour";
 import FaqThree from "../components/FaqThree";
 import BlogFive from "../components/BlogFive";
 import MarqueeFour from "../components/MarqueeFour";
 import FooterFour from "../components/FooterFour";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import SmoothScroll from "../elements/smoothScroll";
 
 /*
 Theme Name: Digious

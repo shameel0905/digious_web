@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import { Link } from "react-router-dom";
 import ReCAPTCHA from "react-google-recaptcha";
+import { Link } from "react-router-dom";
 
 const ContactInner = () => {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState("");
@@ -23,6 +24,7 @@ const ContactInner = () => {
     const templateParams = {
       full_name: fullName,
       email: email,
+      subject: subject,
       phone_number: phone,
       message: message,
     };
@@ -40,6 +42,7 @@ const ContactInner = () => {
           // Reset form fields and reCAPTCHA  
           setFullName("");
           setEmail("");
+          setSubject("");
           setPhone("");
           setMessage("");
           setRecaptchaValue(null);
@@ -126,7 +129,27 @@ const ContactInner = () => {
                   benefit you.
                 </p>
                 <div className="social-btn style4">
-                  {/* List of social links */}
+                  <Link to="https://www.facebook.com/Digious" tabIndex={-1}>
+                    <i className="fab fa-facebook-f" />
+                  </Link>
+                  <Link
+                    to="https://www.linkedin.com/company/digious-solutions/"
+                    tabIndex={-1}
+                  >
+                    <i className="fab fa-linkedin-in" />
+                  </Link>
+                  <Link to="https://twitter.com/digioustweets" tabIndex={-1}>
+                    <i className="fab fa-twitter" />
+                  </Link>
+                  <Link
+                    to="https://www.instagram.com/digiousposts/"
+                    tabIndex={-1}
+                  >
+                    <i className="fab fa-instagram" />
+                  </Link>
+                  <Link to="https://github.com/digious-solutions" tabIndex={-1}>
+                    <i className="fab fa-github" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -152,6 +175,16 @@ const ContactInner = () => {
                         className="form-control style-border"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
+                      />
+                    </div>
+                    <div className="col-md-12 form-group">
+                      <input
+                        style={{ color: "white" }}
+                        type="text"
+                        placeholder="Subject"
+                        className="form-control style-border"
+                        value={subject}
+                        onChange={(e) => setSubject(e.target.value)}
                       />
                     </div>
                     <div className="col-md-12 form-group">

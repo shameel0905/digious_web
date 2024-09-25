@@ -1,13 +1,13 @@
-import React, {useEffect, useRef    } from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 const FooterFour = () => {
 
-  useEffect(() => {
-    // Initialize AOS
-    Aos.init();
-  }, []);
+    useEffect(() => {
+        // Initialize AOS
+        Aos.init();
+    }, []);
 
     return (
         <section className='bg-dark'>
@@ -78,7 +78,7 @@ const FooterFour = () => {
                                             <div className="contact-grid-details">
                                                 <h6>
                                                     <Link to="tel:+19133745577">(913)374-5577</Link>
-                                                    <p/>
+                                                    <p />
                                                 </h6>
                                             </div>
                                         </div>
@@ -87,7 +87,7 @@ const FooterFour = () => {
                                             <div className="contact-grid-details">
                                                 <h6>
                                                     <Link to="https://api.whatsapp.com/send?phone=61431066995">(614)310-66995</Link>
-                                                    <p/>
+                                                    <p />
                                                 </h6>
                                             </div>
                                         </div>
@@ -125,8 +125,8 @@ const FooterFour = () => {
                             </div>
                             <div className="col-auto">
                                 <div className="footer-links">
-                                    <Link to="/">Terms &amp; Condition</Link>
-                                    <Link to="/">Privacy Policy</Link>
+                                    <Link to="/terms-conditions">Terms &amp; Condition</Link>
+                                    <Link to="/privacy-policy">Privacy Policy</Link>
                                     <Link to="/contact">Contact Us</Link>
                                 </div>
                             </div>

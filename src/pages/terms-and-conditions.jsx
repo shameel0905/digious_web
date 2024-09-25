@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Preloader from "../elements/Preloader";
 import HelmetReact from "../elements/HelmetReact";
+import HeaderFive from "../components/HeaderFive";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
-import HeaderFive from "../components/HeaderFive";
-import BreadcrumbInnerBlogSEO from "../components/BreadcrumbInnerBlogSEO";
-import BlogDetailsInnerSEO from "../components/BlogDetailsInnerSEO";
+import BreadcrumbInner from "../components/BreadcrumbInner";
+import TermsandConditions from "../components/TermsAndConditions";
 
-
-
-const BlogSEO = () => {
+const TermsAndConditions = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
     setTimeout(function () {
@@ -22,16 +20,16 @@ const BlogSEO = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Blog Details"} />
+      <HelmetReact title={"Terms And Conditions"} />
 
       {/* HeaderFive */}
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInnerBlogSEO title="How To Be A Success With Search Engine Optimization" />
+      <BreadcrumbInner title="Terms And Conditions" />
 
-      {/* BlogDetailsInner */}
-      <BlogDetailsInnerSEO />
+      {/* ServiceDetails */}
+      <TermsandConditions/>
 
       {/* Newsletter */}
       <Newsletter />
@@ -43,4 +41,4 @@ const BlogSEO = () => {
   );
 };
 
-export default BlogSEO;
+export default TermsAndConditions;

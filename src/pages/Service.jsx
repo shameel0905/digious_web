@@ -5,7 +5,6 @@ import HeaderFive from "../components/HeaderFive";
 import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
-import AppointmentTwo from "../components/AppointmentTwo";
 import ServiceFour from "../components/ServiceFour";
 
 
