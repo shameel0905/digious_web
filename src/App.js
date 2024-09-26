@@ -35,6 +35,7 @@ import BlogNFT from "./pages/BlogNFT";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import TermsAndConditions from "./pages/terms-and-conditions";
 import PrivacyandPolicy from "./pages/Privacy-Policy";
+import SmoothScroll from "./components/SmoothScroll/SmoothScroll";
 
 // import CustomCursor from "./elements/CursrorCustom";
 // import Scroll from "./elements/smoothScroll";
@@ -42,6 +43,7 @@ import PrivacyandPolicy from "./pages/Privacy-Policy";
 const App = () => {
   return (
     <>
+    <SmoothScroll></SmoothScroll>
       {/* <Scroll /> */}
       <BrowserRouter>
         {/* <CustomCursor /> */}
