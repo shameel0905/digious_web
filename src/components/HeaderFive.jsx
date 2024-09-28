@@ -205,25 +205,25 @@ const HeaderFive = () => {
                 <Link to="#">Service</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="/graphic-designing">Graphic Design</Link>
+                    <Link to="/services/graphic-designing">Graphic Design</Link>
                   </li>
                   <li>
-                    <Link to="/website-development">Website Development</Link>
+                    <Link to="/services/website-development">Website Development</Link>
                   </li>
                   <li>
-                    <Link to="/ecommerce-solutions">E-Commerce Solution</Link>
+                    <Link to="/services/ecommerce-solutions">E-Commerce Solution</Link>
                   </li>
                   <li>
-                    <Link to="/game-development">Game Development</Link>
+                    <Link to="/services/game-development">Game Development</Link>
                   </li>
                   <li>
-                    <Link to="/mobile-app-development">Mobile App Development</Link>
+                    <Link to="/services/mobile-app-development">Mobile App Development</Link>
                   </li>
                   <li>
-                    <Link to="/software-development">Software Development</Link>
+                    <Link to="/services/software-development">Software Development</Link>
                   </li>
                   <li>
-                    <Link to="/digital-marketing">Digital Marketing</Link>
+                    <Link to="/services/digital-marketing">Digital Marketing</Link>
                   </li>
                   </ul>
               </li>
@@ -347,25 +347,25 @@ const HeaderFive = () => {
                       <Link to="/services">Services</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link to="/graphic-designing">Graphic Design</Link>
+                          <Link to="/services/graphic-designing">Graphic Design</Link>
                         </li>
                         <li>
-                          <Link to="/website-development">Website Development</Link>
+                          <Link to="/services/website-development">Website Development</Link>
                         </li>
                         <li>
-                          <Link to="/ecommerce-solutions">E-Commerce Solution</Link>
+                          <Link to="/services/ecommerce-solutions">E-Commerce Solution</Link>
                         </li>
                         <li>
-                          <Link to="/game-development">Game Development</Link>
+                          <Link to="/services/game-development">Game Development</Link>
                         </li>
                         <li>
-                          <Link to="/mobile-app-development">Mobile App Development</Link>
+                          <Link to="/services/mobile-app-development">Mobile App Development</Link>
                         </li>
                         <li>
-                          <Link to="/software-development">Software Development</Link>
+                          <Link to="/services/software-development">Software Development</Link>
                         </li>
                         <li>
-                          <Link to="/digital-marketing">Digital Marketing</Link>
+                          <Link to="/services/digital-marketing">Digital Marketing</Link>
                         </li>
                        </ul>
                     </li>
