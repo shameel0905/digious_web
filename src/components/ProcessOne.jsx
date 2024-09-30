@@ -1,10 +1,10 @@
-import Marquee from "react-fast-marquee";
+
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 const ProcessOne = () => {
-  useEffect(() => { Aos.init()});
+  useEffect(() => { Aos.init() });
 
   return (
     <>
@@ -103,7 +103,6 @@ const ProcessOne = () => {
                   <div className="process-card-icon">
                     <img src="assets/img/icon/process-icon-1-1.svg" alt="img" />
                   </div>
-                  <h3 className="process-card_number">01</h3>
                 </div>
                 <div className="process-card_content">
                   <span className="process-card-text">Technical Operation</span>
@@ -121,7 +120,6 @@ const ProcessOne = () => {
                   <div className="process-card-icon">
                     <img src="assets/img/icon/process-icon-1-2.svg" alt="img" />
                   </div>
-                  <h3 className="process-card_number">02</h3>
                 </div>
                 <div className="process-card_content">
                   <span className="process-card-text">Technical Operation</span>
@@ -139,7 +137,6 @@ const ProcessOne = () => {
                   <div className="process-card-icon">
                     <img src="assets/img/icon/process-icon-1-3.svg" alt="img" />
                   </div>
-                  <h3 className="process-card_number">03</h3>
                 </div>
                 <div className="process-card_content">
                   <span className="process-card-text">Technical Operation</span>
@@ -157,7 +154,6 @@ const ProcessOne = () => {
                   <div className="process-card-icon">
                     <img src="assets/img/icon/process-icon-1-4.svg" alt="img" />
                   </div>
-                  <h3 className="process-card_number">04</h3>
                 </div>
                 <div className="process-card_content">
                   <span className="process-card-text">Technical Operation</span>
@@ -175,7 +171,6 @@ const ProcessOne = () => {
                   <div className="process-card-icon">
                     <img src="assets/img/icon/process-icon-1-4.svg" alt="img" />
                   </div>
-                  <h3 className="process-card_number">05</h3>
                 </div>
                 <div className="process-card_content">
                   <span className="process-card-text">Technical Operation</span>
@@ -193,7 +188,6 @@ const ProcessOne = () => {
                   <div className="process-card-icon">
                     <img src="assets/img/icon/process-icon-1-4.svg" alt="img" />
                   </div>
-                  <h3 className="process-card_number">06</h3>
                 </div>
                 <div className="process-card_content">
                   <span className="process-card-text">Technical Operation</span>
@@ -211,7 +205,6 @@ const ProcessOne = () => {
                   <div className="process-card-icon">
                     <img src="assets/img/icon/process-icon-1-4.svg" alt="img" />
                   </div>
-                  <h3 className="process-card_number">07</h3>
                 </div>
                 <div className="process-card_content">
                   <span className="process-card-text">Technical Operation</span>
@@ -229,7 +222,6 @@ const ProcessOne = () => {
                   <div className="process-card-icon">
                     <img src="assets/img/icon/process-icon-1-4.svg" alt="img" />
                   </div>
-                  <h3 className="process-card_number">08</h3>
                 </div>
                 <div className="process-card_content">
                   <span className="process-card-text">Technical Operation</span>
