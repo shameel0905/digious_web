@@ -13,7 +13,7 @@ import Team from "./pages/Team";
 import TeamDetails from "./pages/TeamDetails";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
-import GraphicService from "./pages/graphic-design";
+import GraphicService from  "./pages/graphic-design";
 import BlockChainService from "./pages/Block-Chain-dev";
 import DigitalMarketingService from "./pages/Digital-Marketing";
 import ECommerceSolutionService from "./pages/E-Commerce-Solution";
@@ -35,7 +35,7 @@ import BlogNFT from "./pages/BlogNFT";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import TermsAndConditions from "./pages/terms-and-conditions";
 import PrivacyandPolicy from "./pages/Privacy-Policy";
-import SmoothScroll from "./components/SmoothScroll/SmoothScroll";
+
 
 // import CustomCursor from "./elements/CursrorCustom";
 // import Scroll from "./elements/smoothScroll";
@@ -43,7 +43,7 @@ import SmoothScroll from "./components/SmoothScroll/SmoothScroll";
 const App = () => {
   return (
     <>
-    <SmoothScroll></SmoothScroll>
+    
       {/* <Scroll /> */}
       <BrowserRouter>
         {/* <CustomCursor /> */}
@@ -53,46 +53,46 @@ const App = () => {
           <Route exact path="/" element={<HomeFive />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/services" element={<Service />} />
-          <Route exact path="/graphic-designing" element={<GraphicService />} />
+          <Route exact path="/services/graphic-designing" element={<GraphicService />} />
           <Route
             exact
-            path="/block-chain-development"
+            path="/services/block-chain-development"
             element={<BlockChainService />}
           />
           <Route
             exact
-            path="/digital-marketing"
+            path="/services/digital-marketing"
             element={<DigitalMarketingService />}
           />
           <Route
             exact
-            path="/ecommerce-solutions"
+            path="/services/ecommerce-solutions"
             element={<ECommerceSolutionService />}
           />
           <Route exact path="/erp-solutions" element={<Erpsolutions />} />
           <Route
             exact
-            path="/game-development"
+            path="/services/game-development"
             element={<GameDevelopmentService />}
           />
           <Route
             exact
-            path="/mobile-app-development"
+            path="/services/mobile-app-development"
             element={<MobileAppService />}
           />
           <Route
             exact
-            path="/software-development"
+            path="/services/software-development"
             element={<SoftwareDevService />}
           />
           <Route
             exact
-            path="/software-quality-assurance"
+            path="/services/software-quality-assurance"
             element={<SqaService />}
           />
           <Route
             exact
-            path="/website-development"
+            path="/services/website-development"
             element={<WebdevServices />}
           />
           <Route exact path="/" element={<Project />} />
