@@ -33,6 +33,7 @@ import BlogAppleId from "./pages/BlogAppleId";
 import BlogSEO from "./pages/BlogSEO";
 import BlogNFT from "./pages/BlogNFT";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react"
 import TermsAndConditions from "./pages/terms-and-conditions";
 import PrivacyandPolicy from "./pages/Privacy-Policy";
 
@@ -151,6 +152,7 @@ const App = () => {
         </Routes>
       </BrowserRouter>
       <SpeedInsights />
+      <Analytics/>
     </>
   );
 };
