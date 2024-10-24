@@ -17,7 +17,7 @@ const options = {
   },
 };
 
-const Scroll = ({ children }) => {
+const ScrollSmooth = ({ children }) => {
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -36,4 +36,4 @@ const Scroll = ({ children }) => {
   );
 };
 
-export default Scroll;
+export default ScrollSmooth;

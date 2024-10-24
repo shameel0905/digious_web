@@ -29,12 +29,12 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/graphic-designing">Graphic Design</Link>
+                                        <Link to="/services/graphic-designing">Graphic Design</Link>
                                     </h4>
                                     <p className="service-card_text">
                                         Digious Solutions is a leading graphic agency that offers the highest high-quality graphic design services. Our talented graphic designers can create
                                     </p>
-                                    <Link to="/graphic-designing" className="link-btn">
+                                    <Link to="/services/graphic-designing" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -47,12 +47,12 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/website-development">Website Development</Link>
+                                        <Link to="/services/website-development">Website Development</Link>
                                     </h4>
                                     <p className="service-card_text">
                                         Digious Solutions serves as a Website Development Agency believing in the vision of creativity. It fills as your premier Web Developer and Web Designer. 
                                     </p>
-                                    <Link to="/website-development" className="link-btn">
+                                    <Link to="/services/website-development" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -65,12 +65,12 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/ecommerce-solutions">E-Commerce Solution</Link>
+                                        <Link to="/services/ecommerce-solutions">E-Commerce Solution</Link>
                                     </h4>
                                     <p className="service-card_text">
                                         We can convert your ideas to life by delivering our digital experiences. With us, build and grow your e-commerce online business effectively
                                     </p>
-                                    <Link to="/ecommerce-solutions" className="link-btn">
+                                    <Link to="/services/ecommerce-solutions" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -83,12 +83,12 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/game-development">Game Development</Link>
+                                        <Link to="/services/game-development">Game Development</Link>
                                     </h4>
                                     <p className="service-card_text">
                                     Digious Solution is a competent mobile app development firm that provides you a wide-ranging store for fulfilling all of your android
                                     </p>
-                                    <Link to="/game-development" className="link-btn">
+                                    <Link to="/services/game-development" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -101,12 +101,12 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/mobile-app-development">Mobile App Development </Link>
+                                        <Link to="/services/mobile-app-development">Mobile App Development </Link>
                                     </h4>
                                     <p className="service-card_text">
                                         Digious Solution is the right and most convenient platform that bestows you your best mobile app developers.
                                     </p>
-                                    <Link to="/mobile-app-development" className="link-btn">
+                                    <Link to="/services/mobile-app-development" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -119,12 +119,12 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/software-development">Software Development </Link>
+                                        <Link to="/services/software-development">Software Development </Link>
                                     </h4>
                                     <p className="service-card_text">
                                         We understand that every business has specific requirements. Our team of skilled software developers works closely with you to conceptualize,
                                     </p>
-                                    <Link to="/software-development" className="link-btn">
+                                    <Link to="/services/software-development" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -137,12 +137,12 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/digital-marketing">Digital Marketing </Link>
+                                        <Link to="/services/digital-marketing">Digital Marketing </Link>
                                     </h4>
                                     <p className="service-card_text">
                                         We set out years ago to create a contemporary shop for new-age businesses seeking to pitch their products in the competitive digital world.
                                     </p>
-                                    <Link to="/digital-marketing" className="link-btn">
+                                    <Link to="/services/digital-marketing" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
