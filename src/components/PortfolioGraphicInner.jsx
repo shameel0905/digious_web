@@ -119,12 +119,12 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/logofolio/logofolio (1).jpg"
+                        href="/assets/img/portfolio/logofolio/digious_portfolio1.jpg"
                         data-lightbox="portfolio"
                         data-title="Logofolio"
                       >
                         <img
-                          src="/assets/img/portfolio/logofolio/logofolio (1).jpg"
+                          src="/assets/img/portfolio/logofolio/digious_portfolio1.jpg"
                           alt="Logofolio"
                         />
                       </a>
@@ -135,12 +135,12 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/logofolio/logofolio (2).jpg"
+                        href="/assets/img/portfolio/logofolio/digious_portfolio2.jpg"
                         data-lightbox="portfolio"
                         data-title="Logofolio"
                       >
                         <img
-                          src="/assets/img/portfolio/logofolio/logofolio (2).jpg"
+                          src="/assets/img/portfolio/logofolio/digious_portfolio2.jpg"
                           alt="Logofolio"
                         />
                       </a>
@@ -151,12 +151,12 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/logofolio/logofolio (3).jpg"
+                        href="/assets/img/portfolio/logofolio/digious_portfolio3.jpg"
                         data-lightbox="portfolio"
                         data-title="Logofolio"
                       >
                         <img
-                          src="/assets/img/portfolio/logofolio/logofolio (3).jpg"
+                          src="/assets/img/portfolio/logofolio/digious_portfolio3.jpg"
                           alt="Logofolio"
                         />
                       </a>
@@ -167,12 +167,12 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/logofolio/logofolio (4).jpg"
+                        href="/assets/img/portfolio/logofolio/digious_portfolio4.jpg"
                         data-lightbox="portfolio"
                         data-title="Logofolio"
                       >
                         <img
-                          src="/assets/img/portfolio/logofolio/logofolio (4).jpg"
+                          src="/assets/img/portfolio/logofolio/digious_portfolio4.jpg"
                           alt="Logofolio"
                         />
                       </a>
@@ -183,12 +183,12 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/logofolio/logofolio (5).jpg"
+                        href="/assets/img/portfolio/logofolio/digious_portfolio5.jpg"
                         data-lightbox="portfolio"
                         data-title="Logofolio"
                       >
                         <img
-                          src="/assets/img/portfolio/logofolio/logofolio (5).jpg"
+                          src="/assets/img/portfolio/logofolio/digious_portfolio5.jpg"
                           alt="Logofolio"
                         />
                       </a>
@@ -199,19 +199,19 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/logofolio/logofolio (6).jpg"
+                        href="/assets/img/portfolio/logofolio/digious_portfolio6.jpg"
                         data-lightbox="portfolio"
                         data-title="Logofolio"
                       >
                         <img
-                          src="/assets/img/portfolio/logofolio/logofolio (6).jpg"
+                          src="/assets/img/portfolio/logofolio/digious_portfolio6.jpg"
                           alt="Logofolio"
                         />
                       </a>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-4 filter-item">
+{/*                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
@@ -226,7 +226,7 @@ const PortfolioGraphicInner = () => {
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="tab-pane fade" id="nav-step2" role="tabpanel">
