@@ -92,7 +92,7 @@ const ClientThree = () => {
               <div className="px-3">
                 <div className="client-logo">
                   <Link to="https://www.bark.com/en/gb/company/digious-solutions/zAZ0n/">
-                    <img src="assets/img/client/bark.png" alt="img" />
+                    <img src="assets/img/client/barkus.png" alt="img" />
                   </Link>
                 </div>
               </div>
