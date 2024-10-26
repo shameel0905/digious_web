@@ -32,6 +32,7 @@
 	<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/29dfd35488e82e3ce39d50cc/script.js"></script>
 	<!-- End cookieyes banner -->
 
+  
     <title>Digious Solutions - A Complete Digital Solutions Platform</title>
   </head>
 
@@ -51,7 +52,31 @@
   })();
   </script>
   <!--End of Tawk.to Script-->
-    
+
+
+  <!-- Disable Dev Tools on chrome and firefox -->
+<script>
+  document.onkeydown = function(e) {
+    if(event.keyCode == 123) {
+    return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+    return false;
+    }
+    }
+</script>
+<!-- End Disable Dev Tools on chrome and firefox -->
+
+    <script src="%PUBLIC_URL%/assets/js/jquery.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/bootstrap.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/main.js"></script>
+
   </body>
 </html>
 

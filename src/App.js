@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { disableContextMenu } from 'disable-context-menu';
 import RouteScrollToTop from "./elements/RouteScrollToTop";
 import ScrollToTop from "react-scroll-to-top";
 import HomeFive from "./pages/HomeFive";
@@ -38,13 +39,15 @@ import TermsAndConditions from "./pages/terms-and-conditions";
 import PrivacyandPolicy from "./pages/Privacy-Policy";
 
 
-// import CustomCursor from "./elements/CursrorCustom";
-// import Scroll from "./elements/smoothScroll";
 
+// disable right click context menu
+  disableContextMenu();
+// end context menu here
 const App = () => {
   return (
     <>
     
+   
       {/* <Scroll /> */}
       <BrowserRouter>
         {/* <CustomCursor /> */}
