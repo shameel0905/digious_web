@@ -153,6 +153,7 @@ const App = () => {
       </BrowserRouter>
       <SpeedInsights />
       <Analytics/>
+
     </>
   );
 };
