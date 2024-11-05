@@ -98,7 +98,7 @@ const PortfolioGraphicInner = () => {
             >
               Music Arts
             </button>
-            {/* <button
+            <button
               className="nav-link"
               id="nav-step9-tab"
               data-bs-toggle="tab"
@@ -106,7 +106,7 @@ const PortfolioGraphicInner = () => {
               type="button"
             >
               Gaming Designs
-            </button> */}
+            </button>
           </div>
           <div className="tab-content" id="nav-tabContent">
             <div
@@ -211,22 +211,7 @@ const PortfolioGraphicInner = () => {
                     </div>
                   </div>
                 </div>
-{/*                 <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/portfolio/logofolio/logofolio (7).jpg"
-                        data-lightbox="portfolio"
-                        data-title="Logofolio"
-                      >
-                        <img
-                          src="/assets/img/portfolio/logofolio/logofolio (7).jpg"
-                          alt="Logofolio"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div> */}
+                
               </div>
             </div>
             <div className="tab-pane fade" id="nav-step2" role="tabpanel">
@@ -451,6 +436,8 @@ const PortfolioGraphicInner = () => {
                     </div>
                   </div>
                 </div>
+
+
               </div>
             </div>
             
