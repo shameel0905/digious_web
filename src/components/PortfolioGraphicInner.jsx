@@ -53,60 +53,7 @@ const PortfolioGraphicInner = () => {
             >
               Illustration
             </button>
-            {/* <button
-              className="nav-link"
-              id="nav-step4-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-step4"
-              type="button"
-            >
-              Merchandise
-            </button> */}
-            <button
-              className="nav-link"
-              id="nav-step5-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-step5"
-              type="button"
-            >
-              Stationery
-            </button>
-            {/* <button
-              className="nav-link"
-              id="nav-step6-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-step6"
-              type="button"
-            >
-              Advertisement
-            </button> */}
-            <button
-              className="nav-link"
-              id="nav-step7-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-step7"
-              type="button"
-            >
-              Book Covers
-            </button>
-            <button
-              className="nav-link"
-              id="nav-step8-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-step8"
-              type="button"
-            >
-              Music Arts
-            </button>
-            <button
-              className="nav-link"
-              id="nav-step9-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-step9"
-              type="button"
-            >
-              Gaming Designs
-            </button>
+           
           </div>
           <div className="tab-content" id="nav-tabContent">
             <div
