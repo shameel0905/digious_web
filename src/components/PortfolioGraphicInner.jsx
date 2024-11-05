@@ -377,11 +377,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/illustrations/illustration(1).jpg"
+                        href="/assets/img/portfolio/illustrations/illustration1.jpg"
                         data-lightbox="portfolio"
                         data-title="Illustration"
                       >
-                        <img src="/assets/img/portfolio/illustrations/illustration(1).jpg" alt="img" />
+                        <img src="/assets/img/portfolio/illustrations/illustration1.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -390,11 +390,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/illustrations/illustration(2).jpg"
+                        href="/assets/img/portfolio/illustrations/illustration2.jpg"
                         data-lightbox="portfolio"
                         data-title="Illustration"
                       >
-                        <img src="/assets/img/portfolio/illustrations/illustration(2).jpg" alt="img" />
+                        <img src="/assets/img/portfolio/illustrations/illustration2.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -403,11 +403,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/illustrations/illustration(3).jpg"
+                        href="/assets/img/portfolio/illustrations/illustration3.jpg"
                         data-lightbox="portfolio"
                         data-title="Illustration"
                       >
-                        <img src="/assets/img/portfolio/illustrations/illustration(3).jpg" alt="img" />
+                        <img src="/assets/img/portfolio/illustrations/illustration3.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -416,11 +416,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/illustrations/illustration(4).jpg"
+                        href="/assets/img/portfolio/illustrations/illustration4.jpg"
                         data-lightbox="portfolio"
                         data-title="Illustration"
                       >
-                        <img src="/assets/img/portfolio/illustrations/illustration(4).jpg" alt="img" />
+                        <img src="/assets/img/portfolio/illustrations/illustration4.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -429,11 +429,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/illustrations/illustration(5).jpg"
+                        href="/assets/img/portfolio/illustrations/illustration5.jpg"
                         data-lightbox="portfolio"
                         data-title="Illustration"
                       >
-                        <img src="/assets/img/portfolio/illustrations/illustration(5).jpg" alt="img" />
+                        <img src="/assets/img/portfolio/illustrations/illustration5.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -442,11 +442,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/illustrations/illustration(6).jpg"
+                        href="/assets/img/portfolio/illustrations/illustration6.jpg"
                         data-lightbox="portfolio"
                         data-title="Illustration"
                       >
-                        <img src="/assets/img/portfolio/illustrations/illustration(6).jpg" alt="img" />
+                        <img src="/assets/img/portfolio/illustrations/illustration6.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
