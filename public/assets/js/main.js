@@ -668,6 +668,7 @@
 })(jQuery);
 
 
+
 document.addEventListener('DOMContentLoaded', () => {
     const paths = document.querySelectorAll('.path1');
 
@@ -683,3 +684,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     paths.forEach(path => observer.observe(path));
   });
+
+

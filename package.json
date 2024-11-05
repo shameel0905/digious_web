@@ -17,6 +17,7 @@
     "aos": "^2.3.4",
     "body-parser": "^1.20.3",
     "bootstrap": "^5.3.3",
+    "disable-context-menu": "^1.0.1",
     "dotenv": "^16.4.5",
     "emailjs-com": "^3.2.0",
     "lightbox2": "^2.11.4",

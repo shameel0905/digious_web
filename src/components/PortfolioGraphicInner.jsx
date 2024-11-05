@@ -371,17 +371,17 @@ const PortfolioGraphicInner = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="tab-pane fade" id="nav-step3" role="tabpanel">
+            <div className="tab-pane fade" id="nav-step3" role="tabpanel">
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/service/graphic-3.jpg"
+                        href="/assets/img/portfolio/illustrations/illustration(1).jpg"
                         data-lightbox="portfolio"
-                        data-title="Bank Management"
+                        data-title="Illustration"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/portfolio/illustrations/illustration(1).jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -390,11 +390,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/service/graphic-3.jpg"
+                        href="/assets/img/portfolio/illustrations/illustration(2).jpg"
                         data-lightbox="portfolio"
-                        data-title="Bank Management"
+                        data-title="Illustration"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                        <img src="/assets/img/portfolio/illustrations/illustration(2).jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -403,31 +403,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/service/graphic-3.jpg"
+                        href="/assets/img/portfolio/illustrations/illustration(3).jpg"
                         data-lightbox="portfolio"
-                        data-title="Bank Management"
+                        data-title="Illustration"
                       >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-            <div className="tab-pane fade" id="nav-step4" role="tabpanel">
-              <div className="row gy-30 gx-30 masonary-active">
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
+                        <img src="/assets/img/portfolio/illustrations/illustration(3).jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -436,14 +416,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/service/graphic-3.jpg"
+                        href="/assets/img/portfolio/illustrations/illustration(4).jpg"
                         data-lightbox="portfolio"
-                        data-title="Bank Management"
+                        data-title="Illustration"
                       >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
+                        <img src="/assets/img/portfolio/illustrations/illustration(4).jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -452,271 +429,34 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/service/graphic-3.jpg"
+                        href="/assets/img/portfolio/illustrations/illustration(5).jpg"
                         data-lightbox="portfolio"
-                        data-title="Bank Management"
+                        data-title="Illustration"
                       >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
+                        <img src="/assets/img/portfolio/illustrations/illustration(5).jpg" alt="img" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                    <div className="portfolio-box-thumb">
+                      <a
+                        href="/assets/img/portfolio/illustrations/illustration(6).jpg"
+                        data-lightbox="portfolio"
+                        data-title="Illustration"
+                      >
+                        <img src="/assets/img/portfolio/illustrations/illustration(6).jpg" alt="img" />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="tab-pane fade" id="nav-step5" role="tabpanel">
-              <div className="row gy-30 gx-30 masonary-active">
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <div className="tab-pane fade" id="nav-step6" role="tabpanel">
-              <div className="row gy-30 gx-30 masonary-active">
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img src="/assets/img/service/graphic-3.jpg" alt="img" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-            <div className="tab-pane fade" id="nav-step7" role="tabpanel">
-              <div className="row gy-30 gx-30 masonary-active">
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="tab-pane fade" id="nav-step8" role="tabpanel">
-              <div className="row gy-30 gx-30 masonary-active">
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="tab-pane fade" id="nav-step9" role="tabpanel">
-              <div className="row gy-30 gx-30 masonary-active">
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div className="portfolio-box-thumb">
-                      <a
-                        href="/assets/img/service/graphic-3.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          src="/assets/img/service/graphic-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
+           
+            
+            
           </div>
         </div>
       </div>

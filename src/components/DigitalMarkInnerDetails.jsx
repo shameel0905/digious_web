@@ -17,14 +17,23 @@ const DigitalMarkInnerDetails = () => {
             <div className="col-xxl-12 col-lg-12">
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
-                Revolutionizing E-Commerce: Digious Solutions' Rise to Industry Leadership
+                Digious Solutions on top of the Digital marketing strategies
                 </h3>
               </div>
+              
+              <div className="checklist style6 mt-40 mb-60">
+                <ul>
+                  <li>
+                  Fueled by the industry's burgeoning digital trends and insatiable demands, Digious Solutions has cemented its foot as the best digital solutions provider. 
+                  </li>
+                  </ul>
+                  </div>
+
               <p>
-              We set out years ago to create a contemporary shop for new-age businesses seeking to pitch their products in the competitive digital world. With our best digital solutions to businesses at a lower level, we managed to rise through the ranks, ultimately becoming a household name in the e-commerce ecosystem. Today, Digious Solutions has decorated dozens of businesses with trailblazing designs, ideas, and layouts.
+              In 2019, We embarked on a mission to establish a modern digital marketing agency tailored to meet the needs of innovative businesses striving to make their mark in the highly competitive digital landscape. With our top-tier digital marketing solutions, we quickly climbed the industry ranks, eventually earning recognition as a leading name in the e-commerce sphere. Today, Digious Solutions is renowned for transforming numerous businesses with cutting-edge design, creative ideation, and compelling layouts.
               </p><br></br>
               <p>
-              Whether you’re a seed-stage venture or a blooming decacorn, our digital services for businesses are warranted to attract customers’ eyes. Our best web digital solutions for businesses include 
+              Whether you're a fledgling startup or a flourishing decacorn, our digital marketing services are designed to capture and engage your target audience. Our premier digital marketing offerings include
               </p>
               <div className="checklist style6 mt-40 mb-60">
                 <ul>
@@ -109,11 +118,7 @@ const DigitalMarkInnerDetails = () => {
                 </div>
               </div>
               <p className="mt-30 mb-n1">
-                Web designing in a powerful way of just not an only professions,
-                however, in a passion Company. have a to a tendency to believe
-                the idea that smart looking of an is the impression on
-                visitors.Web designing in a powerful way only professions Web
-                designing in a powerful way
+              Web design is more than just a profession; it's a true passion for us at our company. We firmly believe that a visually appealing website creates a lasting first impression on visitors. At our firm, web design is executed with meticulous care and artistic passion, reflecting our commitment to not just meet, but exceed, professional standards in digital marketing.
               </p>
             </div>
             {/* <div className="col-xxl-4 col-lg-5">
