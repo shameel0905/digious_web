@@ -361,11 +361,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/illustrations/illustration5.jpg"
+                        href="/assets/img/portfolio/illustrations/illustration_main5.jpg"
                         data-lightbox="portfolio"
                         data-title="Illustration"
                       >
-                        <img src="/assets/img/portfolio/illustrations/illustration5.jpg" alt="img" />
+                        <img src="/assets/img/portfolio/illustrations/illustration_main5.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
@@ -374,11 +374,11 @@ const PortfolioGraphicInner = () => {
                   <div className="portfolio-box">
                     <div className="portfolio-box-thumb">
                       <a
-                        href="/assets/img/portfolio/illustrations/illustration6.jpg"
+                        href="/assets/img/portfolio/illustrations/illustration_main6.jpg"
                         data-lightbox="portfolio"
                         data-title="Illustration"
                       >
-                        <img src="/assets/img/portfolio/illustrations/illustration6.jpg" alt="img" />
+                        <img src="/assets/img/portfolio/illustrations/illustration_main6.jpg" alt="img" />
                       </a>
                     </div>
                   </div>
