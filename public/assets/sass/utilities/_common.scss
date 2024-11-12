@@ -290,10 +290,13 @@
         right: 0;
         top: 50%;
         transform: translate(50%, -50%);
+        
     }
     @include md {
         display: none;
     }
+
+
 }
 .shadow-shape-left {
     position: absolute;

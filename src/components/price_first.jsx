@@ -62,10 +62,10 @@ const ConsultPopup = ({ onClose }) => {
     <div className="popup-container">
       <div className="popup-content">
         <div className="row justify-content-center align-items-center">
-          <div className="col-lg-4 image-section">
+          {/* <div className="col-lg-4 image-section">
             <img className="h-100" src="assets/img/normal/pop.jpg" alt="img" />
-          </div>
-          <div className="col-lg-8">
+          </div> */}
+          <div className="col-lg">
             <div className="form-section">
               <div style={{ textAlign: "end" }}>
                 <button className="close-button" onClick={onClose}>
