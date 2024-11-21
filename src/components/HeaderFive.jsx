@@ -438,13 +438,15 @@ const HeaderFive = () => {
               <div className="col-auto ms-xxl-4 d-xl-block d-none">
                 <div className="header-wrapper">
                   <div className="header-button">
-                    <button
+                   
+                    {/* <button
                       type="button"
                       className="simple-icon searchBoxToggler"
                       onClick={() => searchControl(true)}
                     >
                       <i className="fas fa-search" />
-                    </button>
+                    </button> */}
+                    
                     <Link to="/contact" className="global-btn style-border3">
                       Get a quote <i className="fas fa-arrow-right ms-2" />
                     </Link>
