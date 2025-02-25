@@ -51,19 +51,17 @@ const FooterFour = () => {
                                     <div className="menu-all-pages-container">
                                         <ul className="menu">
                                             <li>
-                                                <Link to="/ecommerce-solutions">E-Commerce Solution</Link>
+                                                <Link to="/services/ecommerce-solutions">E-Commerce Solution</Link>
                                             </li>
                                             <li>
-                                                <Link to="/mobile-app-development">Mobile App Development</Link>
+                                                <Link to="/services/mobile-app-development">Mobile App Development</Link>
                                             </li>
                                             <li>
-                                                <Link to="/website-development">Website Development</Link>
+                                                <Link to="/services/website-development">Website Development</Link>
                                             </li>
+                                            
                                             <li>
-                                                <Link to="/block-chain-portfolio">Non Fungible Tokens (NFTs)</Link>
-                                            </li>
-                                            <li>
-                                                <Link to="/digital-marketing">Digital Marketing</Link>
+                                                <Link to="/services/digital-marketing">Digital Marketing</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -104,8 +102,16 @@ const FooterFour = () => {
                                             <i className="fas fa-map-marker-alt text-white" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    19 Kimian Avenue West Waratah, New South Wales
+                                                    19 Kimian Avenue West Waratah, NSW 
                                                     Australia
+                                                </h6>
+                                            </div>
+                                        </div>
+                                        <div className="widget-contact-grid">
+                                            <i className="fas fa-map-marker-alt text-white" />
+                                            <div className="contact-grid-details">
+                                                <h6>
+                                                Rockford, IL, USA
                                                 </h6>
                                             </div>
                                         </div>
