@@ -96,8 +96,8 @@ const FooterOne = () => {
                     <i className="fas fa-envelope" />
                     <div className="contact-grid-details">
                       <h6>
-                        <Link to="mailto:info@digiuossolutions.com">
-                          info@digiuossolutions.com
+                        <Link to="mailto:info@digioussolutions.com">
+                        info@digioussolutions.com
                         </Link>
                         <p />
                       </h6>
@@ -133,7 +133,7 @@ const FooterOne = () => {
           <div className="row gy-3 justify-content-lg-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Digious Solutions </Link> 2024 | All Rights
+                © <Link to="#">Digious Solutions </Link> 2025 | All Rights
                 Reserved
               </p>
             </div>

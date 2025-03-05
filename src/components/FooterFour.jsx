@@ -93,7 +93,7 @@ const FooterFour = () => {
                                             <i className="fas fa-envelope text-white" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    <Link to="mailto:info@digiuossolutions.com">info@digiuossolutions.com</Link>
+                                                    <Link to="mailto:info@digioussolutions.com">info@digioussolutions.com</Link>
                                                     <p />
                                                 </h6>
                                             </div>
@@ -126,7 +126,7 @@ const FooterFour = () => {
                         <div className="row gy-3 justify-content-lg-between justify-content-center">
                             <div className="col-auto align-self-center">
                                 <p className="copyright-text text-center">
-                                    © <Link to="#">Digious Solutions </Link> 2024 | All Rights Reserved
+                                    © <Link to="#">Digious Solutions </Link> 2025 | All Rights Reserved
                                 </p>
                             </div>
                             <div className="col-auto">
