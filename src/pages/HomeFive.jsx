@@ -42,7 +42,7 @@ const HomeFive = () => {
       {active === true && <Preloader />}
       
       {/* Helmet */}
-      <HelmetReact title={"Home"} />
+      <HelmetReact title={"Digious Solutions"} />
 
       {/* HeaderFive */}
       <HeaderFive />

@@ -4,7 +4,7 @@ const HelmetReact = ({ title }) => {
   return (
     <Helmet>
       <title>
-        {title} | Digious Solutions - A Complete Digital Solutions Platform
+        {title} | A Complete Digital Solutions Platform.
       </title>
       <meta
         name="description"
