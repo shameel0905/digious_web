@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-const HelmetReact = ({ title }) => {
+const HomeHelmet = ({ title }) => {
   return (
     <Helmet>
       <title>
@@ -14,4 +14,4 @@ const HelmetReact = ({ title }) => {
   );
 };
 
-export default HelmetReact;
+export default HomeHelmet;
