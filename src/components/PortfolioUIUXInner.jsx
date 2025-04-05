@@ -32,7 +32,7 @@ const PortfolioUIUXInner = () => {
               data-bs-target="#nav-step1"
               type="button"
             >
-              Logo Design
+              Web Applications
             </button>
             <button
               className="nav-link"
@@ -41,7 +41,7 @@ const PortfolioUIUXInner = () => {
               data-bs-target="#nav-step2"
               type="button"
             >
-              3D Logo
+              Mobile Applications
             </button>
             <button
               className="nav-link"
@@ -50,62 +50,9 @@ const PortfolioUIUXInner = () => {
               data-bs-target="#nav-step3"
               type="button"
             >
-              Illustration
+              Websites
             </button>
-            <button
-              className="nav-link"
-              id="nav-step4-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-step4"
-              type="button"
-            >
-              Merchandise
-            </button>
-            <button
-              className="nav-link"
-              id="nav-step5-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-step5"
-              type="button"
-            >
-              Stationery
-            </button>
-            <button
-              className="nav-link"
-              id="nav-step6-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-step6"
-              type="button"
-            >
-              Advertisement
-            </button>
-            <button
-              className="nav-link"
-              id="nav-step7-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-step7"
-              type="button"
-            >
-              Book Covers
-            </button>
-            <button
-              className="nav-link"
-              id="nav-step8-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-step8"
-              type="button"
-            >
-              Music Arts
-            </button>
-            <button
-              className="nav-link"
-              id="nav-step9-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-step9"
-              type="button"
-            >
-              Gaming Designs
-            </button>
+            
           </div>
           <div className="tab-content" id="nav-tabContent">
             <div
@@ -116,167 +63,79 @@ const PortfolioUIUXInner = () => {
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
+                    
                     <div
                       style={{
                         backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
+                          "url(/assets/img/portfolio/uiux/web-applications/Clozium.jpg)",
                       }}
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
+                        href="https://www.figma.com/design/dGoHGG1yAU6Rg1NaYfvWRT/Clozium-Saas-Wireframes?node-id=0-1&p=f&t=186b7nroPOnG18t5-0"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <img
                           className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          src="/assets/img/portfolio/uiux/web-applications/Clozium.jpg"
                           alt="img"
                         />
                       </a>
                     </div>
+
                   </div>
                 </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
             <div className="tab-pane fade" id="nav-step2" role="tabpanel">
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div
+                  <div
                       style={{
                         backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
+                          "url(/assets/img/portfolio/uiux/mobile-applications/Coffee-Shop.jpg)",
                       }}
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
+                        href="https://www.figma.com/design/bUQjsjENtzAwOxmEzODKOq/Coffee-Shop-Mobile-App-Design?node-id=417-154&p=f"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <img
                           className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          src="/assets/img/portfolio/uiux/mobile-applications/Coffee-Shop.jpg"
                           alt="img"
                         />
                       </a>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+               
               </div>
             </div>
             <div className="tab-pane fade" id="nav-step3" role="tabpanel">
               <div className="row gy-30 gx-30 masonary-active">
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div
+                  <div
                       style={{
                         backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
+                          "url(/assets/img/portfolio/uiux/websites/UGC-Hub.jpg)",
                       }}
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
+                        href="https://www.figma.com/design/Q1y1IFoK2tRiHJsQLmtTlu/UGC-Hub?node-id=0-1&p=f&t=2TOgirgYxlL4bfZ2-0"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <img
                           className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
+                          src="/assets/img/portfolio/uiux/websites/UGC-Hub.jpg"
                           alt="img"
                         />
                       </a>
@@ -285,21 +144,21 @@ const PortfolioUIUXInner = () => {
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div
+                  <div
                       style={{
                         backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
+                          "url(/assets/img/portfolio/uiux/websites/Legacy-Marker.jpg)",
                       }}
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
+                        href="https://www.figma.com/design/M26lDNPKQXopnaXC28hKNt/LegacyMarker-Final?node-id=8842-479&p=f&t=YbjTtm2BkFv7I8WK-0"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <img
                           className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
+                          src="/assets/img/portfolio/uiux/websites/Legacy-Marker.jpg"
                           alt="img"
                         />
                       </a>
@@ -308,467 +167,77 @@ const PortfolioUIUXInner = () => {
                 </div>
                 <div className="col-md-4 filter-item">
                   <div className="portfolio-box">
-                    <div
+                  <div
                       style={{
                         backgroundImage:
-                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
+                          "url(/assets/img/portfolio/uiux/websites/AV-Website-Design.jpg)",
                       }}
                       className="portfolio-box-thumb screen"
                     >
                       <a
-                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
+                        href="https://www.figma.com/design/8j1aVRScBxnHwU7RfLcIuH/AV-Website-Design?node-id=322-13027&t=GmHMzMBlOXTg4dEF-0"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <img
                           className="invisible"
-                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
+                          src="/assets/img/portfolio/uiux/websites/AV-Website-Design.jpg"
                           alt="img"
                         />
                       </a>
                     </div>
                   </div>
                 </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                  <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/uiux/websites/Hardhat.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
+                      <a
+                        href="https://www.figma.com/design/Gv2m69sVcHNYUqnZMNW1Lk/Hardhat-Launch?node-id=0-1&p=f&t=NjFokeLvoWyv6ssp-0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          className="invisible"
+                          src="/assets/img/portfolio/uiux/websites/Hardhat.jpg"
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                  <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/uiux/websites/Source.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
+                      <a
+                        href="https://www.figma.com/design/5eNEyTykvaF3ezPba15qwO/Jas-%26-Ella-Review?node-id=0-1&p=f&t=TK4BDeSDDM9kG0QW-0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          className="invisible"
+                          src="/assets/img/portfolio/uiux/websites/Source.jpg"
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
               </div>
             </div>
-            <div className="tab-pane fade" id="nav-step4" role="tabpanel">
-              <div className="row gy-30 gx-30 masonary-active">
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="tab-pane fade" id="nav-step5" role="tabpanel">
-              <div className="row gy-30 gx-30 masonary-active">
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="tab-pane fade" id="nav-step6" role="tabpanel">
-              <div className="row gy-30 gx-30 masonary-active">
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="tab-pane fade" id="nav-step7" role="tabpanel">
-              <div className="row gy-30 gx-30 masonary-active">
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="tab-pane fade" id="nav-step8" role="tabpanel">
-              <div className="row gy-30 gx-30 masonary-active">
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="tab-pane fade" id="nav-step9" role="tabpanel">
-              <div className="row gy-30 gx-30 masonary-active">
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-10-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/Final-Web-Draft-11-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 filter-item">
-                  <div className="portfolio-box">
-                    <div
-                      style={{
-                        backgroundImage:
-                          "url(/assets/img/portfolio/final-mockup-01-2-303x1024.jpg)",
-                      }}
-                      className="portfolio-box-thumb screen"
-                    >
-                      <a
-                        href="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                        data-lightbox="portfolio"
-                        data-title="Bank Management"
-                      >
-                        <img
-                          className="invisible"
-                          src="/assets/img/portfolio/final-mockup-01-2-303x1024.jpg"
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
