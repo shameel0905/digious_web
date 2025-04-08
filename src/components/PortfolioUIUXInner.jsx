@@ -86,6 +86,31 @@ const PortfolioUIUXInner = () => {
 
                   </div>
                 </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                    
+                    <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/uiux/web-applications/smart-home.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
+                      <a
+                        href="https://www.figma.com/design/cX1pxNQpXara1MKErPQlR5/Smart-Home-AI-Web-App-by-Digious-Solutions?node-id=0-1&p=f&t=S6etVF2zHwaVT4Jn-0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          className="invisible"
+                          src="/assets/img/portfolio/uiux/web-applications/smart-home.jpg"
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
                 
               </div>
             </div>
@@ -108,6 +133,29 @@ const PortfolioUIUXInner = () => {
                         <img
                           className="invisible"
                           src="/assets/img/portfolio/uiux/mobile-applications/Coffee-Shop.jpg"
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                  <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/uiux/mobile-applications/smart-home.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
+                      <a
+                        href="https://www.figma.com/design/fbp3CMAEBUwhqQtFZlzjXY/Smart-Home-AI-by-Digious-Solutions?node-id=0-1&p=f&t=aCQvaOkbst3nOD9y-0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          className="invisible"
+                          src="/assets/img/portfolio/uiux/mobile-applications/smart-home.jpg"
                           alt="img"
                         />
                       </a>
@@ -234,6 +282,76 @@ const PortfolioUIUXInner = () => {
                     </div>
                   </div>
                 </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                  <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/uiux/websites/paradise.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
+                      <a
+                        href="https://www.figma.com/design/YqRY63tRhI5JjLhaCc26Ah/Untitled?node-id=0-1&p=f&t=IFVeqSImDOMPsYNg-0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          className="invisible"
+                          src="/assets/img/portfolio/uiux/websites/paradise.jpg"
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                  <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/uiux/websites/Fizz-Cleaning-Services.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
+                      <a
+                        href="https://www.figma.com/design/qtUfx8hxSSRyxWShI33Egx/Fizz-Cleaning?node-id=1-2&t=qslG6bI8dM7DDS2x-0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          className="invisible"
+                          src="/assets/img/portfolio/uiux/websites/Fizz-Cleaning-Services.jpg"
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 filter-item">
+                  <div className="portfolio-box">
+                  <div
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/portfolio/uiux/websites/home-of-training.jpg)",
+                      }}
+                      className="portfolio-box-thumb screen"
+                    >
+                      <a
+                        href="https://www.figma.com/design/dWHXCdqVLhcrJ2L78qppI5/Home-of-Training-by-Digious-Solutions?node-id=1-2940&t=juYraCdu2K1hbtiT-0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          className="invisible"
+                          src="/assets/img/portfolio/uiux/websites/home-of-training.jpg"
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
                 
               </div>
             </div>

@@ -95,8 +95,8 @@ const FooterFive = () => {
                       <i className="fas fa-map-marker-alt" />
                       <div className="contact-grid-details">
                         <h6>
-                          19 Kimian Avenue West Waratah, New South Wales
-                          Australia
+                        196 The Esplanade Speers point, 
+                        New Castle NSW 2284, Australia
                         </h6>
                       </div>
                     </div>

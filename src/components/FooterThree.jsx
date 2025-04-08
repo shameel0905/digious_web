@@ -118,7 +118,7 @@ const FooterThree = () => {
                         </div>
                         <div className="col-auto">
                             <div className="footer-links">
-                                <Link to="/contact">Trams &amp; Condition</Link>
+                                <Link to="/contact">Terms &amp; Condition</Link>
                                 <Link to="/contact">Privacy Policy</Link>
                                 <Link to="/contact">Contact Us</Link>
                             </div>
