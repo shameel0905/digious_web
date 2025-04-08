@@ -79,7 +79,7 @@ const FooterFive = () => {
                       <i className="fab fa-whatsapp" />
                       <div className="contact-grid-details">
                         <h6>
-                          <Link to="#">(614)310-66995</Link>
+                          <Link to="https://api.whatsapp.com/send?phone=61431066995">(614)310-66995</Link>
                         </h6>
                       </div>
                     </div>
@@ -87,7 +87,7 @@ const FooterFive = () => {
                       <i className="fas fa-envelope" />
                       <div className="contact-grid-details">
                         <h6>
-                          <Link to="#">info@digiuossolutions.com</Link>
+                          <Link to="mailto:info@digioussolutions.com">info@digioussolutions.com</Link>
                         </h6>
                       </div>
                     </div>
