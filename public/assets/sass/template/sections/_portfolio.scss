@@ -107,7 +107,7 @@
       font-weight: 700;
       font-size: 22.6875px;
       line-height: 29px;
-      color: $title-color;
+      color: #fff;
       margin-bottom: 0rem;
 
       @include lg {
@@ -115,7 +115,7 @@
       }
 
       a {
-        color: $title-color;
+        color: #fff;
 
         &:hover {
           color: $theme-color;
