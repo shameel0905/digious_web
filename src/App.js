@@ -37,6 +37,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react"
 import TermsAndConditions from "./pages/terms-and-conditions";
 import PrivacyandPolicy from "./pages/Privacy-Policy";
+import CSAutowriter from "./pages/CSAutowriter";
 
 
 
@@ -152,6 +153,7 @@ const App = () => {
           <Route exact  path="/privacy-policy" element={<PrivacyandPolicy />} />
           <Route exact  path="/project-details" element={<ProjectDetails />} />
           <Route exact  path="/case-studies" element={<CaseStudies />} />
+          <Route exact path="/case-studies/autowriter" element={<CSAutowriter />} />
           
 
         </Routes>
