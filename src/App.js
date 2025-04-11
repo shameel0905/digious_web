@@ -155,6 +155,7 @@ const App = () => {
           <Route exact  path="/case-studies" element={<CaseStudies />} />
           <Route exact path="/case-studies/autowriter" element={<CSAutowriter />} />
           
+          
 
         </Routes>
       </BrowserRouter>

@@ -31,7 +31,7 @@ const CaseStudies = () => {
                             
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                         <div className="portfolio-card">
                             <Link to="/project-details">
                             <div className="portfolio-card-thumb">
@@ -56,7 +56,7 @@ const CaseStudies = () => {
                             
                         </div>
                     </div>
-                    
+                     */}
                 </div>
             </div>
         </div>

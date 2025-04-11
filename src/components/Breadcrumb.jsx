@@ -3,10 +3,23 @@ import { Link } from 'react-router-dom'
 
 const Breadcrumb = ({ title }) => {
     return (
-        <div 
-            className="breadcumb-wrapper"
-            style={{ backgroundImage: "url(/assets/img/bg/bg654.png)" }}
-        >
+        <div className="breadcumb-wrapper" style={{ position: "relative", overflow: "hidden" }}>
+        {/* Background Video */}
+        <video 
+            src="/assets/img/bg/headbanner.mp4" 
+            autoPlay 
+            muted 
+            loop 
+            style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                
+            }}
+        />
             {/* bg animated image/ */}
             <div className="container">
                 <div className="row align-items-center">

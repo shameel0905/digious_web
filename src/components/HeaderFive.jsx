@@ -251,8 +251,12 @@ const HeaderFive = () => {
                   </li>
                 </ul>
               </li>
+
+              <li>
+                <Link to="/case-studies">Case Studies</Link>
+              </li>
               
-              <li className="menu-item-has-children">
+              <li >
                 <Link to="/blog">Blog</Link>
                 {/* <ul className="sub-menu">
                   <li>
@@ -392,6 +396,11 @@ const HeaderFive = () => {
                         </li>
                       </ul>
                     </li>
+
+                    <li>
+                <Link to="/case-studies">Case Studies</Link>
+              </li>
+
                     <li className="menu-item-has-childrren">
                       <Link to="/blog">Blog</Link>
                       {/* <ul className="sub-menu">
