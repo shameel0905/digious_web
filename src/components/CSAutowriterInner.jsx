@@ -69,28 +69,28 @@ const CSAutowriterInner = () => {
                         <h2 className='widget_title'>User Flow </h2>
                         <div className="checklist style2">
                                     <ul>
-                                        <li>
+                                        <li style={{color:"white"}}>
                                             <i className="fas fa-check-circle" />
                                             App Entry Point
                                         </li>
                                         </ul>
                                         <p>Users enter the app via an interactive and accessible interface.  </p>
                                     <ul>
-                                        <li>
+                                        <li style={{color:"white"}}>
                                             <i className="fas fa-check-circle" />
                                             Sign-Up Process 
                                         </li>
                                         </ul>
                                         <p>A hassle-free and secure registration experience.   </p>
                                     <ul>
-                                        <li>
+                                        <li style={{color:"white"}}>
                                             <i className="fas fa-check-circle" />
                                             Features Exploration of the App
                                         </li>
                                         </ul>
                                         <p>Users navigate intuitive functionalities, including generating, refining, and optimizing content.  </p>
                                     <ul>
-                                        <li>
+                                        <li style={{color:"white"}}>
                                             <i className="fas fa-check-circle" />
                                             Utilization of AI Models
                                         </li>
@@ -221,17 +221,69 @@ const CSAutowriterInner = () => {
                             Company. have a to a tendency to believe
                         </p> */}
 
-                    <div style={{ marginTop: "50px" }}>
-                    <h2 className='widget_title'>Design Thinking Process </h2>
-                    <p className="mb-30">During development, we encountered a major technical challenge: reducing the response time of AI-generated content from <strong>40 seconds</strong> to just <strong>3 seconds</strong>.  This was crucial for ensuring a smooth user experience. Through swift problem-solving and the expertise of our technical team, we successfully optimized the application in just a few hours, achieving the desired response time and enhancing overall user satisfaction.  
-                    Our team worked tirelessly to optimize the application, implementing advanced caching techniques and optimizing API calls.
+                                    <div style={{ marginTop: "50px" }}>
+                                    <h2 className='widget_title'>Design Thinking Process </h2>
+                                    <p className="mb-30">The <strong>design thinking process</strong> played a key role in ensuring the application was both innovative and                    user-centric.  
+                                    </p>
+                                    </div >
+                                    <div className="checklist style2">
+                                    <ul>
+                                        <li style={{color:"white"}}>
+                                            <i className="fas fa-check-circle" />
+                                            Empathizing with Writers
+                                        </li>
+                                        </ul>
+                                        <p>We prioritized understanding the needs of writers to design the perfect solution.  </p>
+                                    <ul>
+                                        <li style={{color:"white"}}>
+                                            <i className="fas fa-check-circle" />
+                                            Innovative Features 
+                                        </li>
+                                        </ul>
+                                        <p>Seamlessly integrating AI functionalities tailored to user requirements.  </p>
+                                    <ul>
+                                        <li style={{color:"white"}}>
+                                            <i className="fas fa-check-circle" />
+                                            Prototyping & Feedback
+                                        </li>
+                                        </ul>
+                                        <p>Testing multiple prototypes and refining them based on user insights.   </p>
+                                    <ul>
+                                        <li style={{color:"white"}}>
+                                            <i className="fas fa-check-circle" />
+                                            Successful Launch
+                                        </li>
+                                        </ul>
+                                        <p>The result was a high-performing application ready to elevate the content creation experience.  </p>
+                                        </div>
+
+                                        <div style={{ marginTop: "50px" }}>
+                    <h2 className='widget_title'>Branding and Color Palette   </h2>
+                    <p className="mb-30">The branding theme was carefully crafted to reflect professionalism and modernity, with a vibrant yet trust-inspiring <strong>color palette.</strong> This branding ensures users feel confident and supported while engaging with the platform.  
                     </p>
                     </div >
-
+                            <div className="row gy-4">
+                            <div className="col-md-6">
+                                <div className="page-thumb style2">
+                                    <img
+                                        src="/assets/img/case-studies/autowriter/Typography.png"
+                                        alt="img"
+                                    />
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="page-thumb style2">
+                                    <img
+                                        src="/assets/img/case-studies/autowriter/Color.png"
+                                        alt="img"
+                                    />
+                                </div>
+                            </div>
+                           
+                        </div>
 
 
                     </div>
-
 
 
 
