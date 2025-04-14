@@ -7,11 +7,11 @@ const CSAutowriterInner = () => {
             <div className="container">
                 <div className="row gx-30">
                     <div className="col-xxl-8 col-lg-7">
-                        <div className="page-thumb mb-40">
+                        <div className="page-thumb mb-40" >
                             {/* <img src="assets/img/portfolio/project-details1-1.png" alt="img" /> */}
-                            <video src='/assets/img/case-studies/autowriter/intro.mp4' autoPlay muted controls style={{ marginBottom: "20px" }} />
+                            <video src='/assets/img/case-studies/autowriter/intro.mp4' autoPlay muted controls style={{ marginBottom: "20px" }} data-aos="fade-up" data-aos-delay="800"/>
 
-                            <h2 className='widget_title'>Project Overview </h2>
+                            <h2  className='widget_title' >Project Overview </h2>
                             <p className="mb-30">
                             We collaborated with <strong>Marcus</strong>, who approached us with a bold idea: to create a platform that simplifies content creation through advanced AI technology. After understanding his requirements, our team developed a fully functional <strong>Bubble application and website</strong> to bring his vision to life.
                         </p>
@@ -21,7 +21,7 @@ const CSAutowriterInner = () => {
                         </p>
                         </div>
                     </div>
-                    <div className="col-12 order-lg-3">
+                    <div  className="col-12 order-lg-3">
                     
                     <div>
                     <h2 className='widget_title'>Project Timeline </h2>
@@ -31,7 +31,7 @@ const CSAutowriterInner = () => {
                     
                     <div className="row gy-4">
                             <div className="col-md-4">
-                                <div className="page-thumb style2">
+                                <div className="page-thumb style2" data-aos="fade-left" data-aos-delay="800">
                                     <img
                                         src="/assets/img/case-studies/autowriter/Describe.gif"
                                         alt="img"
@@ -39,7 +39,7 @@ const CSAutowriterInner = () => {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="page-thumb style2">
+                                <div className="page-thumb style2" data-aos="fade-up" data-aos-delay="800">
                                     <img
                                         src="/assets/img/case-studies/autowriter/Research.gif"
                                         alt="img"
@@ -47,7 +47,7 @@ const CSAutowriterInner = () => {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="page-thumb style2">
+                                <div className="page-thumb style2" data-aos="fade-right" data-aos-delay="800">
                                     <img
                                         src="/assets/img/case-studies/autowriter/uxdemo.gif"
                                         alt="img"
@@ -65,7 +65,7 @@ const CSAutowriterInner = () => {
 
                         </p>
                         
-                        <div>
+                        <div >
                         <h2 className='widget_title'>User Flow </h2>
                         <div className="checklist style2">
                                     <ul>
@@ -184,13 +184,13 @@ const CSAutowriterInner = () => {
 
 
                     <div className="row gy-4">
-                            <div className="col-md-6">
+                            <div className="col-md-6" data-aos="fade-left" data-aos-delay="800">
                                 <div className="page-thumb style2">
                                 <h2 className='widget_title'>Before</h2>
                                 <video src='/assets/img/case-studies/autowriter/before.mp4' autoPlay muted loop />
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6" data-aos="fade-right" data-aos-delay="800">
                                 <div className="page-thumb style2">
                                 <h2 className='widget_title'>After</h2>
                                 <video src='/assets/img/case-studies/autowriter/after.mp4' autoPlay muted loop />
@@ -221,9 +221,9 @@ const CSAutowriterInner = () => {
                             Company. have a to a tendency to believe
                         </p> */}
 
-                                    <div style={{ marginTop: "50px" }}>
+                                    <div style={{ marginTop: "50px" }} >
                                     <h2 className='widget_title'>Design Thinking Process </h2>
-                                    <p className="mb-30">The <strong>design thinking process</strong> played a key role in ensuring the application was both innovative and                    user-centric.  
+                                    <p className="mb-30">The <strong>design thinking process</strong> played a key role in ensuring the application was both innovative and user-centric.  
                                     </p>
                                     </div >
                                     <div className="checklist style2">
@@ -257,14 +257,14 @@ const CSAutowriterInner = () => {
                                         <p>The result was a high-performing application ready to elevate the content creation experience.  </p>
                                         </div>
 
-                                        <div style={{ marginTop: "50px" }}>
+                                        <div style={{ marginTop: "50px" }} >
                     <h2 className='widget_title'>Branding and Color Palette   </h2>
                     <p className="mb-30">The branding theme was carefully crafted to reflect professionalism and modernity, with a vibrant yet trust-inspiring <strong>color palette.</strong> This branding ensures users feel confident and supported while engaging with the platform.  
                     </p>
                     </div >
                             <div className="row gy-4">
                             <div className="col-md-6">
-                                <div className="page-thumb style2">
+                                <div className="page-thumb style2" data-aos="fade-left" data-aos-delay="800">
                                     <img
                                         src="/assets/img/case-studies/autowriter/Typography.png"
                                         alt="img"
@@ -272,7 +272,7 @@ const CSAutowriterInner = () => {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div className="page-thumb style2">
+                                <div className="page-thumb style2" data-aos="fade-right" data-aos-delay="800">
                                     <img
                                         src="/assets/img/case-studies/autowriter/Color.png"
                                         alt="img"
@@ -281,6 +281,25 @@ const CSAutowriterInner = () => {
                             </div>
                            
                         </div>
+
+                        <div style={{ marginTop: "50px" }}>
+                    <h2 className='widget_title'>The Result </h2>
+                    <p className="mb-30">The final outcome is a fully operational <strong>AutoWriter application</strong>, live and actively assisting users worldwide. Despite technical challenges, particularly optimizing response time, our team successfully completed the project with exceptional results.  </p>
+
+                    <p className="mb-30">This <strong>Bubble application</strong> has revolutionized content creation, delivering seamless AI-powered solutions tailored for businesses and individuals.  
+
+                    </p>
+                    </div >
+
+                    <div style={{ marginTop: "50px" }} >
+                    <h2 className='widget_title'>Conclusion </h2>
+                    <p className="mb-30">The development of <a href="https://autowriter.ai">AutoWriter.ai</a> reflects the power of innovation, teamwork, and expertise. From reducing response times to perfecting user flow, we overcame challenges and delivered a high-performing application that exceeds expectations.  
+                    </p>
+
+                    <p className="mb-30"><strong>Marcus's</strong> vision is now a reality, empowering users through AI-driven efficiency and creativity.
+
+                    </p>
+                    </div >
 
 
                     </div>
@@ -335,16 +354,16 @@ const CSAutowriterInner = () => {
                                 </ul>
                             </div>
                             <div className="social-btn style5 justify-content-center">
-                                <Link to="#" tabIndex={-1}>
+                                <Link to="https://www.linkedin.com/company/autowriter" tabIndex={-1}>
                                     <i className="fab fa-linkedin-in" />
                                 </Link>
-                                <Link to="#" tabIndex={-1}>
+                                <Link to="https://www.facebook.com/autowriterai" tabIndex={-1}>
                                     <i className="fab fa-facebook-f" />
                                 </Link>
-                                <Link to="#" tabIndex={-1}>
+                                <Link to="https://www.instagram.com/autowriter.ai/" tabIndex={-1}>
                                     <i className="fab fa-instagram" />
                                 </Link>
-                                <Link to="#" tabIndex={-1}>
+                                <Link to="https://twitter.com/autowriter_ai" tabIndex={-1}>
                                     <i className="fab fa-twitter" />
                                 </Link>
                             </div>

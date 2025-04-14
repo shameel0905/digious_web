@@ -140,27 +140,28 @@ const WebsiteInnerDetails = () => {
           </div>
           <div className="row gx-30 gy-30">
             <div data-aos="fade-up" data-aos-delay="600" className="col-lg-6">
+            <Link to="/case-studies/autowriter">
               <div className="portfolio-card-3">
                 <div className="portfolio-card-thumb">
-                  <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                  <img src="/assets/img/case-studies/autowriter/cover.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
                   <span className="portfolio-card-details_subtitle">
-                    Experience
+                    Artificial Intelligence
                   </span>
                   <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
+                    <Link to="/case-studies/autowriter">
+                    Autowriter | Smartest and Easiest Way to Write Content
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                  AutoWriter.ai is a smart content generation tool powered by cutting-edge AI models, including OpenAI’s GPT-4, Anthropic, and Google’s language systems.
                   </p>
                 </div>
               </div>
+              </Link>
             </div>
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div data-aos="fade-up" data-aos-delay="700" className="portfolio-card-3">
                 <div className="portfolio-card-thumb">
                   <img src="/assets/img/service/graphic-4.jpg" alt="img" />
@@ -180,7 +181,7 @@ const WebsiteInnerDetails = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
          </div>
