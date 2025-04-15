@@ -92,8 +92,11 @@ const ContactInner = () => {
                   <div className="contact-info_details">
                     <h6 className="contact-info_title">Location</h6>
                     <p className="contact-info_text">
-                      19 Kimian Avenue West Waratah, <br /> New South Wales Australia
+                    <a href="https://www.google.com/maps/place/196+The+Esplanade,+Speers+Point+NSW+2284,+Australia/@-32.964972,151.6205144,17z/data=!3m1!4b1!4m6!3m5!1s0x6b733c89c1d2e117:0x3cb638b351455c9d!8m2!3d-32.9649765!4d151.6230893!16s%2Fg%2F11c1yl934l?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+                    196 The Esplanade Speers point <br /> New Castle NSW, 2284, Australia
+                    </a>
                     </p>
+                    
                   </div>
                 </div>
               </div>
@@ -105,7 +108,9 @@ const ContactInner = () => {
                   <div className="contact-info_details">
                     <h6 className="contact-info_title">Email</h6>
                     <p className="contact-info_text">
-                      <span>info@digiuossolutions.com</span>
+                      <a href="mailto:info@digioussolutions.com">
+                      <span>info@digioussolutions.com</span>
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -129,25 +134,25 @@ const ContactInner = () => {
                   benefit you.
                 </p>
                 <div className="social-btn style4">
-                  <Link to="https://www.facebook.com/Digious" tabIndex={-1}>
+                  <Link to="https://www.facebook.com/Digious" target="_blank" tabIndex={-1}>
                     <i className="fab fa-facebook-f" />
                   </Link>
                   <Link
-                    to="https://www.linkedin.com/company/digious-solutions/"
+                    to="https://www.linkedin.com/company/digious-solutions/" target="_blank"
                     tabIndex={-1}
                   >
                     <i className="fab fa-linkedin-in" />
                   </Link>
-                  <Link to="https://twitter.com/digioustweets" tabIndex={-1}>
+                  <Link to="https://twitter.com/digioustweets" target="_blank" tabIndex={-1}>
                     <i className="fab fa-twitter" />
                   </Link>
                   <Link
-                    to="https://www.instagram.com/digiousposts/"
+                    to="https://www.instagram.com/digiousposts/" target="_blank"
                     tabIndex={-1}
                   >
                     <i className="fab fa-instagram" />
                   </Link>
-                  <Link to="https://github.com/digious-solutions" tabIndex={-1}>
+                  <Link to="https://github.com/digious-solutions" target="_blank" tabIndex={-1}>
                     <i className="fab fa-github" />
                   </Link>
                 </div>
@@ -230,12 +235,16 @@ const ContactInner = () => {
           </div>
         </div>
       </div>
-      <div className="space-bottom">
+            <div className="space-bottom">
         <div className="map-sec">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.0247201482193!2d151.70807087643044!3d-32.89751466941009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b73159894baef7f%3A0xb2f8bbdfb0c28878!2sDigious%20Solutions!5e0!3m2!1sen!2s!4v1724537314156!5m2!1sen!2s%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.4710510452423!2d151.62051437643305!3d-32.964971972815626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b733c89c1d2e117%3A0x3cb638b351455c9d!2s196%20The%20Esplanade%2C%20Speers%20Point%20NSW%202284%2C%20Australia!5e0!3m2!1sen!2s!4v1744751296775!5m2!1sen!2s"
+            width="600"
+            height="450"
+            style={{ border: "0" }}
             allowFullScreen=""
             loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
             title="Digious Solutions"
           />
         </div>

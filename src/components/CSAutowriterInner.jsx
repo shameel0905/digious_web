@@ -9,7 +9,7 @@ const CSAutowriterInner = () => {
                     <div className="col-xxl-8 col-lg-7">
                         <div className="page-thumb mb-40" >
                             {/* <img src="assets/img/portfolio/project-details1-1.png" alt="img" /> */}
-                            <video src='/assets/img/case-studies/autowriter/intro.mp4' autoPlay muted controls style={{ marginBottom: "20px" }} data-aos="fade-up" data-aos-delay="800"/>
+                            <video src='/assets/img/case-studies/autowriter/intro.mp4' autoPlay muted style={{ marginBottom: "20px" }} data-aos="fade-up" data-aos-delay="800"/>
 
                             <h2  className='widget_title' >Project Overview </h2>
                             <p className="mb-30">
