@@ -1,4 +1,3 @@
-// webpack.config.js
 module.exports = {
     output: {
       publicPath: '/',
@@ -35,6 +34,9 @@ module.exports = {
                   },
                   gifsicle: {
                     interlaced: false,
+                  },
+                  webp: {
+                    quality: 75, // Adjust quality as needed
                   },
                 },
               },
