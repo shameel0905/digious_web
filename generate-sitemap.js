@@ -9,6 +9,8 @@ const urls = [
   { url: '/services', changefreq: 'monthly', priority: 0.8 },
   { url: '/blog', changefreq: 'monthly', priority: 0.8 },
   { url: '/contact', changefreq: 'monthly', priority: 0.8 },
+  { url: '/case-studies', changefreq: 'monthly', priority: 0.8 },
+  { url: '/case-studies/autowriter', changefreq: 'monthly', priority: 0.8 },
   // Add more URLs as needed
 ];
 
