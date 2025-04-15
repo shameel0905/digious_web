@@ -69,6 +69,7 @@
     ]
   },
   "devDependencies": {
+    "image-webpack-loader": "^8.1.0",
     "sass": "^1.75.0",
     "webpack": "^5.94.0"
   }
