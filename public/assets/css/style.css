@@ -3494,7 +3494,7 @@ a.text-theme:hover,
 }
 
 .widget_project-info {
-  background: var(--white-color);
+  background: #267ac3;
   padding: 40px;
   box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
@@ -16397,4 +16397,16 @@ li.trackback {
 
 .visible {
   animation: scrollAnimation 1s forwards;
+}
+
+
+.cs_heading2{
+  position: relative;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--body-font);
+    line-height: 1em;
+    padding-bottom: 17px;
+    margin: -0.12em 0 30px 0;
+    color: #e0e0e0;
 }

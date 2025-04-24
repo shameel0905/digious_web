@@ -443,7 +443,7 @@
 }
 
 .widget_project-info {
-    background: $white-color;
+    background: #267ac3;
     padding: 40px;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
@@ -474,16 +474,16 @@
                 margin-bottom: 20px;
             }
             strong {
-                font-size: 22px;
+                font-size: 18px;
                 font-weight: 500;
-                color: $title-color;
+                color: #272727;
                 width: 150px;
                 display: inline-block;
             }
             span {
-                font-size: 18px;
+                font-size: 16px;
                 font-weight: 400;
-                color: $body-color;
+                color: #e0e0e0;
                 min-width: 90px;
                 display: inline-block;
             }
@@ -982,7 +982,7 @@ ul.wp-block-latest-posts {
     }
 
     .widget {
-        padding: 30px;
+        padding: 25px;
     }
 
     .widget_banner {

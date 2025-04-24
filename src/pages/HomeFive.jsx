@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Preloader from "../elements/Preloader";
-import HelmetReact from "../elements/HelmetReact";
+import HomeHelmet from "../elements/HomeHelmet";
 import HeaderFive from "../components/HeaderFive";
 import HeroFive from "../components/HeroFive";
 import ServiceFive from "../components/ServiceFive";
@@ -42,7 +42,7 @@ const HomeFive = () => {
       {active === true && <Preloader />}
       
       {/* Helmet */}
-      <HelmetReact title={"Home"} />
+      <HomeHelmet title={"Digious Solutions"} />
 
       {/* HeaderFive */}
       <HeaderFive />

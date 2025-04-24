@@ -53,23 +53,19 @@ const FooterOne = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <Link to="/ecommerce-solutions">E-Commerce Solution</Link>
+                      <Link to="/services/ecommerce-solutions">E-Commerce Solution</Link>
                     </li>
                     <li>
-                      <Link to="/mobile-app-development">
+                      <Link to="/services/mobile-app-development">
                         Mobile App Development
                       </Link>
                     </li>
                     <li>
-                      <Link to="/website-development">Website Development</Link>
+                      <Link to="/services/website-development">Website Development</Link>
                     </li>
+                    
                     <li>
-                      <Link to="/block-chain-portfolio">
-                        Non Fungible Tokens (NFTs)
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/digital-marketing">Digital Marketing</Link>
+                      <Link to="/services/digital-marketing">Digital Marketing</Link>
                     </li>
                   </ul>
                 </div>
@@ -100,8 +96,8 @@ const FooterOne = () => {
                     <i className="fas fa-envelope" />
                     <div className="contact-grid-details">
                       <h6>
-                        <Link to="mailto:info@digiuossolutions.com">
-                          info@digiuossolutions.com
+                        <Link to="mailto:info@digioussolutions.com">
+                        info@digioussolutions.com
                         </Link>
                         <p />
                       </h6>
@@ -111,7 +107,17 @@ const FooterOne = () => {
                     <i className="fas fa-map-marker-alt" />
                     <div className="contact-grid-details">
                       <h6>
-                        19 Kimian Avenue West Waratah, New South Wales Australia
+                      196 The Esplanade Speers point, 
+                      New Castle NSW 2284, Australia
+                        <p />
+                      </h6>
+                    </div>
+                  </div>
+                  <div className="widget-contact-grid">
+                    <i className="fas fa-map-marker-alt" />
+                    <div className="contact-grid-details">
+                      <h6>
+                      Rockford, IL, USA
                         <p />
                       </h6>
                     </div>
@@ -127,7 +133,7 @@ const FooterOne = () => {
           <div className="row gy-3 justify-content-lg-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Digious Solutions </Link> 2024 | All Rights
+                © <Link to="#">Digious Solutions </Link> 2025 | All Rights
                 Reserved
               </p>
             </div>

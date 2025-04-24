@@ -6,7 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 import HomeFive from "./pages/HomeFive";
 import About from "./pages/About";
 import Service from "./pages/Service";
-import Project from "./pages/Project";
+import CaseStudies from "./pages/Case-Studies";
 import ProjectDetails from "./pages/ProjectDetails";
 import Blog from "./pages/Blog";
 import Pricing from "./pages/Pricing";
@@ -37,6 +37,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react"
 import TermsAndConditions from "./pages/terms-and-conditions";
 import PrivacyandPolicy from "./pages/Privacy-Policy";
+import CSAutowriter from "./pages/CSAutowriter";
 
 
 
@@ -99,7 +100,7 @@ const App = () => {
             path="/services/website-development"
             element={<WebdevServices />}
           />
-          <Route exact path="/" element={<Project />} />
+          <Route exact path="/" element={<CaseStudies />} />
           <Route exact path="/" element={<ProjectDetails />} />
           <Route
             exact
@@ -150,6 +151,10 @@ const App = () => {
           <Route exact path="*" element={<Error />} />
           <Route exact  path="/terms-conditions" element={<TermsAndConditions />} />
           <Route exact  path="/privacy-policy" element={<PrivacyandPolicy />} />
+          <Route exact  path="/project-details" element={<ProjectDetails />} />
+          <Route exact  path="/case-studies" element={<CaseStudies />} />
+          <Route exact path="/case-studies/autowriter" element={<CSAutowriter />} />
+          
           
 
         </Routes>

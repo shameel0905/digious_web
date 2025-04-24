@@ -4,11 +4,11 @@ const HelmetReact = ({ title }) => {
   return (
     <Helmet>
       <title>
-        {title} | Digious Solutions - A Complete Digital Solutions Platform
+        {title} | A Complete Digital Solutions Platform.
       </title>
       <meta
         name="description"
-        content="Digious Solutions - A Complete Digital Solutions Platform"
+        content="Boost your online presence with Digious Solutions. We specialize in 360 Solutions. Elevate your business with innovative online solutions today!"
       />
     </Helmet>
   );

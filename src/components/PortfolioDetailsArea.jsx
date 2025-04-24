@@ -8,7 +8,11 @@ const PortfolioDetailsArea = () => {
                 <div className="row gx-30">
                     <div className="col-xxl-8 col-lg-7">
                         <div className="page-thumb mb-40">
-                            <img src="assets/img/portfolio/project-details1-1.png" alt="img" />
+                            {/* <img src="assets/img/portfolio/project-details1-1.png" alt="img" /> */}
+                            <video src='assets/img/case-studies/autowriter/intro.mp4' muted autoPlay loop>
+                                Your browser does not support the video tag.
+                            </video>
+                           
                         </div>
                     </div>
                     <div className="col-12 order-lg-3">

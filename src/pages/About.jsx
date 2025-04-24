@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Preloader from "../elements/Preloader";
-import HelmetReact from "../elements/HelmetReact";
+import AboutHelmet from "../elements/AboutHelmet";
 import HeaderFive from "../components/HeaderFive";
 import Breadcrumb from "../components/Breadcrumb";
 import AboutSix from "../components/AboutSix";
@@ -27,7 +27,7 @@ const About = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"About"} />
+      <AboutHelmet title={"About"} />
 
       {/* HeaderFive */}
       <HeaderFive />
