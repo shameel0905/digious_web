@@ -15,6 +15,7 @@ import BlogFive from "../components/BlogFive";
 import MarqueeFour from "../components/MarqueeFour";
 import FooterFour from "../components/FooterFour";
 import StripeFormHome from "../components/stripeFormHome";
+import Announcement from "../components/Announcement";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -35,7 +36,6 @@ const HomeFive = () => {
   useEffect(() => {
     setTimeout(() => {
       setActive(false); // Preloader control
-      setIsPopupOpen(true); // Open popup after delay
     }, 500);
 
     Aos.init(); // Animation lib
@@ -44,7 +44,7 @@ const HomeFive = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsPopupOpen(true); // Open popup after delay
-    }, 9000);
+    }, 4000);
   }, []);
 
   return (
@@ -54,6 +54,7 @@ const HomeFive = () => {
       {/* Helmet */}
       <HomeHelmet title={"Digious Solutions"} />
 
+      <Announcement />
       {/* HeaderFive */}
       <HeaderFive />
 
@@ -63,6 +64,7 @@ const HomeFive = () => {
       {/* ServiceFive */}
       <ServiceFive />
       {isPopupOpen && <StripeFormHome onClose={closePopup} />}
+
       <div className="bg-dark2 space-top">
         {/* ClientThree */}
         <ClientThree />
