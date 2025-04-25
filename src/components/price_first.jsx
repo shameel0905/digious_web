@@ -36,14 +36,14 @@
 
       emailjs
         .send(
-          "service_3bto3oq",
-          "template_ytutt87",
+          "service_i3wnffw",
+          "template_mxzh1eg",
           templateParams,
-          "oE78u7cUA49vZQsfC"
+          "fDcemrov779Sryl9x"
         )
         .then(
           (response) => {
-            setStatus("Thanks for submiting your request, We will get back to you shortly !");
+            setStatus("Failed !");
             // Reset form fields
             setFullName("");
             setEmail("");
