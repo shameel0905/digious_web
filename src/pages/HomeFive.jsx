@@ -44,7 +44,7 @@ const HomeFive = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsPopupOpen(true); // Open popup after delay
-    }, 9000);
+    }, 4000);
   }, []);
 
   return (
