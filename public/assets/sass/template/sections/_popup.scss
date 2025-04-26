@@ -188,7 +188,9 @@ overflow: hidden;
     position: relative !important;
   }
   .custom_left_img{
-    height: 250px !important;
+    height: 172px !important;
+    object-fit: cover;
+    object-position: top;
   }
   .mbl_resp_custom{
     display: block !important;
