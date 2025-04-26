@@ -1,11 +1,47 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import emailjs from "emailjs-com";
 
 const StripeFormHome = ({ onClose }) => {
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     alert("Proceeding to Stripe Checkout...");
-//     // Add Stripe logic here
-//   };
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [b_nature, setb_nature] = useState("");
+  const [status, setStatus] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const templateParams = {
+      full_name: fullName,
+      email: email,
+      phone_number: phone,
+      b_nature: b_nature,
+    };
+
+    emailjs
+      .send(
+        "service_3bto3oq",
+        "template_1165g0a",
+        templateParams,
+        "oE78u7cUA49vZQsfC"
+      )
+      .then(
+        (response) => {
+          setStatus("Thanks for submitting request, We will get back to you!");
+          // Reset form fields
+          setFullName("");
+          setEmail("");
+          setPhone("");
+          setb_nature("");
+
+          // ✅ Redirect to Stripe after email is sent
+          window.location.href = "https://buy.stripe.com/fZe9BGdX1ayd6wUbIO";
+        },
+        (error) => {
+          setStatus("Failed to send email.");
+        }
+      );
+  };
 
   return (
     <div className="popup-container popup-animation">
@@ -29,16 +65,20 @@ const StripeFormHome = ({ onClose }) => {
               </button>
             </div>
             <p className="custom_title">Business Details</p>
-            <form action="https://buy.stripe.com/fZe9BGdX1ayd6wUbIO" className="space-y-4">
+            <form onSubmit={handleSubmit} 
+              className="space-y-4"
+            >
               <div style={{ marginBottom: "0px" }} className="form-group">
                 <label className="label_pop" htmlFor="fName">
                   Enter Your Full Name
                 </label>
                 <input
-                  id="fName"
+                  id="f_Name"
                   className="form-field custom-input"
                   type="text"
                   placeholder="Full Name"
+                  value={fullName}
+                  onChange={(e) => setFullName(e.target.value)}
                   required
                 />
               </div>
@@ -51,6 +91,8 @@ const StripeFormHome = ({ onClose }) => {
                   className="form-field custom-input"
                   type="text"
                   placeholder="Phone Number"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
                   required
                 />
               </div>
@@ -63,6 +105,8 @@ const StripeFormHome = ({ onClose }) => {
                   className="form-field custom-input"
                   type="email"
                   placeholder="Email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   required
                 />
               </div>
@@ -75,11 +119,19 @@ const StripeFormHome = ({ onClose }) => {
                   className="form-field custom-input"
                   type="text"
                   placeholder="Your Business Nature"
+                  value={b_nature}
+                  onChange={(e) => setb_nature(e.target.value)}
                   required
                 />
               </div>
               <button
-                style={{ marginLeft: "5px", width: "100%", height: "40px", padding: "0px", fontSize: "14px" }}
+                style={{
+                  marginLeft: "5px",
+                  width: "100%",
+                  height: "40px",
+                  padding: "0px",
+                  fontSize: "14px",
+                }}
                 className="global-btn"
                 type="submit"
               >

@@ -12,7 +12,7 @@ const WhyChoose = () => {
                 Digious Solutions: 
               </span>
               <h2 className="sec-title style2">
-              Innovative IT and Marketing Excellence Worldwide
+                Innovative IT and Marketing Excellence Worldwide
               </h2>
             </div>
           </div>

@@ -43,7 +43,7 @@
         )
         .then(
           (response) => {
-            setStatus("Thanks !");
+            setStatus("Failed !");
             // Reset form fields
             setFullName("");
             setEmail("");
