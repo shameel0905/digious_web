@@ -14,6 +14,8 @@ import FaqThree from "../components/FaqThree";
 import BlogFive from "../components/BlogFive";
 import MarqueeFour from "../components/MarqueeFour";
 import FooterFour from "../components/FooterFour";
+import StripeFormHome from "../components/stripeFormHome";
+import Announcement from "../components/Announcement";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -26,24 +28,33 @@ Author URI: https://github.com/digious-solutions
 const HomeFive = () => {
   const [active, setActive] = useState(true);
 
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const openPopup = () => setIsPopupOpen(true);
+  const closePopup = () => setIsPopupOpen(false);
+
   useEffect(() => {
-    // Remove the preloader after a short delay
     setTimeout(() => {
-      setActive(false);
+      setActive(false); // Preloader control
     }, 500);
 
-    // Initialize AOS for animations
-    Aos.init();
+    Aos.init(); // Animation lib
+  }, []);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsPopupOpen(true); // Open popup after delay
+    }, 4000);
   }, []);
 
   return (
     <>
       {/* Preloader */}
       {active === true && <Preloader />}
-      
       {/* Helmet */}
       <HomeHelmet title={"Digious Solutions"} />
 
+      <Announcement />
       {/* HeaderFive */}
       <HeaderFive />
 
@@ -52,6 +63,7 @@ const HomeFive = () => {
 
       {/* ServiceFive */}
       <ServiceFive />
+      {isPopupOpen && <StripeFormHome onClose={closePopup} />}
 
       <div className="bg-dark2 space-top">
         {/* ClientThree */}
