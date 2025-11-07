@@ -18,7 +18,7 @@ const ServiceFive = () => {
                                     Our Services
                                 </span>
                                 <h2 data-aos="fade-up" data-aos-offset="400" data-aos-delay="500" className="sec-title style2 text-white">
-                                Accomplishing Your Tech Goals with Absolute Assurance
+                                Achieving Your Digital Goals with Confidence
                                 </h2>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ const ServiceFive = () => {
                                         <Link to="/services/website-development">Web Development</Link>
                                     </h4>
                                     <p className="service-card_text">
-                                    Providing cutting-edge web development solutions to elevate your business's online presence.
+                                    Professional web development services to elevate your brand and drive business growth.
                                     </p>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@ const ServiceFive = () => {
                                         <Link to="/services/graphic-designing">Graphic Designing</Link>
                                     </h4>
                                     <p className="service-card_text">
-                                    Delivering exceptional graphic design services to enhance your brand's visual identity.
+                                    Creative graphic design services to enhance your brand identity, visibility, and reach.
                                     </p>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ const ServiceFive = () => {
                                         <Link to="/services/digital-marketing">Digital Marketing</Link>
                                     </h4>
                                     <p className="service-card_text">
-                                    Offering strategic digital marketing services to boost your brand's online visibility.
+                                    Strategic digital marketing services to boost your brand’s visibility, leads, and sales.
                                     </p>
                                 </div>
                             </div>

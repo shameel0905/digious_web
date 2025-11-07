@@ -17,51 +17,57 @@ const ServiceInnerDetails = () => {
             <div className="col-xxl-12 col-lg-12">
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
-                  Digious Solutions is a leading graphic agency that offers the
-                  highest high-quality graphic design services.
+                  Graphic Design Services to Elevate Your Brand
                 </h3>
               </div>
               <p>
-                Being the most effective graphic design firm, we provide
-                top-quality graphic design services. Our talented graphic
-                designers can create professional branding and graphic design
-                for you. If you’re looking for graphic design or graphic
-                products, then you should consider us. We are the most reputable
-                graphic design company.
+                Digious Solutions delivers professional and creative graphic design services that help your brand stand out in a competitive market. As a leading graphic design agency, we craft impactful visuals that strengthen your identity, attract more customers, and boost engagement across all digital and print platforms. Our designs combine creativity, strategy, and technology to make your brand unforgettable.
               </p>
+              <div className="service-details-content">
+                <h3 className="text-white page-title mt-40 mb-20">
+                  Choose What You Need from Our Professional Design Services
+                </h3>
+              </div>
               <div className="checklist style6 mt-40 mb-60">
                 <ul>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Custom designs that perfectly match your brand.
+                    Logo Design & Brand Identity:
                   </li>
+                  <p>Build a strong and memorable brand image that reflects your business values.</p>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Expertise in web, print, and social media visuals.
+                    Social Media & Marketing Graphics:
                   </li>
+                  <p>Create engaging visuals that boost clicks, awareness, and conversions.</p>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Quick turnaround with high-quality results.
+                    Website & UI/UX Design:
                   </li>
+                  <p>Design modern, user-friendly interfaces that enhance customer experience.</p>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Print & Advertising Designs:
+                  </li>
+                  <p>Develop high-quality brochures, flyers, and business cards with consistent branding.</p>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    2D & 3D Animation:
+                  </li>
+                  <p>Bring your ideas to life with dynamic visuals that capture attention.</p>
                 </ul>
               </div>
               <h3 className="text-white page-title mb-20">
-              Enhance Your Brand with Cutting-Edge Graphic Design Solutions
+                Expert Design Team That Brings Your Vision to Life
               </h3>
               <p className="mb-30">
-                Whatever business you are in, if the design and graphics aren’t
-                appealing enough to draw their attention customers Then you have
-                to take action to change it. Our skilled graphic designers
-                remain up to date with the most recent trends in Graphic
-                Designing around the world and we are fully aware of the
-                necessity of it and the worth we can bring to these
-                developments. Digious Solutions offers the best solutions for
-                graphic design and multimedia in accordance with your
-                requirements and needs. Our graphic design services that we
-                offer are distinctive and we take great satisfaction in the work
-                we’ve accomplished. If you are looking to improve the existing
-                design or to design something completely fresh, we’re waiting to
-                help!
+                Our experienced designers combine innovation with strategy to deliver exceptional visual solutions. Every project is carefully crafted to align with your business goals, ensuring consistent branding and impactful storytelling. From logos and social media creatives to UI/UX designs and animations, our team focuses on building visuals that drive real results.
+              </p>
+              <h3 className="text-white page-title mb-20">
+                Transform Your Brand with Creative Graphic Design
+              </h3>
+              <p className="mb-30">
+                Your brand’s first impression matters. We help businesses create strong, cohesive, and professional visual identities that leave a lasting impact. Our graphic design experts focus on clarity, creativity, and conversion — ensuring your visuals not only look great but perform effectively across platforms.
               </p>
               <div className="row gy-4">
                 <div className="col-lg-6">
@@ -71,16 +77,16 @@ const ServiceInnerDetails = () => {
                     data-aos-duration="500"
                     className="page-thumb style2"
                   >
-                    <video   
-                       src="/assets/videos/services/graphics/showcase1.mp4"   
-                       autoPlay   
-                       loop   
-                       muted   
-                       playsInline  
-                       style={{ width: '100%', height: 'auto' }}  
-                       alt="E-Commerce Solutions"  
-                       > Your browser does not support the video tag.
-                      </video> 
+                    <video
+                      src="/assets/videos/services/graphics/showcase1.mp4"
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      style={{ width: '100%', height: 'auto' }}
+                      alt="E-Commerce Solutions"
+                    > Your browser does not support the video tag.
+                    </video>
                   </div>
                 </div>
                 <div className="col-lg-6">
@@ -90,21 +96,27 @@ const ServiceInnerDetails = () => {
                     data-aos-duration="500"
                     className="page-thumb style2"
                   >
-                    <video   
-                       src="/assets/videos/services/graphics/showcase2.mp4"   
-                       autoPlay   
-                       loop   
-                       muted   
-                       playsInline  
-                       style={{ width: '100%', height: 'auto' }}  
-                       alt="E-Commerce Solutions"  
-                       > Your browser does not support the video tag.
-                      </video> 
+                    <video
+                      src="/assets/videos/services/graphics/showcase2.mp4"
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      style={{ width: '100%', height: 'auto' }}
+                      alt="E-Commerce Solutions"
+                    > Your browser does not support the video tag.
+                    </video>
                   </div>
                 </div>
               </div>
-              <p className="mt-30 mb-n1">
-              We provide professional graphic design services for brands and businesses on the marketplace. We listen to all your dreams and determine what is feasible, cost-effective and also fits into your budget. We also can assist you in the event that you are starting your own business and are looking to establish your new brand. We want to help you be noticed in the crowded marketplace. We utilize the most current standards Photoshop, Adobe software, including Illustrator and In-Design. We are able to create creative direction for your marketing initiatives. We offer a variety of graphic design services to meet your marketing and promotional requirements. There’s no limit on what our graphic design company could make for you.
+              <h3 className="text-white page-title mb-20 mt-20">
+                Start Your Design Project with Digious Solutions
+              </h3>
+              <p className="mb-30">
+                Partner with Digious Solutions for expert graphic design services in USA and Australia. We create custom logos, marketing visuals, and digital artwork that enhance engagement, strengthen your brand, and drive business growth.
+              </p>
+              <p className="mb-30">
+                Book your free consultation today or <Link to="/graphic-portfolio">explore our portfolio</Link> to see how our designs have transformed brands and delivered results.
               </p>
             </div>
             {/* <div className="col-xxl-4 col-lg-5">
@@ -152,7 +164,7 @@ const ServiceInnerDetails = () => {
                   Our Portfolio
                 </span>
                 <h2 className="sec-title style2">
-                Latest Projects of Graphic Design
+                  Latest Projects of Graphic Design
                 </h2>
               </div>
             </div>

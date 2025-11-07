@@ -17,48 +17,62 @@ const ECommerWebInnerDetails = () => {
             <div className="col-xxl-12 col-lg-12">
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
-                Want to build up an eCommerce business? 
+                E-Commerce Development That Grows Your Business
                 </h3>
               </div>
               <p>
-              Digious Solution allows you to run your e-commerce business online. We are here for acknowledging you with the benefits of e-commerce business and to offer you quality solutions for developing and upgrading your e-commerce website sales so that you can go online and broaden your audience.
+              Digious Solutions provides professional e-commerce website development and design services to help your brand build a powerful online presence. As a trusted e-commerce solutions provider, we create responsive, secure, and user-friendly online stores that attract customers, boost engagement, and increase sales.
 
-We can convert your ideas to life by delivering our digital experiences. With us, build and grow your e-commerce online business effectively and meet all your e-commerce marketing needs.
+Our team combines creativity, strategy, and technology to deliver e-commerce platforms optimized for speed, SEO, and conversions. Whether you’re launching a new store or upgrading an existing one, we provide tailored solutions to help your business scale.
               </p>
+              <div className="service-details-content">
+                <h3 className="text-white page-title mt-40 mb-20">
+               What We Offer:  Our E-Commerce Expertise
+                </h3>
+              </div>
               <div className="checklist style6 mt-40 mb-60">
                 <ul>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Connect with ERP, CRM, and third-party APIs for enhanced data synchronization and efficiency.
+                    Custom E-Commerce Development:
                   </li>
+                  <p>Build a fully customized online store aligned with your brand, products, and growth strategy.</p>
                   <li>
-                    <i className="fas fa-check-circle" />Modify and expand your online store to meet evolving business and customer needs.
+                    <i className="fas fa-check-circle" /> Responsive Store Design:
                   </li>
+                  <p>Ensure seamless shopping experiences across desktop, mobile, and tablets.</p>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Secure transactions and protect customer data with strong encryption and compliance measures.
+                    Inventory & ERP Integration: 
                   </li>
+                  <p>Connect your store with Shopify, WooCommerce, and third-party APIs for efficient management.</p>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Secure Online Payment Processing: 
+                  </li>
+                  <p>Protect customer data and transactions with strong compliance measures</p>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Store Optimization & Marketing: 
+                  </li>
+                  <p>Enhance conversions through UI/UX improvements, analytics, and marketing tools.</p>
                 </ul>
               </div>
               <h3 className="text-white page-title mb-20">
-              Our Experts
+              Building Online Stores That Deliver Results
               </h3>
+              <p className="mb-10">
+           At Digious Solutions, we don’t just build e-commerce websites; we build growth platforms. Our experts focus on clean code, fast performance, and data-driven design to ensure your store performs flawlessly and scales with your business.
+              </p>
               <p className="mb-30">
-              Our experts fully support and guide you to decide what you wish to sell. Digious Solution offers you to discover all the services and explore ways to elevate your online e-commerce business. We make every effort for providing you the best e-commerce website, including quick and convenient ways of selling and upgrading your commodities online at any time. If you assess launching an E-Commerce store, we are here to help you by offering affordable features as per your preferences and limits. Let our chiefs help you in designing and developing e-commerce websites & stores as per your business needs.
+           We prioritize results through higher traffic, improved engagement, and stronger conversions, helping brands succeed in competitive digital markets.
               </p>
 
               <h3 className="text-white page-title mb-20">
-              Our Major Goal
+              Launch Your E-Commerce Store with Confidence
               </h3>
               <p className="mb-30">
-              Our major goal is to deliver a great experience to our customers. Digious Solution creates and customizes your e-business and provides you best experiences. Our determined team works in guiding and providing you the best and top e-commerce companies. We develop, design, and offer you extraordinary e-commerce websites for your e-commerce online transactions. We help you promote your online business.
-              </p>
-
-              <h3 className="text-white page-title mb-20">
-              Our Experienced & Efficient Team
-              </h3>
-              <p className="mb-30">
-              Our experienced and efficient team facilitates you to develop and successfully run your best e-commerce website as per your e-business requirements. We provide complete e-business solutions to companies. Also we facilitate our clients by providing their services, for instance, buying and selling of commodities as well as services, google shopping ads, mobile ads, transferring funds and data, and more. Digious Solutions helps e-businesses achieve their goal by providing e-commerce marketing services. Our mission is to work with you as a partner and help you maintaining and running your e-commerce site successfully.
+             Partner with <Link to="/contact"> Digious Solutions </Link> for expert e-commerce website development and inventory management solutions. We build custom online stores with secure payment processing, seamless integrations, and user-focused design that drives sales.
               </p>
 
               <div className="row gy-4">
@@ -104,7 +118,7 @@ We can convert your ideas to life by delivering our digital experiences. With us
                 </div>
               </div>
               <p className="mt-30 mb-n1">
-              We provide everything you need to succeed. Ensure the highest security with our robust data protection and compliance standards. Let us help you enhance operational efficiency and drive sales in today's competitive market.
+           Book your free consultation today and get a tailored strategy to launch your e-commerce store and start generating revenue.
               </p>
             </div>
             {/* <div className="col-xxl-4 col-lg-5">

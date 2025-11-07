@@ -18,11 +18,11 @@ const HeroFive = () => {
                         <div className="col-lg-10">
                             <div className="hero-style5 text-center">
                                 <h1 data-aos="fade-up" data-aos-delay="700" className="hero-title text-white">
-                                Modernizing the Unique IT  
-                                    <span className="text-theme2"> Business </span> Sphere
+                                Transforming Businesses with 
+                                    <span className="text-theme2"> Smart</span> IT Solutions
                                 </h1>
                                 <p data-aos="fade-up" data-aos-delay="800"  className="hero-text text-white">
-                                As a service provider, we deliver specialist advice and strategic guidance on various unique aspects within the IT realm.
+                                At Digious Solutions, we empower brands with expert web development, creative graphic design, and digital marketing services to boost traffic, engagement, and sales.
                                 </p>
                             </div>
                         </div>
