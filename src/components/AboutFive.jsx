@@ -50,16 +50,15 @@ const AboutFive = () => {
                   Why Choose Digious Solutions ?
                 </h2>
                 <p className="sec-text text-white mb-30">
-                  Our approach is to work with impeccable plans and provide the
-                  requested product with a quick turnaround time to ensure our
-                  customer satisfaction and not only quick turnaround is our
-                  prime focus, we also make sure to provide uniqueness in the
-                  product while considering the needs of the industry,
+               At Digious Solutions, we combine strategic planning, innovation, and efficiency to deliver exceptional IT and digital solutions. Our focus is not only on quick turnaround times but also on creating unique, high-quality projects tailored to your industry needs.
                 </p>
                 <p className="sec-text text-white">
-                  Moreover we also keep our customers looped in throughout the
-                  process of the project. Our clients are getting their desired
-                  products in less amount as compared to the market.
+               We believe in transparent communication and keep our clients involved throughout every stage of the process. With our cost-effective approach, you receive premium results at competitive prices without compromising on quality.
+                </p>
+                <p className="sec-text text-white">
+              Ready to elevate your business? <Link to="/contact" >
+                  Contact Digious Solutions 
+                </Link> today for a free consultation and let’s bring your vision to life.
                 </p>
               </div>
               <div className="btn-wrap">

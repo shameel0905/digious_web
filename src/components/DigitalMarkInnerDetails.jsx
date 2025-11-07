@@ -17,65 +17,66 @@ const DigitalMarkInnerDetails = () => {
             <div className="col-xxl-12 col-lg-12">
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
-                Digious Solutions on top of the Digital marketing strategies
+                Digital Marketing Services That Drive Real Results
                 </h3>
               </div>
-              
-              <div className="checklist style6 mt-40 mb-60">
-                <ul>
-                  <li>
-                  Fueled by the industry's burgeoning digital trends and insatiable demands, Digious Solutions has cemented its foot as the best digital solutions provider. 
-                  </li>
-                  </ul>
-                  </div>
-
               <p>
-              In 2019, We embarked on a mission to establish a modern digital marketing agency tailored to meet the needs of innovative businesses striving to make their mark in the highly competitive digital landscape. With our top-tier digital marketing solutions, we quickly climbed the industry ranks, eventually earning recognition as a leading name in the e-commerce sphere. Today, Digious Solutions is renowned for transforming numerous businesses with cutting-edge design, creative ideation, and compelling layouts.
+         Digious Solutions delivers results-driven digital marketing services designed to help businesses grow faster, reach wider audiences, and generate measurable ROI. As a trusted digital marketing agency, we combine creativity, strategy, and analytics to build campaigns that elevate your brand visibility and drive sustainable growth in the competitive online marketplace.
               </p><br></br>
               <p>
-              Whether you're a fledgling startup or a flourishing decacorn, our digital marketing services are designed to capture and engage your target audience. Our premier digital marketing offerings include
+              Our team of marketing professionals helps businesses of all sizes from startups to enterprises achieve their digital potential through tailored, data-backed strategies that boost engagement, increase leads, and turn clicks into customers.
               </p>
+              <div className="service-details-content">
+                <h3 className="text-white page-title mt-40 mb-20">
+               What We Offer:  Our Digital Marketing Expertise
+                </h3>
+              </div>
               <div className="checklist style6 mt-40 mb-60">
                 <ul>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Graphics Design
+                    Search Engine Optimization (SEO)
                   </li>
+                  <p>Enhance your website’s visibility and rank higher on Google with strategic keyword targeting, technical optimization, and content-driven SEO.</p>
                   <li>
                     <i className="fas fa-check-circle" />A business consultant
-                    Website Development
+                    Pay-Per-Click (PPC)
                   </li>
+                  <p>Drive instant, qualified traffic with precision-targeted PPC campaigns focused on ROI and measurable conversions.</p>
                   <li>
                     <i className="fas fa-check-circle" />
-                    E-Commerce Solution
+                    Social Media Marketing (SMM)
                   </li>
+                  <p>Build a powerful online community through data-driven social media strategies that engage, grow, and convert your audience.</p>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Game Development
+                    Content Marketing
                   </li>
+                  <p>Strengthen your brand authority with high-quality content creation, storytelling, and strategic distribution across all digital channels.</p>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Mobile App Development
+                    Email Marketing
                   </li>
+                  <p>Connect directly with your audience through personalized email campaigns that increase engagement, retention, and conversions.</p>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Software Development
+                     Conversion Rate Optimization (CRO)
                   </li>
-                  <li>
-                    <i className="fas fa-check-circle" />
-                    Digital Marketing
-                  </li>
-                  <li>
-                    <i className="fas fa-check-circle" />
-                    Software Quality Assurance
-                  </li>
+                  <p>Turn traffic into customers with A/B testing, user behavior insights, and performance tracking to maximize conversion rates.</p>
+                  
                 </ul>
               </div>
               <h3 className="text-white page-title mb-20">
-              Our digital marketing services for businesses are mould-breaking
+              Building Data-Driven Marketing Strategies That Convert
               </h3>
               <p className="mb-30">
-              We, at Digious Solution, are driven by new-fashioned marketing. Our resourceful team cherry-picks ideas to boost your small businesses in the online digital market. Our plans for start-ups and established companies are trailblazing and unique. Digious Solutions doesn’t believe in a cookie-cutter approach. Our team has a thirst for innovation, and each day we set out to decorate a new brand in the digital marketing world. 
+             At Digious Solutions, we don’t just market, we deliver measurable success. Our approach combines performance marketing, advanced analytics, and creative execution to ensure every campaign drives tangible results. From SEO and PPC to full-scale social media campaigns, we tailor our digital marketing solutions to your audience, goals, and industry trends.<br></br>We focus on what truly matters visibility, engagement, and conversions. Our experts analyze every aspect of your online presence to ensure maximum ROI, using proven tools and techniques that align your brand with the ever-evolving digital landscape.
+              </p>
+              <h3 className="text-white page-title mb-20">
+              Grow Your Brand with Digious Solutions
+              </h3>
+              <p className="mb-30">
+             Accelerate your business growth with Digious Solutions, a trusted digital marketing agency in USA and Australia. Our tailored strategies help increase online visibility, attract qualified leads, and convert traffic into real sales.
               </p>
               <div className="row gy-4">
                 <div className="col-lg-6">
@@ -118,7 +119,7 @@ const DigitalMarkInnerDetails = () => {
                 </div>
               </div>
               <p className="mt-30 mb-n1">
-              Web design is more than just a profession; it's a true passion for us at our company. We firmly believe that a visually appealing website creates a lasting first impression on visitors. At our firm, web design is executed with meticulous care and artistic passion, reflecting our commitment to not just meet, but exceed, professional standards in digital marketing.
+              Start growing your brand today by booking your free digital marketing consultation and get a custom growth strategy designed for your business.
               </p>
             </div>
             {/* <div className="col-xxl-4 col-lg-5">

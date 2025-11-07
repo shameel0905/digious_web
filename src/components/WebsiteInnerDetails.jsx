@@ -17,32 +17,72 @@ const WebsiteInnerDetails = () => {
             <div className="col-xxl-12 col-lg-12">
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
-                Digious Solutions is a top web development agency providing exceptional and innovative website design services.
+                Website Development Services That Grow Your Business
                 </h3>
               </div>
               <p>
-              Digious Solutions serves as a Website Development Agency believing in the vision of creativity. It fills as your premier Web Developer and Web Designer. We are here to prepare a dominant aesthetic for your website and provide you exclusive services within your duration, direction, and reserve. We specialize in providing professional web designing services and quality and eco-effective solutions to our clients as per their requirements, making your network interactional. Our efficient team members support you in building a website of your choice and providing you with more responsive and adaptive designs. We do consider our tasks and practice them efficiently. A well-designed web is easy to use, for which our designer’s foremost duty is to practice on appearance, colors, content, fonts, and images used. The design of your website impacts user’s interests; consequently, your web should be designed up to the record for targeting the audience. 
+              Digious Solutions provides professional website development services designed to help your brand build a powerful online presence. As a trusted web development company, we create responsive, high-performing, and visually stunning websites that attract visitors, boost engagement, and convert leads into customers.
               </p>
+              <p>
+              Our development team combines creativity, strategy, and technology to deliver websites that are not only beautiful but also optimized for speed, SEO, and user experience. From startups to established enterprises, we help every business grow through tailored digital solutions.
+              </p>
+               <div className="service-details-content">
+                <h3 className="text-white page-title mt-40 mb-20">
+               What We Offer:  Our Web Development Expertise
+                </h3>
+              </div>
               <div className="checklist style6 mt-40 mb-60">
                 <ul>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Custom websites tailored to your unique business needs.
+                     Custom Website Development:
                   </li>
+                  <p>
+              Get a fully customized website built to align with your business goals, brand identity, and long-term growth strategy.
+              </p>
                   <li>
-                    <i className="fas fa-check-circle" />A business Responsive designs for seamless user experiences across all devices.
+                    <i className="fas fa-check-circle" />Responsive Web Design:
                   </li>
+                  <p>
+              Ensure your website looks and performs flawlessly on every device, from desktops to smartphones.
+              </p>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Fast development with top-notch quality and support.
+                   E-Commerce Development:
                   </li>
+                  <p>
+              Launch an online store that is secure, scalable, and easy to manage with seamless product, order, and payment integration.
+              </p>
+                <li>
+                    <i className="fas fa-check-circle" />
+                  Website Redesign Services:
+                  </li>
+                  <p>
+             Transform outdated websites into modern, visually appealing, and conversion-focused digital experiences.
+              </p>
+              <li>
+                    <i className="fas fa-check-circle" />
+                  UI/UX Design and Optimization:
+                  </li>
+                  <p>
+             Deliver intuitive interfaces that improve navigation, engagement, and overall user satisfaction.
+              </p>
                 </ul>
               </div>
               <h3 className="text-white page-title mb-20">
-              Enhance Your Online Presence with Digious Solutions: Premier E-Commerce and Web Development Services
+              Building High-Performing Websites That Deliver Results
               </h3>
               <p className="mb-30">
-              We are here to provide you high-quality display by making our digital experiences to life. We aim to gain the favour of our clients through our deliberate efforts. We help in developing and designing your websites and applications for the internet and intranet. With us, boost up your business, and measure the prime. Suppose you are looking for a more efficient and creative company for getting E-Commerce Development services or are eager to launch a new online store or upgrade your existing one. Digious Solutions is here to create and customize your existing website and provide you with the best E-Commerce web services. We offer easy reach to our regular audience by providing increased inaccessibility personally, as E-commerce Web Developer entitles you to manage your products, customers, orders, and payments through online marketing sources.
+              At Digious Solutions, we don’t just build websites; we build growth platforms. Our developers focus on clean code, fast performance, and data-driven structure to ensure every website meets business and technical goals. Using the latest frameworks and HTML development practices, we ensure your site is SEO-friendly, secure, and easy to scale.
+              </p>
+              <p className="mb-30">
+            We prioritize results through higher visibility, increased engagement, and stronger conversions by combining strategy with innovation. Whether you need a corporate website, eCommerce platform, or custom web portal, our solutions are built for success.
+              </p>
+                <h3 className="text-white page-title mb-20">
+              Transform Your Online Presence with Digious Solutions
+              </h3>
+              <p className="mb-30">
+              Your website is the face of your business. Digious Solutions, a trusted website development company in USA and Australia, builds custom websites with seamless design, functionality, and performance that attract visitors and drive conversions.
               </p>
               <div className="row gy-4">
                 <div className="col-lg-6">
@@ -85,7 +125,7 @@ const WebsiteInnerDetails = () => {
                 </div>
               </div>
               <p className="mt-30 mb-n1">
-              We begin with an intensive brainstorming session to outline the initial concepts. Then we proceed to sketch out a rough wireframe to shape the project's structure. Afterward, we focus on crafting an engaging and functional front-end. Finally, we develop a solid backend to ensure the system's performance and reliability.
+              Book your free consultation today or <Link to="/website-design-portfolio">explore our portfolio</Link> to see how we’ve helped businesses increase traffic, engagement, and sales.
               </p>
             </div>
             {/* <div className="col-xxl-4 col-lg-5">

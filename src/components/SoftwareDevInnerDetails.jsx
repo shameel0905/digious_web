@@ -17,32 +17,67 @@ const SoftwareDevInnerDetails = () => {
             <div className="col-xxl-12 col-lg-12">
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
-                Custom Software Development to Meet Your Specific Needs.
+                Custom Software Development That Transforms Your Business
                 </h3>
               </div>
               <p>
-              From intuitive web applications to robust enterprise software, we ensure that our solutions are scalable, secure, and future-proof. Being the most effective software development firm, we provide top-quality software development. Our talented developers can create professional custom software solutions for you. If you’re looking for software developer or software development products, then you should consider us. We are the most reputable software development company.
+              Digious Solutions provides professional custom software development services designed to help businesses streamline operations, improve efficiency, and scale with confidence. As a trusted custom software development company, we create secure, high-performance, and future-ready software solutions tailored to your unique goals and challenges. <br></br>Our team combines strategic thinking, cutting-edge technology, and agile development practices to deliver software that enhances productivity and delivers measurable results. From startups to enterprises, we help every business transform through customized, scalable, and intelligent software systems.
               </p>
+              <div className="service-details-content">
+                <h3 className="text-white page-title mt-40 mb-20">
+               What We Offer:  Our Software Development Expertise
+                </h3>
+              </div>
               <div className="checklist style6 mt-40 mb-60">
                 <ul>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Tailored Development: Create software solutions customized to meet your business requirements.
+                    Custom Software Development:
                   </li>
+                  <p>Build bespoke software applications aligned with your specific business needs and workflows.</p>
                   <li>
-                    <i className="fas fa-check-circle" />Collaborative Process: Work directly with our skilled developers to ensure your vision is precisely realized.
+                    <i className="fas fa-check-circle" />Enterprise Software Solutions
                   </li>
+                  <p>Empower your organization with advanced enterprise applications that boost productivity and drive efficiency.</p>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Versatile Solutions: Develop versatile software that performs across multiple platforms and devices.
+                    API Development & Integration:
                   </li>
+                  <p>Seamlessly connect your software with existing systems, third-party tools, and databases for smoother operations.</p>
+                   <li>
+                    <i className="fas fa-check-circle" />
+                    Software Product Development:
+                  </li>
+                  <p>From concept and prototyping to full-cycle deployment, we develop innovative software products ready for market success.</p>
+                    <li>
+                    <i className="fas fa-check-circle" />
+                    Software Testing & Quality Assurance:
+                  </li>
+                  <p>Ensure your software is bug-free, secure, and optimized through comprehensive performance and integration testing.</p>
+                   <li>
+                    <i className="fas fa-check-circle" />
+                    Custom CRM Development:
+                  </li>
+                  <p>Strengthen customer relationships and automate business operations with tailored CRM systems designed for your industry.</p>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Software Maintenance & Support:
+                  </li>
+                  <p>Keep your software up-to-date, secure, and performing at its best with ongoing maintenance and feature updates.</p>
                 </ul>
               </div>
               <h3 className="text-white page-title mb-20">
-              Empowering Business Growth with Cutting-Edge Software Development at Digious Solutions
+              Building Reliable Software That Delivers Results
               </h3>
               <p className="mb-30">
-              At our company Digious Solutions, we pride ourselves on delivering exceptional software development services that empower businesses to unlock their full potential. With a dedicated team of experienced professionals and a passion for innovation, we are committed to creating cutting-edge software solutions that drive growth, enhance efficiency, and revolutionize industries.
+              At Digious Solutions, we don’t just develop software — we build solutions that empower growth. Our expert developers follow adaptive and agile methodologies, ensuring every application evolves with your business and the market’s demands. We focus on creating robust, scalable, and intuitive systems that integrate seamlessly into your operations.<br></br>
+              By leveraging the latest frameworks, APIs, and cloud-based technologies, we ensure our software solutions are secure, efficient, and built to last. Whether it’s enterprise software, custom CRM development, or API integration, we focus on performance, usability, and long-term scalability.
+              </p>
+               <h3 className="text-white page-title mb-20">
+              Empower Your Business with Smarter Software Solutions
+              </h3>
+              <p className="mb-30">
+              Unlock your company’s full potential with Digious Solutions, a trusted software development partner in USA and Australia. We design powerful, results-driven software that automates workflows, improves efficiency, and accelerates growth.
               </p>
               <div className="row gy-4">
                 <div className="col-lg-6">
@@ -85,7 +120,7 @@ const SoftwareDevInnerDetails = () => {
                 </div>
               </div>
               <p className="mt-30 mb-n1">
-              At our company, we take pride in offering professional software development services that empower businesses to thrive in today’s digital landscape. With a team of dedicated experts and a wealth of industry experience, we are committed to delivering innovative, reliable, and high-quality software solutions tailored to meet your specific needs.
+             Get started today with a free consultation and discover how Digious Solutions can build the perfect software solution to scale your business and drive real results.
               </p>
             </div>
             {/* <div className="col-xxl-4 col-lg-5">
