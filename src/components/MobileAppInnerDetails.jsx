@@ -17,27 +17,59 @@ const MobielAppInnerDetails = () => {
             <div className="col-xxl-12 col-lg-12">
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
-                Want to build and go on a successful and competitive mobile app?
+                Mobile App Development That Grows Your Business
                 </h3>
               </div>
               <p>
-              Find the right mobile app developers and experts. Digious Solution provides you with a group of experienced, determined, and skilled designers who are here to support you and guide you throughout your journey. Functioning to export our quality services and satisfy our customers. If you are speculating about getting mobile application development services, Digious Solution is the right and most convenient platform that bestows you your best mobile app developers. Our unique approach is to identify our customer’s needs and offer them time management and price flexibility. Our mobile application developers provide their top mobile application development services that fulfill all your specific business requirements. 
+              Digious Solutions provides professional mobile app development services designed to help your brand build a powerful digital presence. As a trusted mobile app development company, we create intuitive, high-performing, and scalable apps for iOS, Android, and cross-platform that attract users, increase engagement, and convert leads into customers.<br></br>
+              Our team combines creativity, strategy, and technology to deliver mobile applications that are not only visually appealing but also optimized for speed, SEO, and user experience. From startups to established enterprises, we help every business grow through tailored mobile solutions.
               </p>
+              <div className="service-details-content">
+                <h3 className="text-white page-title mt-40 mb-20">
+               What We Offer:  Our Mobile App Development Expertise
+                </h3>
+              </div>
               <div className="checklist style6 mt-40 mb-60">
                 <ul>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Cross-Platform Reach: Develop games for both iOS and Android to maximize audience reach.
+                    Custom Mobile App Development:
                   </li>
+                  <p>Get a fully customized mobile application built to align with your business goals, brand identity, and long-term growth strategy.</p>
                   <li>
-                    <i className="fas fa-check-circle" />Idea Realization: Transform your game concepts into engaging applications with our expert developers.
+                    <i className="fas fa-check-circle" />iOS & Android App Development: 
                   </li>
+                  <p>Ensure your app performs flawlessly on all major devices using native frameworks and optimized architecture.</p>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Advanced Technology: Employ the latest technologies to create cutting-edge and market-relevant games.
+                    Cross-Platform App Development:
                   </li>
+                  <p> Reach wider audiences with one codebase built using Flutter, React Native or similar technologies, delivering native-like performance.</p>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    UI/UX Design & Optimization:
+                  </li>
+                  <p> Deliver intuitive interfaces and seamless user experiences that improve navigation, engagement, and satisfaction.</p>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    App Maintenance & Support:
+                  </li>
+                  <p> Keep your app running smoothly with updates, bug-fixes, performance optimization, and feature enhancements designed for scalability.</p>
                 </ul>
               </div>
+               <h3 className="text-white page-title mb-20">
+              Building High-Performing Apps That Deliver Results
+              </h3>
+              <p className="mb-30">
+            At Digious Solutions, we don’t just create apps; we build growth platforms. Our developers focus on clean code, fast performance, and data-driven structure to ensure every mobile application meets business and technical goals. Using the latest mobile frameworks and development practices, we ensure your app is SEO-friendly, secure, and ready to scale.<br></br>
+            We prioritize results through higher visibility, increased user engagement, and stronger conversions by combining strategy with innovation. Whether you need a consumer app, enterprise mobility solution, or cross-platform deployment, our solutions are built for success.
+              </p>
+               <h3 className="text-white page-title mb-20">
+              Transform Your Mobile Presence with Digious Solutions
+              </h3>
+              <p className="mb-30">
+          Build a high-performing mobile app that drives engagement and growth. Digious Solutions, a trusted mobile app development company in USA and Australia, creates custom apps with seamless design, speed, and user experience.
+              </p>
               
               <div className="row gy-4">
                 <div className="col-lg-6">
@@ -80,7 +112,7 @@ const MobielAppInnerDetails = () => {
                 </div>
               </div>
               <p className="mt-30 mb-n1">
-              Elect Digious Solution and get assembled with our passionate mobile app developers. Digious is a trusted firm that assures you to provide top-level mobile application development services with a phase of our professionals. Digious Solution is a software development company that aims to serve its prevailing mobile application development services and submits customer-centric solutions to its concerned members. Hire Digious Solution as your mobile application development company and partner for the actual purpose of fulfilling and transforming your requirements and conditions. Our acquaintance, flexibility, and comfort help us stand out broader among other top app development companies. Digious is here to serve as your top mobile app development company along with its determined app developers that transform your native application development ideas and practices to manage their obedience.
+              Book your free consultation today and let Digious Solutions help you create a mobile app that boosts engagement, conversions, and long-term customer loyalty.
               </p>
             </div>
             {/* <div className="col-xxl-4 col-lg-5">

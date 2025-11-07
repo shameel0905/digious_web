@@ -17,35 +17,67 @@ const GameDevInnerDetails = () => {
             <div className="col-xxl-12 col-lg-12">
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
-                Empower Your Gaming Vision: Partner with Elite Designers and Developers for Top-notch Game Development Services
+                Mobile Game Development That Delivers Results
                 </h3>
               </div>
               <p>
-              Game Development Appoint your top mobile and web game expert for the purpose to avail best game development, designing, and other services. Get yourself assembled with our proficient designers and developers. Providing you a substantial marketplace to turn your beliefs into reality.
+              Digious Solutions is a trusted mobile game development company delivering innovative and interactive games for iOS, Android, web, and AR/VR platforms. We combine creativity, strategy, and technology to create games that captivate users, boost engagement, and help your brand stand out in the competitive gaming industry.
               </p>
+               <p>
+              Whether you’re launching a new game, expanding your gaming company, or seeking expert game development services, we provide end-to-end solutions tailored to your audience and goals.
+              </p>
+              <div className="service-details-content">
+                <h3 className="text-white page-title mt-40 mb-20">
+               What We Offer:  Our Game Development Expertise
+                </h3>
+              </div>
               <div className="checklist style6 mt-40 mb-60">
                 <ul>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Digious provides experienced professionals who integrate diverse gaming elements to develop scalable and technically sound games.
+                    2D & 3D Game Development:
                   </li>
+                  <p>Vibrant 2D and immersive 3D games with engaging gameplay and stunning graphics.</p>
                   <li>
-                    <i className="fas fa-check-circle" />The games are crafted to be not only technically proficient but also trend-aligned for maximum engagement.
+                    <i className="fas fa-check-circle" />Mobile Game Development (iOS & Android):
                   </li>
+                  <p>Optimized for mobile devices with smooth performance, multiplayer support, and platform integration.</p>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Digious offers a full spectrum of Android game development services to meet all your needs.
+                    Web Game Development:
                   </li>
+                  <p>Browser-based games accessible on any platform, ideal for casual and real-time multiplayer experiences.</p>
+                     <li>
+                    <i className="fas fa-check-circle" />
+                    AR/VR Game Development:
+                  </li>
+                  <p>Interactive AR/VR games that transport players into immersive virtual worlds.</p>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Game UI/UX Design & Optimization:
+                  </li>
+                  <p>Intuitive interfaces, smooth navigation, and immersive experiences to maximize engagement and retention.</p>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Custom Game App Development:
+                  </li>
+                  <p>Tailored games built to align with your brand, audience, and business objectives.</p>
                 </ul>
               </div>
               <h3 className="text-white page-title mb-20">
-              Unlock Your Game Development Potential with Top Developers at Digious Solutions
+             Building High-Performing Games That Engage
               </h3>
               <p className="mb-30">
-              We are a trusted mobile game development firm with top game developers and designers. If you are thinking of developing or designing your game, either starting a new game company or looking for a game developer, this is the right forum for you that contributes you your top game developers and designers. There’s a day-to-day increase in the mobile apps market, most commonly games. Digious serves as your best mobile app development firm, with our team of top games developers transform your ideas into an ethical game. We modify your ideas to existence by creating game apps and giving your games a bigger and wider platform (that is for both IOS and Android)
+             At Digious Solutions, we don’t just develop games; we craft experiences. Our team focuses on clean coding, responsive design, and performance optimization to ensure every game runs flawlessly across devices. Using the latest tools and frameworks, we build market-ready games with scalable architecture, making it easier to update and expand features as your audience grows.
               </p> <br></br>
               <p>
-              Digious as a mobile game development company create a game app for their customers, manage their subordination as well as new and existing strategies. Furnishing our customers a wide range of instruments that help them to create game apps and works to improve your app’s aspect and performance. Digious practices to be your best 2D and 3D mobile game development platform by providing you with top mobile game developers (for both IOS and Android), facilitates you to create game apps using extraordinary 2D and 3D development details. This entitles you to create a game app and create the mobile game design for targeting your audience.
+              We prioritize user engagement, retention, and monetization by combining innovative gameplay, advanced graphics, and optimized UI/UX design. From casual games to VR adventures, we provide solutions that drive success in today’s competitive mobile gaming market.
+              </p>
+              <h3 className="text-white page-title mb-20">
+             Start Your Game Development Journey Today
+              </h3>
+              <p>
+            Partner with Digious Solutions for professional mobile, web, and AR/VR game development services in USA and Australia. We create custom games with optimized performance and immersive experiences that engage players and elevate your brand.
               </p>
               <div className="row gy-4">
                 <div className="col-lg-6">
@@ -88,7 +120,7 @@ const GameDevInnerDetails = () => {
                 </div>
               </div>
               <p className="mt-30 mb-n1">
-              Being your mobile game development company, Digious acknowledge you about different game development app along with game development website. We are Digious, empowering you with a highly skilled team focusing and working on mobile game development as well as game development services for establishing quality experiences. Our dedicated team members act fully to make game app per your specific preferences and limits, and practices to meet all your essentials. We understand the mobile gaming industry and seeks to boost our level up and make our mark in top mobile game developers. If you ought to hire mobile game developers or web game developers, hire Digious as your top games developers.
+              Book your free consultation now and get a personalized game development strategy to turn your idea into a successful, revenue-generating experience.
               </p>
             </div>
             {/* <div className="col-xxl-4 col-lg-5">

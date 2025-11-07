@@ -3,7 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 const ProcessTwo = () => {
-    useEffect(() => { Aos.init()});
+    useEffect(() => { Aos.init() });
     return (
         <section className='bg-dark2'>
             <div className="process-area-2 space-bottom">
@@ -16,13 +16,13 @@ const ProcessTwo = () => {
                                     Work Process
                                 </span>
                                 <h2 data-aos="fade-up" data-aos-delay="700" className="sec-title style2 text-white">
-                                Our Efficient Working Process
+                                    Our Proven Digital Workflow
                                 </h2>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <p data-aos="fade-up" data-aos-delay="600" className="mb-60 sec-text text-white mt-0">
-                            Our working process is designed for efficiency. We strategize, design, develop and test, ensuring top-tier results tailored to your needs.
+                                Our workflow is built for efficiency and excellence. We strategize, design, develop, and test to deliver high-quality digital solutions tailored to your business needs.
 
                             </p>
                         </div>
