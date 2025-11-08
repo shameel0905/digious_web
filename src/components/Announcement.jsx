@@ -12,7 +12,7 @@ const Announcement = () => {
       {isPopupOpen && <StripeFormHome onClose={closePopup} />}
       <div className="announcement-bar">
         <p>
-          🚀 Start your Website in just <strong>$599</strong>
+          🚀 Start your Website in just <strong>$499</strong>
           <button className="redeem-btn" onClick={openPopup}>
             Click to Redeem
           </button>
