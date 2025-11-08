@@ -7,6 +7,7 @@ import Newsletter from "../components/Newsletter";
 import MobielAppInnerDetails from "../components/MobileAppInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import BreadcrumbInnerMobileAppDev from "../components/BreadcrumbInnerMobileAppDev";
+import MobappHelmet from "../elements/MobappHelmet";
 
 const MobileAppService = () => {
   let [active, setActive] = useState(true);
@@ -21,7 +22,7 @@ const MobileAppService = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Mobile App Development"} />
+      <MobappHelmet title={"Mobile App Development"} />
 
       {/* HeaderFive */}
       <HeaderFive />

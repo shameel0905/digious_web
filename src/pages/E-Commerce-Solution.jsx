@@ -7,6 +7,7 @@ import Newsletter from "../components/Newsletter";
 import ECommerWebInnerDetails from "../components/ECommerceWebsiteInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import BreadcrumbInnerEcommerce from "../components/BreadcrumbInnerEcommerce";
+import EcommerceHelmet from "../elements/EcommerceHelmet";
 
 const ECommerceSolutionService = () => {
   let [active, setActive] = useState(true);
@@ -21,7 +22,7 @@ const ECommerceSolutionService = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Ecommerce Solutions"} />
+      <EcommerceHelmet title={"Ecommerce Solutions"} />
 
       {/* HeaderFive */}
       <HeaderFive />

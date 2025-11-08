@@ -79,6 +79,9 @@ const GameDevInnerDetails = () => {
               <p>
             Partner with Digious Solutions for professional mobile, web, and AR/VR game development services in USA and Australia. We create custom games with optimized performance and immersive experiences that engage players and elevate your brand.
               </p>
+              <p className="mt-30 mb-40">
+              <Link to="/contact">Book your free consultation</Link> now and get a personalized game development strategy to turn your idea into a successful, revenue-generating experience.
+              </p>
               <div className="row gy-4">
                 <div className="col-lg-6">
                   <div
@@ -119,9 +122,7 @@ const GameDevInnerDetails = () => {
                   </div>
                 </div>
               </div>
-              <p className="mt-30 mb-n1">
-              Book your free consultation now and get a personalized game development strategy to turn your idea into a successful, revenue-generating experience.
-              </p>
+              
             </div>
             {/* <div className="col-xxl-4 col-lg-5">
                         <aside className="sidebar-area">

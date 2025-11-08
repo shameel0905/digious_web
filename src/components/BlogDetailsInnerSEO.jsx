@@ -48,7 +48,7 @@ const BlogDetailsInnerSEO = () => {
                   Featured snippets, those coveted boxes at the top of search
                   results, are SEO gold. They grab attention, boost
                   click-through rates by 8% Source:{" "}
-                  <Link to="https://backlinko.com/">Backlinko,</Link> and
+                  <strong>Backlinko</strong>, and
                   establish you as an authority. But how do you crack this code?
                 </p>
                 <ul>

@@ -6,6 +6,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import ServiceFour from "../components/ServiceFour";
+import ServicesHelmet from "../elements/ServicesHelmet";
 
 
 const Service = () => {
@@ -21,7 +22,7 @@ const Service = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Services"} />
+      <ServicesHelmet title={"Services"} />
 
       {/* HeaderFive */}
       <HeaderFive />

@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import TrackVisibility from "react-on-screen";
+import { Link } from "react-router-dom";
+
 import CountUp from "react-countup";
 const AboutSix = () => {
 
@@ -46,19 +48,13 @@ const AboutSix = () => {
                   About Us
                 </span>
                 <h2 className="sec-title style2 text-white">
-                  Why Choose Digious Solutions ?
+                  Success Starts with Digious Solutions
                 </h2>
                 <p className="sec-text text-white mb-30">
-                  Our approach is to work with impeccable plans and provide the
-                  requested product with a quick turnaround time to ensure our
-                  customer satisfaction and not only quick turnaround is our
-                  prime focus, we also make sure to provide uniqueness in the
-                  product while considering the needs of the industry,
+                 At Digious Solutions, we don’t just provide IT and digital services. We craft innovative solutions that set your business apart. By combining strategic planning, cutting-edge technology, and unmatched efficiency, we deliver projects that are unique, high-quality, and tailored to your industry’s needs.<br></br>Our commitment to transparency and collaboration means you stay involved at every stage, ensuring your vision comes to life exactly as imagined. With our cost-effective, results-driven approach, you get premium solutions at competitive prices without compromising on quality.
                 </p>
                 <p className="sec-text text-white">
-                  Moreover we also keep our customers looped in throughout the
-                  process of the project. Our clients are getting their desired
-                  products in less amount as compared to the market.
+                  Partner with Digious Solutions today, <Link to="/contact">schedule your free consultation</Link> , and let’s create solutions that inspire, innovate, and deliver measurable results.
                 </p>
               </div>
               {/* <div className="btn-wrap">

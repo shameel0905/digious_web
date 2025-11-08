@@ -6,6 +6,7 @@ import Newsletter from "../components/Newsletter";
 import HeaderFive from "../components/HeaderFive";
 import BreadcrumbInnerPortfolioBranding from "../components/BreadcrumbInnerPortfolioBranding";
 import PortfolioBrandingInner from "../components/PortfolioBrandingInner";
+import BrandingportfolioHelmet from "../elements/BrandingportfolioHelmet";
 
 
 
@@ -22,7 +23,7 @@ const ProjectDetailsBranding = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Project Details"} />
+      <BrandingportfolioHelmet title={"Project Details"} />
 
       {/* HeaderFive */}
       <HeaderFive />
