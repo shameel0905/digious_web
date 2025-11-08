@@ -6,6 +6,7 @@ import Newsletter from "../components/Newsletter";
 import HeaderFive from "../components/HeaderFive";
 import BreadcrumbPortfolioBlockChain from "../components/BreadcrumbPortfolioBlockChain";
 import PortfolioBlockChainInner from "../components/PortfolioBlockChainInner";
+import BlockchainHelmet from "../elements/BlockchainHelmet";
 
 
 
@@ -22,7 +23,7 @@ const ProjectDetailsBlockChain = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Project Details"} />
+      <BlockchainHelmet title={"Project Details"} />
 
       {/* HeaderFive */}
       <HeaderFive />

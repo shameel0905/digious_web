@@ -6,6 +6,7 @@ import Newsletter from "../components/Newsletter";
 import HeaderFive from "../components/HeaderFive";
 import BreadcrumbInnerPortfolioWebsite from "../components/BreadcrumbInnerPortfolioWebsite";
 import PortfolioWebsiteInner from "../components/PortfolioWebsiteInner";
+import WebportfolioHelmet from "../elements/WebportfolioHelmet";
 
 
 
@@ -22,7 +23,7 @@ const ProjectDetailsWebsiteDesign = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Project Details"} />
+      <WebportfolioHelmet title={"Project Details"} />
 
       {/* HeaderFive */}
       <HeaderFive />

@@ -6,6 +6,7 @@ import Newsletter from "../components/Newsletter";
 import HeaderFive from "../components/HeaderFive";
 import BreadcrumbInnerPortfolioAnimation from "../components/BreadcrumbInnerPortfolioAnimation";
 import PortfolioAnimationInner from "../components/PortfolioAnimationInner";
+import AnimationportfolioHelmet from "../elements/AnimationportfolioHelmet";
 
 
 
@@ -22,7 +23,7 @@ const ProjectDetailsAnimation = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Project Details"} />
+      <AnimationportfolioHelmet title={"Project Details"} />
 
       {/* HeaderFive */}
       <HeaderFive />

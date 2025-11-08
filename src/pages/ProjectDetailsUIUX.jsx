@@ -6,6 +6,7 @@ import Newsletter from "../components/Newsletter";
 import HeaderFive from "../components/HeaderFive";
 import BreadcrumbInnerPortfolioUIUX from "../components/BreadcrumbInnerPortfolioUIUX";
 import PortfolioUIUXInner from "../components/PortfolioUIUXInner";
+import UIUXHelmet from "../elements/UIUXHelmet";
 
 
 
@@ -22,7 +23,7 @@ const ProjectDetailsUIUX = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Project Details"} />
+      <UIUXHelmet title={"Project Details"} />
 
       {/* HeaderFive */}
       <HeaderFive />

@@ -7,6 +7,7 @@ import Newsletter from "../components/Newsletter";
 import GameDevInnerDetails from "../components/GameDevInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import BreadcrumbInnerGameDev from "../components/BreadcrumbInnerGameDev";
+import GamedevHelmet from "../elements/GamedevHelmet";
 
 const GameDevelopmentService = () => {
   let [active, setActive] = useState(true);
@@ -21,7 +22,7 @@ const GameDevelopmentService = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Game Development"} />
+      <GamedevHelmet title={"Game Development"} />
 
       {/* HeaderFive */}
       <HeaderFive />

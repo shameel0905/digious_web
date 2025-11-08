@@ -6,6 +6,7 @@ import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import BlogAreaAll from "../components/BlogAreaAll";
 import HeaderFive from "../components/HeaderFive";
+import BlogtHelmet from "../elements/BlogHelmet";
 
 
 
@@ -22,7 +23,7 @@ const Blog = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Blog"} />
+      <BlogtHelmet title={"Blog"} />
 
       {/* HeaderFive */}
       <HeaderFive />

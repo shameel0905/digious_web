@@ -6,7 +6,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import ContactInner from "../components/ContactInner";
-
+import ContactHelmet from "../elements/ContactHelmet";
 
 
 const Contact = () => {
@@ -22,7 +22,7 @@ const Contact = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Contact"} />
+      <ContactHelmet title={"Contact"} />
 
       {/* HeaderFive */}
       <HeaderFive />

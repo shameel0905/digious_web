@@ -6,6 +6,7 @@ import Newsletter from "../components/Newsletter";
 import HeaderFive from "../components/HeaderFive";
 import PortfolioGraphicInner from "../components/PortfolioGraphicInner";
 import BreadcrumbInnerPortfolioGraphics from "../components/BreadcrumbInnerPortfolioGraphics";
+import GraphicportfolioHelmet from "../elements/GraphicportfolioHelmet";
 
 
 
@@ -22,7 +23,7 @@ const ProjectDetailsGraphic = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Project Details"} />
+      <GraphicportfolioHelmet title={"Project Details"} />
 
       {/* HeaderFive */}
       <HeaderFive />

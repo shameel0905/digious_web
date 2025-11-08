@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from "react-router-dom";
+
 
 const ProcessTwo = () => {
     useEffect(() => { Aos.init() });
@@ -22,7 +24,7 @@ const ProcessTwo = () => {
                         </div>
                         <div className="col-lg-4">
                             <p data-aos="fade-up" data-aos-delay="600" className="mb-60 sec-text text-white mt-0">
-                                Our workflow is built for efficiency and excellence. We strategize, design, develop, and test to deliver high-quality digital solutions tailored to your business needs.
+                                Our workflow is built for efficiency and excellence. We strategize, design, development, and test to deliver <Link to="/services"> best IT services </Link> that boost your business growth, enhance your online presence, and drive measurable results.
 
                             </p>
                         </div>
