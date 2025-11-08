@@ -7,6 +7,7 @@ import Newsletter from "../components/Newsletter";
 import WebsiteInnerDetails from "../components/WebsiteInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import BreadcrumbInnerWebsiteDev from "../components/BreadcrumbInnerWebsiteDev";
+import WebdevHelmet from "../elements/WebdevHelmet";
 
 
 const WebdevServices = () => {
@@ -23,7 +24,7 @@ const WebdevServices = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Website Development"} />
+      <WebdevHelmet title={"Website Development"} />
 
       {/* HeaderFive */}
       <HeaderFive />

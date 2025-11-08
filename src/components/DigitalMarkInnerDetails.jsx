@@ -78,6 +78,9 @@ const DigitalMarkInnerDetails = () => {
               <p className="mb-30">
              Accelerate your business growth with Digious Solutions, a trusted digital marketing agency in USA and Australia. Our tailored strategies help increase online visibility, attract qualified leads, and convert traffic into real sales.
               </p>
+              <p className="mt-30 mb-40">
+              Start growing your brand today by booking your <Link to="/contact">free digital marketing consultation</Link> and get a custom growth strategy designed for your business.
+              </p>
               <div className="row gy-4">
                 <div className="col-lg-6">
                   <div
@@ -118,9 +121,7 @@ const DigitalMarkInnerDetails = () => {
                   </div>
                 </div>
               </div>
-              <p className="mt-30 mb-n1">
-              Start growing your brand today by booking your free digital marketing consultation and get a custom growth strategy designed for your business.
-              </p>
+              
             </div>
             {/* <div className="col-xxl-4 col-lg-5">
                         <aside className="sidebar-area">

@@ -7,6 +7,7 @@ import Newsletter from "../components/Newsletter";
 import DigitalMarkInnerDetails from "../components/DigitalMarkInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import BreadcrumbInnerDigitalMarket from "../components/BreadcrumbInnerDigitalMarket";
+import DigimarketingHelmet from "../elements/DigimarketingHelmet";
 
 const DigitalMarketingService = () => {
   let [active, setActive] = useState(true);
@@ -21,7 +22,7 @@ const DigitalMarketingService = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Digital Marketing"} />
+      <DigimarketingHelmet title={"Digital Marketing"} />
 
       {/* HeaderFive */}
       <HeaderFive />

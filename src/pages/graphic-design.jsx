@@ -7,6 +7,7 @@ import Newsletter from "../components/Newsletter";
 import ServiceInnerDetails from "../components/GraphicInnerDetails";
 import BreadcrumbInner from "../components/BreadcrumbInner";
 import TestimonialOne from "../components/TestimonialOne";
+import GraphicdesignHelmet from "../elements/GraphicdesignHelmet";
 
 const GraphicService = () => {
   let [active, setActive] = useState(true);
@@ -21,7 +22,7 @@ const GraphicService = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Graphic Design"} />
+      <GraphicdesignHelmet title={"Graphic Design"} />
 
       {/* HeaderFive */}
       <HeaderFive />

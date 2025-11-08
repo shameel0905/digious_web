@@ -7,6 +7,7 @@ import Newsletter from "../components/Newsletter";
 import SoftwareDevInnerDetails from "../components/SoftwareDevInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import BreadcrumbInnerSoftwareDev from "../components/BreadcrumbInnerSoftwareDev";
+import SoftwaredevHelmet from "../elements/SoftwaredevHelmet";
 
 const SoftwareDevService = () => {
   let [active, setActive] = useState(true);
@@ -21,7 +22,7 @@ const SoftwareDevService = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Software Development"} />
+      <SoftwaredevHelmet title={"Software Development"} />
 
       {/* HeaderFive */}
       <HeaderFive />

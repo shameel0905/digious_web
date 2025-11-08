@@ -4,11 +4,11 @@ const AboutHelmet = ({ title }) => {
   return (
     <Helmet>
       <title>
-        {title} | Global IT & Digital Marketing Experts
+        About Digious Solutions |  Innovative IT Solutions
       </title>
       <meta
         name="description"
-        content="Digious Solutions provides IT and digital marketing services worldwide. From Design to Development, We deliver innovative solutions to your business."
+        content="Learn about Digious Solutions, an innovative IT solutions company in USA & Australia offering web, app, and marketing services to drive business success."
       />
     </Helmet>
   );

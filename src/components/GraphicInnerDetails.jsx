@@ -69,6 +69,15 @@ const ServiceInnerDetails = () => {
               <p className="mb-30">
                 Your brand’s first impression matters. We help businesses create strong, cohesive, and professional visual identities that leave a lasting impact. Our graphic design experts focus on clarity, creativity, and conversion — ensuring your visuals not only look great but perform effectively across platforms.
               </p>
+               <h3 className="text-white page-title mb-20 mt-20">
+                Start Your Design Project with Digious Solutions
+              </h3>
+              <p className="mb-30">
+                Partner with Digious Solutions for expert graphic design services in USA and Australia. We create custom logos, marketing visuals, and digital artwork that enhance engagement, strengthen your brand, and drive business growth.
+              </p>
+              <p className="mb-40">
+                Book your free consultation today or <Link to="/graphic-portfolio">explore our portfolio</Link> to see how our designs have transformed brands and delivered results.
+              </p>
               <div className="row gy-4">
                 <div className="col-lg-6">
                   <div
@@ -109,15 +118,7 @@ const ServiceInnerDetails = () => {
                   </div>
                 </div>
               </div>
-              <h3 className="text-white page-title mb-20 mt-20">
-                Start Your Design Project with Digious Solutions
-              </h3>
-              <p className="mb-30">
-                Partner with Digious Solutions for expert graphic design services in USA and Australia. We create custom logos, marketing visuals, and digital artwork that enhance engagement, strengthen your brand, and drive business growth.
-              </p>
-              <p className="mb-30">
-                Book your free consultation today or <Link to="/graphic-portfolio">explore our portfolio</Link> to see how our designs have transformed brands and delivered results.
-              </p>
+             
             </div>
             {/* <div className="col-xxl-4 col-lg-5">
                         <aside className="sidebar-area">

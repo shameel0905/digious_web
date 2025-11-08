@@ -4,11 +4,11 @@ const HomeHelmet = ({ title }) => {
   return (
     <Helmet>
       <title>
-        {title} | A Complete Digital Solutions Platform.
+        Global Digital Transformation & IT Solutions Company
       </title>
       <meta
         name="description"
-        content="Boost your online presence with Digious Solutions. We specialize in 360 Solutions. Elevate your business with innovative online solutions today!"
+        content="Grow your business today with Digious Solutions. Get expert web design, graphic design, software development, mobile app, & digital marketing services globally."
       />
     </Helmet>
   );

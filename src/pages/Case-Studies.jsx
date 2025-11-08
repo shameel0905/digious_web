@@ -6,6 +6,7 @@ import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import CaseStudies from "../components/CaseStudies";
 import HeaderFive from "../components/HeaderFive";
+import CasestudiesHelmet from "../elements/CasestudiesHelmet";
 
 
 
@@ -22,7 +23,7 @@ const Project = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Project Case Studies"} />
+      <CasestudiesHelmet title={"Project Case Studies"} />
 
       {/* HeaderFive */}
       <HeaderFive />
