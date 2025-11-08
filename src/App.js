@@ -38,6 +38,7 @@ import { Analytics } from "@vercel/analytics/react"
 import TermsAndConditions from "./pages/terms-and-conditions";
 import PrivacyandPolicy from "./pages/Privacy-Policy";
 import CSAutowriter from "./pages/CSAutowriter";
+import BlackFriday from "./pages/BlackFriday";
 
 
 
@@ -154,6 +155,7 @@ const App = () => {
           <Route exact  path="/project-details" element={<ProjectDetails />} />
           <Route exact  path="/case-studies" element={<CaseStudies />} />
           <Route exact path="/case-studies/autowriter" element={<CSAutowriter />} />
+          <Route exact path="/black-friday-deal" element={<BlackFriday />} />
           
           
 
