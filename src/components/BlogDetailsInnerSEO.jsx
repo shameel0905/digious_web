@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
+
 const BlogDetailsInnerSEO = () => {
+
   return (
     <section className="blog-area space-top space-extra-bottom">
       <div className="container">
