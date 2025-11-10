@@ -388,6 +388,7 @@ const BlackFridayIndex = () => {
             font-weight: 700;
             margin-bottom: 1rem;
             Color: #fff;
+            text-transform: capitalize;
           }
 
           @media (min-width: 768px) {
@@ -724,15 +725,15 @@ const BlackFridayIndex = () => {
 
           .black_section-badge-enhanced {
             display: inline-block;
-            background: linear-gradient(135deg, rgba(var(--primary-rgb), 0.1), rgba(var(--accent-rgb), 0.1));
+            
             color: rgba(var(--primary-rgb), 1);
-            border: 1px solid rgba(var(--primary-rgb), 0.3);
-            border-radius: 2rem;
-            padding: 0.5rem 1.5rem;
-            font-size: 0.875rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
+            
+            
+            padding: 0.5rem .5rem;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: capalized;
+    
             margin-bottom: 1.5rem;
           }
 
@@ -742,6 +743,7 @@ const BlackFridayIndex = () => {
             margin-bottom: 1.5rem;
             color: #fff;
             line-height: 1.2;
+            text-transform: capitalize;
           }
 
           @media (min-width: 768px) {
@@ -1169,7 +1171,8 @@ const BlackFridayIndex = () => {
         <section className="black_section" id="why-choose-us">
           <div className="black_container">
             <div className="black_section-header-enhanced">
-              <span className="black_section-badge-enhanced">WHY CHOOSE US</span>
+              <img src="assets/img/icon/title_left2.svg" alt="shape" />
+              <span className="black_section-badge-enhanced">Why Choose Us</span>
               <h2 className="black_section-title-enhanced">
                 Why <span className="black_gradient-text">Thousands Trust</span> Digious Solutions
               </h2>
@@ -1247,6 +1250,9 @@ const BlackFridayIndex = () => {
               ))}
             </div>
 
+
+
+
             {/* Trust Metrics Bar */}
             {/* <div className="black_trust-metrics">
               {[
@@ -1272,6 +1278,7 @@ const BlackFridayIndex = () => {
               
               <div>
                 <div style={{ marginBottom: '3rem', position: 'relative', zIndex: 10 }}>
+                  
                   <span className="black_section-badge" style={{ backgroundColor: 'rgba(var(--primary-rgb), 0.2)', border: 'none' }}>
                     OUR TRUST
                   </span>
@@ -1308,7 +1315,8 @@ const BlackFridayIndex = () => {
         <section className="black_section" id="portfolio">
           <div className="black_container">
             <div className="black_section-header">
-              <span className="black_section-badge">Discover the Work We're Proud Of</span>
+              <img src="assets/img/icon/title_left2.svg" alt="shape" />
+              <span className="black_section-badge-enhanced">Discover the Work We're Proud Of</span>
               <h2 className="black_section-title">
                 Our projects speak for themselves
                 <br />

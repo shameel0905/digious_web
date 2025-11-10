@@ -74,7 +74,7 @@ const Announcement = () => {
 
   return (
     <div className="countdown-bar">
-      <div className="container">
+      <div className="announcentcontainer">
         <span className="heading-text">
           Black Friday: <span><a className="Avail_Offer" href="/black-friday-deal">Avail Offer Now </a></span>
         </span>
@@ -106,8 +106,9 @@ const Announcement = () => {
           font-family: poppins ;
         }
 
-        .container {
+        .announcentcontainer {
           display: flex;
+          flex-direction: row;
           justify-content: center;
           align-items: center;
           max-width: 1200px;
@@ -134,6 +135,7 @@ const Announcement = () => {
           gap: 10px;
           font-size: 16px;
         }
+          
 
         .count_box {
           display: flex;
@@ -173,7 +175,7 @@ const Announcement = () => {
 
         /* Responsive design */
         @media (max-width: 768px) {
-          .container {
+          .announcentcontainer {
             flex-direction: column;
             gap: 15px;
           }
