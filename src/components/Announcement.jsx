@@ -106,7 +106,7 @@ const Announcement = () => {
           font-family: poppins ;
         }
 
-        .container {
+        .announcentcontainer {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -173,7 +173,7 @@ const Announcement = () => {
 
         /* Responsive design */
         @media (max-width: 768px) {
-          .container {
+          .announcentcontainer {
             flex-direction: column;
             gap: 15px;
           }
