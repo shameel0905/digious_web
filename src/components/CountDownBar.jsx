@@ -1,34 +1,6 @@
-// import React from "react";
-// import { useState } from "react";
-// import StripeFormHome from "../components/stripeFormHome";
-
-// const Announcement = () => {
-//   const [isPopupOpen, setIsPopupOpen] = useState(false);
-
-//   const openPopup = () => setIsPopupOpen(true);
-//   const closePopup = () => setIsPopupOpen(false);
-//   return (
-//     <>
-//       {isPopupOpen && <StripeFormHome onClose={closePopup} />}
-//       <div className="announcement-bar">
-//         <p>
-//           🚀 Start your Website in just <strong>$599</strong>
-//           <button className="redeem-btn" onClick={openPopup}>
-//             Click to Redeem
-//           </button>
-//         </p>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Announcement;
-
-
-
 import React, { useState, useEffect } from "react";
 
-const Announcement = () => {
+const CountDownBar = () => {
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
@@ -74,9 +46,9 @@ const Announcement = () => {
 
   return (
     <div className="countdown-bar">
-      <div className="announcentcontainer">
+      <div className="container">
         <span className="heading-text">
-          Black Friday: <span><a className="Avail_Offer" href="/black-friday-deal">Avail Offer Now </a></span>
+          Black Friday: <span>Get extra months free</span>
         </span>
         <div className="countdown">
           <div className="count_box days">
@@ -99,34 +71,29 @@ const Announcement = () => {
 
       <style jsx>{`
         .countdown-bar {
-          background-color: #2c5d8f;
+          background-color: #000;
           color: #fff;
-          padding: 5px 0;
+          padding: 15px 0;
           text-align: center;
-          font-family: poppins ;
+          font-family: Arial, sans-serif;
         }
 
-        .announcentcontainer {
+        .container {
           display: flex;
-          flex-direction: row;
-          justify-content: center;
+          justify-content: space-between;
           align-items: center;
           max-width: 1200px;
           margin: 0 auto;
           padding: 0 20px;
-          gap: 30px;
         }
 
         .heading-text {
           font-size: 18px;
-          font-family: poppins;
           font-weight: bold;
-
         }
 
         .heading-text span {
-          color: #fff;
-          font-family: poppins;
+          color: #ff4444;
         }
 
         .countdown {
@@ -135,47 +102,37 @@ const Announcement = () => {
           gap: 10px;
           font-size: 16px;
         }
-          
 
         .count_box {
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
           align-items: center;
           background: #333;
-          padding:5px 10px;
+          padding: 8px 12px;
           border-radius: 6px;
           min-width: 50px;
-          gap:8px;
         }
 
         .count_box strong {
-          font-size: 15px;
-          color: #fff;
+          font-size: 20px;
+          color: #ff4444;
           font-weight: bold;
-          font-family: poppins;
-
         }
 
         .count_box span {
           font-size: 12px;
           color: #fff;
-          font-family: poppins;
         }
 
         .countdown span {
           color: #2c5d8f;
           font-weight: bold;
           font-size: 18px;
-          font-family: poppins;
-        }
-        .Avail_Offer {
-          color: #fff;
-          text-decoration: underline;
         }
 
         /* Responsive design */
         @media (max-width: 768px) {
-          .announcentcontainer {
+          .container {
             flex-direction: column;
             gap: 15px;
           }
@@ -188,7 +145,6 @@ const Announcement = () => {
             min-width: 45px;
             padding: 6px 10px;
           }
-          
 
           .count_box strong {
             font-size: 18px;
@@ -199,4 +155,4 @@ const Announcement = () => {
   );
 };
 
-export default Announcement;
+export default CountDownBar;
