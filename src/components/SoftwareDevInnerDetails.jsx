@@ -21,8 +21,9 @@ const SoftwareDevInnerDetails = () => {
                 </h3>
               </div>
               <p>
-              Digious Solutions provides professional custom software development services designed to help businesses streamline operations, improve efficiency, and scale with confidence. As a trusted custom software development company, we create secure, high-performance, and future-ready software solutions tailored to your unique goals and challenges. <br></br>Our team combines strategic thinking, cutting-edge technology, and agile development practices to deliver software that enhances productivity and delivers measurable results. From startups to enterprises, we help every business transform through customized, scalable, and intelligent software systems.
+              Digious Solutions provides professional custom software development services designed to help businesses streamline operations, improve efficiency, and scale with confidence. As a trusted custom software development company, we create secure, high-performance, and future-ready software solutions tailored to your unique goals and challenges. 
               </p>
+              <p>Our team combines strategic thinking, cutting-edge technology, and agile development practices to deliver software that enhances productivity and delivers measurable results. From startups to enterprises, we help every business transform through customized, scalable, and intelligent software systems.</p>
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
                What We Offer:  Our Software Development Expertise
@@ -69,10 +70,10 @@ const SoftwareDevInnerDetails = () => {
               <h3 className="text-white page-title mb-20">
               Building Reliable Software That Delivers Results
               </h3>
-              <p className="mb-30">
-              At Digious Solutions, we don’t just develop software — we build solutions that empower growth. Our expert developers follow adaptive and agile methodologies, ensuring every application evolves with your business and the market’s demands. We focus on creating robust, scalable, and intuitive systems that integrate seamlessly into your operations.<br></br>
-              By leveraging the latest frameworks, APIs, and cloud-based technologies, we ensure our software solutions are secure, efficient, and built to last. Whether it’s enterprise software, custom CRM development, or API integration, we focus on performance, usability, and long-term scalability.
+              <p className="mb-20">
+              At Digious Solutions, we don’t just develop software — we build solutions that empower growth. Our expert developers follow adaptive and agile methodologies, ensuring every application evolves with your business and the market’s demands. We focus on creating robust, scalable, and intuitive systems that integrate seamlessly into your operations.             
               </p>
+              <p className="mb-30"> By leveraging the latest frameworks, APIs, and cloud-based technologies, we ensure our software solutions are secure, efficient, and built to last. Whether it’s enterprise software, custom CRM development, or API integration, we focus on performance, usability, and long-term scalability.</p>
                <h3 className="text-white page-title mb-20">
               Empower Your Business with Smarter Software Solutions
               </h3>

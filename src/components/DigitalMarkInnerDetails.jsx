@@ -22,7 +22,7 @@ const DigitalMarkInnerDetails = () => {
               </div>
               <p>
          Digious Solutions delivers results-driven digital marketing services designed to help businesses grow faster, reach wider audiences, and generate measurable ROI. As a trusted digital marketing agency, we combine creativity, strategy, and analytics to build campaigns that elevate your brand visibility and drive sustainable growth in the competitive online marketplace.
-              </p><br></br>
+              </p>
               <p>
               Our team of marketing professionals helps businesses of all sizes from startups to enterprises achieve their digital potential through tailored, data-backed strategies that boost engagement, increase leads, and turn clicks into customers.
               </p>
@@ -69,9 +69,10 @@ const DigitalMarkInnerDetails = () => {
               <h3 className="text-white page-title mb-20">
               Building Data-Driven Marketing Strategies That Convert
               </h3>
-              <p className="mb-30">
-             At Digious Solutions, we don’t just market, we deliver measurable success. Our approach combines performance marketing, advanced analytics, and creative execution to ensure every campaign drives tangible results. From SEO and PPC to full-scale social media campaigns, we tailor our digital marketing solutions to your audience, goals, and industry trends.<br></br>We focus on what truly matters visibility, engagement, and conversions. Our experts analyze every aspect of your online presence to ensure maximum ROI, using proven tools and techniques that align your brand with the ever-evolving digital landscape.
+              <p className="mb-20">
+             At Digious Solutions, we don’t just market, we deliver measurable success. Our approach combines performance marketing, advanced analytics, and creative execution to ensure every campaign drives tangible results. From SEO and PPC to full-scale social media campaigns, we tailor our digital marketing solutions to your audience, goals, and industry trends.
               </p>
+              <p className="mb-30">We focus on what truly matters visibility, engagement, and conversions. Our experts analyze every aspect of your online presence to ensure maximum ROI, using proven tools and techniques that align your brand with the ever-evolving digital landscape.</p>
               <h3 className="text-white page-title mb-20">
               Grow Your Brand with Digious Solutions
               </h3>

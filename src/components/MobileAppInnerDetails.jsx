@@ -21,9 +21,9 @@ const MobielAppInnerDetails = () => {
                 </h3>
               </div>
               <p>
-                Digious Solutions provides professional mobile app development services designed to help your brand build a powerful digital presence. As a trusted mobile app development company, we create intuitive, high-performing, and scalable apps for iOS, Android, and cross-platform that attract users, increase engagement, and convert leads into customers.<br></br>
-                Our team combines creativity, strategy, and technology to deliver mobile applications that are not only visually appealing but also optimized for speed, SEO, and user experience. From startups to established enterprises, we help every business grow through tailored mobile solutions.
+                Digious Solutions provides professional mobile app development services designed to help your brand build a powerful digital presence. As a trusted mobile app development company, we create intuitive, high-performing, and scalable apps for iOS, Android, and cross-platform that attract users, increase engagement, and convert leads into customers.                
               </p>
+              <p>Our team combines creativity, strategy, and technology to deliver mobile applications that are not only visually appealing but also optimized for speed, SEO, and user experience. From startups to established enterprises, we help every business grow through tailored mobile solutions.</p>
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
                   What We Offer:  Our Mobile App Development Expertise
@@ -60,10 +60,10 @@ const MobielAppInnerDetails = () => {
               <h3 className="text-white page-title mb-20">
                 Building High-Performing Apps That Deliver Results
               </h3>
-              <p className="mb-30">
-                At Digious Solutions, we don’t just create apps; we build growth platforms. Our developers focus on clean code, fast performance, and data-driven structure to ensure every mobile application meets business and technical goals. Using the latest mobile frameworks and development practices, we ensure your app is SEO-friendly, secure, and ready to scale.<br></br>
-                We prioritize results through higher visibility, increased user engagement, and stronger conversions by combining strategy with innovation. Whether you need a consumer app, enterprise mobility solution, or cross-platform deployment, our solutions are built for success.
+              <p className="mb-20">
+                At Digious Solutions, we don’t just create apps; we build growth platforms. Our developers focus on clean code, fast performance, and data-driven structure to ensure every mobile application meets business and technical goals. Using the latest mobile frameworks and development practices, we ensure your app is SEO-friendly, secure, and ready to scale.                
               </p>
+              <p className="mb-30">We prioritize results through higher visibility, increased user engagement, and stronger conversions by combining strategy with innovation. Whether you need a consumer app, enterprise mobility solution, or cross-platform deployment, our solutions are built for success.</p>
               <h3 className="text-white page-title mb-20">
                 Transform Your Mobile Presence with Digious Solutions
               </h3>
