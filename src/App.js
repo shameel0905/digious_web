@@ -14,7 +14,7 @@ import Team from "./pages/Team";
 import TeamDetails from "./pages/TeamDetails";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
-import GraphicService from  "./pages/graphic-design";
+import GraphicService from "./pages/graphic-design";
 import BlockChainService from "./pages/Block-Chain-dev";
 import DigitalMarketingService from "./pages/Digital-Marketing";
 import ECommerceSolutionService from "./pages/E-Commerce-Solution";
@@ -39,17 +39,19 @@ import TermsAndConditions from "./pages/terms-and-conditions";
 import PrivacyandPolicy from "./pages/Privacy-Policy";
 import CSAutowriter from "./pages/CSAutowriter";
 import BlackFriday from "./pages/BlackFriday";
+import BlogDetailsInnerBlackfriday from "./components/BlogDetailsInnerBlackfriday";
+import Blog_BlackFriday from "./pages/Blog_BlackFriday";
 
 
 
 // disable right click context menu
-  disableContextMenu();
+disableContextMenu();
 // end context menu here
 const App = () => {
   return (
     <>
-    
-   
+
+
       {/* <Scroll /> */}
       <BrowserRouter>
         {/* <CustomCursor /> */}
@@ -145,24 +147,22 @@ const App = () => {
             element={<BlogSEO />}
           />
           <Route exact path="/what-is-nft-art" element={<BlogNFT />} />
+          <Route exact path="/black-friday-website-design-offer" element={<Blog_BlackFriday />} />
           <Route exact path="/pricing" element={<Pricing />} />
           <Route exact path="/team" element={<Team />} />
           <Route exact path="/team-details" element={<TeamDetails />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="*" element={<Error />} />
-          <Route exact  path="/terms-conditions" element={<TermsAndConditions />} />
-          <Route exact  path="/privacy-policy" element={<PrivacyandPolicy />} />
-          <Route exact  path="/project-details" element={<ProjectDetails />} />
-          <Route exact  path="/case-studies" element={<CaseStudies />} />
+          <Route exact path="/terms-conditions" element={<TermsAndConditions />} />
+          <Route exact path="/privacy-policy" element={<PrivacyandPolicy />} />
+          <Route exact path="/project-details" element={<ProjectDetails />} />
+          <Route exact path="/case-studies" element={<CaseStudies />} />
           <Route exact path="/case-studies/autowriter" element={<CSAutowriter />} />
           <Route exact path="/black-friday-deal" element={<BlackFriday />} />
-          
-          
-
         </Routes>
       </BrowserRouter>
       <SpeedInsights />
-      <Analytics/>
+      <Analytics />
 
     </>
   );

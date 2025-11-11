@@ -9,6 +9,43 @@ const BlogAreaAll = () => {
           <div className="col-xxl-8 col-lg-7">
             <div className="blog-single-card">
               <div className="blog-thumb">
+                <img src="/assets/img/blog/NFT_01-ai-01.jpg" alt="Digious Solutions" />
+                <div className="blog-date">
+                  <Link to="/blog">
+                    <span>11</span>November
+                  </Link>
+                </div>
+              </div>
+              <div className="blog-content">
+                <div className="blog-meta">
+                  <Link to="/blog">
+                    <i className="fas fa-user" />
+                    By admin
+                  </Link>
+                  <Link to="/blog">
+                    <i className="fas fa-folder-open" />
+                    Category
+                  </Link>
+                  <Link to="/blog">
+                    <i className="fas fa-comments" />
+                    Comments (05)
+                  </Link>
+                </div>
+                <h3 className="blog-title">
+                  <Link to="/what-is-nft-art">Black Friday Website Design Offer for Just $199</Link>
+                </h3>
+                <p className="blog-text">
+                 Black Friday isn’t just about shopping or gadgets, it’s the perfect time to elevate your brand online. If your website feels outdated, slow, or isn’t generating leads, now is the time to transform it affordably.
+                </p>
+                <Link to="/#" className="global-btn style-border2">
+                  {" "}
+                  Read More{" "}
+                  <img src="/assets/img/icon/right-icon2.svg" alt="Digious Solutions" />
+                </Link>
+              </div>
+            </div>
+            <div className="blog-single-card">
+              <div className="blog-thumb">
                 <img
                   src="/assets/img/blog/stranger-apple-id-featured.jpg"
                   alt="Digious Solutions"
@@ -132,22 +169,7 @@ const BlogAreaAll = () => {
                 </Link>
               </div>
             </div>
-            {/* <div className="pagination justify-content-center">
-                            <ul>
-                                <li>
-                                    <Link to="/blog">1</Link>
-                                </li>
-                                <li>
-                                    <Link to="/blog">2</Link>
-                                </li>
-                                <li>
-                                    <Link to="/blog">3</Link>
-                                </li>
-                                <li>
-                                    <Link to="/blog">4</Link>
-                                </li>
-                            </ul>
-                        </div> */}
+
           </div>
           <div className="col-xxl-4 col-lg-5">
             <aside className="sidebar-area">
@@ -205,7 +227,7 @@ const BlogAreaAll = () => {
                     <div className="media-body">
                       <h4 className="post-title">
                         <Link className="text-white" to="/if-you-have-forgotten-your-apple-id-password">
-                        If you have forgotten your Apple ID password
+                          If you have forgotten your Apple ID password
                         </Link>
                       </h4>
                     </div>
@@ -223,7 +245,7 @@ const BlogAreaAll = () => {
                     <div className="media-body">
                       <h4 className="post-title">
                         <Link className="text-white" to="/how-to-be-a-success-with-search-engine-optimization">
-                        How To Be A Success With Search Engine Optimization?
+                          How To Be A Success With Search Engine Optimization?
                         </Link>
                       </h4>
                     </div>
@@ -241,7 +263,7 @@ const BlogAreaAll = () => {
                     <div className="media-body">
                       <h4 className="post-title">
                         <Link className="text-white" to="/what-is-nft-art">
-                        What is NFT Art?
+                          What is NFT Art?
                         </Link>
                       </h4>
                     </div>
