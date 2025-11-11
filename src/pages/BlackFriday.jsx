@@ -8,6 +8,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import BlackFridayPricingCards from "../components/BlackFridayPricingCards";
 import BlackFridayWhyChooseUs from "../components/BlackFridayWhyChooseUs";
+import BlackfridayHelmet from "../elements/BlackfridayHelmet";
 
 
 const BlackFriday = () => {
@@ -27,6 +28,9 @@ const BlackFriday = () => {
 
 
         <HeaderFive />
+
+          {/* Helmet */}
+      <BlackfridayHelmet title={"BlackfridayHelmet"} />
 
       
 

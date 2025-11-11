@@ -50,9 +50,10 @@ const AboutSix = () => {
                 <h2 className="sec-title style2 text-white">
                   Success Starts with Digious Solutions
                 </h2>
-                <p className="sec-text text-white mb-30">
-                 At Digious Solutions, we don’t just provide IT and digital services. We craft innovative solutions that set your business apart. By combining strategic planning, cutting-edge technology, and unmatched efficiency, we deliver projects that are unique, high-quality, and tailored to your industry’s needs.<br></br>Our commitment to transparency and collaboration means you stay involved at every stage, ensuring your vision comes to life exactly as imagined. With our cost-effective, results-driven approach, you get premium solutions at competitive prices without compromising on quality.
+                <p className="sec-text text-white mb-20">
+                 At Digious Solutions, we don’t just provide IT and digital services. We craft innovative solutions that set your business apart. By combining strategic planning, cutting-edge technology, and unmatched efficiency, we deliver projects that are unique, high-quality, and tailored to your industry’s needs.
                 </p>
+                <p>Our commitment to transparency and collaboration means you stay involved at every stage, ensuring your vision comes to life exactly as imagined. With our cost-effective, results-driven approach, you get premium solutions at competitive prices without compromising on quality.</p>
                 <p className="sec-text text-white">
                   Partner with Digious Solutions today, <Link to="/contact">schedule your free consultation</Link> , and let’s create solutions that inspire, innovate, and deliver measurable results.
                 </p>

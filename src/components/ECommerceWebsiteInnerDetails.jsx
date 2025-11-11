@@ -21,10 +21,9 @@ const ECommerWebInnerDetails = () => {
                 </h3>
               </div>
               <p>
-                Digious Solutions provides professional e-commerce website development and design services to help your brand build a powerful online presence. As a trusted e-commerce solutions provider, we create responsive, secure, and user-friendly online stores that attract customers, boost engagement, and increase sales.
-
-                Our team combines creativity, strategy, and technology to deliver e-commerce platforms optimized for speed, SEO, and conversions. Whether you’re launching a new store or upgrading an existing one, we provide tailored solutions to help your business scale.
+                Digious Solutions provides professional e-commerce website development and design services to help your brand build a powerful online presence. As a trusted e-commerce solutions provider, we create responsive, secure, and user-friendly online stores that attract customers, boost engagement, and increase sales.  
               </p>
+              <p>Our team combines creativity, strategy, and technology to deliver e-commerce platforms optimized for speed, SEO, and conversions. Whether you’re launching a new store or upgrading an existing one, we provide tailored solutions to help your business scale.</p>
               <div className="service-details-content">
                 <h3 className="text-white page-title mt-40 mb-20">
                   What We Offer:  Our E-Commerce Expertise

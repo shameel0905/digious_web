@@ -67,7 +67,7 @@ const GameDevInnerDetails = () => {
               <h3 className="text-white page-title mb-20">
              Building High-Performing Games That Engage
               </h3>
-              <p className="mb-30">
+              <p className="mb-10">
              At Digious Solutions, we don’t just develop games; we craft experiences. Our team focuses on clean coding, responsive design, and performance optimization to ensure every game runs flawlessly across devices. Using the latest tools and frameworks, we build market-ready games with scalable architecture, making it easier to update and expand features as your audience grows.
               </p> <br></br>
               <p>

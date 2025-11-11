@@ -78,21 +78,31 @@ const BlogDetailsInnerBlackfriday = () => {
                                 <p><strong>Offer ending soon!</strong> Build your professional website for just $199 during the biggest Black Friday web design sale of the year. Enjoy fast delivery, 100% satisfaction, and free unlimited revisions.
                                 </p>
                                 <p><Link to="/black-friday-deal">Claim your $199 website design deal</Link> today, limited spots available!</p>
+                                <div className="row gy-4">
+                                    <div className="col-sm-12">
+                                        <div className="blog-thumb style2 mb-sm-0 mb-30">
+                                            <img
+                                                src="/assets/img/blog/blackfriday-blog-image.jpg"
+                                                alt="black-friday-website-design-offer"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
                                 <h2 className="mt-4 blog-inner-title">
                                     What You Can Expect from Digious Solutions
                                 </h2>
                                 <p>
                                     We deliver a complete range of website and IT services designed for all industries:
                                 </p>
-                                 <ul>
+                                <ul>
                                     <li>
-                                       <strong>Custom business websites</strong>
+                                        <strong>Custom business websites</strong>
                                     </li>
                                     <li>
-                                       <strong>E-commerce stores and online shops</strong> 
+                                        <strong>E-commerce stores and online shops</strong>
                                     </li>
                                     <li>
-                                         <strong>Portfolio and brand websites</strong>
+                                        <strong>Portfolio and brand websites</strong>
                                     </li>
                                     <li>
                                         <strong>Responsive web redesigns</strong>
@@ -100,23 +110,23 @@ const BlogDetailsInnerBlackfriday = () => {
                                     <li>
                                         <strong>WordPress, Shopify, and custom CMS development</strong>
                                     </li>
-                                     <li>
+                                    <li>
                                         <strong>SEO-optimized layouts with fast loading speeds</strong>
                                     </li>
                                 </ul>
                                 <p>Every project is built to maximize leads and revenue. This Black Friday web design offer gives you the best value of the year. Trusted by 100+ small businesses and startups across the U.S.</p>
                                 <h3 className="text-white">Client Testimonials</h3>
-                                 <ul>
+                                <ul>
                                     <li>
-                                      Our small business took advantage of the Black Friday web design deal last year and saw a massive boost in sales. The team at Digious Solutions made the process smooth and professional. Highly recommend. <br></br> <strong> Sarah L., Small Business Owner</strong>
+                                        Our small business took advantage of the Black Friday web design deal last year and saw a massive boost in sales. The team at Digious Solutions made the process smooth and professional. Highly recommend. <br></br> <strong> Sarah L., Small Business Owner</strong>
                                     </li>
                                     <li>
-                                       We got our website redesigned during the Black Friday offer, and the results were amazing. Fast delivery, great communication, and our online leads doubled within weeks! <br></br> <strong> Mark T., Startup Founde</strong> 
+                                        We got our website redesigned during the Black Friday offer, and the results were amazing. Fast delivery, great communication, and our online leads doubled within weeks! <br></br> <strong> Mark T., Startup Founder</strong>
                                     </li>
-                                  
+
                                 </ul>
-                                 <h2 className="mt-4 blog-inner-title">
-                                   Act Fast: Black Friday Website Offer Ends Soon
+                                <h2 className="mt-4 blog-inner-title">
+                                    Act Fast: Black Friday Website Offer Ends Soon
                                 </h2>
                                 <p>
                                     These exclusive Black Friday website deals are available for a short time only. Once the slots are gone, pricing returns to normal with no exceptions.
@@ -125,19 +135,19 @@ const BlogDetailsInnerBlackfriday = () => {
                                 </p>
                                 <ul>
                                     <li>
-                                       <strong> A stunning new website</strong>
+                                        <strong> A stunning new website</strong>
                                     </li>
                                     <li>
-                                     <strong> Top-tier hosting</strong> 
+                                        <strong> Top-tier hosting</strong>
                                     </li>
-                                     <li>
-                                     <strong> Reliable IT services that keep your business ahead</strong> 
-                                    </li>                                 
+                                    <li>
+                                        <strong> Reliable IT services that keep your business ahead</strong>
+                                    </li>
                                 </ul>
                                 <p>If you’ve been waiting for the right time to enhance your online presence, this is it. Take advantage of our Black Friday web design sale before they expire.</p>
-                                <h5 className="text-white">
+                                <h2 className="mt-4 blog-inner-title">
                                     Final Call to Upgrade Your Website
-                                </h5>
+                                </h2>
                                 <p className="mt-20">
                                     If you’ve been waiting for the right time to enhance your online presence, this is it. Take advantage of our Black Friday web design sale, affordable web development offers, and small business IT packages before they expire.
                                 </p>

@@ -9,7 +9,7 @@ const BlogAreaAll = () => {
           <div className="col-xxl-8 col-lg-7">
             <div className="blog-single-card">
               <div className="blog-thumb">
-                <img src="/assets/img/blog/NFT_01-ai-01.jpg" alt="Digious Solutions" />
+                <img src="/assets/img/blog/digious-blackfriday-banner.jpg" alt="Digious Solutions" />
                 <div className="blog-date">
                   <Link to="/blog">
                     <span>11</span>November
@@ -32,12 +32,12 @@ const BlogAreaAll = () => {
                   </Link>
                 </div>
                 <h3 className="blog-title">
-                  <Link to="/what-is-nft-art">Black Friday Website Design Offer for Just $199</Link>
+                  <Link to="/black-friday-website-design-offer">Black Friday Website Design Offer for Just $199</Link>
                 </h3>
                 <p className="blog-text">
                  Black Friday isn’t just about shopping or gadgets, it’s the perfect time to elevate your brand online. If your website feels outdated, slow, or isn’t generating leads, now is the time to transform it affordably.
                 </p>
-                <Link to="/#" className="global-btn style-border2">
+                <Link to="/black-friday-website-design-offer" className="global-btn style-border2">
                   {" "}
                   Read More{" "}
                   <img src="/assets/img/icon/right-icon2.svg" alt="Digious Solutions" />
