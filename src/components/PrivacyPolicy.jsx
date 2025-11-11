@@ -317,13 +317,7 @@ const Privacypolicy = () => {
                 <li>By phone number: <a href="tel:+61431066995">+(614)310 66995</a></li>
               </ul>
 
-              <div >
-                                <h4 className="text-white">Non-Refundable Sales</h4>
-                            </div>
-                            <p className="mb-30">
-                            All purchases made during discounted, promotional, or clearance sales are final and non-refundable. No returns, exchanges, or cancellations will be accepted for items purchased at a discounted price or through any promotional offer.
-By completing a purchase under a promotion or discount, you acknowledge and agree that the payment is non-refundable and that such items are not eligible for return, refund, or exchange under any circumstances, except where required by applicable consumer protection laws.:
-                            </p>
+            
                         </div>
                     </div>
                 </div>

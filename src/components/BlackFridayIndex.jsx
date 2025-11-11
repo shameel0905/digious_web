@@ -57,7 +57,7 @@ const BlackFridayIndex = () => {
           .black_page {
             min-height: 100vh;
             position: relative;
-            background: transparent;
+            background: #141416 !important;
           }
 
           .black_page::before {
@@ -82,7 +82,7 @@ const BlackFridayIndex = () => {
             left: 0;
             top: 50%;
             transform: translate(-50%, -50%);
-            z-index: -1;
+            z-index: 200;
           }
 
           .black_shadow-shape-right::after {
@@ -96,7 +96,7 @@ const BlackFridayIndex = () => {
             right: 0;
             top: 20%;
             transform: translate(50%, -50%);
-            z-index: -1;
+            z-index: 200;
           }
 
           /* Header */
@@ -105,7 +105,7 @@ const BlackFridayIndex = () => {
             top: 0;
             left: 0;
             right: 0;
-            z-index: 50;
+            z-index: 1000;
             border-bottom: 1px solid rgba(var(--border-rgb), 0.5);
             background-color: rgba(var(--background-rgb), 0.8);
             backdrop-filter: blur(16px);
@@ -201,7 +201,7 @@ const BlackFridayIndex = () => {
             justify-content: center;
             overflow: hidden;
             padding-top: 12rem;
-            background: transparent;
+            background: #141416 !important;
           }
 
           .black_hero-background {
@@ -348,24 +348,13 @@ const BlackFridayIndex = () => {
             transform: translateY(-1px);
           }
 
-          .black_hero-bottom-fade {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 8rem;
-            background: linear-gradient(to top, 
-              rgba(var(--background-rgb), 1) 0%,
-              transparent 100%
-            );
-            z-index: 10;
-          }
+          
 
           /* Section Base */
           .black_section {
             padding: 5rem 0;
             position: relative;
-            background: transparent;
+            background: #141416 !important;
           }
 
           .black_container {
@@ -892,7 +881,7 @@ const BlackFridayIndex = () => {
             position: relative;
             border-radius: 0.75rem;
             overflow: hidden;
-            border: 1px solid rgba(var(--border-rgb), 1);
+            border: 1px solid #646464ff;
             background-color: rgba(var(--card-rgb), 0.1);
             backdrop-filter: blur(8px);
             transition: all 0.3s ease;
@@ -945,7 +934,7 @@ const BlackFridayIndex = () => {
             font-size: 0.75rem;
             border-radius: 9999px;
             background-color: #2976c0;
-            color: rgba(var(--secondary-foreground-rgb), 1);
+            color: #fff;
           }
 
           .black_portfolio-title {
@@ -1099,7 +1088,7 @@ const BlackFridayIndex = () => {
           }
 
           .black_cta-primary-button:hover {
-            background-color: rgba(var(--foreground-rgb), 0.9);
+            background-color: #f5f5f5;
           }
 
           .black_benefits-container {
@@ -1133,20 +1122,8 @@ const BlackFridayIndex = () => {
           }
 
           /* Dark mode support */
-          @media (prefers-color-scheme: dark) {
-            :root {
-              --background-rgb: 10, 10, 10;
-              --foreground-rgb: 255, 255, 255;
-              --primary-rgb: 59, 130, 246;
-              --primary-foreground-rgb: 255, 255, 255;
-              --secondary-rgb: 30, 30, 30;
-              --secondary-foreground-rgb: 255, 255, 255;
-              --card-rgb: 30, 30, 30;
-              --muted-foreground-rgb: 156, 163, 175;
-              --border-rgb: 55, 65, 81;
-              --accent-rgb: 167, 139, 250;
-            }
-          }
+          
+          
         `}
       </style>
 

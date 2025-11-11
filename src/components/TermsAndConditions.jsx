@@ -109,6 +109,11 @@ const TermsandConditions = () => {
               <p className="mt-30 mb-n1">
                 Some states do not allow the exclusion of implied warranties or limitation of liability for incidental or consequential damages, which means that some of the above limitations may not apply. In these states, each party’s liability will be limited to the greatest extent permitted by law.
               </p>
+              <h3 className="text-white page-title mt-40 mb-20">Non-Refundable Sales</h3>
+                <p className="mt-30 mb-n1">
+                            All purchases made during discounted, promotional, or clearance sales are final and non-refundable. No returns, exchanges, or cancellations will be accepted for items purchased at a discounted price or through any promotional offer.
+By completing a purchase under a promotion or discount, you acknowledge and agree that the payment is non-refundable and that such items are not eligible for return, refund, or exchange under any circumstances, except where required by applicable consumer protection laws.
+                            </p>
               <h3 className="text-white page-title mt-40 mb-20">
                 Disclaimer
               </h3>
