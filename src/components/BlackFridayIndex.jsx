@@ -1,6 +1,18 @@
+import { useState } from "react";
 import ClientThree from "./ClientThree";
+import BlackFridayPopup from "./BlackFridayPopup"; // Import your popup component
 
 const BlackFridayIndex = () => {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const openPopup = () => {
+    setIsPopupOpen(true);
+  };
+
+  const closePopup = () => {
+    setIsPopupOpen(false);
+  };
+
   // SVG Icons
   const CheckIcon = () => (
     <svg 
@@ -1158,9 +1170,12 @@ const BlackFridayIndex = () => {
               </p>
               
               <div className="black_hero-actions">
-                <button className="black_hero-primary-button">Avail Offer Now</button>
+                <button className="black_hero-primary-button" onClick={openPopup}>
+                  Avail Offer Now
+                </button>
                 
               </div>
+              
             </div>
           </div>
           
@@ -1249,9 +1264,6 @@ const BlackFridayIndex = () => {
                 </div>
               ))}
             </div>
-
-
-
 
             {/* Trust Metrics Bar */}
             {/* <div className="black_trust-metrics">
@@ -1398,11 +1410,13 @@ const BlackFridayIndex = () => {
               <div className="black_cta-content">
                 <h2 className="black_cta-title">Don't Miss Out on This Exclusive Opportunity!</h2>
                 <p className="black_cta-subtitle">
-                 Black Friday is here! Grab 50% off today and lock in your renewal at just $9.99 — unbeatable savings you don't want to miss.
+                 Black Friday is here! Grab 50% off today and lock in your renewal at just $199 — unbeatable savings you don't want to miss.
                 </p>
                 
                 <div className="black_cta-actions">
-                  <button className="black_cta-primary-button">Unlock Your Black Friday Deal</button>
+                  <button className="black_cta-primary-button" onClick={openPopup}>
+                    Unlock Your Black Friday Deal
+                  </button>
                   
                 </div>
                 
@@ -1422,6 +1436,9 @@ const BlackFridayIndex = () => {
             </div>
           </div>
         </section>
+
+        {/* Black Friday Popup */}
+        {isPopupOpen && <BlackFridayPopup onClose={closePopup} />}
       </div>
     </>
   );
