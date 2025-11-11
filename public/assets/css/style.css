@@ -859,7 +859,7 @@ textarea.style2 {
 }
 
 option:checked, option:focus, option:hover {
-  background-color: var(--theme-color);
+  background-color: #2976c000 !important;
   color: var(--white-color);
 }
 
