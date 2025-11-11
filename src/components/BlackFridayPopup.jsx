@@ -310,7 +310,7 @@ const BlackFridayPopup = ({ onClose }) => {
                             onChange={(e) => setAgreeToTerms(e.target.checked)}
                           />
                           <label className="form-check-label label_pop" htmlFor="agreeTerms">
-                            I agree to the terms and conditions *
+                            I agree to the <a href="https://www.digioussolutions.com/privacy-policy">Privacy Policy</a> and <a href="https://www.digioussolutions.com/terms-conditions">Terms & Conditions</a> *
                           </label>
                         </div>
                       </div>
