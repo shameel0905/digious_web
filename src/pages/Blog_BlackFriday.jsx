@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Preloader from "../elements/Preloader";
-import BlogAppleIdHelmet from "../elements/BlogAppleIdHelmet";
+import BlogBlackfridayHelmet from "../elements/BlogBlackfridayHelmet";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import HeaderFive from "../components/HeaderFive";
 import BlogDetailsInnerAppleId from "../components/BlogDetailsInnerAppleId";
-import BreadcrumbInnerBlogAppleId from "../components/BreadcrumbInnerBlogAppleId";
+import BreadcrumbInnerBlackFriday from "../components/BreadcrumbInnerBlackFriday";
+import BlogDetailsInnerBlackfriday from "../components/BlogDetailsInnerBlackfriday";
 
 
 
-const BlogAppleId = () => {
+const Blog_BlackFriday = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
     setTimeout(function () {
@@ -22,16 +23,16 @@ const BlogAppleId = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <BlogAppleIdHelmet title={"BlogAppleIdHelmet"} />
+      <BlogBlackfridayHelmet title={"BlogBlackfridayHelmet"} />
 
       {/* HeaderFive */}
       <HeaderFive />
 
       {/* Breadcrumb */}
-      <BreadcrumbInnerBlogAppleId title="If You Have Forgotten Your Apple Id Password" />
+      <BreadcrumbInnerBlackFriday title="Black Friday Website Design Offer for Just $199" />
 
       {/* BlogDetailsInner */}
-      <BlogDetailsInnerAppleId />
+      <BlogDetailsInnerBlackfriday />
 
       {/* Newsletter */}
       <Newsletter />
@@ -43,4 +44,4 @@ const BlogAppleId = () => {
   );
 };
 
-export default BlogAppleId;
+export default Blog_BlackFriday;

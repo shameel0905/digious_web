@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Preloader from "../elements/Preloader";
-import HelmetReact from "../elements/HelmetReact";
+import BlogSeoHelmet from "../elements/BlogSeoHelmet";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import HeaderFive from "../components/HeaderFive";
@@ -22,7 +22,7 @@ const BlogSEO = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Blog Details"} />
+      <BlogSeoHelmet title={"BlogSeoHelmet"} />
 
       {/* HeaderFive */}
       <HeaderFive />

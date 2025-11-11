@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Preloader from "../elements/Preloader";
-import HelmetReact from "../elements/HelmetReact";
+import BlogNftHelmet from "../elements/BlogNftHelmet";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import HeaderFive from "../components/HeaderFive";
@@ -22,7 +22,7 @@ const BlogNFT = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Blog Details"} />
+      <BlogNftHelmet title={"BlogNftHelmet"} />
 
       {/* HeaderFive */}
       <HeaderFive />
