@@ -430,6 +430,13 @@ const BlackFridayIndex = () => {
             }
           }
 
+          @media (min-width: 325px) and (max-width: 768px) {
+          .black_cta-primary-button{
+                font-size: 0.8rem;
+                padding: 0.5rem 1.8rem;
+          }
+          }
+
           .black_pricing-card {
             position: relative;
             border-radius: 1rem;
