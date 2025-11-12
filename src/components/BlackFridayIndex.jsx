@@ -1316,40 +1316,40 @@ const BlackFridayIndex = () => {
             <div className="black_portfolio-grid">
               {[
                 {
-                  title: "DroneDrop- Revolutionizing Delivery with Drones",
+                  title: "Mijo Sports",
                   category: "WordPress",
-                  tags: ["SXO", "WordPress", "ANIMATION", "GraphicDesign"],
-                  image: "/assets/img/portfolio/website/website1.png"
+                  tags: ["SXO", "WordPress", "Athlete"],
+                  image: "../assets/img/blackfriday/mijo.jpg"
                 },
                 {
-                  title: "Boxer - Empowering Businesses with Smart Solutions",
-                  category: "Design",
-                  tags: ["Design", "Finance", "ANIMATION", "GraphicDesign"],
-                  image: "/assets/img/portfolio/website/website2.png"
+                  title: "Athltecon",
+                  category: "Wordpress",
+                  tags: ["Design", "WordPress", "Athlete"],
+                  image: "../assets/img/blackfriday/athletecon.jpg"
                 },
                 {
-                  title: "Birdly - Soaring High with Innovative Solutions",
-                  category: "HTML",
-                  tags: ["HTML", "CSS", "JavaScript", "ReactNext", "PHP", "WordPress"],
-                  image: "/assets/img/portfolio/website/website4.png"
+                  title: "CWC-Shop",
+                  category: "Wordpress",
+                  tags: ["CSS", "WordPress", "E-commerce"],
+                  image: "../assets/img/blackfriday/cwc.jpg"
                 },
                 {
-                  title: "Productiv - Streamlining Business Operations",
-                  category: "HTML",
-                  tags: ["HTML", "CSS", "JavaScript", "ReactNext", "MAIL"],
-                  image: "/assets/img/portfolio/website/webapps/webapp1.jpg"
+                  title: "Athltecon 2.0",
+                 category: "Wordpress",
+                  tags: ["Design", "WordPress", "Athlete"],
+                  image: "../assets/img/blackfriday/athletecon.jpg"
                 },
                 {
-                  title: "My Properties - Your Gateway to Dream Homes",
+                  title: "Insure Wise - Insurance Made Simple",
                   category: "WordPress",
-                  tags: ["SXO", "WordPress", "ANIMATION"],
-                  image: "/assets/img/portfolio/website/webapps/webapp4.png"
+                  tags: ["WordPress", "Insurance", "Health"],
+                  image: "../assets/img/blackfriday/insurewise.jpg"
                 },
                 {
-                  title: "DFDC - Leading sustainable data center solutions",
+                  title: "My Palmyra Properties",
                   category: "WordPress",
-                  tags: ["WordPress", "CSS", "JavaScript", "PHP", "AI", "Node.js"],
-                  image: "/assets/img/portfolio/website/webapps/webapp5.png"
+                  tags: ["Real Estate", "SEO", "Development"],
+                  image: "../assets/img/blackfriday/mypalmyra.jpg"
                 },
               ].map((project, index) => (
                 <div key={index} className="black_portfolio-card">
