@@ -55,11 +55,10 @@ const App = () => {
 
       {/* <Scroll /> */}
       <BrowserRouter>
-
         {/* google analytics */}
         {usePageTracking()}
         {/* google analytics */}
-
+        
         {/* <CustomCursor /> */}
         <RouteScrollToTop />
         <ScrollToTop smooth color="#196164" width="15" height="15" />
