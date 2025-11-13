@@ -1337,7 +1337,7 @@ const BlackFridayIndex = () => {
                   title: "Athltecon 2.0",
                  category: "Wordpress",
                   tags: ["Design", "WordPress", "Athlete"],
-                  image: "../assets/img/blackfriday/athletecon.jpg"
+                  image: "../assets/img/blackfriday/athletecon2.jpg"
                 },
                 {
                   title: "Insure Wise - Insurance Made Simple",
