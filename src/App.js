@@ -41,6 +41,7 @@ import CSAutowriter from "./pages/CSAutowriter";
 import BlackFriday from "./pages/BlackFriday";
 import BlogDetailsInnerBlackfriday from "./components/BlogDetailsInnerBlackfriday";
 import Blog_BlackFriday from "./pages/Blog_BlackFriday";
+import usePageTracking from "./pages/usePageTracking.js";
 
 
 
@@ -48,10 +49,9 @@ import Blog_BlackFriday from "./pages/Blog_BlackFriday";
 disableContextMenu();
 // end context menu here
 const App = () => {
+  usePageTracking();
   return (
     <>
-
-
       {/* <Scroll /> */}
       <BrowserRouter>
         {/* <CustomCursor /> */}
@@ -103,8 +103,6 @@ const App = () => {
             path="/services/website-development"
             element={<WebdevServices />}
           />
-          <Route exact path="/" element={<CaseStudies />} />
-          <Route exact path="/" element={<ProjectDetails />} />
           <Route
             exact
             path="/graphic-portfolio"

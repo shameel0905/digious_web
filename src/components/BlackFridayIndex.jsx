@@ -419,6 +419,13 @@ const BlackFridayIndex = () => {
             }
           }
 
+          @media (min-width: 325px) and (max-width: 768px) {
+          .black_cta-primary-button{
+                font-size: 0.8rem;
+                padding: 0.5rem 1.8rem;
+          }
+          }
+
           .black_pricing-card {
             position: relative;
             border-radius: 1rem;
@@ -906,13 +913,13 @@ const BlackFridayIndex = () => {
             transform: scale(1.05);
           }
 
-          .black_portfolio-overlay {
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(to top, rgba(var(--background-rgb), 0.8), transparent);
-            opacity: 0.6;
-            transition: opacity 0.3s ease;
-          }
+          // .black_portfolio-overlay {
+          //   position: absolute;
+          //   inset: 0;
+          //   background: linear-gradient(to top, rgba(var(--background-rgb), 0.8), transparent);
+          //   opacity: 0.6;
+          //   transition: opacity 0.3s ease;
+          // }
 
           .black_portfolio-card:hover .black_portfolio-overlay {
             opacity: 0.3;
@@ -1319,7 +1326,7 @@ const BlackFridayIndex = () => {
                   title: "Mijo Sports",
                   category: "WordPress",
                   tags: ["SXO", "WordPress", "Athlete"],
-                  image: "../assets/img/blackfriday/mijo.jpg"
+                  image: "../assets/img/blackfriday/Mijo.jpg"
                 },
                 {
                   title: "Athltecon",

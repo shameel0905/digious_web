@@ -28,6 +28,7 @@
     "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
     "react-fast-marquee": "^1.6.4",
+    "react-ga4": "^2.1.0",
     "react-google-recaptcha": "^3.1.0",
     "react-helmet": "^6.1.0",
     "react-modal-video": "^2.0.1",
@@ -45,7 +46,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate-sitemap": "node generate-sitemap.js"
