@@ -49,7 +49,6 @@ import usePageTracking from "./pages/usePageTracking.js";
 disableContextMenu();
 // end context menu here
 const App = () => {
-  usePageTracking();
   return (
     <>
       {/* <Scroll /> */}
