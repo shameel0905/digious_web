@@ -55,9 +55,6 @@ const App = () => {
 
       {/* <Scroll /> */}
       <BrowserRouter>
-        {/* google analytics */}
-        {usePageTracking()}
-        {/* google analytics */}
         
         {/* <CustomCursor /> */}
         <RouteScrollToTop />
