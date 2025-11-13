@@ -49,13 +49,17 @@ import usePageTracking from "./pages/usePageTracking.js";
 disableContextMenu();
 // end context menu here
 const App = () => {
-  usePageTracking();
   return (
     <>
 
 
       {/* <Scroll /> */}
       <BrowserRouter>
+      
+        {/* google analytics */}
+        {usePageTracking()}
+        {/* google analytics */}
+
         {/* <CustomCursor /> */}
         <RouteScrollToTop />
         <ScrollToTop smooth color="#196164" width="15" height="15" />
