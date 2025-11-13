@@ -6,6 +6,7 @@ import { useLocation } from "react-router-dom";
 // Initialize once with your GA ID
 ReactGA.initialize("G-HS2Y4SGF3E"); // <-- replace with your GA4 ID
 
+
 export default function usePageTracking() {
   const location = useLocation();
 
