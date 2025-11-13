@@ -55,7 +55,7 @@ const App = () => {
 
       {/* <Scroll /> */}
       <BrowserRouter>
-      
+
         {/* google analytics */}
         {usePageTracking()}
         {/* google analytics */}
@@ -109,8 +109,6 @@ const App = () => {
             path="/services/website-development"
             element={<WebdevServices />}
           />
-          <Route exact path="/" element={<CaseStudies />} />
-          <Route exact path="/" element={<ProjectDetails />} />
           <Route
             exact
             path="/graphic-portfolio"
