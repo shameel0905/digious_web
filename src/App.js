@@ -56,7 +56,7 @@ const App = () => {
         {/* google Analytics here */}
         <PageTracker />
         {/* google Analytics here */}
-        
+
         {/* <CustomCursor /> */}
         <RouteScrollToTop />
         <ScrollToTop smooth color="#196164" width="15" height="15" />
