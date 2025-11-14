@@ -41,7 +41,7 @@ import CSAutowriter from "./pages/CSAutowriter";
 import BlackFriday from "./pages/BlackFriday";
 import BlogDetailsInnerBlackfriday from "./components/BlogDetailsInnerBlackfriday";
 import Blog_BlackFriday from "./pages/Blog_BlackFriday";
-import PageTracker from "./components/PageTracker";
+import PageTracking from "./components/PageTracking";
 
 
 
@@ -54,7 +54,7 @@ const App = () => {
       {/* <Scroll /> */}
       <BrowserRouter>
         {/* google Analytics here */}
-        <PageTracker />
+        <PageTracking/>   
         {/* google Analytics here */}
 
         {/* <CustomCursor /> */}
