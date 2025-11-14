@@ -1,11 +1,10 @@
-import React, { useEffect } from "react";
-import ReactGA from "react-ga4";
+import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import ReactGA from "react-ga4";
 
-// Initialize GA4 once
 ReactGA.initialize("G-HS2Y4SGF3E");
 
-export default function PageTracker() {
+export default function PageTracking() {
   const location = useLocation();
 
   useEffect(() => {
@@ -15,5 +14,5 @@ export default function PageTracker() {
     });
   }, [location]);
 
-  return null; // component kuch render nahi karega
+  return null; // Component screen pe kuch render nahi karega
 }

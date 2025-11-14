@@ -43,8 +43,7 @@ import BlogDetailsInnerBlackfriday from "./components/BlogDetailsInnerBlackfrida
 import Blog_BlackFriday from "./pages/Blog_BlackFriday";
 import PageTracking from "./components/PageTracking";
 
-
-
+// context menu disable here
 // disable right click context menu
 disableContextMenu();
 // end context menu here
