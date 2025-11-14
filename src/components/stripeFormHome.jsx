@@ -50,8 +50,8 @@ const StripeFormHome = ({ onClose }) => {
           {/* Left Image Section */}
           <div className="w-50 hidden md:block p-0 custom_left_img_div">
             <img
-              src="/assets/img/icon/Digious_Web_post.jpg"
-              alt="Business"
+              src="/assets/img/blackfriday/black_friday.jpg"
+              alt="black_friday"
               className="custom_left_img"
             />
           </div>
