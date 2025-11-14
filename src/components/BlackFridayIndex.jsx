@@ -1140,6 +1140,7 @@ const BlackFridayIndex = () => {
                 <span className="black_gradient-text">BLACK FRIDAY</span>
                 <br />
                 <span>UP TO 80% OFF</span>
+                
               </h1>
               
               <p className="black_hero-subtitle">
