@@ -1320,7 +1320,7 @@ const BlackFridayIndex = () => {
                   title: "Mijo Sports",
                   category: "WordPress",
                   tags: ["SXO", "WordPress", "Athlete"],
-                  image: "../assets/img/blackfriday/mijo.jpg"
+                  image: "../assets/img/blackfriday/Mijo.jpg"
                 },
                 {
                   title: "Athltecon",
