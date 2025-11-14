@@ -1,13 +1,10 @@
-// src/hooks/usePageTracking.js
-import ReactGA from "react-ga4";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import ReactGA from "react-ga4";
 
-// Initialize once with your GA ID
-ReactGA.initialize("G-HS2Y4SGF3E"); // <-- replace with your GA4 ID
+ReactGA.initialize("G-HS2Y4SGF3E");
 
-
-export default function usePageTracking() {
+export default function PageTracking() {
   const location = useLocation();
 
   useEffect(() => {
@@ -16,4 +13,6 @@ export default function usePageTracking() {
       page: location.pathname + location.search,
     });
   }, [location]);
+
+  return null; // Component screen pe kuch render nahi karega
 }
