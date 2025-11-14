@@ -41,7 +41,7 @@ import CSAutowriter from "./pages/CSAutowriter";
 import BlackFriday from "./pages/BlackFriday";
 import BlogDetailsInnerBlackfriday from "./components/BlogDetailsInnerBlackfriday";
 import Blog_BlackFriday from "./pages/Blog_BlackFriday";
-import usePageTracking from "./pages/usePageTracking.js";
+import PageTracker from "./components/PageTracker";
 
 
 
@@ -53,6 +53,10 @@ const App = () => {
     <>
       {/* <Scroll /> */}
       <BrowserRouter>
+        {/* google Analytics here */}
+        <PageTracker />
+        {/* google Analytics here */}
+        
         {/* <CustomCursor /> */}
         <RouteScrollToTop />
         <ScrollToTop smooth color="#196164" width="15" height="15" />
