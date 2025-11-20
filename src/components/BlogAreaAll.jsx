@@ -46,6 +46,43 @@ const BlogAreaAll = () => {
             </div>
             <div className="blog-single-card">
               <div className="blog-thumb">
+                <img src="/assets/img/blog/Digious_Blog_GPT.jpg" alt="Digious Solutions" />
+                <div className="blog-date">
+                  <Link to="/blog">
+                    <span>05</span>November
+                  </Link>
+                </div>
+              </div>
+              <div className="blog-content">
+                <div className="blog-meta">
+                  <Link to="/blog">
+                    <i className="fas fa-user" />
+                    By admin
+                  </Link>
+                  <Link to="/blog">
+                    <i className="fas fa-folder-open" />
+                    Category
+                  </Link>
+                  <Link to="/blog">
+                    <i className="fas fa-comments" />
+                    Comments (05)
+                  </Link>
+                </div>
+                <h3 className="blog-title">
+                  <Link to="/chatgpt-atlas-vs-google-chrome">ChatGPT Atlas vs Google Chrome: Which Browser Is Better?</Link>
+                </h3>
+                <p className="blog-text">
+                The web browser world is changing fast, and artificial intelligence is leading the revolution. OpenAI’s ChatGPT Atlas enters the scene as an AI-powered browser built to make your online experience smarter, faster, and highly personalized. 
+                </p>
+                <Link to="/chatgpt-atlas-vs-google-chrome" className="global-btn style-border2">
+                  {" "}
+                  Read More{" "}
+                  <img src="/assets/img/icon/right-icon2.svg" alt="Digious Solutions" />
+                </Link>
+              </div>
+            </div>
+            <div className="blog-single-card">
+              <div className="blog-thumb">
                 <img
                   src="/assets/img/blog/stranger-apple-id-featured.jpg"
                   alt="Digious Solutions"
