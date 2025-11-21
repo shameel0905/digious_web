@@ -1137,14 +1137,14 @@ const BlackFridayIndex = () => {
               <span className="black_hero-badge">LIMITED TIME OFFER</span>
               
               <h1 className="black_hero-title">
-                <span className="black_gradient-text">BLACK FRIDAY</span>
+                <span className="black_gradient-text">BLACK FRIDAY 2025</span>
                 <br />
                 <span>UP TO 80% OFF</span>
                 
               </h1>
               
               <p className="black_hero-subtitle">
-                Level up this Black Friday with sleek web design and next-gen development — no overpricing, just unbeatable deals
+                Black Friday Deal 2025 is the best time to get affordable web design and development for your website for just $199
               </p>
               
               <div className="black_hero-actions">

@@ -147,10 +147,30 @@ const BlogDetailsInnerSEO = () => {
                 <p className="mt-20">
                   Let’s conquer the algorithm, one keyword at a time!
                 </p>
+                <h2 className="mt-4 blog-inner-title">
+                  Explore More Experts Guide
+                </h2>
+                <p className="mt-20">
+                  Explore expert insights, tips, and strategies in IT, web development, and digital marketing to grow, engage, and succeed online.
+                </p>
+                <ul>
+                  <li>
+                    <Link to="/if-you-have-forgotten-your-apple-id-password">Forgot Your Apple ID Password? Recover Now</Link>  - Quickly recover your Apple ID password hassle-free.
+                  </li>
+                  <li>
+                    <Link to="/black-friday-website-design-offer">Black Friday 2025 Website Design Deal</Link> - Grab the best website design deals this Black Friday.
+                  </li>
+                  <li>
+                    <Link to="/what-is-nft-art">What Is NFT Art? A Complete Beginner Guide</Link>  - Explore digital creativity with NFT art for beginners.
+                  </li>
+                  <li>
+                    <Link to="/chatgpt-atlas-vs-google-chrome ">ChatGPT Atlas vs Google Chrome: Which is Better</Link> -Compare GPT Atlas and Chrome for smarter browsing.
+                  </li>
+                </ul>
                 <hr className="its_divider"></hr>
               </div>
             </div>
-            
+
           </div>
           <div className="col-xxl-4 col-lg-5">
             <aside className="sidebar-area">
@@ -163,7 +183,7 @@ const BlogDetailsInnerSEO = () => {
                   </button>
                 </form>
               </div>
-              
+
               <div className="widget">
                 <h3 className="widget_title">Latest Blog</h3>
                 <div className="recent-post-wrap">
