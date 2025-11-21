@@ -321,8 +321,29 @@ const BlogDetailsInner = () => {
                   </li>
                 </ul>
                 <img src="/assets/img/blog/macos-mojave-safari-appleid-enter-recovery-key.jpg" alt="Digious Solutions" />
+                <h2 className="mt-4 blog-inner-title">
+                  Explore More Experts Guide
+                </h2>
+                <p className="mt-20">
+                  Explore expert insights, tips, and strategies in IT, web development, and digital marketing to grow, engage, and succeed online.
+                </p>
+                <ul>
+                  <li>
+                    <Link to="/what-is-nft-art">What Is NFT Art? A Complete Beginner Guide</Link>  - Explore digital creativity with NFT art for beginners.
+                  </li>
+                  <li>
+                    <Link to="/black-friday-website-design-offer">Black Friday 2025 Website Design Deal</Link> - Grab the best website design deals this Black Friday.
+                  </li>
+                  <li>
+                    <Link to="/how-to-be-a-success-with-search-engine-optimization">How to Succeed in SEO: Proven Tips & Strategies</Link> - Boost website traffic with proven SEO strategies.
+                  </li>
+                  <li>
+                    <Link to="/chatgpt-atlas-vs-google-chrome ">ChatGPT Atlas vs Google Chrome: Which is Better</Link> -Compare GPT Atlas and Chrome for smarter browsing.
+                  </li>
+                </ul>
               </div>
             </div>
+
             {/* <div className="share-links clearfix ">
                   <div className="row justify-content-between">
                     <div className="col-sm-auto">
