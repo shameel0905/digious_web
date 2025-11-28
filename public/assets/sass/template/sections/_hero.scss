@@ -312,11 +312,12 @@
 }
 
 .hero-client-box {
-  background-color: $smoke-color;
+  // background-color: $smoke-color;
   padding: 20px;
   border-radius: 20px;
   position: absolute;
-  bottom: 80px;
+  bottom: -170px;
+ 
 
   @include md {
     position: relative;

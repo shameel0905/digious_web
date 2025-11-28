@@ -8,6 +8,7 @@ import ServiceInnerDetails from "../components/GraphicInnerDetails";
 import BreadcrumbInner from "../components/BreadcrumbInner";
 import TestimonialOne from "../components/TestimonialOne";
 import GraphicdesignHelmet from "../elements/GraphicdesignHelmet";
+import HeroSection from "../components/HeroSection";
 
 const GraphicService = () => {
   let [active, setActive] = useState(true);
@@ -35,6 +36,7 @@ const GraphicService = () => {
 
       {/* ProcessOne */}
       {/* <ProcessOne /> */}
+      
 
       {/* TestimonialOne */}
       <div className="space">

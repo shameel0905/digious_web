@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 import ModalVideo from "react-modal-video";
 
-const HeroTwo = () => {
+const HeroSection = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
@@ -22,7 +22,7 @@ const HeroTwo = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          minHeight: "90vh",
+          minHeight: "70vh",
           paddingTop: "40px",
           paddingBottom: "40px"
         }}
@@ -347,4 +347,4 @@ const HeroTwo = () => {
   );
 };
 
-export default HeroTwo;
+export default HeroSection;

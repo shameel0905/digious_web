@@ -70,7 +70,7 @@ const StripeFormHome = ({ onClose }) => {
             >
               <div style={{ marginBottom: "0px" }} className="form-group">
                 <label className="label_pop" htmlFor="fName">
-                  Enter Your Full Name
+                  Full Name
                 </label>
                 <input
                   id="f_Name"
@@ -83,22 +83,8 @@ const StripeFormHome = ({ onClose }) => {
                 />
               </div>
               <div style={{ marginBottom: "0px" }} className="form-group">
-                <label className="label_pop" htmlFor="fName">
-                  Enter Your Phone Number
-                </label>
-                <input
-                  id="number"
-                  className="form-field custom-input"
-                  type="text"
-                  placeholder="Phone Number"
-                  value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
-                  required
-                />
-              </div>
-              <div style={{ marginBottom: "0px" }} className="form-group">
                 <label className="label_pop" htmlFor="email">
-                  Enter Your Email
+                  Email
                 </label>
                 <input
                   id="email"
@@ -111,8 +97,22 @@ const StripeFormHome = ({ onClose }) => {
                 />
               </div>
               <div style={{ marginBottom: "0px" }} className="form-group">
+                <label className="label_pop" htmlFor="fName">
+                  Phone Number
+                </label>
+                <input
+                  id="number"
+                  className="form-field custom-input"
+                  type="text"
+                  placeholder="Phone Number"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  required
+                />
+              </div>
+              <div style={{ marginBottom: "0px" }} className="form-group">
                 <label className="label_pop" htmlFor="businessNature">
-                  Your Business Nature:
+                  Business Nature:
                 </label>
                 <input
                   id="fName"

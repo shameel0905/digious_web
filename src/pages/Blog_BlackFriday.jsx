@@ -7,6 +7,7 @@ import HeaderFive from "../components/HeaderFive";
 import BlogDetailsInnerAppleId from "../components/BlogDetailsInnerAppleId";
 import BreadcrumbInnerBlackFriday from "../components/BreadcrumbInnerBlackFriday";
 import BlogDetailsInnerBlackfriday from "../components/BlogDetailsInnerBlackfriday";
+import HeroSection from "../components/HeroSection";
 
 
 
@@ -33,6 +34,7 @@ const Blog_BlackFriday = () => {
 
       {/* BlogDetailsInner */}
       <BlogDetailsInnerBlackfriday />
+      <HeroSection/>
 
       {/* Newsletter */}
       <Newsletter />

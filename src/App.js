@@ -42,6 +42,7 @@ import BlackFriday from "./pages/BlackFriday";
 import BlogDetailsInnerBlackfriday from "./components/BlogDetailsInnerBlackfriday";
 import Blog_BlackFriday from "./pages/Blog_BlackFriday";
 import PageTracking from "./components/PageTracking";
+import Announcement from "./components/Announcement";
 
 // context menu disable here
 // disable right click context menu
@@ -55,6 +56,8 @@ const App = () => {
         {/* google Analytics here */}
         <PageTracking/>   
         {/* google Analytics here */}
+
+        <Announcement />
 
         {/* <CustomCursor /> */}
         <RouteScrollToTop />

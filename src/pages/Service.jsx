@@ -7,6 +7,7 @@ import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import ServiceFour from "../components/ServiceFour";
 import ServicesHelmet from "../elements/ServicesHelmet";
+import HeroSection from "../components/HeroSection";
 
 
 const Service = () => {
@@ -32,6 +33,8 @@ const Service = () => {
 
       {/* ServiceFive */}
       <ServiceFour />
+      <HeroSection/>
+      
 
       {/* AppointmentTwo
       <AppointmentTwo /> */}

@@ -7,6 +7,7 @@ import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import ContactInner from "../components/ContactInner";
 import ContactHelmet from "../elements/ContactHelmet";
+import HeroSection from "../components/HeroSection";
 
 
 const Contact = () => {
@@ -32,6 +33,7 @@ const Contact = () => {
 
       {/* ContactInner */}
       <ContactInner />
+      <HeroSection/>
 
       {/* Newsletter */}
       <Newsletter />
