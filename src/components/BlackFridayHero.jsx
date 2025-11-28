@@ -284,7 +284,7 @@ const BlackFridayHero = () => {
             </span>
             
             <h1 className="black_hero-title">
-              <span className="black_hero-title-gradient">BLACK FRIDAY</span>
+              <span className="black_hero-title-gradient">BLACK FRIDAY 2025</span>
               <br />
               <span>UP TO 50% OFF</span>
             </h1>

@@ -5,11 +5,11 @@ const BlackfridayHelmet = ({ title }) => {
     <Helmet>
       
       <title>
-       Claim Your Black Friday Website Deal | Limited Offer
+       Best Black Friday Deals 2025 for Website Design
       </title>
       <meta
         name="description"
-        content="Grab your Black Friday website design deal for $199. Get a professional SEO-optimized site today. Claim your offer now and start generating leads!"
+        content="Black Friday 2025 is the best time to upgrade your website. Grab up to 80% off web design and development from $199. Get your deal today!"
       />
     </Helmet>
   );

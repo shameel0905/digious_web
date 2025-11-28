@@ -88,6 +88,26 @@ const BlogDetailsInnerNFT = () => {
                   than just a passing trend. They represent a new chapter in the
                   evolving narrative of art and technology.
                 </p>
+                <h2 className="mt-4 blog-inner-title">
+                  Explore More Experts Guide
+                </h2>
+                <p className="mt-20">
+                  Explore expert insights, tips, and strategies in IT, web development, and digital marketing to grow, engage, and succeed online.
+                </p>
+                <ul>
+                  <li>
+                    <Link to="/if-you-have-forgotten-your-apple-id-password">Forgot Your Apple ID Password? Recover Now</Link>  - Quickly recover your Apple ID password hassle-free.
+                  </li>
+                  <li>
+                    <Link to="/black-friday-website-design-offer">Black Friday 2025 Website Design Deal</Link> - Grab the best website design deals this Black Friday.
+                  </li>
+                  <li>
+                    <Link to="/how-to-be-a-success-with-search-engine-optimization">How to Succeed in SEO: Proven Tips & Strategies</Link> - Boost website traffic with proven SEO strategies.
+                  </li>
+                  <li>
+                    <Link to="/chatgpt-atlas-vs-google-chrome ">ChatGPT Atlas vs Google Chrome: Which is Better</Link> -Compare GPT Atlas and Chrome for smarter browsing.
+                  </li>
+                </ul>
                 <hr className="its_divider"></hr>
               </div>
             </div>
