@@ -36,7 +36,8 @@ const BlockChainService = () => {
 
       {/* ProcessOne */}
       <ProcessOneBlockChain />
-      <HeroSection/>
+         <div className="space"><HeroSection/></div>
+
 
       {/* TestimonialOne */}
       <div className="space">

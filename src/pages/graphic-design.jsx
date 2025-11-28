@@ -37,7 +37,8 @@ const GraphicService = () => {
 
       {/* ProcessOne */}
       {/* <ProcessOne /> */}
-       <HeroSection/>
+          <div className="space"><HeroSection/></div>
+
       
       
 

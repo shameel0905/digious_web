@@ -34,7 +34,8 @@ const ProjectDetailsBranding = () => {
 
       {/* PortfolioDetailsArea */}
       <PortfolioBrandingInner />
-       <HeroSection/>
+      <div className="space"><HeroSection/></div>
+
 
       {/* Newsletter */}
       <Newsletter />

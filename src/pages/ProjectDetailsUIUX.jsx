@@ -31,10 +31,12 @@ const ProjectDetailsUIUX = () => {
 
       {/* Breadcrumb */}
       <BreadcrumbInnerPortfolioUIUX title="Projects of UI/UX Design" />
-       <HeroSection/>
+
 
       {/* PortfolioDetailsArea */}
       <PortfolioUIUXInner />
+          <div className="space"><HeroSection/></div>
+
 
 
       {/* Newsletter */}

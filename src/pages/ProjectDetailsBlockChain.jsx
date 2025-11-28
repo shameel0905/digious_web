@@ -34,7 +34,8 @@ const ProjectDetailsBlockChain = () => {
 
       {/* PortfolioDetailsArea */}
       <PortfolioBlockChainInner />
-       <HeroSection/>
+         <div className="space"><HeroSection/></div>
+
 
       {/* Newsletter */}
       <Newsletter />

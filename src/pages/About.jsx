@@ -49,7 +49,8 @@ const About = () => {
 
       {/* ProcessThree
       <ProcessThree /> */}
-      <HeroSection/>
+      <div className="space"><HeroSection/></div>
+      
 
       {/* TestimonialOne */}
       <div className="space">

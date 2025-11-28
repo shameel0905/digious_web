@@ -33,7 +33,8 @@ const ECommerceSolutionService = () => {
 
       {/* ServiceDetails */}
       <ECommerWebInnerDetails />
-        <HeroSection/>
+    <div className="space"><HeroSection/></div>
+
 
       {/* ProcessOne */}
       {/* <ProcessOneEcommerce /> */}

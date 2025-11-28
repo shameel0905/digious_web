@@ -34,7 +34,8 @@ const WebdevServices = () => {
 
       {/* ServiceDetails */}
       <WebsiteInnerDetails />
-       <HeroSection/>
+    <div className="space"><HeroSection/></div>
+
 
       {/* ProcessOne */}
       {/* <ProcessOneWebsite /> */}

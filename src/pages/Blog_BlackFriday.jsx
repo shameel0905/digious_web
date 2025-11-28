@@ -34,7 +34,8 @@ const Blog_BlackFriday = () => {
 
       {/* BlogDetailsInner */}
       <BlogDetailsInnerBlackfriday />
-      <HeroSection/>
+    <div className="space"><HeroSection/></div>
+
 
       {/* Newsletter */}
       <Newsletter />

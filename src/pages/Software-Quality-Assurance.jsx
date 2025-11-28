@@ -33,7 +33,8 @@ const SqaService = () => {
 
       {/* ServiceDetails */}
       <SQAInnerDetails />
-       <HeroSection/>
+    <div className="space"><HeroSection/></div>
+
 
       {/* ProcessOne */}
       <ProcessOneSQA />

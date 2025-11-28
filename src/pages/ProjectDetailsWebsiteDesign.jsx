@@ -35,7 +35,8 @@ const ProjectDetailsWebsiteDesign = () => {
 
       {/* PortfolioDetailsArea */}
       <PortfolioWebsiteInner />
-       <HeroSection/>
+     <div className="space"><HeroSection/></div>
+
 
       {/* Newsletter */}
       <Newsletter />

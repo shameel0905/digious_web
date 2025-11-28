@@ -33,7 +33,8 @@ const Contact = () => {
 
       {/* ContactInner */}
       <ContactInner />
-      <HeroSection/>
+    <div className="space"><HeroSection/></div>
+
 
       {/* Newsletter */}
       <Newsletter />

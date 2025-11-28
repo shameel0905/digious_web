@@ -33,7 +33,8 @@ const Pricing = () => {
 
       {/* PricingInner */}
       <PricingInner />
-      <HeroSection/>
+      <div className="space"><HeroSection/></div>
+
 
       {/* FaqOne */}
       <div className="space-bottom faq-single">

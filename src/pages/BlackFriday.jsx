@@ -11,6 +11,7 @@ import BlackFridayWhyChooseUs from "../components/BlackFridayWhyChooseUs";
 import BlackfridayHelmet from "../elements/BlackfridayHelmet";
 
 
+
 const BlackFriday = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
@@ -31,6 +32,8 @@ const BlackFriday = () => {
 
           {/* Helmet */}
       <BlackfridayHelmet title={"BlackfridayHelmet"} />
+
+
 
       
 

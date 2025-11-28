@@ -33,7 +33,8 @@ const DigitalMarketingService = () => {
 
       {/* ServiceDetails */}
       <DigitalMarkInnerDetails />
-       <HeroSection/>
+        <div className="space"><HeroSection/></div>
+
 
       {/* ProcessOne */}
       {/* <ProcessOneDigitalMarket /> */}

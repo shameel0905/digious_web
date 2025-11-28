@@ -33,7 +33,8 @@ const GameDevelopmentService = () => {
 
       {/* ServiceDetails */}
       <GameDevInnerDetails />
-       <HeroSection/>
+    <div className="space"><HeroSection/></div>
+
 
       {/* ProcessOne */}
       {/* <ProcessOneGameDev /> */}

@@ -33,7 +33,8 @@ const MobileAppService = () => {
 
       {/* ServiceDetails */}
       <MobielAppInnerDetails />
-       <HeroSection/>
+    <div className="space"><HeroSection/></div>
+
 
       {/* ProcessOne */}
       {/* <ProcessOneMobileApp /> */}
