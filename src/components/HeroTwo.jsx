@@ -138,7 +138,7 @@ const HeroTwo = () => {
               >
                 <span style={{ 
                   color: "#ffffff", 
-                  fontSize: "clamp(12px, 3vw, 15px)", 
+                  fontSize: "11px", 
                   fontWeight: "700",
                   textShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
                   lineHeight: "1.2"
@@ -231,8 +231,8 @@ const HeroTwo = () => {
                       key={index}
                       className="thumb" 
                       style={{ 
-                        width: "150px", 
-                        height: "150px",
+                        width: "135px", 
+                        height: "135px",
                         transform: index === 1 ? "scale(1.1)" : "scale(1)",
                         transition: "transform 0.3s ease",
                         animation: `slideUpFade 0.8s ease-out ${0.7 + index * 0.1}s both`
@@ -311,7 +311,10 @@ const HeroTwo = () => {
             }
             
             .hero-style2 {
-              padding: 40px 15px 0px 15px !important;
+              padding: 100px 15px 0px 15px !important;
+            }
+            .hero-style2 {
+              padding: 100px 15px 0px 15px !important;
             }
             
             .btn-wrap {
@@ -332,7 +335,7 @@ const HeroTwo = () => {
             }
             
             .hero-style2 {
-              padding: 20px 10px 0px 10px !important;
+              padding: 100px 10px 0px 10px !important;
             }
             
             .client-thumb-group {

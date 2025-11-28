@@ -47,7 +47,7 @@ const StripeFormHome = ({ onClose }) => {
     <div className="popup-container popup-animation">
       <div className="popup-content another-popup-content">
         <div className="row justify-content-center align-items-center mbl_resp_custom">
-          {/* Left Image Section */}
+          {/* Left Image Section - Hidden on mobile */}
           <div className="w-50 hidden md:block p-0 custom_left_img_div">
             <img
               src="/assets/img/blackfriday/black_friday.jpg"
@@ -57,7 +57,7 @@ const StripeFormHome = ({ onClose }) => {
           </div>
 
           {/* Right Form Section */}
-          <div className="right_form_section md:w-1/2 p-8">
+          <div className="right_form_section w-full md:w-1/2 p-8">
             {/* ❌ Close Button */}
             <div className="closeBtnDiv" style={{ textAlign: "end" }}>
               <button className="close-button" onClick={onClose}>
@@ -141,6 +141,26 @@ const StripeFormHome = ({ onClose }) => {
           </div>
         </div>
       </div>
+      <style jsx>{`
+
+      /* Hide image on mobile */
+@media (max-width: 767px) {
+  .custom_left_img_div {
+    display: none !important;
+  }
+  
+  .right_form_section {
+    width: 100% !important;
+  }
+}
+
+/* Show image on tablet and desktop */
+@media (min-width: 768px) {
+  .custom_left_img_div {
+    display: block !important;
+  }
+}
+  `}</style>
     </div>
   );
 };
