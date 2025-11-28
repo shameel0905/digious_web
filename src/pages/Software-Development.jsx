@@ -8,6 +8,7 @@ import SoftwareDevInnerDetails from "../components/SoftwareDevInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import BreadcrumbInnerSoftwareDev from "../components/BreadcrumbInnerSoftwareDev";
 import SoftwaredevHelmet from "../elements/SoftwaredevHelmet";
+import HeroSection from "../components/HeroSection";
 
 const SoftwareDevService = () => {
   let [active, setActive] = useState(true);
@@ -32,6 +33,7 @@ const SoftwareDevService = () => {
 
       {/* ServiceDetails */}
       <SoftwareDevInnerDetails />
+       <HeroSection/>
 
       {/* ProcessOne */}
       {/* <ProcessOneSoftwareDev /> */}

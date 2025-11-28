@@ -7,6 +7,7 @@ import HeaderFive from "../components/HeaderFive";
 import BreadcrumbInnerPortfolioAnimation from "../components/BreadcrumbInnerPortfolioAnimation";
 import PortfolioAnimationInner from "../components/PortfolioAnimationInner";
 import AnimationportfolioHelmet from "../elements/AnimationportfolioHelmet";
+import HeroSection from "../components/HeroSection";
 
 
 
@@ -33,6 +34,7 @@ const ProjectDetailsAnimation = () => {
 
       {/* PortfolioDetailsArea */}
       <PortfolioAnimationInner />
+       <HeroSection/>
 
       {/* Newsletter */}
       <Newsletter />

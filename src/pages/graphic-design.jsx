@@ -30,12 +30,15 @@ const GraphicService = () => {
 
       {/* Breadcrumb */}
       <BreadcrumbInner title="Graphic Design" />
+     
 
       {/* ServiceDetails */}
       <ServiceInnerDetails />
 
       {/* ProcessOne */}
       {/* <ProcessOne /> */}
+       <HeroSection/>
+      
       
 
       {/* TestimonialOne */}

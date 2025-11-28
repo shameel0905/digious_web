@@ -7,6 +7,7 @@ import HeaderFive from "../components/HeaderFive";
 import BreadcrumbInnerPortfolioWebsite from "../components/BreadcrumbInnerPortfolioWebsite";
 import PortfolioWebsiteInner from "../components/PortfolioWebsiteInner";
 import WebportfolioHelmet from "../elements/WebportfolioHelmet";
+import HeroSection from "../components/HeroSection";
 
 
 
@@ -31,8 +32,10 @@ const ProjectDetailsWebsiteDesign = () => {
       {/* Breadcrumb */}
       <BreadcrumbInnerPortfolioWebsite title="Projects of Website Design" />
 
+
       {/* PortfolioDetailsArea */}
       <PortfolioWebsiteInner />
+       <HeroSection/>
 
       {/* Newsletter */}
       <Newsletter />

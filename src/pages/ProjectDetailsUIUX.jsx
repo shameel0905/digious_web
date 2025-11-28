@@ -7,6 +7,7 @@ import HeaderFive from "../components/HeaderFive";
 import BreadcrumbInnerPortfolioUIUX from "../components/BreadcrumbInnerPortfolioUIUX";
 import PortfolioUIUXInner from "../components/PortfolioUIUXInner";
 import UIUXHelmet from "../elements/UIUXHelmet";
+import HeroSection from "../components/HeroSection";
 
 
 
@@ -30,9 +31,11 @@ const ProjectDetailsUIUX = () => {
 
       {/* Breadcrumb */}
       <BreadcrumbInnerPortfolioUIUX title="Projects of UI/UX Design" />
+       <HeroSection/>
 
       {/* PortfolioDetailsArea */}
       <PortfolioUIUXInner />
+
 
       {/* Newsletter */}
       <Newsletter />

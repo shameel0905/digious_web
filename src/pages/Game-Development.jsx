@@ -8,6 +8,7 @@ import GameDevInnerDetails from "../components/GameDevInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import BreadcrumbInnerGameDev from "../components/BreadcrumbInnerGameDev";
 import GamedevHelmet from "../elements/GamedevHelmet";
+import HeroSection from "../components/HeroSection";
 
 const GameDevelopmentService = () => {
   let [active, setActive] = useState(true);
@@ -32,6 +33,7 @@ const GameDevelopmentService = () => {
 
       {/* ServiceDetails */}
       <GameDevInnerDetails />
+       <HeroSection/>
 
       {/* ProcessOne */}
       {/* <ProcessOneGameDev /> */}

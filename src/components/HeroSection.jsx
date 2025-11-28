@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import TrackVisibility from "react-on-screen";
-import CountUp from "react-countup";
 import { Link } from "react-router-dom";
-import ModalVideo from "react-modal-video";
 
 const HeroSection = () => {
   const [isOpen, setOpen] = useState(false);
@@ -13,7 +10,7 @@ const HeroSection = () => {
         className="hero-wrapper hero-2"
         id="hero"
         style={{
-          backgroundImage: "url('assets/img/hero/hero_bg_2_1.png')",
+          backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/hero/hero_bg_2_1.png)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
@@ -27,7 +24,7 @@ const HeroSection = () => {
           paddingBottom: "40px"
         }}
       >
-        {/* Enhanced Dark Overlay with Gradient */}
+        {/* Dark Overlay */}
         <div
           style={{
             position: "absolute",
@@ -38,8 +35,8 @@ const HeroSection = () => {
             zIndex: 1
           }}
         />
-        
-        {/* Enhanced Animated Background Elements */}
+
+        {/* Floating Glow 1 */}
         <div
           style={{
             position: "absolute",
@@ -54,6 +51,8 @@ const HeroSection = () => {
             zIndex: 2
           }}
         />
+
+        {/* Floating Glow 2 */}
         <div
           style={{
             position: "absolute",
@@ -68,17 +67,19 @@ const HeroSection = () => {
             zIndex: 2
           }}
         />
-        
+
         {/* Floating Particles */}
-        <div style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          zIndex: 2,
-          pointerEvents: "none"
-        }}>
+        <div
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            zIndex: 2,
+            pointerEvents: "none"
+          }}
+        >
           {[...Array(15)].map((_, i) => (
             <div
               key={i}
@@ -97,11 +98,10 @@ const HeroSection = () => {
           ))}
         </div>
 
-        {/* Main Content */}
+        {/* Hero Content */}
         <div className="container" style={{ position: "relative", zIndex: 3 }}>
           <div
             style={{
-              
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
@@ -109,7 +109,6 @@ const HeroSection = () => {
               width: "100%"
             }}
           >
-            {/* Hero Content */}
             <div
               className="hero-style2"
               style={{
@@ -117,37 +116,39 @@ const HeroSection = () => {
                 maxWidth: "1440px",
                 margin: "0 auto",
                 textAlign: "center",
-                padding: "80px 20px 0px 20px",
+                padding: "80px 20px 0 20px",
                 animation: "slideUpFade 0.8s ease-out 0.2s both"
               }}
             >
-              {/* Enhanced Badge */}
+              {/* Badge */}
               <div
                 style={{
                   display: "inline-flex",
                   alignItems: "center",
-                  background: "linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%)",
+                  background: "linear-gradient(135deg, rgba(255,255,255,0.2), rgba(255,255,255,0.1))",
                   padding: "12px 24px",
                   borderRadius: "50px",
                   marginBottom: "30px",
                   backdropFilter: "blur(15px)",
-                  border: "1px solid rgba(255, 255, 255, 0.3)",
-                  boxShadow: "0 8px 32px rgba(0, 0, 0, 0.1)",
+                  border: "1px solid rgba(255,255,255,0.3)",
+                  boxShadow: "0 8px 32px rgba(0,0,0,0.1)",
                   animation: "pulse 2s infinite"
                 }}
               >
-                <span style={{ 
-                  color: "#ffffff", 
-                  fontSize: "clamp(12px, 3vw, 15px)", 
-                  fontWeight: "700",
-                  textShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
-                  lineHeight: "1.2"
-                }}>
+                <span
+                  style={{
+                    color: "#ffffff",
+                    fontSize: "clamp(12px, 3vw, 15px)",
+                    fontWeight: "700",
+                    textShadow: "0 2px 4px rgba(0,0,0,0.2)",
+                    lineHeight: "1.2"
+                  }}
+                >
                   LIMITED TIME OFFER - 80% DISCOUNT ENDS SOON
                 </span>
               </div>
 
-              {/* Enhanced Title - Mobile Responsive */}
+              {/* Title */}
               <h1
                 className="hero-title text-white"
                 style={{
@@ -156,64 +157,63 @@ const HeroSection = () => {
                   lineHeight: "1.1",
                   marginBottom: "24px",
                   color: "#ffffff",
-                  textShadow: "0 4px 12px rgba(0, 0, 0, 0.3)",
-                  letterSpacing: "-0.02em",
-                  wordWrap: "break-word",
-                  overflowWrap: "break-word"
+                  textShadow: "0 4px 12px rgba(0,0,0,0.3)",
+                  letterSpacing: "-0.02em"
                 }}
               >
                 BLACK FRIDAY
               </h1>
 
-              {/* Enhanced Subtitle - Mobile Responsive */}
+              {/* Subtitle */}
               <p
                 className="hero-text text-white"
                 style={{
                   fontSize: "clamp(32px, 6vw, 60px)",
                   lineHeight: "1.3",
                   marginBottom: "40px",
-                  color: "rgba(255, 255, 255, 0.95)",
+                  color: "rgba(255,255,255,0.95)",
                   maxWidth: "1440px",
                   margin: "0 auto 25px",
                   fontWeight: "700",
-                  textShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
-                  wordWrap: "break-word",
-                  overflowWrap: "break-word"
+                  textShadow: "0 2px 4px rgba(0,0,0,0.2)"
                 }}
               >
-                "THE {" "}
-                <span style={{ 
-                  background: "#349dff",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
-                  backgroundClip: "text"
-                }}>
-                  BIGGEST {" "}
+                "THE{" "}
+                <span
+                  style={{
+                    background: "#349dff",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent"
+                  }}
+                >
+                  BIGGEST{" "}
                 </span>
-                 SALE  OF THE YEAR!"
+                SALE OF THE YEAR!"
               </p>
 
-              {/* Enhanced CTA Buttons - Mobile Responsive */}
-              <div 
+              {/* CTA */}
+              <div
                 className="btn-wrap"
                 style={{
                   display: "flex",
                   justifyContent: "center",
                   gap: "20px",
-                  flexWrap: "wrap",
-                  padding: "0 10px"
+                  flexWrap: "wrap"
                 }}
               >
-                <Link to="/black-friday-deal" className="global-btn style3" style={{
-                  fontSize: "clamp(16px, 2.5vw, 18px)",
-                  padding: "clamp(12px, 3vw, 16px) clamp(24px, 4vw, 32px)",
-                  whiteSpace: "nowrap"
-                }}>
+                <Link
+                  to="/black-friday-deal"
+                  className="global-btn style3"
+                  style={{
+                    fontSize: "clamp(16px, 2.5vw, 18px)",
+                    padding: "clamp(12px, 3vw, 16px) clamp(24px, 4vw, 32px)"
+                  }}
+                >
                   Claim 80% Discount <i className="fas fa-arrow-right ms-2" />
                 </Link>
               </div>
 
-              {/* Client Avatars - Mobile Responsive */}
+              {/* Client Thumbnails */}
               <div style={{ position: "relative", zIndex: 2 }}>
                 <div
                   className="client-thumb-group"
@@ -227,11 +227,11 @@ const HeroSection = () => {
                   }}
                 >
                   {[1, 2, 3].map((item, index) => (
-                    <div 
+                    <div
                       key={index}
-                      className="thumb" 
-                      style={{ 
-                        width: "150px", 
+                      className="thumb"
+                      style={{
+                        width: "150px",
                         height: "150px",
                         transform: index === 1 ? "scale(1.1)" : "scale(1)",
                         transition: "transform 0.3s ease",
@@ -239,13 +239,12 @@ const HeroSection = () => {
                       }}
                     >
                       <img
-                        src={`assets/img/client/client-img-2-${item}.png`}
+                        src={`${process.env.PUBLIC_URL}/assets/img/client/client-img-2-${item}.png`}
                         alt="avatar"
                         style={{
                           width: "100%",
                           height: "100%",
-                          objectFit: "cover",
-                          
+                          objectFit: "cover"
                         }}
                       />
                     </div>
@@ -254,54 +253,40 @@ const HeroSection = () => {
               </div>
             </div>
 
-            {/* Enhanced Client Testimonial Section */}
             <div
               className="hero-client-box"
               style={{
                 width: "100%",
                 display: "flex",
                 justifyContent: "center",
-                marginTop: "40px",
-                animation: "slideUpFade 0.8s ease-out 0.6s both"
+                marginTop: "40px"
               }}
-            >
-              
-            </div>
+            />
           </div>
         </div>
 
-        {/* Enhanced Inline Animations */}
+        {/* Animations */}
         <style>{`
           @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(40px) rotate(5deg); }
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(40px); }
           }
+
           @keyframes floatParticle {
-            0%, 100% { 
-              transform: translateY(0px) translateX(0px) scale(1);
-              opacity: 0.7;
-            }
-            50% { 
-              transform: translateY(-100px) translateX(20px) scale(1.2);
-              opacity: 0.3;
-            }
+            0%, 100% { transform: translateY(0) translateX(0); opacity: 0.7; }
+            50% { transform: translateY(-100px) translateX(20px); opacity: 0.3; }
           }
+
           @keyframes slideUpFade {
-            from {
-              opacity: 0;
-              transform: translateY(40px);
-            }
-            to {
-              opacity: 1;
-              transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
           }
+
           @keyframes pulse {
             0%, 100% { transform: scale(1); }
             50% { transform: scale(1.05); }
           }
 
-          /* Mobile-specific adjustments */
           @media (max-width: 768px) {
             .hero-wrapper.hero-2 {
               min-height: 80vh;
@@ -309,40 +294,18 @@ const HeroSection = () => {
               padding-bottom: 20px;
               background-attachment: scroll;
             }
-            
+
             .hero-style2 {
-              padding: 40px 15px 0px 15px !important;
+              padding: 40px 15px 0 !important;
             }
-            
-            .btn-wrap {
-              flex-direction: column;
-              align-items: center;
-            }
-            
+
             .global-btn.style3 {
               width: 100%;
               max-width: 280px;
-              text-align: center;
-            }
-          }
-
-          @media (max-width: 480px) {
-            .hero-wrapper.hero-2 {
-              min-height: 70vh;
-            }
-            
-            .hero-style2 {
-              padding: 20px 10px 0px 10px !important;
-            }
-            
-            .client-thumb-group {
-              gap: 6px !important;
             }
           }
         `}</style>
       </div>
-
-     
     </>
   );
 };

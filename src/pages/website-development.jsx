@@ -8,7 +8,7 @@ import WebsiteInnerDetails from "../components/WebsiteInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import BreadcrumbInnerWebsiteDev from "../components/BreadcrumbInnerWebsiteDev";
 import WebdevHelmet from "../elements/WebdevHelmet";
-
+import HeroSection from "../components/HeroSection";
 
 const WebdevServices = () => {
   let [active, setActive] = useState(true);
@@ -34,6 +34,7 @@ const WebdevServices = () => {
 
       {/* ServiceDetails */}
       <WebsiteInnerDetails />
+       <HeroSection/>
 
       {/* ProcessOne */}
       {/* <ProcessOneWebsite /> */}

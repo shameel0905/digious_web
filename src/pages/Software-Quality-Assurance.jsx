@@ -8,6 +8,7 @@ import SQAInnerDetails from "../components/SQAInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import ProcessOneSQA from "../components/ProcessOneSQA";
 import BreadcrumbInnerSQA from "../components/BreadcrumbInnerSQA";
+import HeroSection from "../components/HeroSection";
 
 const SqaService = () => {
   let [active, setActive] = useState(true);
@@ -32,6 +33,7 @@ const SqaService = () => {
 
       {/* ServiceDetails */}
       <SQAInnerDetails />
+       <HeroSection/>
 
       {/* ProcessOne */}
       <ProcessOneSQA />

@@ -8,7 +8,7 @@ import PortfolioDetailsArea from "../components/PortfolioDetailsArea";
 import HeaderFive from "../components/HeaderFive";
 import CSAutowriterInner from "../components/CSAutowriterInner";
 import CSAutowriterReview from "../components/CSAutowriterReview";
-
+import HeroSection from "../components/HeroSection";
 
 
 const CSAutowriter = () => {
@@ -35,6 +35,7 @@ const CSAutowriter = () => {
       {/* PortfolioDetailsArea */}
       {/* <PortfolioDetailsArea /> */}
       <CSAutowriterInner/>
+       <HeroSection/>
       
       <div className="space">
         <CSAutowriterReview/>

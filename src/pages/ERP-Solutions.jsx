@@ -8,6 +8,7 @@ import ERPSolInnerDetails from "../components/ERPSolInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import ProcessOneERP from "../components/ProcessOneERP";
 import BreadcrumbInnerERPSol from "../components/BreadcrumbInnerERPSol";
+import HeroSection from "../components/HeroSection";
 
 const Erpsolutions = () => {
   let [active, setActive] = useState(true);
@@ -32,6 +33,7 @@ const Erpsolutions = () => {
 
       {/* ServiceDetails */}
       <ERPSolInnerDetails />
+       <HeroSection/>
 
       {/* ProcessOne */}
       <ProcessOneERP />

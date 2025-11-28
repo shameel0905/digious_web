@@ -8,6 +8,7 @@ import MobielAppInnerDetails from "../components/MobileAppInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import BreadcrumbInnerMobileAppDev from "../components/BreadcrumbInnerMobileAppDev";
 import MobappHelmet from "../elements/MobappHelmet";
+import HeroSection from "../components/HeroSection";
 
 const MobileAppService = () => {
   let [active, setActive] = useState(true);
@@ -32,6 +33,7 @@ const MobileAppService = () => {
 
       {/* ServiceDetails */}
       <MobielAppInnerDetails />
+       <HeroSection/>
 
       {/* ProcessOne */}
       {/* <ProcessOneMobileApp /> */}
