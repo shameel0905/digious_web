@@ -50,10 +50,7 @@ const BlackFridayPopup = ({ onClose }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validate all fields
-    if (!validateForm()) {
-      return;
-    }
+    if (!validateForm()) return;
 
     const templateParams = {
       full_name: fullName,
@@ -62,7 +59,7 @@ const BlackFridayPopup = ({ onClose }) => {
       industry: industry,
       budget: budget,
       project_description: description,
-      agreed_to_terms: agreeToTerms ? "Yes" : "No"
+      agreed_to_terms: agreeToTerms ? "Yes" : "No",
     };
 
     emailjs
@@ -73,11 +70,10 @@ const BlackFridayPopup = ({ onClose }) => {
         "fDcemrov779Sryl9x"
       )
       .then(
-        (response) => {
+        () => {
           setStatus("Success! Your message has been sent.");
           showAlert("Thank you! Your information has been submitted successfully.");
-          
-          // Reset form fields
+
           setFullName("");
           setEmail("");
           setPhone("");
@@ -85,11 +81,11 @@ const BlackFridayPopup = ({ onClose }) => {
           setBudget("");
           setDescription("");
           setAgreeToTerms(false);
-          
-          // Redirect to Stripe payment page after successful submission
-          window.location.href = "https://buy.stripe.com/7sY14ocUr3iUgKB1Pxak009";
+
+          window.location.href =
+            "https://buy.stripe.com/7sY14ocUr3iUgKB1Pxak009";
         },
-        (error) => {
+        () => {
           setStatus("Failed to send email.");
           showAlert("Sorry, there was an error submitting your form. Please try again.");
         }
@@ -108,32 +104,30 @@ const BlackFridayPopup = ({ onClose }) => {
           <div className="row justify-content-center align-items-center h-100">
             <div className="col-lg-12">
               <div className="form-section">
-                <div style={{ 
-                  textAlign: "end", 
-                  position: "sticky", 
-                  top: "0", 
-                  zIndex: "10", 
-                  padding: "5px 0",
-                  marginBottom: "10px"
-                }}>
+                <div
+                  style={{
+                    textAlign: "end",
+                    position: "sticky",
+                    top: "0",
+                    zIndex: "10",
+                    padding: "5px 0",
+                    marginBottom: "10px",
+                  }}
+                >
                   <button className="close-button" onClick={onClose}>
                     ×
                   </button>
                 </div>
-                
+
                 <form onSubmit={handleSubmit}>
                   <div style={{ padding: "0 10px" }}>
                     <h2 className="text-center pop_font_head">
                       Black Friday Special Offer!
                     </h2>
 
-                    {/* First Row - 2 Columns */}
                     <div className="row">
                       <div className="col-md-6 col-12">
-                        <div
-                          style={{ marginBottom: "15px" }}
-                          className="form-group"
-                        >
+                        <div style={{ marginBottom: "15px" }} className="form-group">
                           <label className="label_pop" htmlFor="fName">
                             Enter Your Full Name *
                           </label>
@@ -148,11 +142,9 @@ const BlackFridayPopup = ({ onClose }) => {
                           />
                         </div>
                       </div>
+
                       <div className="col-md-6 col-12">
-                        <div
-                          style={{ marginBottom: "15px" }}
-                          className="form-group"
-                        >
+                        <div style={{ marginBottom: "15px" }} className="form-group">
                           <label className="label_pop" htmlFor="email">
                             Enter Your Email *
                           </label>
@@ -169,13 +161,9 @@ const BlackFridayPopup = ({ onClose }) => {
                       </div>
                     </div>
 
-                    {/* Second Row - 2 Columns */}
                     <div className="row">
                       <div className="col-md-6 col-12">
-                        <div
-                          style={{ marginBottom: "15px" }}
-                          className="form-group"
-                        >
+                        <div style={{ marginBottom: "15px" }} className="form-group">
                           <label className="label_pop" htmlFor="pNumber">
                             Enter Your Phone Number *
                           </label>
@@ -190,11 +178,9 @@ const BlackFridayPopup = ({ onClose }) => {
                           />
                         </div>
                       </div>
+
                       <div className="col-md-6 col-12">
-                        <div
-                          style={{ marginBottom: "15px" }}
-                          className="form-group"
-                        >
+                        <div style={{ marginBottom: "15px" }} className="form-group">
                           <label className="label_pop" htmlFor="budgetRange">
                             Nature Of Business *
                           </label>
@@ -211,52 +197,34 @@ const BlackFridayPopup = ({ onClose }) => {
                       </div>
                     </div>
 
-                    {/* Third Row - Full Width */}
                     <div className="row">
                       <div className="col-12">
-                        <div
-                          style={{ marginBottom: "15px" }}
-                          className="form-group"
-                        >
-                          <label
-                            className="label_pop"
-                            htmlFor="businessIndustry"
-                          >
-                            Additional Services*
+                        <div style={{ marginBottom: "15px" }} className="form-group">
+                          <label className="label_pop" htmlFor="businessIndustry">
+                            Additional Services (If Any)
                           </label>
                           <select
                             id="businessIndustry"
                             className="form-control form-field"
-                            required
                             value={industry}
                             onChange={(e) => setIndustry(e.target.value)}
                           >
-                            <option value="">
-                              Select your services
-                            </option>
-                            <option value="Logo Design">
-                              Logo Design
-                            </option>
+                            <option value="">Select your services</option>
+                            <option value="Logo Design">Logo Design</option>
                             <option value="Social Media Marketing">
                               Social Media Marketing
                             </option>
-                            <option value="Video Editing">
-                              Video Editing
-                            </option>
-                            <option value="Book Illustration">
-                              Book Illustration
-                            </option>
+                            <option value="Video Editing">Video Editing</option>
+                            <option value="Book Illustration">Book Illustration</option>
                             <option value="Book Editing/formatting/publishing">
                               Book Editing/formatting/publishing
                             </option>
-                            <option value="Search Engine Optimization ">
-                              Search Engine Optimization 
+                            <option value="Search Engine Optimization">
+                              Search Engine Optimization
                             </option>
-                            <option value="Animations">
-                              Animations
-                            </option>
-                            <option value="Software Development ">
-                              Software Development 
+                            <option value="Animations">Animations</option>
+                            <option value="Software Development">
+                              Software Development
                             </option>
                             <option value="Mobile Application Development">
                               Mobile Application Development
@@ -264,18 +232,15 @@ const BlackFridayPopup = ({ onClose }) => {
                             <option value="Business Development Consultation">
                               Business Development Consultation
                             </option>
+                            <option value="Other">Other</option>
                           </select>
                         </div>
                       </div>
                     </div>
 
-                    {/* Fourth Row - Full Width */}
                     <div className="row">
                       <div className="col-12">
-                        <div
-                          style={{ marginBottom: "15px" }}
-                          className="form-group"
-                        >
+                        <div style={{ marginBottom: "15px" }} className="form-group">
                           <label className="label_pop" htmlFor="projectDesc">
                             Project Description *
                           </label>
@@ -291,14 +256,10 @@ const BlackFridayPopup = ({ onClose }) => {
                         </div>
                       </div>
                     </div>
-                    
-                    {/* Checkbox Field - Full Width */}
+
                     <div className="row">
                       <div className="col-12">
-                        <div
-                          style={{ marginBottom: "20px" }}
-                          className="form-group"
-                        >
+                        <div style={{ marginBottom: "20px" }} className="form-group">
                           <div className="form-check">
                             <input
                               type="checkbox"
@@ -308,15 +269,25 @@ const BlackFridayPopup = ({ onClose }) => {
                               checked={agreeToTerms}
                               onChange={(e) => setAgreeToTerms(e.target.checked)}
                             />
-                            <label className="form-check-label label_pop" htmlFor="agreeTerms">
-                              I agree to the <a href="https://www.digioussolutions.com/privacy-policy">Privacy Policy</a> and <a href="https://www.digioussolutions.com/terms-conditions">Terms & Conditions</a> *
+                            <label
+                              className="form-check-label label_pop"
+                              htmlFor="agreeTerms"
+                            >
+                              I agree to the{" "}
+                              <a href="https://www.digioussolutions.com/privacy-policy">
+                                Privacy Policy
+                              </a>{" "}
+                              and{" "}
+                              <a href="https://www.digioussolutions.com/terms-conditions">
+                                Terms & Conditions
+                              </a>{" "}
+                              *
                             </label>
                           </div>
                         </div>
                       </div>
                     </div>
 
-                    {/* Submit Button - Full Width */}
                     <div className="row">
                       <div className="col-12">
                         <button
@@ -326,8 +297,18 @@ const BlackFridayPopup = ({ onClose }) => {
                         >
                           Submit
                         </button>
-                        
-                        {status && <p style={{ paddingTop: "10px", textAlign: "center", marginBottom: "15px" }}>{status}</p>}
+
+                        {status && (
+                          <p
+                            style={{
+                              paddingTop: "10px",
+                              textAlign: "center",
+                              marginBottom: "15px",
+                            }}
+                          >
+                            {status}
+                          </p>
+                        )}
                       </div>
                     </div>
 
@@ -377,28 +358,18 @@ const BlackFridayPopup = ({ onClose }) => {
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         }
 
-        /* Scrollbar Styling */
-        .popup-content {
-          scrollbar-width: thin;
-          scrollbar-color: #4073ff #f1f1f1;
-        }
-        
         .popup-content::-webkit-scrollbar {
           width: 6px;
         }
-        
+
         .popup-content::-webkit-scrollbar-track {
           background: #f1f1f1;
           border-radius: 10px;
         }
-        
+
         .popup-content::-webkit-scrollbar-thumb {
           background: #4073ff;
           border-radius: 10px;
-        }
-        
-        .popup-content::-webkit-scrollbar-thumb:hover {
-          background: #3058cc;
         }
 
         .close-button {
@@ -422,29 +393,33 @@ const BlackFridayPopup = ({ onClose }) => {
         .pop_font_head {
           font-size: 2rem;
           font-weight: bold;
-          color: #ffffffff;
+          color: #fff;
           margin-bottom: 10px;
         }
 
         .label_pop {
           font-weight: 600;
-          color: #f5f5f5ff;
+          color: #f5f5f5;
           margin-bottom: 8px;
           display: block;
         }
 
         .form-field {
-          color: rgb(255, 255, 255);
+          color: #fff;
           font-size: 16px;
-          margin-bottom: 15px;
           width: 100%;
           background: rgba(68, 68, 68, 0);
-          border-width: 0.5px;
-          border-style: solid;
-          border-color: rgba(255, 255, 255, 0.1);
-          border-image: initial;
+          border: 1px solid rgba(255, 255, 255, 0.2);
           border-radius: 4px;
           padding: 10px;
+        }
+
+        /* MAKE ALL PLACEHOLDERS WHITE */
+        .form-field::placeholder,
+        textarea.form-field::placeholder,
+        input.form-field::placeholder {
+          color: #ffffff !important;
+          opacity: 1;
         }
 
         .form-field:focus {
@@ -471,91 +446,27 @@ const BlackFridayPopup = ({ onClose }) => {
           box-shadow: 0 5px 15px rgba(64, 115, 255, 0.3);
         }
 
-        .form-check-input:checked {
-          background-color: #4073ff;
-          border-color: #4073ff;
-        }
-
         .svgpform {
           width: 100%;
           height: 80px;
           opacity: 0.7;
         }
 
-        /* Mobile Responsiveness */
         @media (max-width: 768px) {
           .popup-content {
-            max-height: 85vh !important;
-            height: 85vh !important;
+            max-height: 85vh;
+            height: 85vh;
             margin: 7.5vh auto;
             width: 95%;
           }
 
-          .form-section {
-            padding: 15px 10px;
-          }
-
           .pop_font_head {
             font-size: 1.5rem;
-            margin-bottom: 8px;
-          }
-
-          .form-field {
-            padding: 5px 12px;
-            font-size: 16px; /* Prevents zoom on iOS */
           }
 
           .global-btn {
             padding: 12px 15px;
             font-size: 14px;
-          }
-
-          .col-md-6 {
-            margin-bottom: 0;
-          }
-        }
-
-        @media (max-width: 480px) {
-          .popup-content {
-            max-height: 90vh !important;
-            height: 90vh !important;
-            margin: 5vh auto;
-            width: 98%;
-            border-radius: 10px;
-          }
-
-          .pop_font_head {
-            font-size: 1.3rem;
-          }
-
-          .form-section {
-            padding: 10px 5px;
-          }
-
-          .form-field {
-            padding: 2px 10px;
-            font-size: 14px;
-          }
-
-          .close-button {
-            font-size: 24px;
-            padding: 3px 10px;
-          }
-        }
-
-        /* Tablet Responsiveness */
-        @media (min-width: 769px) and (max-width: 1024px) {
-          .popup-content {
-            max-width: 550px;
-            max-height: 700px;
-            height: 700px;
-          }
-        }
-
-        /* Large Desktop */
-        @media (min-width: 1440px) {
-          .popup-content {
-            max-width: 650px;
           }
         }
       `}</style>
