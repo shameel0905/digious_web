@@ -21,7 +21,7 @@ const ServiceFour = () => {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row gx-30 gy-30 justify-content-center">
+                    <div className="row gx-30 gy-30 justify-content-left">
                         <div className="col-xl-4 col-md-6">
                             <div className="service-card-3">
                                 <div className="service-card-icon">

@@ -47,17 +47,17 @@ const StripeFormHome = ({ onClose }) => {
     <div className="popup-container popup-animation">
       <div className="popup-content another-popup-content">
         <div className="row justify-content-center align-items-center mbl_resp_custom">
-          {/* Left Image Section */}
+          {/* Left Image Section - Hidden on mobile */}
           <div className="w-50 hidden md:block p-0 custom_left_img_div">
             <img
-              src="/assets/img/icon/Digious_Web_post.jpg"
-              alt="Business"
+              src="/assets/img/blackfriday/black_friday.jpg"
+              alt="black_friday"
               className="custom_left_img"
             />
           </div>
 
           {/* Right Form Section */}
-          <div className="right_form_section md:w-1/2 p-8">
+          <div className="right_form_section w-full md:w-1/2 p-8">
             {/* ❌ Close Button */}
             <div className="closeBtnDiv" style={{ textAlign: "end" }}>
               <button className="close-button" onClick={onClose}>
@@ -70,7 +70,7 @@ const StripeFormHome = ({ onClose }) => {
             >
               <div style={{ marginBottom: "0px" }} className="form-group">
                 <label className="label_pop" htmlFor="fName">
-                  Enter Your Full Name
+                  Full Name
                 </label>
                 <input
                   id="f_Name"
@@ -83,22 +83,8 @@ const StripeFormHome = ({ onClose }) => {
                 />
               </div>
               <div style={{ marginBottom: "0px" }} className="form-group">
-                <label className="label_pop" htmlFor="fName">
-                  Enter Your Phone Number
-                </label>
-                <input
-                  id="number"
-                  className="form-field custom-input"
-                  type="text"
-                  placeholder="Phone Number"
-                  value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
-                  required
-                />
-              </div>
-              <div style={{ marginBottom: "0px" }} className="form-group">
                 <label className="label_pop" htmlFor="email">
-                  Enter Your Email
+                  Email
                 </label>
                 <input
                   id="email"
@@ -111,8 +97,22 @@ const StripeFormHome = ({ onClose }) => {
                 />
               </div>
               <div style={{ marginBottom: "0px" }} className="form-group">
+                <label className="label_pop" htmlFor="fName">
+                  Phone Number
+                </label>
+                <input
+                  id="number"
+                  className="form-field custom-input"
+                  type="text"
+                  placeholder="Phone Number"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  required
+                />
+              </div>
+              <div style={{ marginBottom: "0px" }} className="form-group">
                 <label className="label_pop" htmlFor="businessNature">
-                  Your Business Nature:
+                  Business Nature:
                 </label>
                 <input
                   id="fName"
@@ -141,6 +141,26 @@ const StripeFormHome = ({ onClose }) => {
           </div>
         </div>
       </div>
+      <style jsx>{`
+
+      /* Hide image on mobile */
+@media (max-width: 767px) {
+  .custom_left_img_div {
+    display: none !important;
+  }
+  
+  .right_form_section {
+    width: 100% !important;
+  }
+}
+
+/* Show image on tablet and desktop */
+@media (min-width: 768px) {
+  .custom_left_img_div {
+    display: block !important;
+  }
+}
+  `}</style>
     </div>
   );
 };

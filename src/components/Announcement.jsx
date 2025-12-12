@@ -103,7 +103,10 @@ const Announcement = () => {
           color: #fff;
           padding: 5px 0;
           text-align: center;
-          font-family: poppins ;
+          font-family: poppins;
+          position: sticky;
+          top: 0;
+          z-index: 1000;
         }
 
         .announcentcontainer {
@@ -145,7 +148,7 @@ const Announcement = () => {
           padding:5px 10px;
           border-radius: 6px;
           min-width: 50px;
-          gap:8px;
+          gap:3px;
         }
 
         .count_box strong {

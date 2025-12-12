@@ -32,6 +32,7 @@ const BlogSEO = () => {
 
       {/* BlogDetailsInner */}
       <BlogDetailsInnerSEO />
+      
 
       {/* Newsletter */}
       <Newsletter />

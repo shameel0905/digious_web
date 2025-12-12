@@ -7,6 +7,7 @@ import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import PricingInner from "../components/PricingInner";
 import FaqOne from "../components/FaqOne";
+import HeroSection from "../components/HeroSection";
 
 
 const Pricing = () => {
@@ -32,6 +33,8 @@ const Pricing = () => {
 
       {/* PricingInner */}
       <PricingInner />
+      <div className="space"><HeroSection/></div>
+
 
       {/* FaqOne */}
       <div className="space-bottom faq-single">

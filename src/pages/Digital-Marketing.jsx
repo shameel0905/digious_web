@@ -8,6 +8,7 @@ import DigitalMarkInnerDetails from "../components/DigitalMarkInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import BreadcrumbInnerDigitalMarket from "../components/BreadcrumbInnerDigitalMarket";
 import DigimarketingHelmet from "../elements/DigimarketingHelmet";
+import HeroSection from "../components/HeroSection";
 
 const DigitalMarketingService = () => {
   let [active, setActive] = useState(true);
@@ -32,6 +33,8 @@ const DigitalMarketingService = () => {
 
       {/* ServiceDetails */}
       <DigitalMarkInnerDetails />
+        <div className="space"><HeroSection/></div>
+
 
       {/* ProcessOne */}
       {/* <ProcessOneDigitalMarket /> */}

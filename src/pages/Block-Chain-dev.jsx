@@ -8,6 +8,7 @@ import BlockChainInnerDetails from "../components/BlockChainInnerDetails";
 import TestimonialOne from "../components/TestimonialOne";
 import ProcessOneBlockChain from "../components/ProcessOneBlockChain";
 import BreadcrumbInnerBlockChain from "../components/BreadcrumbInnerBlockChain";
+import HeroSection from "../components/HeroSection";
 
 const BlockChainService = () => {
   let [active, setActive] = useState(true);
@@ -35,6 +36,8 @@ const BlockChainService = () => {
 
       {/* ProcessOne */}
       <ProcessOneBlockChain />
+         <div className="space"><HeroSection/></div>
+
 
       {/* TestimonialOne */}
       <div className="space">

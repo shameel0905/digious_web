@@ -7,6 +7,7 @@ import HeaderFive from "../components/HeaderFive";
 import BreadcrumbPortfolioBlockChain from "../components/BreadcrumbPortfolioBlockChain";
 import PortfolioBlockChainInner from "../components/PortfolioBlockChainInner";
 import BlockchainHelmet from "../elements/BlockchainHelmet";
+import HeroSection from "../components/HeroSection";
 
 
 
@@ -33,6 +34,8 @@ const ProjectDetailsBlockChain = () => {
 
       {/* PortfolioDetailsArea */}
       <PortfolioBlockChainInner />
+         <div className="space"><HeroSection/></div>
+
 
       {/* Newsletter */}
       <Newsletter />

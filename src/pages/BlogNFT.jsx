@@ -6,6 +6,7 @@ import Newsletter from "../components/Newsletter";
 import HeaderFive from "../components/HeaderFive";
 import BreadcrumbInnerBlogNFT from "../components/BreadcrumbInnerBlogNFT";
 import BlogDetailsInnerNFT from "../components/BlogDetailsInnerNFT";
+import HeroSection from "../components/HeroSection";
 
 
 
@@ -32,6 +33,8 @@ const BlogNFT = () => {
 
       {/* BlogDetailsInner */}
       <BlogDetailsInnerNFT />
+      <HeroSection/>
+      
 
       {/* Newsletter */}
       <Newsletter />

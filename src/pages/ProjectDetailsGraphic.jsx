@@ -7,6 +7,7 @@ import HeaderFive from "../components/HeaderFive";
 import PortfolioGraphicInner from "../components/PortfolioGraphicInner";
 import BreadcrumbInnerPortfolioGraphics from "../components/BreadcrumbInnerPortfolioGraphics";
 import GraphicportfolioHelmet from "../elements/GraphicportfolioHelmet";
+import HeroSection from "../components/HeroSection";
 
 
 
@@ -33,6 +34,8 @@ const ProjectDetailsGraphic = () => {
 
       {/* PortfolioDetailsArea */}
       <PortfolioGraphicInner />
+    <div className="space"><HeroSection/></div>
+
 
       {/* Newsletter */}
       <Newsletter />

@@ -7,6 +7,7 @@ import HeaderFive from "../components/HeaderFive";
 import BreadcrumbInnerPortfolioBranding from "../components/BreadcrumbInnerPortfolioBranding";
 import PortfolioBrandingInner from "../components/PortfolioBrandingInner";
 import BrandingportfolioHelmet from "../elements/BrandingportfolioHelmet";
+import HeroSection from "../components/HeroSection";
 
 
 
@@ -33,6 +34,8 @@ const ProjectDetailsBranding = () => {
 
       {/* PortfolioDetailsArea */}
       <PortfolioBrandingInner />
+      <div className="space"><HeroSection/></div>
+
 
       {/* Newsletter */}
       <Newsletter />

@@ -9,6 +9,7 @@ import CounterOne from "../components/CounterOne";
 import WhyChoose from "../components/WhyChoose";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
+import HeroSection from "../components/HeroSection";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -48,6 +49,8 @@ const About = () => {
 
       {/* ProcessThree
       <ProcessThree /> */}
+      <div className="space"><HeroSection/></div>
+      
 
       {/* TestimonialOne */}
       <div className="space">
@@ -62,6 +65,7 @@ const About = () => {
       
         {/* GoalArea */}
         {/* <GoalArea /> */}
+        
       
 
       {/* TeamFour
@@ -69,6 +73,7 @@ const About = () => {
 
       {/* Newsletter */}
       <Newsletter />
+      
 
       {/* FooterOne */}
       <FooterOne />

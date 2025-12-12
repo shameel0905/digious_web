@@ -7,6 +7,7 @@ import Newsletter from "../components/Newsletter";
 import CaseStudies from "../components/CaseStudies";
 import HeaderFive from "../components/HeaderFive";
 import CasestudiesHelmet from "../elements/CasestudiesHelmet";
+import HeroSection from "../components/HeroSection";
 
 
 
@@ -33,6 +34,8 @@ const Project = () => {
 
       {/* PortfolioAll */}
       <CaseStudies />
+
+    <div className="space"><HeroSection/></div>
 
       {/* Newsletter */}
       <Newsletter />

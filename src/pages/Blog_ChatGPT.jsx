@@ -33,6 +33,8 @@ const Blog_ChatGpt = () => {
 
       {/* BlogDetailsInner */}
       <BlogDetailsInnerChatGPT />
+          <div className="space"><HeroSection/></div>
+
 
       {/* Newsletter */}
       <Newsletter />

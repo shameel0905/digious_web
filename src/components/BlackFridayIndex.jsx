@@ -1140,6 +1140,7 @@ const BlackFridayIndex = () => {
                 <span className="black_gradient-text">BLACK FRIDAY 2025</span>
                 <br />
                 <span>UP TO 80% OFF</span>
+                
               </h1>
               
               <p className="black_hero-subtitle">
@@ -1319,7 +1320,7 @@ const BlackFridayIndex = () => {
                   title: "Mijo Sports",
                   category: "WordPress",
                   tags: ["SXO", "WordPress", "Athlete"],
-                  image: "../assets/img/blackfriday/mijo.jpg"
+                  image: "../assets/img/blackfriday/Mijo.jpg"
                 },
                 {
                   title: "Athltecon",
