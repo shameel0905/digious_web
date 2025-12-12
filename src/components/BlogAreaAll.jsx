@@ -46,6 +46,43 @@ const BlogAreaAll = () => {
             </div>
             <div className="blog-single-card">
               <div className="blog-thumb">
+                <img src="/assets/img/blog/Digious_Blog_Revolutionizing.jpg" alt="Digious Solutions" />
+                <div className="blog-date">
+                  <Link to="/blog">
+                    <span>10</span>December
+                  </Link>
+                </div>
+              </div>
+              <div className="blog-content">
+                <div className="blog-meta">
+                  <Link to="/blog">
+                    <i className="fas fa-user" />
+                    By admin
+                  </Link>
+                  <Link to="/blog">
+                    <i className="fas fa-folder-open" />
+                    Category
+                  </Link>
+                  <Link to="/blog">
+                    <i className="fas fa-comments" />
+                    Comments (05)
+                  </Link>
+                </div>
+                <h3 className="blog-title">
+                  <Link to="/how-ai-is-revolutionizing-web-development">How AI is Revolutionizing Web Development</Link>
+                </h3>
+                <p className="blog-text">
+                Artificial intelligence is reshaping nearly every digital industry, and AI in web development is at the forefront of this transformation. Businesses, developers, and agencies are adopting AI to build smarter, faster, and more personalized digital experiences. 
+                </p>
+                <Link to="/how-ai-is-revolutionizing-web-development" className="global-btn style-border2">
+                  {" "}
+                  Read More{" "}
+                  <img src="/assets/img/icon/right-icon2.svg" alt="Digious Solutions" />
+                </Link>
+              </div>
+            </div>
+            <div className="blog-single-card">
+              <div className="blog-thumb">
                 <img src="/assets/img/blog/Digious_Blog_GPT.jpg" alt="Digious Solutions" />
                 <div className="blog-date">
                   <Link to="/blog">

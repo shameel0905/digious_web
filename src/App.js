@@ -43,6 +43,7 @@ import BlogDetailsInnerBlackfriday from "./components/BlogDetailsInnerBlackfrida
 import Blog_BlackFriday from "./pages/Blog_BlackFriday";
 import PageTracking from "./components/PageTracking";
 import Blog_ChatGpt from "./pages/Blog_ChatGPT";
+import Blog_Revolutionizing from "./pages/Blog_Revolutionizing";
 
 // context menu disable here
 // disable right click context menu
@@ -146,6 +147,11 @@ const App = () => {
             exact
             path="/how-to-be-a-success-with-search-engine-optimization"
             element={<BlogSEO />}
+          />
+           <Route
+            exact
+            path="/how-aI-is-revolutionizing-web-development"
+            element={<Blog_Revolutionizing />}
           />
           <Route exact path="/what-is-nft-art" element={<BlogNFT />} />
           <Route exact path="/black-friday-website-design-offer" element={<Blog_BlackFriday />} />
