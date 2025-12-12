@@ -42,8 +42,9 @@ import BlackFriday from "./pages/BlackFriday";
 import BlogDetailsInnerBlackfriday from "./components/BlogDetailsInnerBlackfriday";
 import Blog_BlackFriday from "./pages/Blog_BlackFriday";
 import PageTracking from "./components/PageTracking";
-// import Blog_ChatGpt from "./pages/Blog_ChatGpt";
+import Blog_ChatGpt from "./pages/Blog_ChatGPT";
 import Announcement from "./components/Announcement";
+import Blog_Revolutionizing from "./pages/Blog_Revolutionizing";
 
 // context menu disable here
 // disable right click context menu
@@ -157,7 +158,7 @@ const App = () => {
           />
           <Route exact path="/what-is-nft-art" element={<BlogNFT />} />
           <Route exact path="/black-friday-website-design-offer" element={<Blog_BlackFriday />} />
-          {/* <Route exact path="/chatgpt-atlas-vs-google-chrome" element={<Blog_ChatGpt />} /> */}
+          <Route exact path="/chatgpt-atlas-vs-google-chrome" element={<Blog_ChatGpt />} />
           <Route exact path="/pricing" element={<Pricing />} />
           <Route exact path="/team" element={<Team />} />
           <Route exact path="/team-details" element={<TeamDetails />} />
