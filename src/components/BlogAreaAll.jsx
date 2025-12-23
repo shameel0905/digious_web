@@ -120,6 +120,43 @@ const BlogAreaAll = () => {
             </div>
             <div className="blog-single-card">
               <div className="blog-thumb">
+                <img src="/assets/img/blog/Google-update.jpg" alt="Digious Solutions" />
+                <div className="blog-date">
+                  <Link to="/blog">
+                    <span>28</span>October
+                  </Link>
+                </div>
+              </div>
+              <div className="blog-content">
+                <div className="blog-meta">
+                  <Link to="/blog">
+                    <i className="fas fa-user" />
+                    By admin
+                  </Link>
+                  <Link to="/blog">
+                    <i className="fas fa-folder-open" />
+                    Category
+                  </Link>
+                  <Link to="/blog">
+                    <i className="fas fa-comments" />
+                    Comments (05)
+                  </Link>
+                </div>
+                <h3 className="blog-title">
+                  <Link to="/google-releases-december-2025-core-update">Google December 2025 Core Update Rolling Out Now</Link>
+                </h3>
+                <p className="blog-text">
+                Google has officially rolled out the December 2025 Core Update, marking the third major core update of 2025. The update began on December 11, 2025, and according to Google, the rollout may take up to three weeks to fully complete.
+                </p>
+                <Link to="/google-releases-december-2025-core-update" className="global-btn style-border2">
+                  {" "}
+                  Read More{" "}
+                  <img src="/assets/img/icon/right-icon2.svg" alt="Digious Solutions" />
+                </Link>
+              </div>
+            </div>
+            <div className="blog-single-card">
+              <div className="blog-thumb">
                 <img
                   src="/assets/img/blog/stranger-apple-id-featured.jpg"
                   alt="Digious Solutions"

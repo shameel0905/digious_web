@@ -45,6 +45,7 @@ import PageTracking from "./components/PageTracking";
 import Blog_ChatGpt from "./pages/Blog_ChatGPT";
 import Announcement from "./components/Announcement";
 import Blog_Revolutionizing from "./pages/Blog_Revolutionizing";
+import Blog_Googleupdate from "./pages/Blog_Googleupdate";
 
 // context menu disable here
 // disable right click context menu
@@ -155,6 +156,11 @@ const App = () => {
             exact
             path="/how-aI-is-revolutionizing-web-development"
             element={<Blog_Revolutionizing />}
+          />
+           <Route
+            exact
+            path="/google-releases-december-2025-core-update"
+            element={<Blog_Googleupdate />}
           />
           <Route exact path="/what-is-nft-art" element={<BlogNFT />} />
           <Route exact path="/black-friday-website-design-offer" element={<Blog_BlackFriday />} />
