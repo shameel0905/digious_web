@@ -43,7 +43,7 @@ import BlogDetailsInnerBlackfriday from "./components/BlogDetailsInnerBlackfrida
 import Blog_BlackFriday from "./pages/Blog_BlackFriday";
 import PageTracking from "./components/PageTracking";
 import Blog_ChatGpt from "./pages/Blog_ChatGPT";
-import Announcement from "./components/Announcement";
+// import Announcement from "./components/Announcement";
 import Blog_Revolutionizing from "./pages/Blog_Revolutionizing";
 import Blog_Googleupdate from "./pages/Blog_Googleupdate";
 
@@ -60,7 +60,7 @@ const App = () => {
         <PageTracking/>   
         {/* google Analytics here */}
 
-        <Announcement />
+        {/* <Announcement /> */}
 
         {/* <CustomCursor /> */}
         <RouteScrollToTop />
