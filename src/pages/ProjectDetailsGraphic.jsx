@@ -34,7 +34,7 @@ const ProjectDetailsGraphic = () => {
 
       {/* PortfolioDetailsArea */}
       <PortfolioGraphicInner />
-    <div className="space"><HeroSection/></div>
+    {/* <div className="space"><HeroSection/></div> */}
 
 
       {/* Newsletter */}

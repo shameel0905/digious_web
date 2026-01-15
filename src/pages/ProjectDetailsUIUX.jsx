@@ -35,7 +35,7 @@ const ProjectDetailsUIUX = () => {
 
       {/* PortfolioDetailsArea */}
       <PortfolioUIUXInner />
-          <div className="space"><HeroSection/></div>
+          {/* <div className="space"><HeroSection/></div> */}
 
 
 
