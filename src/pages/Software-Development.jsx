@@ -33,7 +33,7 @@ const SoftwareDevService = () => {
 
       {/* ServiceDetails */}
       <SoftwareDevInnerDetails />
-    <div className="space"><HeroSection/></div>
+    {/* <div className="space"><HeroSection/></div> */}
 
 
       {/* ProcessOne */}

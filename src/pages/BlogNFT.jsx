@@ -33,7 +33,7 @@ const BlogNFT = () => {
 
       {/* BlogDetailsInner */}
       <BlogDetailsInnerNFT />
-      <HeroSection/>
+      {/* <HeroSection/> */}
       
 
       {/* Newsletter */}

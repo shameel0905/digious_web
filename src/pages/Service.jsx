@@ -33,7 +33,7 @@ const Service = () => {
 
       {/* ServiceFive */}
       <ServiceFour />
-    <div className="space"><HeroSection/></div>
+    {/* <div className="space"><HeroSection/></div> */}
       
 
       {/* AppointmentTwo

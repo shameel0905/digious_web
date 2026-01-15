@@ -982,7 +982,7 @@
 /* Header 5 ---------------------------------- */
 .header-layout5 {
     position: absolute;
-    top: 50px;
+    // top: 50px;
     left: 0;
     right: 0;
     padding: 20px 0px;
@@ -1019,6 +1019,7 @@
         // background: $title-color;
         background: #12121200;
         backdrop-filter: blur(40px);
+        top: 0px;
     }
 }
 

@@ -41,7 +41,7 @@ const About = () => {
         <AboutSix />
       </div>
 
-     
+
       {/* WhyChoose */}
       <div className="space">
         <WhyChoose />
@@ -49,8 +49,10 @@ const About = () => {
 
       {/* ProcessThree
       <ProcessThree /> */}
-      <div className="space"><HeroSection/></div>
-      
+      {/* <div className="space">
+        <HeroSection />
+      </div> */}
+
 
       {/* TestimonialOne */}
       <div className="space">
@@ -62,18 +64,18 @@ const About = () => {
         <CounterOne />
       </div>
 
-      
-        {/* GoalArea */}
-        {/* <GoalArea /> */}
-        
-      
+
+      {/* GoalArea */}
+      {/* <GoalArea /> */}
+
+
 
       {/* TeamFour
       <TeamFour /> */}
 
       {/* Newsletter */}
       <Newsletter />
-      
+
 
       {/* FooterOne */}
       <FooterOne />

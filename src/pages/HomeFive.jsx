@@ -16,7 +16,7 @@ import FooterFour from "../components/FooterFour";
 import StripeFormHome from "../components/stripeFormHome";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import HeroTwo from "../components/HeroTwo";
+import HeroFive from "../components/HeroFive";
 
 const HomeFive = () => {
   const [active, setActive] = useState(true);
@@ -85,12 +85,12 @@ const HomeFive = () => {
       <HomeHelmet title={"Digious Solutions"} />
       
       <HeaderFive />
-      <HeroTwo/>
+      <HeroFive />
       <ServiceFive />
       
       {isPopupOpen && <StripeFormHome onClose={closePopup} />}
       
-      {isMinimized && (
+      {/* {isMinimized && (
         <div 
   className="sticky-offer-button"
   onClick={togglePopup}
@@ -125,8 +125,8 @@ const HomeFive = () => {
   }}
 >
   Avail Offer Now
-</div>
-      )}
+        </div>
+      )} */}
 
       <div className="bg-dark2 space-top">
         <ClientThree />
