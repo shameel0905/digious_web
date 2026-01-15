@@ -34,7 +34,7 @@ const Blog_Googleupdate = () => {
 
       {/* BlogDetailsInner */}
       <BlogDetailsInnerGoogleupdate />
-          <div className="space"><HeroSection/></div>
+          {/* <div className="space"><HeroSection/></div> */}
 
 
       {/* Newsletter */}
