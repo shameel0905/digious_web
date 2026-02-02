@@ -6438,6 +6438,14 @@ blockquote.has-text-align-right:before,
   border-radius: 0 0 20px 20px;
   /* Extra small devices */
 }
+h2.wp-block-heading{
+  color: #fff;
+}
+.blog-content h2 {
+  color:white !important;
+}
+
+
 @media (max-width: 575px) {
   .blog-details-card .blog-content {
     padding: 30px;
