@@ -7,7 +7,7 @@ import Newsletter from "../components/Newsletter";
 import Preloader from "../elements/Preloader";
 import SingleBlogHelmet from "../elements/SingleBlogHelmet";
 
-const SingleBlogs = () => {
+const BlogSingle = () => {
   const { slug } = useParams();
 
   const [post, setPost] = useState(null);
@@ -30,11 +30,25 @@ const SingleBlogs = () => {
 
         const singlePost = postData[0];
 
+        /* Featured Image */
         const featuredImage =
           singlePost._embedded?.["wp:featuredmedia"]?.[0]?.source_url ||
           "/assets/img/blog/default-blog.jpg";
 
-        setPost({ ...singlePost, featured_image_url: featuredImage });
+        /* ================= META DESCRIPTION ================= */
+        const metaDescription =
+          singlePost.yoast_head_json?.description ||
+          singlePost.rank_math_description ||
+          singlePost.excerpt?.rendered
+            ?.replace(/<[^>]+>/g, "")
+            ?.substring(0, 160) ||
+          "Read this latest blog from Digious Solutions.";
+
+        setPost({
+          ...singlePost,
+          featured_image_url: featuredImage,
+          meta_description: metaDescription,
+        });
 
         /* ================= LATEST POSTS ================= */
         const latestRes = await fetch(
@@ -116,7 +130,7 @@ const SingleBlogs = () => {
 
                 {/* Latest Posts */}
                 <div className="widget">
-                  <h3 className="widget_title">Latest Blog</h3>
+                  <h3 className="widget_title">Latest Blogs</h3>
                   <div className="recent-post-wrap">
                     {latestPosts.map((post) => (
                       <div key={post.id} className="recent-post">
@@ -156,4 +170,4 @@ const SingleBlogs = () => {
   );
 };
 
-export default SingleBlogs;
+export default BlogSingle;

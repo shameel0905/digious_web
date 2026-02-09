@@ -1,29 +1,36 @@
-// src/components/SingleBlogHelmet.js
 import React from "react";
 import { Helmet } from "react-helmet";
 
 const SingleBlogHelmet = ({ post }) => {
   if (!post) return null;
 
-  // Clean HTML from excerpt for meta description
-  const metaDescription = post.excerpt?.rendered
-    ? post.excerpt.rendered.replace(/(<([^>]+)>)/gi, "")
-    : "Read this blog post on Digious Solutions.";
+  // Priority-based meta description
+  const metaDescription =
+    post.yoast_head_json?.description ||
+    post.rank_math_description ||
+    post.excerpt?.rendered?.replace(/(<([^>]+)>)/gi, "").substring(0, 160) ||
+    post.content?.rendered
+      ?.replace(/(<([^>]+)>)/gi, "")
+      .substring(0, 160) ||
+    "Read this blog post on Digious Solutions.";
+
+  const cleanTitle = post.title?.rendered || "Digious Solutions Blog";
 
   return (
     <Helmet>
-      {/* Dynamic Title with site name prefix */}
-      <title>Digious Solutions | {post.title.rendered}</title>
+      {/* Primary SEO */}
+      <title>{cleanTitle} | Digious Solutions</title>
       <meta name="description" content={metaDescription} />
 
-      {/* Open Graph tags */}
-      <meta property="og:title" content={`Digious Solutions | ${post.title.rendered}`} />
+      {/* Open Graph */}
+      <meta property="og:title" content={`${cleanTitle} | Digious Solutions`} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:image" content={post.featured_image_url} />
+      <meta property="og:type" content="article" />
 
-      {/* Twitter Card */}
+      {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={`Digious Solutions | ${post.title.rendered}`} />
+      <meta name="twitter:title" content={`${cleanTitle} | Digious Solutions`} />
       <meta name="twitter:description" content={metaDescription} />
       <meta name="twitter:image" content={post.featured_image_url} />
     </Helmet>

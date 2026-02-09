@@ -105,7 +105,7 @@ const BlogSingle = () => {
             <div className="col-xxl-4 col-lg-5">
               <aside className="sidebar-area">
                 <div className="widget">
-                  <h3 className="widget_title">Latest Blog</h3>
+                  <h3 className="widget_title">Latest Blogs</h3>
 
                   <div className="recent-post-wrap">
                     {latestPosts.map((p) => (

@@ -131,7 +131,7 @@ const BlogAreaAll = () => {
 
               {/* Latest Posts Widget */}
               <div className="widget">
-                <h3 className="widget_title">Latest Blog</h3>
+                <h3 className="widget_title">Latest Blogs</h3>
                 <div className="recent-post-wrap">
                   {posts.slice(0, 3).map((post) => (
                     <div key={post.id} className="recent-post">
