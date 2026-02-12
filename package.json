@@ -15,6 +15,7 @@
     "@vercel/speed-insights": "^1.0.12",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
+    "axios": "^1.13.4",
     "body-parser": "^1.20.3",
     "bootstrap": "^5.3.3",
     "disable-context-menu": "^1.0.1",

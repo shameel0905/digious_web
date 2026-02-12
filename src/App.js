@@ -46,6 +46,7 @@ import Blog_ChatGpt from "./pages/Blog_ChatGPT";
 // import Announcement from "./components/Announcement";
 import Blog_Revolutionizing from "./pages/Blog_Revolutionizing";
 import Blog_Googleupdate from "./pages/Blog_Googleupdate";
+import BlogSingle from "./components/BlogSingle";
 
 // context menu disable here
 // disable right click context menu
@@ -142,29 +143,29 @@ const App = () => {
             element={<ProjectDetailsWebsiteDesign />}
           />
           <Route exact path="/blog" element={<Blog />} />
-          <Route
+          {/* <Route
             exact
             path="/if-you-have-forgotten-your-apple-id-password"
             element={<BlogAppleId />}
-          />
-          <Route
+          /> */}
+          {/* <Route
             exact
             path="/how-to-be-a-success-with-search-engine-optimization"
             element={<BlogSEO />}
-          />
-           <Route
+          /> */}
+           {/* <Route
             exact
             path="/how-aI-is-revolutionizing-web-development"
             element={<Blog_Revolutionizing />}
-          />
-           <Route
+          /> */}
+           {/* <Route
             exact
             path="/google-releases-december-2025-core-update"
             element={<Blog_Googleupdate />}
-          />
-          <Route exact path="/what-is-nft-art" element={<BlogNFT />} />
+          /> */}
+          {/* <Route exact path="/what-is-nft-art" element={<BlogNFT />} />
           <Route exact path="/black-friday-website-design-offer" element={<Blog_BlackFriday />} />
-          <Route exact path="/chatgpt-atlas-vs-google-chrome" element={<Blog_ChatGpt />} />
+          <Route exact path="/chatgpt-atlas-vs-google-chrome" element={<Blog_ChatGpt />} /> */}
           <Route exact path="/pricing" element={<Pricing />} />
           <Route exact path="/team" element={<Team />} />
           <Route exact path="/team-details" element={<TeamDetails />} />
@@ -176,6 +177,8 @@ const App = () => {
           <Route exact path="/case-studies" element={<CaseStudies />} />
           <Route exact path="/case-studies/autowriter" element={<CSAutowriter />} />
           <Route exact path="/black-friday-deal" element={<BlackFriday />} />
+          <Route exact path="/:slug" element={<BlogSingle />} />
+          
 
         </Routes>
       </BrowserRouter>

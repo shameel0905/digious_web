@@ -18,7 +18,7 @@ const HeroFive = () => {
                         <div className="col-lg-10">
                             <div className="hero-style5 text-center">
                                 <h1 data-aos="fade-up" data-aos-delay="700" className="hero-title text-white">
-                                Transforming Businesses with 
+                                Transforming Businesses with
                                     <span className="text-theme2"> Smart</span> IT Solutions
                                 </h1>
                                 <p data-aos="fade-up" data-aos-delay="800"  className="hero-text text-white">
