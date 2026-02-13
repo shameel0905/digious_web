@@ -306,7 +306,7 @@ const ContactInner = () => {
                   <div className="col-md-4 form-group">
                     <input
                       type="text"
-                      placeholder="Phone Number"
+                      placeholder="Phone Number *"
                       required
                       className="form-control"
                       style={{ borderRadius: "16px", color: "white" }}
