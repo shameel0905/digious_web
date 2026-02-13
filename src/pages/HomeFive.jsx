@@ -13,7 +13,7 @@ import FaqThree from "../components/FaqThree";
 import BlogFive from "../components/BlogFive";
 import MarqueeFour from "../components/MarqueeFour";
 import FooterFour from "../components/FooterFour";
-import StripeFormHome from "../components/stripeFormHome";
+// import StripeFormHome from "../components/stripeFormHome";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import HeroFive from "../components/HeroFive";
@@ -88,7 +88,7 @@ const HomeFive = () => {
       <HeroFive />
       <ServiceFive />
       
-      {isPopupOpen && <StripeFormHome onClose={closePopup} />}
+      {/* {isPopupOpen && <StripeFormHome onClose={closePopup} />} */}
       
       {/* {isMinimized && (
         <div 
