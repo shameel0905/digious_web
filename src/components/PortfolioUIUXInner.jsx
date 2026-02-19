@@ -43,7 +43,7 @@ const PortfolioUIUXInner = () => {
             >
               Mobile Applications
             </button>
-            <button
+            {/* <button
               className="nav-link"
               id="nav-step3-tab"
               data-bs-toggle="tab"
@@ -51,7 +51,7 @@ const PortfolioUIUXInner = () => {
               type="button"
             >
               Websites
-            </button>
+            </button> */}
             
           </div>
           <div className="tab-content" id="nav-tabContent">

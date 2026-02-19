@@ -148,6 +148,24 @@ const ServiceFour = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="col-xl-4 col-md-6">
+                            <div className="service-card-3">
+                                <div className="service-card-icon">
+                                    <img src="/assets/img/icon/books-icon.png" alt="img" />
+                                </div>
+                                <div className="service-card_content">
+                                    <h4 className="service-card_title">
+                                        <Link to="/services/e-book">E-Book </Link>
+                                    </h4>
+                                    <p className="service-card_text">
+                                        Our eBook writing services are designed to help authors, entrepreneurs, and businesses create high quality eBooks that rank, convert, and build authority.
+                                    </p>
+                                    <Link to="/services/e-book" className="link-btn">
+                                        Learn More <i className="fas fa-arrow-right" />
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
                         {/* <div className="col-xl-4 col-md-6">
                             <div className="service-card-3">
                                 <div className="service-card-icon">

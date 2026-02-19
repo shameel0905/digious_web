@@ -4,7 +4,7 @@ import React from "react";
 const PortfolioBrandingInner = () => {
   return (
     <div className="portfolio-area-1 space-top space-bottom">
-      <div className="shadow-shape-right" />
+      {/* <div className="shadow-shape-right" /> */}
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
@@ -33,9 +33,9 @@ const PortfolioBrandingInner = () => {
               data-bs-target="#nav-step1"
               type="button"
             >
-              Logo Design
+              Merch Design
             </button>
-            <button
+            {/* <button
               className="nav-link"
               id="nav-step2-tab"
               data-bs-toggle="tab"
@@ -106,7 +106,7 @@ const PortfolioBrandingInner = () => {
               type="button"
             >
               Gaming Designs
-            </button>
+            </button> */}
           </div>
           <div className="tab-content" id="nav-tabContent">
             <div

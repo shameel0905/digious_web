@@ -32,7 +32,7 @@ const PortfolioWebsiteInner = () => {
               data-bs-target="#nav-step1"
               type="button"
             >
-              Websites
+              Full Stack Development
             </button>
             <button
               className="nav-link"
@@ -41,7 +41,7 @@ const PortfolioWebsiteInner = () => {
               data-bs-target="#nav-step2"
               type="button"
             >
-              Web Applications
+              No Code Development
             </button>
            
           </div>

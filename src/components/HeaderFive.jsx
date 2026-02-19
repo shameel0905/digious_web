@@ -225,6 +225,9 @@ const HeaderFive = () => {
                   <li>
                     <Link to="/services/digital-marketing">Digital Marketing</Link>
                   </li>
+                  <li>
+                    <Link to="/services/e-book">E-Book</Link>
+                  </li>
                   </ul>
               </li>
               
@@ -248,6 +251,12 @@ const HeaderFive = () => {
                   </li>
                   <li>
                     <Link to="/block-chain-portfolio">NFT</Link>
+                  </li>
+                  <li>
+                    <Link to="/digital-marketing-portfolio">Digital Mareting</Link>
+                  </li>
+                  <li>
+                    <Link to="/book-portfolio">Book</Link>
                   </li>
                 </ul>
               </li>
@@ -371,6 +380,9 @@ const HeaderFive = () => {
                         <li>
                           <Link to="/services/digital-marketing">Digital Marketing</Link>
                         </li>
+                        <li>
+                    <Link to="/services/e-book">E-Book</Link>
+                  </li>
                        </ul>
                     </li>
                     <li className="menu-item-has-children">
@@ -394,6 +406,12 @@ const HeaderFive = () => {
                         <li>
                           <Link to="/block-chain-portfolio">NFT</Link>
                         </li>
+                        <li>
+                    <Link to="/digital-marketing-portfolio">Digital Mareting</Link>
+                  </li>
+                        <li>
+                    <Link to="/book-portfolio">Book</Link>
+                  </li>
                       </ul>
                     </li>
 

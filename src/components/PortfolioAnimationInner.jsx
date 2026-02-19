@@ -3,7 +3,7 @@ import React from "react";
 const PortfolioAnimationInner = () => {
   return (
     <div className="portfolio-area-1 space-top space-bottom">
-      <div className="shadow-shape-right" />
+      {/* <div className="shadow-shape-right" /> */}
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
@@ -32,7 +32,7 @@ const PortfolioAnimationInner = () => {
               data-bs-target="#nav-step1"
               type="button"
             >
-              Logo Design
+              2D Animation
             </button>
             <button
               className="nav-link"
@@ -41,7 +41,7 @@ const PortfolioAnimationInner = () => {
               data-bs-target="#nav-step2"
               type="button"
             >
-              3D Logo
+              3D Animation
             </button>
             <button
               className="nav-link"
@@ -50,7 +50,7 @@ const PortfolioAnimationInner = () => {
               data-bs-target="#nav-step3"
               type="button"
             >
-              Illustration
+              VFX
             </button>
             <button
               className="nav-link"
@@ -59,7 +59,7 @@ const PortfolioAnimationInner = () => {
               data-bs-target="#nav-step4"
               type="button"
             >
-              Merchandise
+              Story Board
             </button>
             <button
               className="nav-link"
@@ -68,9 +68,9 @@ const PortfolioAnimationInner = () => {
               data-bs-target="#nav-step5"
               type="button"
             >
-              Stationery
+              White Board
             </button>
-            <button
+            {/* <button
               className="nav-link"
               id="nav-step6-tab"
               data-bs-toggle="tab"
@@ -105,7 +105,7 @@ const PortfolioAnimationInner = () => {
               type="button"
             >
               Gaming Designs
-            </button>
+            </button> */}
           </div>
           <div className="tab-content" id="nav-tabContent">
             <div

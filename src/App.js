@@ -18,6 +18,7 @@ import GraphicService from "./pages/graphic-design";
 import BlockChainService from "./pages/Block-Chain-dev";
 import DigitalMarketingService from "./pages/Digital-Marketing";
 import ECommerceSolutionService from "./pages/E-Commerce-Solution";
+import EbookService from "./pages/e-book";
 import Erpsolutions from "./pages/ERP-Solutions";
 import GameDevelopmentService from "./pages/Game-Development";
 import MobileAppService from "./pages/Mobile-App-Development";
@@ -30,6 +31,7 @@ import ProjectDetailsUIUX from "./pages/ProjectDetailsUIUX";
 import ProjectDetailsBranding from "./pages/ProjectDetailsBranding";
 import ProjectDetailsBlockChain from "./pages/ProjectDetailsBlockChain";
 import ProjectDetailsWebsiteDesign from "./pages/ProjectDetailsWebsiteDesign";
+import ProjectDetailsBook from "./pages/ProjectDetailsBook";
 import BlogAppleId from "./pages/BlogAppleId";
 import BlogSEO from "./pages/BlogSEO";
 import BlogNFT from "./pages/BlogNFT";
@@ -112,6 +114,11 @@ const App = () => {
             path="/services/website-development"
             element={<WebdevServices />}
           />
+           <Route
+            exact
+            path="/services/e-book"
+            element={<EbookService />}
+          />
           <Route
             exact
             path="/graphic-portfolio"
@@ -141,6 +148,11 @@ const App = () => {
             exact
             path="/website-design-portfolio"
             element={<ProjectDetailsWebsiteDesign />}
+          />
+           <Route
+            exact
+            path="/book-portfolio"
+            element={<ProjectDetailsBook />}
           />
           <Route exact path="/blog" element={<Blog />} />
           {/* <Route
