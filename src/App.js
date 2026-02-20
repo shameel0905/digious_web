@@ -31,6 +31,7 @@ import ProjectDetailsUIUX from "./pages/ProjectDetailsUIUX";
 import ProjectDetailsBranding from "./pages/ProjectDetailsBranding";
 import ProjectDetailsBlockChain from "./pages/ProjectDetailsBlockChain";
 import ProjectDetailsWebsiteDesign from "./pages/ProjectDetailsWebsiteDesign";
+import ProjectDetailsDigitalMarketing from "./pages/ProjectDetailsDigitalMarketing";
 import ProjectDetailsBook from "./pages/ProjectDetailsBook";
 import BlogAppleId from "./pages/BlogAppleId";
 import BlogSEO from "./pages/BlogSEO";
@@ -153,6 +154,11 @@ const App = () => {
             exact
             path="/book-portfolio"
             element={<ProjectDetailsBook />}
+          />
+            <Route
+            exact
+            path="/digital-marketing-portfolio"
+            element={<ProjectDetailsDigitalMarketing />}
           />
           <Route exact path="/blog" element={<Blog />} />
           {/* <Route
