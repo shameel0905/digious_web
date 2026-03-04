@@ -196,8 +196,8 @@ const ContactInner = () => {
                   <div className="contact-info_details">
                     <h6 className="contact-info_title">Location</h6>
                     <p className="contact-info_text">
-                    <a href="https://www.google.com/maps/place/196+The+Esplanade,+Speers+Point+NSW+2284,+Australia/@-32.964972,151.6205144,17z/data=!3m1!4b1!4m6!3m5!1s0x6b733c89c1d2e117:0x3cb638b351455c9d!8m2!3d-32.9649765!4d151.6230893!16s%2Fg%2F11c1yl934l?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
-                    196 The Esplanade Speers point <br /> New Castle NSW, 2284, Australia
+                    <a href="https://maps.app.goo.gl/ZiVvNX54Y7YgnSH56" target="_blank" rel="noopener noreferrer">
+                    2/66 Marmong Street <br /> Marmong point 2284 , Australia
                     </a>
                     </p>
                     

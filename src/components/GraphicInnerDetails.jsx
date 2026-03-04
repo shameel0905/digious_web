@@ -174,20 +174,21 @@ const ServiceInnerDetails = () => {
             <div data-aos="fade-up" data-aos-delay="600" className="col-lg-6">
               <div className="portfolio-card-3">
                 <div className="portfolio-card-thumb">
-                  <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                  <img src="/assets/img/portfolio/logofolio/digious_portfolio3.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
+                  <Link to="/graphic-portfolio">
                   <span className="portfolio-card-details_subtitle">
                     Experience
                   </span>
+                  </Link>
                   <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
+                    <Link to="/graphic-portfolio">
+                      Creative Graphic Design for Brand Growth
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    We design impactful visuals that strengthen brand identity, increase engagement, and attract your target audience.
                   </p>
                 </div>
               </div>
@@ -195,20 +196,21 @@ const ServiceInnerDetails = () => {
             <div className="col-lg-6">
               <div data-aos="fade-up" data-aos-delay="700" className="portfolio-card-3">
                 <div className="portfolio-card-thumb">
-                  <img src="/assets/img/service/graphic-4.jpg" alt="img" />
+                  <img src="/assets/img/portfolio/logofolio/digious_portfolio2.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
+                   <Link to="/graphic-portfolio">
                   <span className="portfolio-card-details_subtitle">
                     Experience
                   </span>
+                  </Link>
                   <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
+                    <Link to="/graphic-portfolio">
+                      Professional Visual Designs That Convert
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    Our graphic designs deliver clear messaging, strong branding, and consistent visuals for digital and print platforms.
                   </p>
                 </div>
               </div>

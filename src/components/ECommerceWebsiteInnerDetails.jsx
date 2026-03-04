@@ -178,17 +178,18 @@ const ECommerWebInnerDetails = () => {
                   <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
+                  <Link to="/website-design-portfolio">
                   <span className="portfolio-card-details_subtitle">
                     Experience
                   </span>
+                  </Link>
                   <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
+                     <Link to="/website-design-portfolio">
+                      Powerful E Commerce Development Solutions
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    We create secure online stores that improve shopping experience, increase sales, and build customer trust effectively.
                   </p>
                 </div>
               </div>
@@ -199,17 +200,18 @@ const ECommerWebInnerDetails = () => {
                   <img src="/assets/img/service/graphic-4.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
+                  <Link to="/website-design-portfolio">
                   <span className="portfolio-card-details_subtitle">
                     Experience
                   </span>
+                  </Link>
                   <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
+                    <Link to="/website-design-portfolio">
+                      High Converting Online Store Development
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    Our e commerce platforms focus on speed, usability, and SEO to drive traffic and maximize conversion rates.
                   </p>
                 </div>
               </div>

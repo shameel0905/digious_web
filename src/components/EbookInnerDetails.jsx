@@ -148,7 +148,7 @@ const EbookInnerDetails = () => {
                   Contact us today to hire an eBook writer
                 </Link> and start creating an eBook that delivers visibility, credibility, and growth.
               </p>
-              <div className="row gy-4">
+              {/* <div className="row gy-4">
                 <div className="col-lg-6">
                   <div
                     data-aos="fade-right"
@@ -187,7 +187,7 @@ const EbookInnerDetails = () => {
                     </video>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
             </div>
             {/* <div className="col-xxl-4 col-lg-5">
@@ -235,7 +235,7 @@ const EbookInnerDetails = () => {
                   Our Portfolio
                 </span>
                 <h2 className="sec-title style2">
-                  Latest Projects of Software Development
+                  Latest Projects of E-Book
                 </h2>
               </div>
             </div>
@@ -244,20 +244,21 @@ const EbookInnerDetails = () => {
             <div data-aos="fade-up" data-aos-delay="600" className="col-lg-6">
               <div className="portfolio-card-3">
                 <div className="portfolio-card-thumb">
-                  <img src="/assets/img/service/graphic-3.jpg" alt="img" />
+                  <img src="/assets/img/portfolio/Ebook/ebook-cover-7.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
-                  <span className="portfolio-card-details_subtitle">
-                    Experience
+                  <Link to="/book-portfolio"> 
+                  <span className="portfolio-card-details_subtitle">                  
+                   Experience
                   </span>
+                  </Link>
                   <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
+                    <Link to="/book-portfolio">
+                      Professional E Book Design and Publishing
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    We design professional e books that improve readability, branding, and digital publishing across multiple platforms.
                   </p>
                 </div>
               </div>
@@ -265,20 +266,21 @@ const EbookInnerDetails = () => {
             <div className="col-lg-6">
               <div data-aos="fade-up" data-aos-delay="700" className="portfolio-card-3">
                 <div className="portfolio-card-thumb">
-                  <img src="/assets/img/service/graphic-4.jpg" alt="img" />
+                  <img src="/assets/img/portfolio/Ebook/ebook-cover-1.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
-                  <span className="portfolio-card-details_subtitle">
-                    Experience
+                  <Link to="/book-portfolio"> 
+                  <span className="portfolio-card-details_subtitle">                  
+                   Experience
                   </span>
+                  </Link>
                   <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
+                    <Link to="/book-portfolio">
+                      Custom E Book Creation for Authors and Brands
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    Our e book services include formatting, design, and optimization to reach readers and build authority online.
                   </p>
                 </div>
               </div>

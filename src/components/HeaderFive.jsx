@@ -256,7 +256,7 @@ const HeaderFive = () => {
                     <Link to="/digital-marketing-portfolio">Digital Mareting</Link>
                   </li>
                   <li>
-                    <Link to="/book-portfolio">Book</Link>
+                    <Link to="/book-portfolio">E-book</Link>
                   </li>
                 </ul>
               </li>
@@ -410,7 +410,7 @@ const HeaderFive = () => {
                     <Link to="/digital-marketing-portfolio">Digital Mareting</Link>
                   </li>
                         <li>
-                    <Link to="/book-portfolio">Book</Link>
+                    <Link to="/book-portfolio">E-book</Link>
                   </li>
                       </ul>
                     </li>

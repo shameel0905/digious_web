@@ -172,17 +172,18 @@ const MobielAppInnerDetails = () => {
                   <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
+                  <Link to="/ui-ux-portfolio">
                   <span className="portfolio-card-details_subtitle">
                     Experience
                   </span>
+                  </Link>
                   <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
+                    <Link to="/ui-ux-portfolio">
+                      Custom Mobile App Development for Businesses
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    We build high performance mobile apps with intuitive design, secure systems, and smooth functionality for users.  
                   </p>
                 </div>
               </div>
@@ -193,17 +194,18 @@ const MobielAppInnerDetails = () => {
                   <img src="/assets/img/service/graphic-4.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
+                  <Link to="/ui-ux-portfolio">
                   <span className="portfolio-card-details_subtitle">
                     Experience
                   </span>
+                  </Link>
                   <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
+                    <Link to="/ui-ux-portfolio">
+                      User Friendly Mobile Applications for Growth
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    Our apps are optimized for speed, usability, and scalability to enhance engagement and support business expansion. 
                   </p>
                 </div>
               </div>

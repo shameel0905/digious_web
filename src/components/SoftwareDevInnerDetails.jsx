@@ -184,17 +184,18 @@ const SoftwareDevInnerDetails = () => {
                   <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
+                  <Link to="/ui-ux-portfolio">
                   <span className="portfolio-card-details_subtitle">
                     Experience
                   </span>
+                  </Link>
                   <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
+                    <Link to="/ui-ux-portfolio">
+                      Advanced Software Development for Enterprises
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    We create custom software that automates processes, improves productivity, and supports digital business transformation.
                   </p>
                 </div>
               </div>
@@ -205,17 +206,18 @@ const SoftwareDevInnerDetails = () => {
                   <img src="/assets/img/service/graphic-4.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
+                  <Link to="/ui-ux-portfolio">
                   <span className="portfolio-card-details_subtitle">
                     Experience
                   </span>
+                  </Link>
                   <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
+                    <Link to="/ui-ux-portfolio">
+                      Reliable Custom Software Solutions for Growth
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    Our software systems are secure, scalable, and tailored to meet business requirements and long term performance goals.
                   </p>
                 </div>
               </div>

@@ -159,7 +159,7 @@ const GameDevInnerDetails = () => {
 
       {/* Section of portfolio starts from here */}
 
-      <div className="portfolio-area-3 space">
+      {/* <div className="portfolio-area-3 space">
         <div className="container">
           <div className="row justify-content-center align-items-end">
             <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" className="col-xl-6">
@@ -186,12 +186,11 @@ const GameDevInnerDetails = () => {
                   </span>
                   <h4 className="portfolio-card-details_title">
                     <Link to="/">
-                      Your Business Goals with the Confidence
+                      Innovative Game Development for All Platforms
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    We develop engaging games with smooth performance, immersive graphics, and interactive gameplay for multiple devices.
                   </p>
                 </div>
               </div>
@@ -207,19 +206,18 @@ const GameDevInnerDetails = () => {
                   </span>
                   <h4 className="portfolio-card-details_title">
                     <Link to="/">
-                      Your Business Goals with the Confidence
+                      Custom Game Design and Development Services
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    Our team blends creativity and technology to deliver high quality gaming experiences that retain and engage users.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -181,17 +181,18 @@ const DigitalMarkInnerDetails = () => {
                   <img src="/assets/img/service/graphic-3.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
+                  <Link to="/digital-marketing-portfolio">
                   <span className="portfolio-card-details_subtitle">
                     Experience
                   </span>
+                  </Link>
                   <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
+                    <Link to="/digital-marketing-portfolio">
+                      Result Driven Digital Marketing for Brands
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    We use SEO, PPC, and social media strategies to increase visibility, traffic, and customer conversion rates.
                   </p>
                 </div>
               </div>
@@ -202,17 +203,18 @@ const DigitalMarkInnerDetails = () => {
                   <img src="/assets/img/service/graphic-4.jpg" alt="img" />
                 </div>
                 <div className="portfolio-card-details">
+                  <Link to="/digital-marketing-portfolio">
                   <span className="portfolio-card-details_subtitle">
                     Experience
                   </span>
+                  </Link>
                   <h4 className="portfolio-card-details_title">
-                    <Link to="/">
-                      Your Business Goals with the Confidence
+                    <Link to="/digital-marketing-portfolio">
+                      Data Driven Online Marketing Growth Solutions
                     </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
+                    Our campaigns focus on analytics and targeting to deliver measurable results and sustainable business growth.
                   </p>
                 </div>
               </div>
