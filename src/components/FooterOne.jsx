@@ -111,8 +111,7 @@ const FooterOne = () => {
                     <i className="fas fa-map-marker-alt" />
                     <div className="contact-grid-details">
                       <h6>
-                      196 The Esplanade Speers point, 
-                      New Castle NSW 2284, Australia
+                      2/66 Marmong Street Marmong point 2284 , Australia
                         <p />
                       </h6>
                     </div>
