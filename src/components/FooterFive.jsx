@@ -79,7 +79,7 @@ const FooterFive = () => {
                       <i className="fab fa-whatsapp" />
                       <div className="contact-grid-details">
                         <h6>
-                          <Link to="https://api.whatsapp.com/send?phone=61431066995">(614)310-66995</Link>
+                          <Link to="https://api.whatsapp.com/send?phone=61431066995">+61 431066995</Link>
                         </h6>
                       </div>
                     </div>

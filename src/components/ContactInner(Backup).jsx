@@ -61,7 +61,7 @@ const ContactInner = () => {
                       <br />
                       <span>
                         <a href="https://api.whatsapp.com/send?phone=61431066995">
-                          Whatsapp: (614)310-66995
+                          Whatsapp: +61 431066995
                         </a>
                       </span>
                     </p>
