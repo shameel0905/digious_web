@@ -194,4 +194,9 @@
 		<changefreq>weekly</changefreq>
 		<priority>0.95</priority>
 	</url>
+	<url>
+		<loc>https://digioussolutions.com/website-technical-debt-warning-signs</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.95</priority>
+	</url>
 </urlset>
