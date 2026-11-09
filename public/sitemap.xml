@@ -199,4 +199,9 @@
 		<changefreq>weekly</changefreq>
 		<priority>0.95</priority>
 	</url>
+	<url>
+		<loc>https://digioussolutions.com/ai-governance-businesses-scale-ai-securely</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.95</priority>
+	</url>
 </urlset>
