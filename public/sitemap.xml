@@ -204,4 +204,9 @@
 		<changefreq>weekly</changefreq>
 		<priority>0.95</priority>
 	</url>
+	<url>
+		<loc>https://digioussolutions.com/java-security-risks-businesses-2026</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.95</priority>
+	</url>
 </urlset>
